@@ -1,0 +1,19 @@
+{
+  "name": "galaxy",
+  "category": "science",
+  "description": "A spiral galaxy or deep-space astronomy.",
+  "tags": ["galaxy", "space", "astronomy"],
+  "directional": false,
+  "useCase": "A spiral galaxy or deep-space astronomy.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
