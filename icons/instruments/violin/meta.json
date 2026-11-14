@@ -1,0 +1,19 @@
+{
+  "name": "violin",
+  "category": "instruments",
+  "description": "A violin, bowed strings or a violin lesson.",
+  "tags": ["violin", "bow", "strings"],
+  "directional": false,
+  "useCase": "A violin, bowed strings or a violin lesson.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The bow sits farther from the lower body while retaining its full length."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The outward bow and open body keep the bowed instrument clear at native size."
+    }
+  }
+}
