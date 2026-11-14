@@ -2,27 +2,17 @@
   "name": "download",
   "category": "actions",
   "description": "A file with a separate downward transfer arrow.",
-  "tags": [
-    "save",
-    "receive",
-    "file"
-  ],
+  "tags": ["save", "receive", "file"],
   "directional": false,
   "useCase": "Download the named file.",
   "misuse": "A download icon does not promise that the file is safe.",
   "optical": {
     "16": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The file identifies what moves; a separate arrow shows the transfer direction. Both actions share the same file outline and arrow position."
     },
     "24": {
-      "offset": [
-        -0.25,
-        0
-      ],
+      "offset": [-0.25, 0],
       "reason": "The file identifies what moves; a separate arrow shows the transfer direction. Both actions share the same file outline and arrow position."
     }
   }

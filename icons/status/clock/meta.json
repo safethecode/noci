@@ -2,27 +2,17 @@
   "name": "clock",
   "category": "status",
   "description": "A centered clock with two clear hands.",
-  "tags": [
-    "time",
-    "pending",
-    "schedule"
-  ],
+  "tags": ["time", "pending", "schedule"],
   "directional": false,
   "useCase": "Show time-related information with a precise text value.",
   "misuse": "A clock alone cannot explain deadline, duration or timezone.",
   "optical": {
     "16": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Text master: 1.5px construction."
     },
     "24": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Interface master: 1.75px construction."
     }
   }

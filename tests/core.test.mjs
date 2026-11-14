@@ -1,14 +1,15 @@
-import test from 'node:test';
 import assert from 'node:assert/strict';
-import { renderIcon, getIconData } from 'noci-icons/core';
+import test from 'node:test';
+import { getIconData, renderIcon } from 'noci-icons/core';
 import { createIcon } from 'noci-icons/dom';
 
 const icon = {
-  name: 'fixture', directional: true,
+  name: 'fixture',
+  directional: true,
   sizes: {
     16: { strokeWidth: 1.5, nodes: [['path', { d: 'M4 8h8' }]] },
-    24: { strokeWidth: 1.75, nodes: [['path', { d: 'M6 12h12' }]] }
-  }
+    24: { strokeWidth: 1.75, nodes: [['path', { d: 'M6 12h12' }]] },
+  },
 };
 
 test('decorative by default; undefined and null labels cannot create unnamed images', () => {
@@ -28,7 +29,9 @@ test('meaningful name and role appear together, without duplicate hidden semanti
 });
 
 test('empty or non-string meaningful labels fail clearly', () => {
-  for (const label of ['', ' \n ', false, 0, {}]) assert.throws(() => renderIcon(icon, { label }), /non-empty label/);
+  for (const label of ['', ' \n ', false, 0, {}]) {
+    assert.throws(() => renderIcon(icon, { label }), /non-empty label/);
+  }
 });
 
 test('inherited options do not affect semantics or sizes', () => {
@@ -41,15 +44,22 @@ test('inherited options do not affect semantics or sizes', () => {
 });
 
 test('untrusted attribute values are escaped in string rendering', () => {
-  const svg = renderIcon(icon, { label: '\"><script>alert(1)</script>&\'', className: '\" onload=\"alert(1)' });
+  const svg = renderIcon(icon, {
+    label: '"><script>alert(1)</script>&\'',
+    className: '" onload="alert(1)',
+  });
   assert.doesNotMatch(svg, /<script|class="[^"]*" onload=/);
   assert.match(svg, /&quot;&gt;&lt;script&gt;/);
   assert.match(svg, /&amp;&#39;/);
 });
 
 test('optical masters track pixel sizes and accept CSS lengths without numeric coercion', () => {
-  for (const size of [12, 16, 20]) assert.equal(getIconData(icon, { size }).attributes.viewBox, '0 0 16 16');
-  for (const size of [21, 24, 32, 48]) assert.equal(getIconData(icon, { size }).attributes.viewBox, '0 0 24 24');
+  for (const size of [12, 16, 20]) {
+    assert.equal(getIconData(icon, { size }).attributes.viewBox, '0 0 16 16');
+  }
+  for (const size of [21, 24, 32, 48]) {
+    assert.equal(getIconData(icon, { size }).attributes.viewBox, '0 0 24 24');
+  }
   for (const size of ['1em', '1.25rem', '100%', '.75em', '16px']) {
     const data = getIconData(icon, { size });
     assert.equal(data.attributes.width, size);
@@ -60,7 +70,19 @@ test('optical masters track pixel sizes and accept CSS lengths without numeric c
 });
 
 test('invalid runtime inputs are rejected', () => {
-  for (const size of [0, -1, NaN, Infinity, '0em', '-1px', 'calc(1px)', 'large', '24']) assert.throws(() => renderIcon(icon, { size }));
+  for (const size of [
+    0,
+    -1,
+    Number.NaN,
+    Number.POSITIVE_INFINITY,
+    '0em',
+    '-1px',
+    'calc(1px)',
+    'large',
+    '24',
+  ]) {
+    assert.throws(() => renderIcon(icon, { size }));
+  }
   assert.throws(() => renderIcon(icon, { opticalSize: 48 }), /16 or 24/);
   assert.throws(() => renderIcon(icon, { dir: 'invalid' }), /ltr or rtl/);
 });
@@ -69,7 +91,10 @@ test('RTL mirrors only directional artwork, without mutating definitions', () =>
   const before = JSON.stringify(icon);
   const data = getIconData(icon, { dir: 'rtl', size: 16 });
   assert.equal(data.nodes[0][1].transform, 'translate(16 0) scale(-1 1)');
-  assert.equal(getIconData({ ...icon, directional: false }, { dir: 'rtl' }).nodes[0][1].transform, undefined);
+  assert.equal(
+    getIconData({ ...icon, directional: false }, { dir: 'rtl' }).nodes[0][1].transform,
+    undefined,
+  );
   assert.equal(JSON.stringify(icon), before);
 });
 

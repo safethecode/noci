@@ -2,27 +2,17 @@
   "name": "arrow-right",
   "category": "navigation",
   "description": "A restrained right-pointing navigation arrow.",
-  "tags": [
-    "next",
-    "forward",
-    "direction"
-  ],
+  "tags": ["next", "forward", "direction"],
   "directional": true,
   "useCase": "Continue to the next page.",
   "misuse": "Do not use it as an unlabeled submit action.",
   "optical": {
     "16": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The right arrow is the geometric counterpart of arrow-left; keep the same extent and shaft position. Text master: 1.5px construction."
     },
     "24": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The right arrow is the geometric counterpart of arrow-left; keep the same extent and shaft position. Interface master: 1.75px construction."
     }
   }

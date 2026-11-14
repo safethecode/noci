@@ -1,4 +1,4 @@
-import { createIcon, renderIcon, getIconData } from 'noci-icons';
+import { createIcon, getIconData, renderIcon } from 'noci-icons';
 import type { IconDefinition, IconOptions } from 'noci-icons/core';
 
 declare const icon: IconDefinition;

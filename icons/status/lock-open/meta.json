@@ -2,27 +2,17 @@
   "name": "lock-open",
   "category": "status",
   "description": "A visibly rotated open shackle on the shared lock body.",
-  "tags": [
-    "unlocked",
-    "open",
-    "permission"
-  ],
+  "tags": ["unlocked", "open", "permission"],
   "directional": false,
   "useCase": "Distinguish an unlocked state beside explicit status text.",
   "misuse": "An open lock does not specify public visibility or sharing permissions.",
   "optical": {
     "16": {
-      "offset": [
-        -0.25,
-        0
-      ],
+      "offset": [-0.25, 0],
       "reason": "The body dimensions match lock; the full open-shackle artwork moves slightly left to balance the projecting upper-right shackle. Text master: 1.5px construction."
     },
     "24": {
-      "offset": [
-        -0.5,
-        0
-      ],
+      "offset": [-0.5, 0],
       "reason": "The body dimensions match lock; the full open-shackle artwork moves slightly left to balance the projecting upper-right shackle. Interface master: 1.75px construction."
     }
   }

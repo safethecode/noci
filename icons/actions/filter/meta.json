@@ -2,27 +2,17 @@
   "name": "filter",
   "category": "actions",
   "description": "A quiet funnel with an open, readable stem.",
-  "tags": [
-    "refine",
-    "criteria",
-    "funnel"
-  ],
+  "tags": ["refine", "criteria", "funnel"],
   "directional": false,
   "useCase": "Open filter criteria for the current list.",
   "misuse": "Expose applied filters and count in text, not by color alone.",
   "optical": {
     "16": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Text master: 1.5px construction."
     },
     "24": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Interface master: 1.75px construction."
     }
   }

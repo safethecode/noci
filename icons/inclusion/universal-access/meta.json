@@ -2,27 +2,17 @@
   "name": "universal-access",
   "category": "inclusion",
   "description": "A person with open arms inside a complete circle.",
-  "tags": [
-    "accessibility",
-    "inclusive",
-    "settings"
-  ],
+  "tags": ["accessibility", "inclusive", "settings"],
   "directional": false,
   "useCase": "Open clearly labeled accessibility settings.",
   "misuse": "It is not a certification mark and must not substitute for specific disability or facility information.",
   "optical": {
     "16": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The complete circle provides the centered silhouette. A detached round head and open limbs remain distinct from the outer ring at both sizes. Text master: 1.5px construction."
     },
     "24": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The complete circle provides the centered silhouette. A detached round head and open limbs remain distinct from the outer ring at both sizes. Interface master: 1.75px construction."
     }
   }

@@ -1,7 +1,9 @@
-import { defineConfig, devices } from '@playwright/test';
 import { fileURLToPath } from 'node:url';
+import { defineConfig, devices } from '@playwright/test';
 
-process.env.PLAYWRIGHT_BROWSERS_PATH ??= fileURLToPath(new URL('.cache/playwright', import.meta.url));
+process.env.PLAYWRIGHT_BROWSERS_PATH ??= fileURLToPath(
+  new URL('.cache/playwright', import.meta.url),
+);
 
 export default defineConfig({
   testDir: './tests/browser',
@@ -12,8 +14,16 @@ export default defineConfig({
   reporter: 'list',
   use: { baseURL: 'http://127.0.0.1:4173', trace: 'retain-on-failure' },
   projects: [
-    { name: 'chromium', use: { ...devices['Desktop Chrome'], ...(process.env.NOCI_CHROMIUM_CHANNEL ? { channel: process.env.NOCI_CHROMIUM_CHANNEL } : {}) } },
+    {
+      name: 'chromium',
+      use: {
+        ...devices['Desktop Chrome'],
+        ...(process.env.NOCI_CHROMIUM_CHANNEL
+          ? { channel: process.env.NOCI_CHROMIUM_CHANNEL }
+          : {}),
+      },
+    },
     { name: 'firefox', use: { ...devices['Desktop Firefox'] } },
-    { name: 'webkit', use: { ...devices['Desktop Safari'] } }
-  ]
+    { name: 'webkit', use: { ...devices['Desktop Safari'] } },
+  ],
 });

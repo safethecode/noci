@@ -2,27 +2,17 @@
   "name": "speech-to-text",
   "category": "inclusion",
   "description": "A simplified microphone beside three text lines.",
-  "tags": [
-    "dictation",
-    "transcribe",
-    "voice"
-  ],
+  "tags": ["dictation", "transcribe", "voice"],
   "directional": false,
   "useCase": "Start speech-to-text with a clear transcription label.",
   "misuse": "Do not use it for recording an audio message.",
   "optical": {
     "16": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The microphone omits its outer yoke to keep the small master open. Separate text lines communicate output without an unreadable pencil badge. Text master: 1.5px construction."
     },
     "24": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The microphone omits its outer yoke to keep the small master open. Separate text lines communicate output without an unreadable pencil badge. Interface master: 1.75px construction."
     }
   }

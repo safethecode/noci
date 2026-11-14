@@ -2,27 +2,17 @@
   "name": "upload",
   "category": "actions",
   "description": "A file with a separate upward transfer arrow.",
-  "tags": [
-    "send",
-    "transfer",
-    "file"
-  ],
+  "tags": ["send", "transfer", "file"],
   "directional": false,
   "useCase": "Upload a selected file.",
   "misuse": "Explain accepted formats and upload errors in text.",
   "optical": {
     "16": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The file identifies what moves; a separate arrow shows the transfer direction. Both actions share the same file outline and arrow position."
     },
     "24": {
-      "offset": [
-        -0.25,
-        0
-      ],
+      "offset": [-0.25, 0],
       "reason": "The file identifies what moves; a separate arrow shows the transfer direction. Both actions share the same file outline and arrow position."
     }
   }

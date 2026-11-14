@@ -2,27 +2,17 @@
   "name": "filter-plus",
   "category": "actions",
   "description": "A funnel with a separated add marker.",
-  "tags": [
-    "criteria",
-    "add",
-    "refine"
-  ],
+  "tags": ["criteria", "add", "refine"],
   "directional": false,
   "useCase": "Add one more filter criterion.",
   "misuse": "Do not use it for resetting or removing filters.",
   "optical": {
     "16": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The funnel yields lower-right space to the plus. The two marks keep an open gap rather than sharing a crossing stroke. Text master: 1.5px construction."
     },
     "24": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The funnel yields lower-right space to the plus. The two marks keep an open gap rather than sharing a crossing stroke. Interface master: 1.75px construction."
     }
   }
