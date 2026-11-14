@@ -15,6 +15,8 @@ export const categories = [
   'devices',
   'media',
   'people',
+  'time',
+  'weather',
 ];
 const permitted = {
   path: ['d'],
