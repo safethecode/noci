@@ -14,7 +14,8 @@ for (const icon of metadata.icons) for (const size of [16, 24, 48]) {
   assert.ok(bytes <= 1600, `${icon.name}/${size}: ${bytes} > 1600 bytes.`);
 }
 assert.ok(metadata.icons.length > 0, 'Payload measurement needs real icons.');
-const largest = [...metadata.icons].sort((a, b) => JSON.stringify(b).length - JSON.stringify(a).length).slice(0, 2);
+const weighted = await Promise.all(metadata.icons.map(async icon => ({ icon, bytes: Buffer.byteLength(await readFile(new URL(`../dist/icons/${icon.name}.js`, import.meta.url))) })));
+const largest = weighted.sort((a, b) => b.bytes - a.bytes).slice(0, 2).map(x => x.icon);
 const cases = [...metadata.icons.map(x => [x]), ...(largest.length > 1 ? [largest] : [])];
 for (const icons of cases) for (const style of ['direct', 'barrel']) {
   const count = icons.length;
