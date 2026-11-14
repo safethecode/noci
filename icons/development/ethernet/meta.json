@@ -1,0 +1,19 @@
+{
+  "name": "ethernet",
+  "category": "development",
+  "description": "An Ethernet port or wired network connection.",
+  "tags": ["ethernet", "wired", "port"],
+  "directional": false,
+  "useCase": "An Ethernet port or wired network connection.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}

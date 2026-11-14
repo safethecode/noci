@@ -1,0 +1,19 @@
+{
+  "name": "git-merge",
+  "category": "development",
+  "description": "Merge a version-control branch.",
+  "tags": ["git", "merge", "version"],
+  "directional": false,
+  "useCase": "Merge a version-control branch.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The incoming arrow stays separate from the target branch and commit nodes at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Wider clearances separate the incoming branch, arrow and target branch."
+    }
+  }
+}
