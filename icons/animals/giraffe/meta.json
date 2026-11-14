@@ -1,0 +1,19 @@
+{
+  "name": "giraffe",
+  "category": "animals",
+  "description": "A giraffe or a long-necked wildlife category.",
+  "tags": ["giraffe", "neck", "wildlife"],
+  "directional": false,
+  "useCase": "A giraffe or a long-necked wildlife category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The long neck and short horns carry the small profile without a crowded neck spot."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "One neck spot stays centered between the sloping edges, with clear space above the lower edge."
+    }
+  }
+}
