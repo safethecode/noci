@@ -1,0 +1,29 @@
+{
+  "name": "x",
+  "category": "foundation",
+  "description": "A centered diagonal close mark.",
+  "tags": [
+    "close",
+    "cancel",
+    "dismiss"
+  ],
+  "directional": false,
+  "useCase": "Dismiss a panel using a native Close button.",
+  "misuse": "Do not use the same unlabeled action for delete and close.",
+  "optical": {
+    "16": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "Independently placed on the 16px text keyline; keep the intended geometric axes centered."
+    },
+    "24": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "Independently placed on the 24px interface keyline with restrained extent beside utility icons."
+    }
+  }
+}
