@@ -1,0 +1,19 @@
+{
+  "name": "history",
+  "category": "navigation",
+  "description": "Open the change history.",
+  "tags": ["history", "previous", "time"],
+  "directional": false,
+  "useCase": "Open the change history.",
+  "misuse": "Use a text label when the action or destination is ambiguous.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete symbol is centered inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete symbol is centered inside the 18 × 18 drawing frame."
+    }
+  }
+}
