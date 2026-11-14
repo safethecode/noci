@@ -4,16 +4,16 @@
   "description": "Find a receipt or transaction.",
   "tags": ["receipt", "search", "transaction"],
   "directional": false,
-  "useCase": "Find a receipt or transaction.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Find a receipt or search transaction records.",
+  "misuse": "Do not use the search symbol to confirm that a receipt or transaction has been verified.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A smaller open lens and shorter handle leave at least 1px to the receipt border and torn edge."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The larger lens retains its opening while a shorter handle leaves at least 1.5px to the original receipt outline."
     }
   }
 }
