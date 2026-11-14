@@ -4,16 +4,16 @@
   "description": "An electronic circuit board.",
   "tags": ["circuit", "board", "electronics"],
   "directional": false,
-  "useCase": "An electronic circuit board.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify circuit-board hardware or an electronics configuration section.",
+  "misuse": "Do not use the board as a connection or device-health status without a clear label.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Three solid circular pads and two joined traces keep the circuit layout distinct, with at least 1px to the board frame."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Three larger circular pads join a right-angle trace and a straight trace, with at least 1.5px of clear space to the board frame."
     }
   }
 }
