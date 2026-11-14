@@ -2,5 +2,5 @@
   <circle cx="8" cy="8" r="5.25"/>
   <circle cx="6" cy="6.5" r="0.6" fill="currentColor" stroke="none"/>
   <circle cx="10" cy="6.5" r="0.6" fill="currentColor" stroke="none"/>
-  <path d="M5.5 11C6.75 9 9.25 9 10.5 11"/>
+  <path d="M6.25 10C7.25 8.8125 8.75 8.8125 9.75 10"/>
 </svg>
