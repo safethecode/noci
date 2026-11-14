@@ -1,0 +1,19 @@
+{
+  "name": "bat",
+  "category": "animals",
+  "description": "A bat or a nocturnal wildlife category.",
+  "tags": ["bat", "wings", "wildlife"],
+  "directional": false,
+  "useCase": "A bat or a nocturnal wildlife category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Pointed ears and scalloped wings carry the bat silhouette without tiny face marks."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Two restrained wing ribs strengthen the larger silhouette without closing the open wing areas."
+    }
+  }
+}
