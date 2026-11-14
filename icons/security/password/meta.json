@@ -4,16 +4,16 @@
   "description": "Enter or manage a password.",
   "tags": ["password", "secret", "credential"],
   "directional": false,
-  "useCase": "Enter or manage a password.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify a password field or an action to manage passwords.",
+  "misuse": "Do not use this symbol as a strength or security rating; label the available password action.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The narrower asterisk sits inward from the input border, with a separate short entry mark and at least 1px of painted clearance."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A larger asterisk and longer entry mark keep at least 1.5px of space from the input border and remain visibly separate."
     }
   }
 }
