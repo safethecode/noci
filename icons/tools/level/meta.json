@@ -1,0 +1,19 @@
+{
+  "name": "level",
+  "category": "tools",
+  "description": "A spirit level or check that a surface is level.",
+  "tags": ["level", "alignment", "tool"],
+  "directional": false,
+  "useCase": "A spirit level or check that a surface is level.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "hand-truck",
+  "category": "tools",
+  "description": "A hand truck or move a heavy package.",
+  "tags": ["hand-truck", "handling", "transport"],
+  "directional": false,
+  "useCase": "A hand truck or move a heavy package.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The package rests on the platform beside the upright and connected wheel."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The package rests on the platform beside the upright and connected wheel."
+    }
+  }
+}

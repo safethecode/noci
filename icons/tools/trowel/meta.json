@@ -1,0 +1,19 @@
+{
+  "name": "trowel",
+  "category": "tools",
+  "description": "A masonry trowel or apply mortar.",
+  "tags": ["trowel", "masonry", "construction"],
+  "directional": false,
+  "useCase": "A masonry trowel or apply mortar.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A raised grip and bent stem sit above the triangular masonry blade."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A raised grip and bent stem sit above the triangular masonry blade."
+    }
+  }
+}
