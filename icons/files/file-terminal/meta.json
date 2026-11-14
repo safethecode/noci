@@ -4,16 +4,16 @@
   "description": "A shell script.",
   "tags": ["document", "terminal", "script"],
   "directional": false,
-  "useCase": "A shell script.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify a command script or shell file in a file browser.",
+  "misuse": "Do not use this file symbol for a generic code file or an open terminal window.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A narrower prompt separates the chevron from the underscore by more than 1px and lifts both clear of the page bottom."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The larger prompt keeps a generous gap before its longer underscore, with at least 1.5px of painted space to the page border."
     }
   }
 }
