@@ -23,9 +23,9 @@ For a CSS size such as `1em`, choose the master explicitly when context is known
 the default is 16. A 48 export is a convenience, not a third hand-tuned master.
 Do not promise the same apparent weight at every arbitrary scale.
 
-Align straight strokes to a quarter-unit grid at 16px and an eighth-unit grid at 24px. A 1.5 stroke naturally lands on
+Align path move points and straight strokes to a quarter-unit grid at 16px and an eighth-unit grid at 24px. A 1.5 stroke naturally lands on
 half or quarter coordinates; forcing every centerline to an integer makes it blurrier.
-Curves may use other coordinates. Pixel alignment is subordinate to recognizability.
+Curve controls and endpoints may use other coordinates. Keep a horizontal or vertical stroke's constant axis on the grid even when it follows a curve. Pixel alignment is subordinate to recognizability.
 Use round caps and joins, restrained rounded corners, no gradients, shadows or baked
 colors. Prefer one clear silhouette and no more than six simple primitives. Dots may
 be filled circles. All paint follows `currentColor`.
@@ -84,6 +84,6 @@ Never infer accessibility, disability, identity or trust from a vague symbol alo
 - It appears balanced in a centered square and paired with the font matrix.
 - Metadata documents optical decisions, RTL policy, use case and meaning.
 - Decorative and named examples pass automated accessibility checks.
-- A person reviews the rendered proof; automation is evidence, not a visual sign-off.
+- Review the rendered icons; automated checks support visual review.
 
 See the [accessibility guidelines](docs/accessibility.md) and [contribution guide](CONTRIBUTING.md). Update these guidelines before changing the icon style.

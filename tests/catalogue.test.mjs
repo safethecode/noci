@@ -127,7 +127,7 @@ test('sprite IDs and natural sizes are exhaustive and unique', async () => {
   }
 });
 
-test('SVG source parser rejects scripts, refs, duplicate attributes and unsupported markup', () => {
+test('SVG source parser rejects unsafe markup and invalid geometry', () => {
   const base =
     '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">BODY</svg>';
   for (const body of [
@@ -137,7 +137,21 @@ test('SVG source parser rejects scripts, refs, duplicate attributes and unsuppor
     '<path d="M2 2" d="M3 3"/>',
     '<g><path d="M2 2"/></g>',
     '<path d="&xx;"/>',
+    '<path d="M2 2L"/>',
+    '<path d="M3.1 3H6"/>',
+    '<path d="M3 3C3 5 6 6.1 8 6.1H11"/>',
+    '<path d="M3 3A2 2 0 2 0 8 8"/>',
+    `<path d="M${'9'.repeat(400)} 3L10 10"/>`,
+    '<rect x="3.1" y="3" width="6" height="6"/>',
+    '<rect x="3" y="3" width="6" height="6" rx="-1"/>',
+    `<circle cx="8" cy="8" r="${'9'.repeat(400)}"/>`,
+    '<line x1="3.1" y1="3" x2="10" y2="10"/>',
+    '<polyline points="3 3 6"/>',
+    '<polygon points="3 3 10 10"/>',
   ]) {
     assert.throws(() => parseMaster(base.replace('BODY', body), 16));
   }
+  assert.doesNotThrow(() =>
+    parseMaster(base.replace('BODY', '<path d="M3 3C3.12 4.67 7.31 8.41 10.17 11.19"/>'), 16),
+  );
 });
