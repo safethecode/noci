@@ -1,0 +1,19 @@
+{
+  "name": "currency-rupee",
+  "category": "finance",
+  "description": "An Indian rupee currency amount.",
+  "tags": ["rupee", "indian", "currency"],
+  "directional": false,
+  "useCase": "An Indian rupee currency amount.",
+  "misuse": "Include a currency code when the denomination is ambiguous.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}

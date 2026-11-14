@@ -1,0 +1,19 @@
+{
+  "name": "shopping-bag",
+  "category": "commerce",
+  "description": "A shopping bag or purchase.",
+  "tags": ["bag", "shopping", "purchase"],
+  "directional": false,
+  "useCase": "A shopping bag or purchase.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
