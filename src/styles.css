@@ -1,0 +1,17 @@
+/* Optional. The SVG has explicit dimensions and remains usable without this file. */
+.noci-icon {
+  display: inline-block;
+  flex: none;
+  vertical-align: -0.125em;
+}
+
+.noci-icon--text {
+  width: 1em;
+  height: 1em;
+}
+
+@media (forced-colors: active) {
+  .noci-icon {
+    forced-color-adjust: auto;
+  }
+}
