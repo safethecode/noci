@@ -1,7 +1,7 @@
 {
   "name": "upload",
   "category": "actions",
-  "description": "A centered upward arrow above the shared transfer tray.",
+  "description": "A file with a separate upward transfer arrow.",
   "tags": [
     "send",
     "transfer",
@@ -16,14 +16,14 @@
         0,
         0
       ],
-      "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Text master: 1.5px construction."
+      "reason": "The file identifies what moves; a separate arrow shows the transfer direction. Both actions share the same file outline and arrow position."
     },
     "24": {
       "offset": [
-        0,
+        -0.25,
         0
       ],
-      "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Interface master: 1.75px construction."
+      "reason": "The file identifies what moves; a separate arrow shows the transfer direction. Both actions share the same file outline and arrow position."
     }
   }
 }
