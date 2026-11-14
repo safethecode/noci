@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The dome stops before the unread dot; the raised lower edge shares the bell family geometry and separates the clapper."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A shorter dome arc clears the unread dot, while the shared raised lower edge keeps the clapper separate."
     }
   }
 }
