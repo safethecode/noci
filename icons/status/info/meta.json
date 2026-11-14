@@ -1,0 +1,29 @@
+{
+  "name": "info",
+  "category": "status",
+  "description": "A circular information mark with a clear dot gap.",
+  "tags": [
+    "information",
+    "help",
+    "notice"
+  ],
+  "directional": false,
+  "useCase": "Present an informational note beside readable text.",
+  "misuse": "Do not use a decorative info mark as the only access to help.",
+  "optical": {
+    "16": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Text master: 1.5px construction."
+    },
+    "24": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Interface master: 1.75px construction."
+    }
+  }
+}
