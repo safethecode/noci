@@ -29,6 +29,7 @@ export const categories = [
   'nature',
   'food',
   'tools',
+  'sports',
 ];
 const permitted = {
   path: ['d'],
