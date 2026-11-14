@@ -1,0 +1,19 @@
+{
+  "name": "electric-guitar",
+  "category": "instruments",
+  "description": "An electric guitar or an amplified guitar part.",
+  "tags": ["guitar", "electric", "strings"],
+  "directional": false,
+  "useCase": "An electric guitar or an amplified guitar part.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A shorter pickup sits in the wider middle of the solid body with clear space around it."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "One compact pickup leaves clear space inside the solid body."
+    }
+  }
+}
