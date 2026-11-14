@@ -1,0 +1,19 @@
+{
+  "name": "orbit",
+  "category": "science",
+  "description": "An orbital path around a central body.",
+  "tags": ["orbit", "space", "astronomy"],
+  "directional": false,
+  "useCase": "An orbital path around a central body.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A visible orbiting body sits on a circular path around a separate central body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A visible orbiting body sits on a circular path around a separate central body."
+    }
+  }
+}
