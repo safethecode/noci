@@ -1,0 +1,19 @@
+{
+  "name": "plate",
+  "category": "food",
+  "description": "A plate, serving or a place setting.",
+  "tags": ["plate", "serving", "dining"],
+  "directional": false,
+  "useCase": "A plate, serving or a place setting.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
