@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { renderIcon, getIconData, createIcon } from 'noci-icons/core';
+import { renderIcon, getIconData } from 'noci-icons/core';
+import { createIcon } from 'noci-icons/dom';
 
 const icon = {
   name: 'fixture', directional: true,
