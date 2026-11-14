@@ -1,0 +1,19 @@
+{
+  "name": "octopus",
+  "category": "animals",
+  "description": "An octopus or a cephalopod category.",
+  "tags": ["octopus", "tentacles", "marine"],
+  "directional": false,
+  "useCase": "An octopus or a cephalopod category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Separated front-arm curls and clear eye positions keep the octopus open at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The front-arm tips leave a full gap, with wider clearances around the eyes."
+    }
+  }
+}
