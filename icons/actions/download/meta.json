@@ -1,0 +1,29 @@
+{
+  "name": "download",
+  "category": "actions",
+  "description": "A centered downward arrow above a receiving tray.",
+  "tags": [
+    "save",
+    "receive",
+    "file"
+  ],
+  "directional": false,
+  "useCase": "Download a named file.",
+  "misuse": "A download icon does not promise that the file is safe.",
+  "optical": {
+    "16": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Text master: 1.5px construction."
+    },
+    "24": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Interface master: 1.75px construction."
+    }
+  }
+}
