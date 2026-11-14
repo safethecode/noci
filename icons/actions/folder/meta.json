@@ -1,0 +1,29 @@
+{
+  "name": "folder",
+  "category": "actions",
+  "description": "A simple folder with one quiet tab.",
+  "tags": [
+    "directory",
+    "collection",
+    "files"
+  ],
+  "directional": false,
+  "useCase": "Represent a directory beside its name.",
+  "misuse": "Do not use an unlabeled folder for a category the user cannot infer.",
+  "optical": {
+    "16": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The tab pulls the silhouette upward-left; the main body and total bounds stay centered without adding detail to compensate. Text master: 1.5px construction."
+    },
+    "24": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The tab pulls the silhouette upward-left; the main body and total bounds stay centered without adding detail to compensate. Interface master: 1.75px construction."
+    }
+  }
+}
