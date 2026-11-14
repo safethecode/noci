@@ -1,19 +1,19 @@
 {
   "name": "download",
   "category": "actions",
-  "description": "A centered downward arrow above a receiving tray.",
+  "description": "A file with a separate downward transfer arrow.",
   "tags": ["save", "receive", "file"],
   "directional": false,
-  "useCase": "Download a named file.",
+  "useCase": "Download the named file.",
   "misuse": "A download icon does not promise that the file is safe.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Text master: 1.5px construction."
+      "reason": "The file identifies what moves; a separate arrow shows the transfer direction. Both actions share the same file outline and arrow position."
     },
     "24": {
-      "offset": [0, 0],
-      "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Interface master: 1.75px construction."
+      "offset": [-0.25, 0],
+      "reason": "The file identifies what moves; a separate arrow shows the transfer direction. Both actions share the same file outline and arrow position."
     }
   }
 }
