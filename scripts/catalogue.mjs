@@ -21,6 +21,7 @@ export const categories = [
   'finance',
   'commerce',
   'charts',
+  'development',
 ];
 const permitted = {
   path: ['d'],
