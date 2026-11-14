@@ -1,0 +1,19 @@
+{
+  "name": "hand-sanitizer",
+  "category": "health",
+  "description": "A hand-sanitizer dispenser or hand hygiene.",
+  "tags": ["sanitizer", "hands", "hygiene"],
+  "directional": false,
+  "useCase": "A hand-sanitizer dispenser or hand hygiene.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
