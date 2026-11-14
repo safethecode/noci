@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The shared table frame leaves a deliberate lower-right opening for the add mark; column and row variants transpose the same geometry. Text master: 1.5px construction."
+      "reason": "The shared table frame leaves a deliberate lower-right opening for the add mark; column and row variants transpose the same geometry. Text master: 1.5px construction. The complete silhouette is centered within the shared 12 × 12 drawing area."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The shared table frame leaves a deliberate lower-right opening for the add mark; column and row variants transpose the same geometry. Interface master: 1.75px construction."
+      "reason": "The shared table frame leaves a deliberate lower-right opening for the add mark; column and row variants transpose the same geometry. Interface master: 1.75px construction. The complete silhouette is centered within the shared 18 × 18 drawing area."
     }
   }
 }
