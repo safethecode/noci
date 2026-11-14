@@ -4,16 +4,16 @@
   "description": "An audio loudspeaker.",
   "tags": ["speaker", "audio", "output"],
   "directional": false,
-  "useCase": "An audio loudspeaker.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Select or identify a loudspeaker as an audio output device.",
+  "misuse": "Do not use the physical loudspeaker for a volume level or mute action.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The smaller driver stays visibly open and leaves 1px to both side borders and the bottom border, separate from the upper tweeter."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A wider driver opening retains at least 1.5px of space to the enclosure and stays separate from the upper tweeter."
     }
   }
 }

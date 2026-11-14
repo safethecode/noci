@@ -4,16 +4,16 @@
   "description": "A wireless network router.",
   "tags": ["router", "network", "wireless"],
   "directional": false,
-  "useCase": "A wireless network router.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify a wireless router or open its network settings.",
+  "misuse": "Do not use the router alone to indicate that a wireless network has internet access.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Short antenna rods remain separate from the wireless arc. Centered circular indicators leave 1px to the top and bottom housing borders."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Longer antenna rods leave at least 1.5px before the wireless arc; larger indicator strokes remain centered inside the housing."
     }
   }
 }
