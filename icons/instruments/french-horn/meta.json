@@ -1,0 +1,19 @@
+{
+  "name": "french-horn",
+  "category": "instruments",
+  "description": "A French horn or a coiled brass instrument part.",
+  "tags": ["horn", "brass", "orchestra"],
+  "directional": false,
+  "useCase": "A French horn or a coiled brass instrument part.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
