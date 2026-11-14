@@ -1,0 +1,19 @@
+{
+  "name": "phone",
+  "category": "communication",
+  "description": "Start a phone call.",
+  "tags": ["phone", "call", "contact"],
+  "directional": false,
+  "useCase": "Start a phone call.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}

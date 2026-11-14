@@ -1,0 +1,19 @@
+{
+  "name": "at-sign",
+  "category": "communication",
+  "description": "An email address or mention.",
+  "tags": ["mention", "email", "at"],
+  "directional": false,
+  "useCase": "An email address or mention.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
