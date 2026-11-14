@@ -4,16 +4,16 @@
   "description": "Remove a table column.",
   "tags": ["table", "column", "remove"],
   "directional": false,
-  "useCase": "Remove a table column.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Remove a selected table column in an editor.",
+  "misuse": "Do not use the minus alone to indicate that a column has already been deleted.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A narrower two-column grid reserves 1px before a separate minus while keeping equal columns and three clear rows."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The independently spaced two-column grid leaves at least 1.5px before the minus and retains equal columns with three rows."
     }
   }
 }
