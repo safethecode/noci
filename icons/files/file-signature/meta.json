@@ -4,16 +4,16 @@
   "description": "A signed document or signature field.",
   "tags": ["document", "signature", "signed"],
   "directional": false,
-  "useCase": "A signed document or signature field.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify a file containing a signature or an action to sign a document.",
+  "misuse": "Do not use the handwritten mark alone as proof that a signature is valid.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "An open handwritten stroke keeps its rises distinct without a return loop and stays at least 1px clear of the page border."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The handwriting uses longer independent curves with open valleys instead of a doubled loop; its lower and right edges clear the page by at least 1.5px."
     }
   }
 }
