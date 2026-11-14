@@ -1,0 +1,19 @@
+{
+  "name": "lion",
+  "category": "animals",
+  "description": "A lion or a big-cat wildlife category.",
+  "tags": ["lion", "mane", "wildlife"],
+  "directional": false,
+  "useCase": "A lion or a big-cat wildlife category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A scalloped mane surrounds a face with two eyes and a broad nose."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger mane leaves wide clearances around the face marks."
+    }
+  }
+}
