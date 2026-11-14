@@ -2,27 +2,17 @@
   "name": "file",
   "category": "actions",
   "description": "A plain document with a restrained folded corner.",
-  "tags": [
-    "document",
-    "page",
-    "attachment"
-  ],
+  "tags": ["document", "page", "attachment"],
   "directional": false,
   "useCase": "Represent a generic document beside its filename.",
   "misuse": "Use a filename or type label when the file format matters.",
   "optical": {
     "16": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Text master: 1.5px construction."
     },
     "24": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Interface master: 1.75px construction."
     }
   }

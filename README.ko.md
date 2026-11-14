@@ -25,6 +25,7 @@ Node.js 22 이상이 필요합니다. 아직 npm에 게시하지 않았습니다
 
 ```sh
 npm ci
+npm run format
 npm run check
 npm run browsers:install
 npm run test:browser

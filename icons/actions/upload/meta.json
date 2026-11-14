@@ -2,27 +2,17 @@
   "name": "upload",
   "category": "actions",
   "description": "A centered upward arrow above the shared transfer tray.",
-  "tags": [
-    "send",
-    "transfer",
-    "file"
-  ],
+  "tags": ["send", "transfer", "file"],
   "directional": false,
   "useCase": "Upload a selected file.",
   "misuse": "Explain accepted formats and upload errors in text.",
   "optical": {
     "16": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Text master: 1.5px construction."
     },
     "24": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Interface master: 1.75px construction."
     }
   }

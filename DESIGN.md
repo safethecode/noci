@@ -4,18 +4,18 @@ An icon should explain an action quietly and sit beside text without an adjustme
 
 ## Optical sizes
 
-| Property | Text master | Interface master | Large export |
-| --- | --- | --- | --- |
-| Artboard / viewBox | 16 × 16 | 24 × 24 | 48 × 48 |
-| Construction | Hand drawn | Hand drawn | Exact 2× export of 24 |
-| Stroke | 1.5 | 1.75 | 3.5 |
-| Minimum painted inset | 1 | 2 | 4 |
-| Circle keyline diameter | 11.5 | 18 | 36 |
-| Square keyline side | 10 | 16 | 32 |
-| Wide / tall keyline | 12 × 9 / 9 × 12 | 18 × 14 / 14 × 18 | 36 × 28 / 28 × 36 |
-| Typical corner radius | 1 | 1.5 | 3 |
-| Clear gap between unrelated marks | ≥1 | ≥1.5 | ≥3 |
-| Maximum optical translation per axis | 0.5 | 0.75 | 1.5 |
+| Property                             | Text master     | Interface master  | Large export          |
+| ------------------------------------ | --------------- | ----------------- | --------------------- |
+| Artboard / viewBox                   | 16 × 16         | 24 × 24           | 48 × 48               |
+| Construction                         | Hand drawn      | Hand drawn        | Exact 2× export of 24 |
+| Stroke                               | 1.5             | 1.75              | 3.5                   |
+| Minimum painted inset                | 1               | 2                 | 4                     |
+| Circle keyline diameter              | 11.5            | 18                | 36                    |
+| Square keyline side                  | 10              | 16                | 32                    |
+| Wide / tall keyline                  | 12 × 9 / 9 × 12 | 18 × 14 / 14 × 18 | 36 × 28 / 28 × 36     |
+| Typical corner radius                | 1               | 1.5               | 3                     |
+| Clear gap between unrelated marks    | ≥1              | ≥1.5              | ≥3                    |
+| Maximum optical translation per axis | 0.5             | 0.75              | 1.5                   |
 
 These values define the icon style. WCAG requirements are covered in the accessibility guide.
 24 is the UI default. Use the 16 master at 12–20 CSS px, the 24 master above 20.

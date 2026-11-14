@@ -2,27 +2,17 @@
   "name": "trash",
   "category": "actions",
   "description": "A centered bin with a clear lid and handle.",
-  "tags": [
-    "delete",
-    "remove",
-    "discard"
-  ],
+  "tags": ["delete", "remove", "discard"],
   "directional": false,
   "useCase": "Delete the named item.",
   "misuse": "Do not rely on red or this glyph alone to explain permanent deletion.",
   "optical": {
     "16": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The 16px master omits interior slats to keep its counter open; the 24px master adds two widely separated slats. Text master: 1.5px construction."
     },
     "24": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The 16px master omits interior slats to keep its counter open; the 24px master adds two widely separated slats. Interface master: 1.75px construction."
     }
   }

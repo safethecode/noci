@@ -38,6 +38,7 @@ Requires Node.js 22 or later. The package is not yet published to npm.
 
 ```sh
 npm ci
+npm run format
 npm run check
 npm run browsers:install
 npm run test:browser

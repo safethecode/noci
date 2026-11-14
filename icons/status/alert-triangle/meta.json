@@ -2,27 +2,17 @@
   "name": "alert-triangle",
   "category": "status",
   "description": "An open warning triangle with a compact exclamation.",
-  "tags": [
-    "warning",
-    "attention",
-    "caution"
-  ],
+  "tags": ["warning", "attention", "caution"],
   "directional": false,
   "useCase": "Flag a condition that needs attention alongside an explanation.",
   "misuse": "Do not imply physical safety certification or use color as the only warning.",
   "optical": {
     "16": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The triangle extends above the circular keyline and its wide base sits slightly high; this compensates for the bottom-heavy outline. Text master: 1.5px construction."
     },
     "24": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The triangle extends above the circular keyline and its wide base sits slightly high; this compensates for the bottom-heavy outline. Interface master: 1.75px construction."
     }
   }

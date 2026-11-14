@@ -2,27 +2,17 @@
   "name": "lock",
   "category": "status",
   "description": "A closed shackle above a plain lock body.",
-  "tags": [
-    "private",
-    "locked",
-    "restricted"
-  ],
+  "tags": ["private", "locked", "restricted"],
   "directional": false,
   "useCase": "Indicate a restricted state with text.",
   "misuse": "Do not promise encryption, safety or verified security from a lock glyph.",
   "optical": {
     "16": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Text master: 1.5px construction."
     },
     "24": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Interface master: 1.75px construction."
     }
   }

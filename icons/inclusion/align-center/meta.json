@@ -2,27 +2,17 @@
   "name": "align-center",
   "category": "inclusion",
   "description": "A centered square with separated horizontal and vertical axes.",
-  "tags": [
-    "center",
-    "align",
-    "axes"
-  ],
+  "tags": ["center", "align", "axes"],
   "directional": false,
   "useCase": "Center an object on both axes.",
   "misuse": "Do not confuse this action with text alignment or a fixed grid position.",
   "optical": {
     "16": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Text master: 1.5px construction."
     },
     "24": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Interface master: 1.75px construction."
     }
   }

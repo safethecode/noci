@@ -2,27 +2,17 @@
   "name": "pencil",
   "category": "actions",
   "description": "A shortened pencil for balanced inline editing.",
-  "tags": [
-    "edit",
-    "write",
-    "change"
-  ],
+  "tags": ["edit", "write", "change"],
   "directional": false,
   "useCase": "Edit an existing item next to other utility actions.",
   "misuse": "Use a compose metaphor only when creating a new message.",
   "optical": {
     "16": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The diagonal body is deliberately shorter than the maximum keyline so edit does not dominate check, x and ellipsis. Text master: 1.5px construction."
     },
     "24": {
-      "offset": [
-        0,
-        0
-      ],
+      "offset": [0, 0],
       "reason": "The diagonal body is deliberately shorter than the maximum keyline so edit does not dominate check, x and ellipsis. Interface master: 1.75px construction."
     }
   }

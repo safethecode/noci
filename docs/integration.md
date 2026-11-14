@@ -26,19 +26,33 @@ import { createElement } from 'react';
 import { getIconData } from 'noci-icons/core';
 import check from 'noci-icons/icons/check';
 
-const reactAttrs = attributes => Object.fromEntries(Object.entries(attributes).map(([key, value]) => [
-  key === 'class' ? 'className' : /^(aria|data)-/.test(key)
-    ? key : key.replace(/-([a-z])/g, (_, letter) => letter.toUpperCase()), value
-]));
+const reactAttrs = (attributes) =>
+  Object.fromEntries(
+    Object.entries(attributes).map(([key, value]) => [
+      key === 'class'
+        ? 'className'
+        : /^(aria|data)-/.test(key)
+          ? key
+          : key.replace(/-([a-z])/g, (_, letter) => letter.toUpperCase()),
+      value,
+    ]),
+  );
 
 function Icon({ icon, ...options }) {
   const { attributes, nodes } = getIconData(icon, options);
-  return createElement('svg', reactAttrs(attributes), ...nodes.map(([tag, attrs], key) =>
-    createElement(tag, { ...reactAttrs(attrs), key })));
+  return createElement(
+    'svg',
+    reactAttrs(attributes),
+    ...nodes.map(([tag, attrs], key) => createElement(tag, { ...reactAttrs(attrs), key })),
+  );
 }
 
 export function SaveButton() {
-  return <button type="button"><Icon icon={check} size={16} /> Save</button>;
+  return (
+    <button type="button">
+      <Icon icon={check} size={16} /> Save
+    </button>
+  );
 }
 ```
 
@@ -57,9 +71,13 @@ const Icon = {
   setup(props) {
     return () => {
       const { attributes, nodes } = getIconData(props.icon, props);
-      return h('svg', attributes, nodes.map(([tag, attrs]) => h(tag, attrs)));
+      return h(
+        'svg',
+        attributes,
+        nodes.map(([tag, attrs]) => h(tag, attrs)),
+      );
     };
-  }
+  },
 };
 // <Icon :icon="check" :size="16" /> beside visible Save text.
 ```
