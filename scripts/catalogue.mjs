@@ -35,6 +35,7 @@ export const categories = [
   'science',
   'electronics',
   'instruments',
+  'animals',
 ];
 const permitted = {
   path: ['d'],
