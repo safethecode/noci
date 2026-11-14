@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The funnel yields lower-right space to the plus. The two marks keep an open gap rather than sharing a crossing stroke. Text master: 1.5px construction."
+      "reason": "The funnel yields lower-right space to the plus. The two marks keep an open gap rather than sharing a crossing stroke. Text master: 1.5px construction. The complete silhouette is centered within the shared 12 × 12 drawing area."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The funnel yields lower-right space to the plus. The two marks keep an open gap rather than sharing a crossing stroke. Interface master: 1.75px construction."
+      "reason": "The funnel yields lower-right space to the plus. The two marks keep an open gap rather than sharing a crossing stroke. Interface master: 1.75px construction. The complete silhouette is centered within the shared 18 × 18 drawing area."
     }
   }
 }
