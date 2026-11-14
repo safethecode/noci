@@ -1,0 +1,19 @@
+{
+  "name": "badge-check",
+  "category": "security",
+  "description": "A verified status badge.",
+  "tags": ["badge", "verified", "check"],
+  "directional": false,
+  "useCase": "A verified status badge.",
+  "misuse": "State what was verified; a badge alone is not proof of trust.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
