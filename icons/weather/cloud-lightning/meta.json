@@ -1,0 +1,19 @@
+{
+  "name": "cloud-lightning",
+  "category": "weather",
+  "description": "A thunderstorm.",
+  "tags": ["cloud", "lightning", "storm"],
+  "directional": false,
+  "useCase": "A thunderstorm.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The cloud opens around a larger lightning bolt to keep the storm symbol readable at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The lightning bolt crosses an open section of the cloud without overlapping its contour."
+    }
+  }
+}
