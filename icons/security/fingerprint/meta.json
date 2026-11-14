@@ -4,16 +4,16 @@
   "description": "Authenticate with a fingerprint.",
   "tags": ["fingerprint", "biometric", "authentication"],
   "directional": false,
-  "useCase": "Authenticate with a fingerprint.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify fingerprint sign-in or fingerprint enrollment beside its label.",
+  "misuse": "Do not use the fingerprint as proof of identity or successful authentication without an explicit status label.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Wider nested arches keep all three ridges visibly separate; a break on the left and a curved center tail retain the fingerprint shape within the 12 × 12 drawing frame."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The larger arches use longer curves and wider spacing around the center ridge within the 18 × 18 drawing frame."
     }
   }
 }
