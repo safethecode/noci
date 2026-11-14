@@ -4,16 +4,16 @@
   "description": "Open the left panel.",
   "tags": ["panel", "left", "open"],
   "directional": false,
-  "useCase": "Open the left panel.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Open the left panel in a workspace or editor.",
+  "misuse": "Do not use this physical panel control as a page navigation arrow.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The inset panel divider leaves 1px before the chevron; the shared frame and mirrored divider positions stay consistent across the panel family."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The larger divider and chevron retain their original proportions with at least 1.5px of space, using matched positions across the panel family."
     }
   }
 }

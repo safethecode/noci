@@ -4,16 +4,16 @@
   "description": "Split a merged table cell.",
   "tags": ["table", "cells", "split"],
   "directional": false,
-  "useCase": "Split a merged table cell.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Split a selected merged cell in a table editor.",
+  "misuse": "Do not use this table action as a horizontal resizing control.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The outward chevrons stay 1px inside the frame. Short divider ends mark the cell partition without crowding the action marks."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Larger outward chevrons keep at least 1.5px to the frame and remain separate from the two divider ends."
     }
   }
 }
