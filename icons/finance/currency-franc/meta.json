@@ -1,0 +1,19 @@
+{
+  "name": "currency-franc",
+  "category": "finance",
+  "description": "The French franc currency symbol.",
+  "tags": ["franc", "french", "currency"],
+  "directional": false,
+  "useCase": "Show amounts in French francs in historical financial records.",
+  "misuse": "Include a currency code when the denomination is ambiguous.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
