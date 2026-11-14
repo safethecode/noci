@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The portrait is lowered and cropped at the bottom; two short text strokes sit clear of the head."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The head sits inward with clear gaps to the frame, text and cropped shoulders."
     }
   }
 }
