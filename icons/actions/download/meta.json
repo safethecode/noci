@@ -1,7 +1,7 @@
 {
   "name": "download",
   "category": "actions",
-  "description": "A file with a separate downward transfer arrow.",
+  "description": "An arrow entering a document.",
   "tags": ["save", "receive", "file"],
   "directional": false,
   "useCase": "Download the named file.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The file identifies what moves; a separate arrow shows the transfer direction. Both actions share the same file outline and arrow position."
+      "reason": "The document uses the full square drawing area. Text lines identify the content; the arrow crosses the open corner to show transfer direction."
     },
     "24": {
-      "offset": [-0.25, 0],
-      "reason": "The file identifies what moves; a separate arrow shows the transfer direction. Both actions share the same file outline and arrow position."
+      "offset": [0, 0],
+      "reason": "The document uses the full square drawing area. Text lines identify the content; the arrow crosses the open corner to show transfer direction."
     }
   }
 }
