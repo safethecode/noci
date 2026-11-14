@@ -4,16 +4,16 @@
   "description": "An audio file.",
   "tags": ["document", "audio", "sound"],
   "directional": false,
-  "useCase": "An audio file.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify an audio file in a file picker or attachment list.",
+  "misuse": "Do not use this file symbol for a playback control or microphone input.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A single open notehead and curved flag fit below the page fold, with a 1px gap above the page bottom."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A separately drawn single note has a larger open head and a longer flag, with at least 1.5px of space from the page outline."
     }
   }
 }
