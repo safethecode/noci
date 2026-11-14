@@ -1,0 +1,19 @@
+{
+  "name": "starfish",
+  "category": "animals",
+  "description": "A starfish or a sea-star marine-invertebrate category.",
+  "tags": ["starfish", "sea-star", "marine"],
+  "directional": false,
+  "useCase": "A starfish or a sea-star marine-invertebrate category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
