@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The rear sheet stops at the front sheet contour to avoid doubled strokes; the overall two-sheet silhouette sets the optical center. Text master: 1.5px construction."
+      "reason": "The rear sheet stops at the front sheet contour to avoid doubled strokes; the overall two-sheet silhouette sets the optical center. Text master: 1.5px construction. The complete silhouette is centered within the shared 12 × 12 drawing area."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The rear sheet stops at the front sheet contour to avoid doubled strokes; the overall two-sheet silhouette sets the optical center. Interface master: 1.75px construction."
+      "reason": "The rear sheet stops at the front sheet contour to avoid doubled strokes; the overall two-sheet silhouette sets the optical center. Interface master: 1.75px construction. The complete silhouette is centered within the shared 18 × 18 drawing area."
     }
   }
 }
