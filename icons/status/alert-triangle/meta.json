@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The triangle extends above the circular keyline and its wide base sits slightly high; this compensates for the bottom-heavy outline. Text master: 1.5px construction."
+      "reason": "The triangle extends above the circular keyline and its wide base sits slightly high; this compensates for the bottom-heavy outline. Text master: 1.5px construction. The complete silhouette is centered within the shared 12 × 12 drawing area."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The triangle extends above the circular keyline and its wide base sits slightly high; this compensates for the bottom-heavy outline. Interface master: 1.75px construction."
+      "reason": "The triangle extends above the circular keyline and its wide base sits slightly high; this compensates for the bottom-heavy outline. Interface master: 1.75px construction. The complete silhouette is centered within the shared 18 × 18 drawing area."
     }
   }
 }
