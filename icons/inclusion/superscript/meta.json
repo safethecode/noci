@@ -1,0 +1,29 @@
+{
+  "name": "superscript",
+  "category": "inclusion",
+  "description": "The shared x with a raised numeral two.",
+  "tags": [
+    "type",
+    "exponent",
+    "notation"
+  ],
+  "directional": false,
+  "useCase": "Apply superscript in a text editor.",
+  "misuse": "An exponent label may be clearer than an unlabeled formatting icon.",
+  "optical": {
+    "16": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The x shares the exact subscript coordinates. The raised numeral preserves the text baseline even though the complete glyph has a different mass centroid. Text master: 1.5px construction."
+    },
+    "24": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The x shares the exact subscript coordinates. The raised numeral preserves the text baseline even though the complete glyph has a different mass centroid. Interface master: 1.75px construction."
+    }
+  }
+}
