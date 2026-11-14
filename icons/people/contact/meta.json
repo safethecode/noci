@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The head sits lower, and the shoulders meet the bottom edge with clear space beside the short binding tabs."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The lowered head has clear gaps above and below it; the cropped shoulders stay clear of the binding tabs."
     }
   }
 }
