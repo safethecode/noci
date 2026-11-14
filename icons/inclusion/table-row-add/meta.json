@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The same table frame and add marker as table-column-add are transposed, preserving weight and the gap around the badge. Text master: 1.5px construction."
+      "reason": "The same table frame and add marker as table-column-add are transposed, preserving weight and the gap around the badge. Text master: 1.5px construction. The complete silhouette is centered within the shared 12 × 12 drawing area."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The same table frame and add marker as table-column-add are transposed, preserving weight and the gap around the badge. Interface master: 1.75px construction."
+      "reason": "The same table frame and add marker as table-column-add are transposed, preserving weight and the gap around the badge. Interface master: 1.75px construction. The complete silhouette is centered within the shared 18 × 18 drawing area."
     }
   }
 }
