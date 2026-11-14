@@ -35,10 +35,11 @@ Inspect icons at their actual sizes on light and dark backgrounds. Check square 
 
 - Use Karma commit messages: `type(scope): summary`.
 - Commit each icon's two sizes and metadata together.
-- Commit each feature or fix separately.
+- Keep one meaningful commit per icon or feature on the PR branch.
+- Fold follow-up corrections into the corresponding icon or feature commit.
 - Group icons by category in pull requests.
 - Use the PR body to list the icons or features added.
-- Keep individual icon commits when merging.
+- Squash-merge each coherent category or repair PR into `main` with a Karma title.
 - Use at most three icon tags and three PR labels.
 
 Commit source files, reusable tools and tests. Exclude generated files, screenshots, temporary analysis, browser downloads and package archives.
