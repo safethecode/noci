@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A shorter but distinct exclamation stem leaves full gaps above the dot and below the message frame."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The exclamation is lifted and shortened enough to keep its dot clear of both the stem and the lower message edge."
     }
   }
 }
