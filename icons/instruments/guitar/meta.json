@@ -1,0 +1,19 @@
+{
+  "name": "guitar",
+  "category": "instruments",
+  "description": "An acoustic guitar or an acoustic instrument part.",
+  "tags": ["guitar", "acoustic", "strings"],
+  "directional": false,
+  "useCase": "An acoustic guitar or an acoustic instrument part.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A wider lower bout surrounds the complete sound hole; the compact neck keeps the guitar inside the text frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A fuller lower bout leaves clear space around the open sound hole; the simple body keeps the acoustic guitar readable."
+    }
+  }
+}
