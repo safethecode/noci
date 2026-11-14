@@ -1,0 +1,19 @@
+{
+  "name": "fish",
+  "category": "animals",
+  "description": "A fish, fish care or a marine-life category.",
+  "tags": ["fish", "aquarium", "marine"],
+  "directional": false,
+  "useCase": "A fish, fish care or a marine-life category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}

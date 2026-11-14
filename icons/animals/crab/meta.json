@@ -1,0 +1,19 @@
+{
+  "name": "crab",
+  "category": "animals",
+  "description": "A crab or a clawed marine-crustacean category.",
+  "tags": ["crab", "claws", "marine"],
+  "directional": false,
+  "useCase": "A crab or a clawed marine-crustacean category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Centered eyes leave equal gaps to the upper and lower shell edges."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Larger claws and shell retain clear spaces around the eyes."
+    }
+  }
+}

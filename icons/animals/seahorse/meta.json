@@ -1,0 +1,19 @@
+{
+  "name": "seahorse",
+  "category": "animals",
+  "description": "A seahorse or a coiled-tail marine-fish category.",
+  "tags": ["seahorse", "fish", "marine"],
+  "directional": false,
+  "useCase": "A seahorse or a coiled-tail marine-fish category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}

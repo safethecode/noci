@@ -1,0 +1,19 @@
+{
+  "name": "jellyfish",
+  "category": "animals",
+  "description": "A jellyfish or a drifting marine-invertebrate category.",
+  "tags": ["jellyfish", "tentacles", "marine"],
+  "directional": false,
+  "useCase": "A jellyfish or a drifting marine-invertebrate category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}

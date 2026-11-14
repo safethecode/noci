@@ -1,0 +1,19 @@
+{
+  "name": "manta-ray",
+  "category": "animals",
+  "description": "A manta ray or a broad-winged marine-fish category.",
+  "tags": ["manta", "ray", "marine"],
+  "directional": false,
+  "useCase": "A manta ray or a broad-winged marine-fish category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Rounded front lobes, broad wings and a curved tail keep the ray distinct."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The rolled front lobes and broader wings lead into a gently curved tail."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "penguin",
+  "category": "animals",
+  "description": "A penguin or a flightless marine-bird category.",
+  "tags": ["penguin", "bird", "marine"],
+  "directional": false,
+  "useCase": "A penguin or a flightless marine-bird category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A small beak, flippers and two outward feet keep the front-facing penguin distinct."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger face adds two eyes while retaining the beak, flippers and outward feet."
+    }
+  }
+}
