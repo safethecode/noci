@@ -1,0 +1,19 @@
+{
+  "name": "fox",
+  "category": "animals",
+  "description": "A fox or a woodland wildlife category.",
+  "tags": ["fox", "wildlife", "woodland"],
+  "directional": false,
+  "useCase": "A fox or a woodland wildlife category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The pointed ears and tapered muzzle keep the fox distinct with two clear eyes."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger tapered muzzle stays open below the eyes without crowded cheek lines."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "otter",
+  "category": "animals",
+  "description": "An otter or an aquatic-mammal wildlife category.",
+  "tags": ["otter", "river", "wildlife"],
+  "directional": false,
+  "useCase": "An otter or an aquatic-mammal wildlife category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A round head, floating body and long curled tail define the otter without crowded paw details."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The expanded head and floating body preserve the long tail and leave room around the eye."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "rabbit",
+  "category": "animals",
+  "description": "A rabbit, rabbit care or a small-animal category.",
+  "tags": ["rabbit", "pet", "ears"],
+  "directional": false,
+  "useCase": "A rabbit, rabbit care or a small-animal category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two separate ear loops sit above a broad face with clear eyes and nose."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Longer ear loops and a wider face retain clear openings between the features."
+    }
+  }
+}

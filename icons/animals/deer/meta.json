@@ -1,0 +1,19 @@
+{
+  "name": "deer",
+  "category": "animals",
+  "description": "A deer, deer habitat or an antlered wildlife category.",
+  "tags": ["deer", "antlers", "wildlife"],
+  "directional": false,
+  "useCase": "A deer, deer habitat or an antlered wildlife category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A wider upper face keeps both eyes clear below the antlers."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The antlers and broad upper face leave full gaps around the eyes."
+    }
+  }
+}

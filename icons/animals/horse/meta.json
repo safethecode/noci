@@ -1,0 +1,19 @@
+{
+  "name": "horse",
+  "category": "animals",
+  "description": "A horse, horse riding or an equestrian category.",
+  "tags": ["horse", "riding", "equestrian"],
+  "directional": false,
+  "useCase": "A horse, horse riding or an equestrian category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A deeper muzzle leaves a full gap around the eye while the neck retains its profile."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The deeper muzzle and open neck leave clear space around the eye."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "bear",
+  "category": "animals",
+  "description": "A bear or a large woodland mammal.",
+  "tags": ["bear", "wildlife", "woodland"],
+  "directional": false,
+  "useCase": "A bear or a large woodland mammal.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Rounded ear lobes and a broad nose give the face a calm, open center."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The broad head leaves wider gaps around the eyes and larger nose."
+    }
+  }
+}

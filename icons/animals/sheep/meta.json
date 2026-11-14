@@ -1,0 +1,19 @@
+{
+  "name": "sheep",
+  "category": "animals",
+  "description": "A sheep, wool production or a flock category.",
+  "tags": ["sheep", "wool", "livestock"],
+  "directional": false,
+  "useCase": "A sheep, wool production or a flock category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A longer face below the wool scallops leaves room for two separate eyes and broad ears."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wool sits above a longer face with two eyes and a small muzzle mark."
+    }
+  }
+}

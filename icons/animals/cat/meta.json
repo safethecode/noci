@@ -1,0 +1,19 @@
+{
+  "name": "cat",
+  "category": "animals",
+  "description": "A cat, cat care or a feline animal category.",
+  "tags": ["cat", "pet", "feline"],
+  "directional": false,
+  "useCase": "A cat, cat care or a feline animal category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Pointed ears and a round lower jaw leave clear space around the eyes and nose."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider jaw and larger nose retain open space below the eyes."
+    }
+  }
+}
