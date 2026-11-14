@@ -1,0 +1,19 @@
+{
+  "name": "transistor",
+  "category": "electronics",
+  "description": "An NPN bipolar transistor or an electronic switching component.",
+  "tags": ["transistor", "npn", "circuit"],
+  "directional": false,
+  "useCase": "An NPN bipolar transistor or an electronic switching component.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The collector and emitter leads leave the base upward and downward, with a complete outward emitter arrow."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The collector and emitter leads leave the base upward and downward, with a complete outward emitter arrow."
+    }
+  }
+}
