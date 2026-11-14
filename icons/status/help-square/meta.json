@@ -4,16 +4,16 @@
   "description": "Get contextual help.",
   "tags": ["help", "question", "support"],
   "directional": false,
-  "useCase": "Get contextual help.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Open contextual help for a labeled field or setting.",
+  "misuse": "Do not use the question mark alone to report an error or describe a control to assistive technology.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The same small question curve as help-circle stays separate from its dot and square frame by at least 1px."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The original larger question curve and dot retain at least 1.5px of space inside the unchanged square frame."
     }
   }
 }
