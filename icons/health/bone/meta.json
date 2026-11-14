@@ -1,0 +1,19 @@
+{
+  "name": "bone",
+  "category": "health",
+  "description": "A bone or musculoskeletal health.",
+  "tags": ["bone", "skeleton", "anatomy"],
+  "directional": false,
+  "useCase": "A bone or musculoskeletal health.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Four rounded end lobes join a narrow diagonal shaft, keeping the bone separate from a chain link."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Four rounded end lobes join a narrow diagonal shaft, keeping the bone separate from a chain link."
+    }
+  }
+}
