@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A slightly taller pill leaves a full gap around the knob; both toggle states share the same outline."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The knob is centered in the rounded end of the shared pill to preserve clear space around its full ring."
     }
   }
 }
