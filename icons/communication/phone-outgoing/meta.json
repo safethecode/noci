@@ -1,0 +1,19 @@
+{
+  "name": "phone-outgoing",
+  "category": "communication",
+  "description": "An outgoing phone call.",
+  "tags": ["phone", "outgoing", "call"],
+  "directional": false,
+  "useCase": "An outgoing phone call.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
