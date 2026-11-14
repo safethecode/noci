@@ -1,0 +1,19 @@
+{
+  "name": "corner-up-left",
+  "category": "navigation",
+  "description": "Turn up then left.",
+  "tags": ["up-left", "turn", "route"],
+  "directional": false,
+  "useCase": "Turn up then left.",
+  "misuse": "Use a text label when the action or destination is ambiguous.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete symbol is centered inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete symbol is centered inside the 18 × 18 drawing frame."
+    }
+  }
+}

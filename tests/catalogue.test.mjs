@@ -1,7 +1,9 @@
 import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
 import { createRequire } from 'node:module';
 import test from 'node:test';
+import { Resvg } from '@resvg/resvg-js';
 import * as esm from 'noci-icons';
 import { parseMaster, rasterMetrics, readCatalogue } from '../scripts/catalogue.mjs';
 
@@ -10,6 +12,28 @@ const catalogue = await readCatalogue();
 const metadata = JSON.parse(
   await readFile(new URL('../dist/metadata.json', import.meta.url), 'utf8'),
 );
+
+test('canonical icons have distinct artwork', async () => {
+  const seen = new Map();
+  for (const { meta } of catalogue) {
+    const hash = createHash('sha256');
+    for (const size of [16, 24]) {
+      const svg = await readFile(
+        new URL(`../icons/${meta.category}/${meta.name}/${size}.svg`, import.meta.url),
+        'utf8',
+      );
+      hash.update(
+        new Resvg(svg, {
+          fitTo: { mode: 'zoom', value: 4 },
+          font: { loadSystemFonts: false },
+        }).render().pixels,
+      );
+    }
+    const fingerprint = hash.digest('hex');
+    assert.ok(!seen.has(fingerprint), `${meta.name} duplicates ${seen.get(fingerprint)}.`);
+    seen.set(fingerprint, meta.name);
+  }
+});
 
 test('metadata and public module surfaces describe exactly the same catalogue', () => {
   assert.deepEqual(

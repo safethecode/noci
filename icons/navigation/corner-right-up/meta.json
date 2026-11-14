@@ -1,0 +1,19 @@
+{
+  "name": "corner-right-up",
+  "category": "navigation",
+  "description": "Turn right then up.",
+  "tags": ["right-up", "turn", "route"],
+  "directional": false,
+  "useCase": "Turn right then up.",
+  "misuse": "Use a text label when the action or destination is ambiguous.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete symbol is centered inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete symbol is centered inside the 18 × 18 drawing frame."
+    }
+  }
+}

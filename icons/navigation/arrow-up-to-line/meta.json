@@ -1,0 +1,19 @@
+{
+  "name": "arrow-up-to-line",
+  "category": "navigation",
+  "description": "Move content to the up boundary.",
+  "tags": ["up", "boundary", "align"],
+  "directional": false,
+  "useCase": "Move content to the up boundary.",
+  "misuse": "Use a text label when the action or destination is ambiguous.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete symbol is centered inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete symbol is centered inside the 18 × 18 drawing frame."
+    }
+  }
+}
