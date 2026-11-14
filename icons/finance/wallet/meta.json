@@ -4,16 +4,16 @@
   "description": "A wallet or stored payment balance.",
   "tags": ["wallet", "balance", "payment"],
   "directional": false,
-  "useCase": "A wallet or stored payment balance.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Open a wallet or view stored payment methods beside its label.",
+  "misuse": "Do not use the wallet alone to indicate an available balance or a completed payment.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A taller clasp gives its fastener dot 1px of vertical space while retaining the original wallet silhouette."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A larger clasp keeps at least 1.5px around its fastener dot and remains joined to the original wallet outline."
     }
   }
 }

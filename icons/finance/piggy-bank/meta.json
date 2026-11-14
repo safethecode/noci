@@ -4,16 +4,16 @@
   "description": "Savings or a savings goal.",
   "tags": ["piggy", "savings", "money"],
   "directional": false,
-  "useCase": "Savings or a savings goal.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify a savings balance, savings goal, or action to set money aside.",
+  "misuse": "Do not use this savings symbol for a completed deposit or payment without a clear status label.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The eye and shorter coin slot sit inside the original pig silhouette with at least 1px of space to its outline and each other."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A separately positioned eye and longer coin slot retain at least 1.5px of space to the pig outline and each other."
     }
   }
 }

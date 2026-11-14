@@ -4,16 +4,16 @@
   "description": "A banknote or cash payment.",
   "tags": ["banknote", "cash", "money"],
   "directional": false,
-  "useCase": "A banknote or cash payment.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify cash or a cash payment option beside its label.",
+  "misuse": "Do not use this generic banknote to specify a currency, amount, or payment status.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A clear central stamp keeps the banknote recognizable without tiny corner marks; the stamp leaves 1px to the upper and lower borders."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A larger stamp and two circular corner marks remain distinct, with at least 1.5px of space between unrelated marks and the frame."
     }
   }
 }

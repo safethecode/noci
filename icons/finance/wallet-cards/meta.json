@@ -4,16 +4,16 @@
   "description": "A wallet containing payment cards.",
   "tags": ["wallet", "cards", "payment"],
   "directional": false,
-  "useCase": "A wallet containing payment cards.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Open or manage payment cards stored in a wallet.",
+  "misuse": "Do not use this wallet symbol for a successful card payment or verification status.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A taller exposed card keeps 1px above and below its short mark while the wallet keeps its original lower edge."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The larger exposed card retains its original proportions and at least 1.5px of space around the card mark."
     }
   }
 }
