@@ -1,0 +1,29 @@
+{
+  "name": "ellipsis",
+  "category": "navigation",
+  "description": "Three quiet centered action dots.",
+  "tags": [
+    "more",
+    "options",
+    "overflow"
+  ],
+  "directional": false,
+  "useCase": "Open additional actions for the current item.",
+  "misuse": "Name the menu action and its item; dots do not explain the action.",
+  "optical": {
+    "16": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The dots are deliberately sparse and centered on the horizontal axis; inflating them to match a closed contour would make them too assertive. Text master: 1.5px construction."
+    },
+    "24": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The dots are deliberately sparse and centered on the horizontal axis; inflating them to match a closed contour would make them too assertive. Interface master: 1.75px construction."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "chevron-down",
+  "category": "navigation",
+  "description": "A compact downward disclosure chevron.",
+  "tags": [
+    "expand",
+    "disclosure",
+    "down"
+  ],
+  "directional": false,
+  "useCase": "Show more content in an expanded region.",
+  "misuse": "Expose aria-expanded on the controlling button; direction alone is not state.",
+  "optical": {
+    "16": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Text master: 1.5px construction."
+    },
+    "24": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Interface master: 1.75px construction."
+    }
+  }
+}
