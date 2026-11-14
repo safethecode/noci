@@ -4,16 +4,16 @@
   "description": "Mute audio output.",
   "tags": ["volume", "mute", "audio"],
   "directional": false,
-  "useCase": "Mute audio output.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Indicate muted audio or provide a mute action beside its label.",
+  "misuse": "Do not use the cross to indicate a broken audio device unless the label states an error.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The compact speaker matches volume-high and retains the family’s 45-degree cone edges, leaving 1px before the cross."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The compact speaker matches volume-high with separately tuned proportions and at least 1.5px of space before the larger cross."
     }
   }
 }
