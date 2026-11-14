@@ -1,0 +1,19 @@
+{
+  "name": "repeat",
+  "category": "navigation",
+  "description": "Repeat the current sequence.",
+  "tags": ["repeat", "loop", "playback"],
+  "directional": false,
+  "useCase": "Repeat the current sequence.",
+  "misuse": "Use a text label when the action or destination is ambiguous.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete symbol is centered inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete symbol is centered inside the 18 × 18 drawing frame."
+    }
+  }
+}
