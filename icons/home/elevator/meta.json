@@ -1,0 +1,19 @@
+{
+  "name": "elevator",
+  "category": "home",
+  "description": "An elevator or lift.",
+  "tags": ["elevator", "lift", "access"],
+  "directional": false,
+  "useCase": "An elevator or lift.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The two direction arrows share an open cab; each head has clear space from the frame and its neighbor."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The two direction arrows share an open cab; each head has clear space from the frame and its neighbor."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "fan",
+  "category": "home",
+  "description": "An electric fan or air circulation.",
+  "tags": ["fan", "air", "cooling"],
+  "directional": false,
+  "useCase": "An electric fan or air circulation.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three swept blade edges meet the casing and hub, distinct from straight wheel spokes."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Three swept blade edges meet the casing and hub, distinct from straight wheel spokes."
+    }
+  }
+}

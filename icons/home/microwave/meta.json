@@ -1,0 +1,19 @@
+{
+  "name": "microwave",
+  "category": "home",
+  "description": "A microwave oven.",
+  "tags": ["microwave", "heating", "kitchen"],
+  "directional": false,
+  "useCase": "A microwave oven.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The window and control stay separate from each other and the casing."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The window and control stay separate from each other and the casing."
+    }
+  }
+}
