@@ -1,0 +1,19 @@
+{
+  "name": "building-office",
+  "category": "buildings",
+  "description": "An office building or business location.",
+  "tags": ["office", "business", "building"],
+  "directional": false,
+  "useCase": "An office building or business location.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
