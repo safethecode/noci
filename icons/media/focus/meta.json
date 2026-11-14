@@ -1,0 +1,19 @@
+{
+  "name": "focus",
+  "category": "media",
+  "description": "Focus on the subject or selected region.",
+  "tags": ["focus", "camera", "target"],
+  "directional": false,
+  "useCase": "Focus on the subject or selected region.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
