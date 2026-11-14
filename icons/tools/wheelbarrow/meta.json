@@ -1,0 +1,19 @@
+{
+  "name": "wheelbarrow",
+  "category": "tools",
+  "description": "A wheelbarrow or move construction material.",
+  "tags": ["wheelbarrow", "garden", "construction"],
+  "directional": false,
+  "useCase": "A wheelbarrow or move construction material.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A single forward wheel and a separate rear stand support the bucket; the frame meets the wheel rim."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A single forward wheel and a separate rear stand support the bucket; the frame meets the wheel rim."
+    }
+  }
+}
