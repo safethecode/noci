@@ -1,0 +1,19 @@
+{
+  "name": "arrow-up-right",
+  "category": "navigation",
+  "description": "Move toward the up right.",
+  "tags": ["up-right", "direction", "move"],
+  "directional": false,
+  "useCase": "Move toward the up right.",
+  "misuse": "Use a text label when the action or destination is ambiguous.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete symbol is centered inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete symbol is centered inside the 18 × 18 drawing frame."
+    }
+  }
+}
