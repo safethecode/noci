@@ -13,6 +13,8 @@ export const categories = [
   'layout',
   'security',
   'devices',
+  'media',
+  'people',
 ];
 const permitted = {
   path: ['d'],

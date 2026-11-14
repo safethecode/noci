@@ -1,0 +1,19 @@
+{
+  "name": "music-note",
+  "category": "media",
+  "description": "A musical note or sound.",
+  "tags": ["note", "music", "sound"],
+  "directional": false,
+  "useCase": "A musical note or sound.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
