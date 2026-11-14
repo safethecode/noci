@@ -4,16 +4,16 @@
   "description": "A table or spreadsheet document.",
   "tags": ["document", "table", "spreadsheet"],
   "directional": false,
-  "useCase": "A table or spreadsheet document.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify a file containing tabular data in a file list or import dialog.",
+  "misuse": "Do not use this file symbol for a table layout control.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Two wide cells omit the horizontal divider to preserve 1.25px openings and a 1px gap to the page border."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Two larger cells keep their openings clear with a separately spaced divider and at least 1.5px between the table and page borders."
     }
   }
 }
