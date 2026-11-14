@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The complete circle provides the centered silhouette. A detached round head and open limbs remain distinct from the outer ring at both sizes. Text master: 1.5px construction."
+      "reason": "The complete circle provides the centered silhouette. A detached round head and open limbs remain distinct from the outer ring at both sizes. Text master: 1.5px construction. The complete silhouette is centered within the shared 12 × 12 drawing area."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The complete circle provides the centered silhouette. A detached round head and open limbs remain distinct from the outer ring at both sizes. Interface master: 1.75px construction."
+      "reason": "The complete circle provides the centered silhouette. A detached round head and open limbs remain distinct from the outer ring at both sizes. Interface master: 1.75px construction. The complete silhouette is centered within the shared 18 × 18 drawing area."
     }
   }
 }
