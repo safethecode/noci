@@ -1,0 +1,19 @@
+{
+  "name": "hard-hat",
+  "category": "tools",
+  "description": "A construction hard hat or required head protection.",
+  "tags": ["helmet", "construction", "protection"],
+  "directional": false,
+  "useCase": "A construction hard hat or required head protection.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
