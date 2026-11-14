@@ -1,0 +1,19 @@
+{
+  "name": "folder-closed",
+  "category": "files",
+  "description": "A closed folder with a visible front flap.",
+  "tags": ["folder", "closed", "directory"],
+  "directional": false,
+  "useCase": "A closed folder with a visible front flap.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
