@@ -1,0 +1,19 @@
+{
+  "name": "spoon",
+  "category": "food",
+  "description": "A spoon or soup utensil.",
+  "tags": ["spoon", "utensil", "dining"],
+  "directional": false,
+  "useCase": "A spoon or soup utensil.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "An oval bowl and a straight handle keep the spoon distinct from a circular ladle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "An oval bowl and a straight handle keep the spoon distinct from a circular ladle."
+    }
+  }
+}

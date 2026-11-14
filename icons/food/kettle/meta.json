@@ -1,0 +1,19 @@
+{
+  "name": "kettle",
+  "category": "food",
+  "description": "A kettle or boil water.",
+  "tags": ["kettle", "water", "kitchen"],
+  "directional": false,
+  "useCase": "A kettle or boil water.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad pouring spout joins a single outer contour below the raised handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A broad pouring spout joins a single outer contour below the raised handle."
+    }
+  }
+}

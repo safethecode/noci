@@ -1,0 +1,19 @@
+{
+  "name": "cheese",
+  "category": "food",
+  "description": "A wedge of cheese or dairy ingredient.",
+  "tags": ["cheese", "dairy", "food"],
+  "directional": false,
+  "useCase": "A wedge of cheese or dairy ingredient.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "An asymmetric wedge, sloping face and open bite distinguish the cheese from a gabled building."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "An asymmetric wedge, sloping face and open bite distinguish the cheese from a gabled building."
+    }
+  }
+}
