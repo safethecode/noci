@@ -1,0 +1,33 @@
+name: Icon request
+description: Propose a clear, original metaphor for a real interface.
+title: "feat(icons): "
+labels: [icons, needs-review]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Proposed canonical name
+      placeholder: filter-plus
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Screen, action and intended meaning
+      description: Include a visible label and why existing icons do not fit.
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Details
+      description: Describe the intended use.
+  - type: checkboxes
+    id: review
+    attributes:
+      label: Design readiness
+      options:
+        - label: I checked existing names and the design guidelines.
+          required: true
+        - label: I can explain the meaning at both 16px and 24px.
+          required: true

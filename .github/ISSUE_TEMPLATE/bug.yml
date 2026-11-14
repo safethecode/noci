@@ -1,0 +1,23 @@
+name: Icon or integration bug
+description: Report geometry, semantics or package behavior.
+title: "fix: "
+labels: [needs-review]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction and expected result
+      description: Include icon, optical master, rendered size, font, browser and framework where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: accessibility
+    attributes:
+      label: Accessibility impact
+      description: If relevant, include the task, screen reader/browser versions and the name or state announced.
