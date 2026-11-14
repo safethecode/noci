@@ -1,0 +1,19 @@
+{
+  "name": "clock-plus",
+  "category": "time",
+  "description": "Add time to a schedule.",
+  "tags": ["clock", "add", "time"],
+  "directional": false,
+  "useCase": "Add time to a schedule.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
