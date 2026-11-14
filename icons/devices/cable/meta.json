@@ -4,16 +4,16 @@
   "description": "A data cable with two connectors.",
   "tags": ["cable", "connection", "data"],
   "directional": false,
-  "useCase": "A data cable with two connectors.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify a wired data connection or a cable accessory beside its label.",
+  "misuse": "Do not use the generic connectors to specify a connector standard or confirm that a cable is connected.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Separated connector heads leave 1px of space; centered leads join both heads to a broad cord loop without crossing the outlines."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The two larger heads retain at least 1.5px of space, with separately centered leads and a wider cord loop inside the drawing frame."
     }
   }
 }
