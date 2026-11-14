@@ -23,6 +23,7 @@ export const categories = [
   'charts',
   'development',
   'maps',
+  'transport',
 ];
 const permitted = {
   path: ['d'],

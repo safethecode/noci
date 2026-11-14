@@ -1,0 +1,19 @@
+{
+  "name": "skateboard",
+  "category": "transport",
+  "description": "A skateboard or skating activity.",
+  "tags": ["skateboard", "skating", "board"],
+  "directional": false,
+  "useCase": "A skateboard or skating activity.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A raised deck and two separate wheels stay visible at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The curved deck has open space above each wheel."
+    }
+  }
+}

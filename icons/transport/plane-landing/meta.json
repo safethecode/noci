@@ -1,0 +1,19 @@
+{
+  "name": "plane-landing",
+  "category": "transport",
+  "description": "An arriving flight.",
+  "tags": ["plane", "landing", "flight"],
+  "directional": false,
+  "useCase": "An arriving flight.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A single fuselage stroke and two open wings keep the arriving plane clear above the runway."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The descending silhouette has a separate runway and no narrow enclosed fuselage."
+    }
+  }
+}

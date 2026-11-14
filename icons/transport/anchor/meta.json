@@ -1,0 +1,19 @@
+{
+  "name": "anchor",
+  "category": "transport",
+  "description": "An anchor, dock point or in-page anchor.",
+  "tags": ["anchor", "ship", "link"],
+  "directional": false,
+  "useCase": "An anchor, dock point or in-page anchor.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
