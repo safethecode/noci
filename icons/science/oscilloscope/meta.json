@@ -1,0 +1,19 @@
+{
+  "name": "oscilloscope",
+  "category": "science",
+  "description": "An oscilloscope or electrical signal measurement.",
+  "tags": ["oscilloscope", "signal", "electronics"],
+  "directional": false,
+  "useCase": "An oscilloscope or electrical signal measurement.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}

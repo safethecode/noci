@@ -1,0 +1,19 @@
+{
+  "name": "observatory",
+  "category": "science",
+  "description": "An observatory or astronomy facility.",
+  "tags": ["observatory", "telescope", "astronomy"],
+  "directional": false,
+  "useCase": "An observatory or astronomy facility.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The telescope emerges through an opening in the dome instead of crossing a complete roof arc."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The telescope emerges through an opening in the dome instead of crossing a complete roof arc."
+    }
+  }
+}

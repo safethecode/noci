@@ -1,0 +1,19 @@
+{
+  "name": "constellation",
+  "category": "science",
+  "description": "A constellation or a connected star pattern.",
+  "tags": ["constellation", "stars", "astronomy"],
+  "directional": false,
+  "useCase": "A constellation or a connected star pattern.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three visible stellar points and one brighter cross connect into a star pattern without disappearing into the lines."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Three visible stellar points and one brighter cross connect into a star pattern without disappearing into the lines."
+    }
+  }
+}
