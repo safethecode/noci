@@ -1,0 +1,29 @@
+{
+  "name": "circle",
+  "category": "foundation",
+  "description": "A plain circular outline.",
+  "tags": [
+    "shape",
+    "round",
+    "outline"
+  ],
+  "directional": false,
+  "useCase": "Neutral shape or unselected state with an explicit label.",
+  "misuse": "Do not use an empty circle as the only explanation of a task state.",
+  "optical": {
+    "16": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "Independently placed on the 16px text keyline; keep the intended geometric axes centered."
+    },
+    "24": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "Independently placed on the 24px interface keyline with restrained extent beside utility icons."
+    }
+  }
+}
