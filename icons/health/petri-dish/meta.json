@@ -1,0 +1,19 @@
+{
+  "name": "petri-dish",
+  "category": "health",
+  "description": "A petri dish or laboratory culture.",
+  "tags": ["petri-dish", "culture", "laboratory"],
+  "directional": false,
+  "useCase": "A petri dish or laboratory culture.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "An elliptical rim, visible shallow wall and two separate culture dots identify a petri dish rather than a ball."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "An elliptical rim, visible shallow wall and two separate culture dots identify a petri dish rather than a ball."
+    }
+  }
+}
