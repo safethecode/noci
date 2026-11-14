@@ -1,0 +1,19 @@
+{
+  "name": "pill",
+  "category": "health",
+  "description": "A pill or oral medication.",
+  "tags": ["pill", "medication", "pharmacy"],
+  "directional": false,
+  "useCase": "A pill or oral medication.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two rounded capsule ends join straight sides; the divider crosses the middle instead of forming a prohibition mark."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Two rounded capsule ends join straight sides; the divider crosses the middle instead of forming a prohibition mark."
+    }
+  }
+}
