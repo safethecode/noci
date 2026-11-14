@@ -1,0 +1,19 @@
+{
+  "name": "heart-pulse",
+  "category": "health",
+  "description": "A heart-rate reading or cardiovascular health.",
+  "tags": ["heart", "pulse", "cardiology"],
+  "directional": false,
+  "useCase": "A heart-rate reading or cardiovascular health.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two open heart lobes sit above a separate pulse trace; the waveform replaces the lower point so it cannot merge into a checkmark."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Two open heart lobes sit above a separate pulse trace; the waveform replaces the lower point so it cannot merge into a checkmark."
+    }
+  }
+}
