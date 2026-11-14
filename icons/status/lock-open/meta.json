@@ -8,12 +8,12 @@
   "misuse": "An open lock does not specify public visibility or sharing permissions.",
   "optical": {
     "16": {
-      "offset": [-0.25, 0],
-      "reason": "The body dimensions match lock; the full open-shackle artwork moves slightly left to balance the projecting upper-right shackle. Text master: 1.5px construction."
+      "offset": [0, 0],
+      "reason": "The body dimensions match lock; the full open-shackle artwork moves slightly left to balance the projecting upper-right shackle. Text master: 1.5px construction. The complete silhouette is centered within the shared 12 × 12 drawing area."
     },
     "24": {
-      "offset": [-0.5, 0],
-      "reason": "The body dimensions match lock; the full open-shackle artwork moves slightly left to balance the projecting upper-right shackle. Interface master: 1.75px construction."
+      "offset": [0, 0],
+      "reason": "The body dimensions match lock; the full open-shackle artwork moves slightly left to balance the projecting upper-right shackle. Interface master: 1.75px construction. The complete silhouette is centered within the shared 18 × 18 drawing area."
     }
   }
 }
