@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The microphone omits its outer yoke to keep the small master open. Separate text lines communicate output without an unreadable pencil badge. Text master: 1.5px construction."
+      "reason": "The microphone omits its outer yoke to keep the small master open. Separate text lines communicate output without an unreadable pencil badge. Text master: 1.5px construction. The complete silhouette is centered within the shared 12 × 12 drawing area."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The microphone omits its outer yoke to keep the small master open. Separate text lines communicate output without an unreadable pencil badge. Interface master: 1.75px construction."
+      "reason": "The microphone omits its outer yoke to keep the small master open. Separate text lines communicate output without an unreadable pencil badge. Interface master: 1.75px construction. The complete silhouette is centered within the shared 18 × 18 drawing area."
     }
   }
 }
