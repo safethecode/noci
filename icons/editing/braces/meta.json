@@ -1,0 +1,19 @@
+{
+  "name": "braces",
+  "category": "editing",
+  "description": "A code block or structured object.",
+  "tags": ["code", "braces", "object"],
+  "directional": false,
+  "useCase": "A code block or structured object.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}

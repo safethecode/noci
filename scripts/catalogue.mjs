@@ -9,6 +9,8 @@ export const categories = [
   'inclusion',
   'files',
   'communication',
+  'editing',
+  'layout',
 ];
 const permitted = {
   path: ['d'],
