@@ -1,0 +1,19 @@
+{
+  "name": "cloud-download",
+  "category": "development",
+  "description": "Download content from cloud storage.",
+  "tags": ["cloud", "download", "storage"],
+  "directional": false,
+  "useCase": "Download content from cloud storage.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
