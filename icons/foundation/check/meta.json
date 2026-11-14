@@ -1,0 +1,29 @@
+{
+  "name": "check",
+  "category": "foundation",
+  "description": "A compact ascending checkmark.",
+  "tags": [
+    "done",
+    "confirm",
+    "success"
+  ],
+  "directional": false,
+  "useCase": "Confirm completion with accompanying status text.",
+  "misuse": "A check does not guarantee security or verified identity.",
+  "optical": {
+    "16": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The asymmetric check uses a compact box and a short lower arm; compare by visual balance, not its mass centroid."
+    },
+    "24": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The short lower arm avoids excessive lower-left weight; the rising tip stays inside the utility keyline."
+    }
+  }
+}
