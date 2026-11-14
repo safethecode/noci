@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The raised lower edge leaves a clear clapper gap while the diagonal stroke remains an unmistakable muted state."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The lower edge shares the bell family height and keeps the clapper separate from the silhouette."
     }
   }
 }

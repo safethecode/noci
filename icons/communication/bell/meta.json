@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The lower edge is raised so the clapper has a full painted gap while the dome and drawing bounds stay unchanged."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The lower edge and shoulders are slightly raised to leave a clear gap above the clapper without narrowing the bell."
     }
   }
 }

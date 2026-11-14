@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Two open curved quote strokes replace tiny closed counters and stay clear of the message outline."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Longer open quote strokes preserve the paired quotation shape with generous space inside the message outline."
     }
   }
 }
