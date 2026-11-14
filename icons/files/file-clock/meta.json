@@ -1,0 +1,19 @@
+{
+  "name": "file-clock",
+  "category": "files",
+  "description": "A scheduled or recent document.",
+  "tags": ["document", "time", "schedule"],
+  "directional": false,
+  "useCase": "A scheduled or recent document.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
