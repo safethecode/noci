@@ -1,0 +1,19 @@
+{
+  "name": "warehouse",
+  "category": "buildings",
+  "description": "A warehouse or storage facility.",
+  "tags": ["warehouse", "storage", "logistics"],
+  "directional": false,
+  "useCase": "A warehouse or storage facility.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "An open loading bay and a single crate distinguish storage from a residential garage."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "An open loading bay and a single crate distinguish storage from a residential garage."
+    }
+  }
+}
