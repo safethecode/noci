@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The 16px master omits interior slats to keep its counter open; the 24px master adds two widely separated slats. Text master: 1.5px construction."
+      "reason": "The 16px master omits interior slats to keep its counter open; the 24px master adds two widely separated slats. Text master: 1.5px construction. The complete silhouette is centered within the shared 12 × 12 drawing area."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The 16px master omits interior slats to keep its counter open; the 24px master adds two widely separated slats. Interface master: 1.75px construction."
+      "reason": "The 16px master omits interior slats to keep its counter open; the 24px master adds two widely separated slats. Interface master: 1.75px construction. The complete silhouette is centered within the shared 18 × 18 drawing area."
     }
   }
 }

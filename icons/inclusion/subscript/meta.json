@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The x is identical in both script variants. Only the numeral changes vertical position; shifting the entire icon would break toolbar baseline alignment. Text master: 1.5px construction."
+      "reason": "Both script icons use the same letter position. The numeral moves within the shared drawing frame without shifting the text baseline."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The x is identical in both script variants. Only the numeral changes vertical position; shifting the entire icon would break toolbar baseline alignment. Interface master: 1.75px construction."
+      "reason": "Both script icons use the same letter position. The numeral moves within the shared drawing frame without shifting the text baseline."
     }
   }
 }

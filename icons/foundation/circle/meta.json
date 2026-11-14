@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Independently placed on the 16px text keyline; keep the intended geometric axes centered."
+      "reason": "Independently placed on the 16px text keyline; keep the intended geometric axes centered. The complete silhouette is centered within the shared 12 × 12 drawing area."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Independently placed on the 24px interface keyline with restrained extent beside utility icons."
+      "reason": "Independently placed on the 24px interface keyline with restrained extent beside utility icons. The complete silhouette is centered within the shared 18 × 18 drawing area."
     }
   }
 }

@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The x shares the exact subscript coordinates. The raised numeral preserves the text baseline even though the complete glyph has a different mass centroid. Text master: 1.5px construction."
+      "reason": "Both script icons use the same letter position. The numeral moves within the shared drawing frame without shifting the text baseline."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The x shares the exact subscript coordinates. The raised numeral preserves the text baseline even though the complete glyph has a different mass centroid. Interface master: 1.75px construction."
+      "reason": "Both script icons use the same letter position. The numeral moves within the shared drawing frame without shifting the text baseline."
     }
   }
 }

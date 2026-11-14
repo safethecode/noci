@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The open flap extends right to counter the tab; the two contours meet at endpoints rather than painting a doubled bottom edge. Text master: 1.5px construction."
+      "reason": "The open flap extends right to counter the tab; the two contours meet at endpoints rather than painting a doubled bottom edge. Text master: 1.5px construction. The complete silhouette is centered within the shared 12 × 12 drawing area."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The open flap extends right to counter the tab; the two contours meet at endpoints rather than painting a doubled bottom edge. Interface master: 1.75px construction."
+      "reason": "The open flap extends right to counter the tab; the two contours meet at endpoints rather than painting a doubled bottom edge. Interface master: 1.75px construction. The complete silhouette is centered within the shared 18 × 18 drawing area."
     }
   }
 }

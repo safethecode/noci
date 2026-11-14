@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The asymmetric check uses a compact box and a short lower arm; compare by visual balance, not its mass centroid."
+      "reason": "The asymmetric check uses a compact box and a short lower arm; compare by visual balance, not its mass centroid. The complete silhouette is centered within the shared 12 × 12 drawing area."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The short lower arm avoids excessive lower-left weight; the rising tip stays inside the utility keyline."
+      "reason": "The short lower arm avoids excessive lower-left weight; the rising tip stays inside the utility keyline. The complete silhouette is centered within the shared 18 × 18 drawing area."
     }
   }
 }

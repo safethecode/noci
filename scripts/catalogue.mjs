@@ -227,7 +227,7 @@ export async function readCatalogue(root = new URL('../icons/', import.meta.url)
         try {
           sizes[size] = parseMaster(svg, size);
           metrics[size] = rasterMetrics(svg, size);
-          const inset = size === 16 ? 1 : 2,
+          const inset = size === 16 ? 2 : 3,
             [left, top, right, bottom] = metrics[size].bounds;
           assert(
             left >= inset - 0.125 &&

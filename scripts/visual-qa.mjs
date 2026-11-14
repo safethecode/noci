@@ -41,7 +41,7 @@ for (const theme of ['light', 'dark']) {
       return `${shapes}<text x="${x + 4}" y="${y + 83}" font-size="12" fill="${muted}">${xml(meta.name)} · ${xml(meta.category)}</text>`;
     })
     .join('');
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" style="color:${ink};font-family:Arial,sans-serif"><rect width="100%" height="100%" fill="${bg}"/><text x="24" y="34" fill="${ink}" font-size="20" font-weight="600">Noci · optical proof · ${icons.length} candidates</text><text x="24" y="57" fill="${muted}" font-size="12">16 / 24 / 32 / 48 CSS px · inspect at 100% · 16 and 24 masters · 48 derived</text>${cells}</svg>`;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" style="color:${ink};font-family:Arial,sans-serif"><rect width="100%" height="100%" fill="${bg}"/><text x="24" y="34" fill="${ink}" font-size="20" font-weight="600">Noci · icon size check · ${icons.length} icons</text><text x="24" y="57" fill="${muted}" font-size="12">16 / 24 / 32 / 48 CSS px · inspect at 100% · 16 and 24 masters · 48 derived</text>${cells}</svg>`;
   await writeFile(`artifacts/qa/${theme}.svg`, svg);
   for (const dpr of [1, 2]) {
     await writeFile(
@@ -51,7 +51,6 @@ for (const theme of ['light', 'dark']) {
   }
 }
 const report = {
-  status: 'candidate',
   manualAssistiveTechnology: 'not verified',
   interpretation:
     'Bounds, centroid and density diagnose geometry. They cannot establish perceived balance or recognition.',
