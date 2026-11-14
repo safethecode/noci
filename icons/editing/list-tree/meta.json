@@ -1,0 +1,19 @@
+{
+  "name": "list-tree",
+  "category": "editing",
+  "description": "Show a hierarchical list.",
+  "tags": ["list", "tree", "hierarchy"],
+  "directional": false,
+  "useCase": "Show a hierarchical list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
