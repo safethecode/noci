@@ -4,26 +4,26 @@ An icon should explain an action quietly and sit beside text without an adjustme
 
 ## Optical sizes
 
-| Property                             | Text master     | Interface master  | Large export          |
-| ------------------------------------ | --------------- | ----------------- | --------------------- |
-| Artboard / viewBox                   | 16 × 16         | 24 × 24           | 48 × 48               |
-| Construction                         | Hand drawn      | Hand drawn        | Exact 2× export of 24 |
-| Stroke                               | 1.5             | 1.75              | 3.5                   |
-| Minimum painted inset                | 1               | 2                 | 4                     |
-| Circle keyline diameter              | 11.5            | 18                | 36                    |
-| Square keyline side                  | 10              | 16                | 32                    |
-| Wide / tall keyline                  | 12 × 9 / 9 × 12 | 18 × 14 / 14 × 18 | 36 × 28 / 28 × 36     |
-| Typical corner radius                | 1               | 1.5               | 3                     |
-| Clear gap between unrelated marks    | ≥1              | ≥1.5              | ≥3                    |
-| Maximum optical translation per axis | 0.5             | 0.75              | 1.5                   |
+| Property                             | Text master | Interface master | Large export          |
+| ------------------------------------ | ----------- | ---------------- | --------------------- |
+| Artboard / viewBox                   | 16 × 16     | 24 × 24          | 48 × 48               |
+| Construction                         | Hand drawn  | Hand drawn       | Exact 2× export of 24 |
+| Stroke                               | 1.5         | 1.75             | 3.5                   |
+| Minimum painted inset                | 2           | 3                | 6                     |
+| Drawing area                         | 12 × 12     | 18 × 18          | 36 × 36               |
+| Typical corner radius                | 1           | 1.5              | 3                     |
+| Clear gap between unrelated marks    | ≥1          | ≥1.5             | ≥3                    |
+| Maximum optical translation per axis | 0.5         | 0.75             | 1.5                   |
 
 These values define the icon style. WCAG requirements are covered in the accessibility guide.
+Every icon uses the same square drawing frame: 12 × 12 within 16 × 16, 18 × 18 within 24 × 24, and 36 × 36 within 48 × 48. Keep natural symbol proportions within that frame.
+
 24 is the UI default. Use the 16 master at 12–20 CSS px, the 24 master above 20.
 For a CSS size such as `1em`, choose the master explicitly when context is known;
 the default is 16. A 48 export is a convenience, not a third hand-tuned master.
 Do not promise the same apparent weight at every arbitrary scale.
 
-Align straight strokes to the nearest quarter unit. A 1.5 stroke naturally lands on
+Align straight strokes to a quarter-unit grid at 16px and an eighth-unit grid at 24px. A 1.5 stroke naturally lands on
 half or quarter coordinates; forcing every centerline to an integer makes it blurrier.
 Curves may use other coordinates. Pixel alignment is subordinate to recognizability.
 Use round caps and joins, restrained rounded corners, no gradients, shadows or baked
