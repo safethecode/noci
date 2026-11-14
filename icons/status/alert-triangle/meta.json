@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The triangle extends above the circular keyline and its wide base sits slightly high; this compensates for the bottom-heavy outline. Text master: 1.5px construction. The complete silhouette is centered within the shared 12 × 12 drawing area."
+      "reason": "A wider rounded neck keeps the small exclamation clear, with a 2.75px painted stem, a 1.25px dot, and 1px gaps inside the original painted bounds."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The triangle extends above the circular keyline and its wide base sits slightly high; this compensates for the bottom-heavy outline. Interface master: 1.75px construction. The complete silhouette is centered within the shared 18 × 18 drawing area."
+      "reason": "The original triangle outline contains a separately positioned stem and dot with at least 1.5px of space to each other and the outline."
     }
   }
 }
