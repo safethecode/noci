@@ -1,0 +1,19 @@
+{
+  "name": "acorn",
+  "category": "nature",
+  "description": "An acorn or a tree seed.",
+  "tags": ["acorn", "seed", "oak"],
+  "directional": false,
+  "useCase": "An acorn or a tree seed.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
