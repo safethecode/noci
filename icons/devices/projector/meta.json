@@ -4,16 +4,16 @@
   "description": "A projection display.",
   "tags": ["projector", "display", "presentation"],
   "directional": false,
-  "useCase": "A projection display.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Select or identify a projector as a presentation display.",
+  "misuse": "Do not use this hardware symbol for a camera or as confirmation that a presentation is visible.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The lens sits on the canvas midline inside a taller housing, with at least 1px around it and a separate indicator; two short feet complete the projector silhouette."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A larger lens and indicator sit on the canvas midline with at least 1.5px of space around them; the housing and feet use independent proportions."
     }
   }
 }
