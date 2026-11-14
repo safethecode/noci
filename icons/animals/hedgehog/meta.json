@@ -1,0 +1,19 @@
+{
+  "name": "hedgehog",
+  "category": "animals",
+  "description": "A hedgehog or a spiny small-mammal category.",
+  "tags": ["hedgehog", "spines", "wildlife"],
+  "directional": false,
+  "useCase": "A hedgehog or a spiny small-mammal category.",
+  "misuse": "Use a visible label when an animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A short pointed muzzle and a few broad spines leave room around one eye."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The stepped spines, pointed muzzle and small feet keep the profile distinct."
+    }
+  }
+}
