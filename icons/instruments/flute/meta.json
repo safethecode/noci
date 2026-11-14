@@ -1,0 +1,19 @@
+{
+  "name": "flute",
+  "category": "instruments",
+  "description": "A transverse flute or a flute instrument part.",
+  "tags": ["flute", "woodwind", "keys"],
+  "directional": false,
+  "useCase": "A transverse flute or a flute instrument part.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A narrow tube and two attached keys make the flute readable at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Three keys sit on short stems outside the narrow flute tube."
+    }
+  }
+}
