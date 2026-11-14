@@ -4,16 +4,16 @@
   "description": "A high output volume.",
   "tags": ["volume", "high", "audio"],
   "directional": false,
-  "useCase": "A high output volume.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Indicate a high audio volume level beside a volume control.",
+  "misuse": "Do not use two sound waves as a precise numerical volume value.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A compact speaker retains the family’s 45-degree cone edges and shares its base with volume-x. Two separately drawn waves have at least 1px of space."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The compact speaker shares volume-x geometry and retains the family’s cone angles; the two longer waves keep at least 1.5px of space."
     }
   }
 }

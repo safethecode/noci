@@ -4,16 +4,16 @@
   "description": "A podcast or spoken audio program.",
   "tags": ["podcast", "audio", "show"],
   "directional": false,
-  "useCase": "A podcast or spoken audio program.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify a podcast program, subscription, or episode list beside its label.",
+  "misuse": "Do not use the broadcast figure for microphone access or recording status.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "One broadcast arc leaves a clear head and separate shoulders; the smaller master omits the second arc to avoid merging the figure and waves."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Two independently spaced broadcast arcs surround a smaller head and separate shoulders, with open space around each part."
     }
   }
 }

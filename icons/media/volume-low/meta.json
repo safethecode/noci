@@ -4,16 +4,16 @@
   "description": "A low output volume.",
   "tags": ["volume", "low", "audio"],
   "directional": false,
-  "useCase": "A low output volume.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Indicate a low audio volume level beside a volume control.",
+  "misuse": "Do not use this low-volume symbol for muted audio.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The centered speaker retains the family’s 45-degree cone edges; a quarter-pixel outward shift leaves 1px before its single wave."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The larger centered speaker and single wave retain their 45-degree cone edges and at least 1.5px of space."
     }
   }
 }
