@@ -1,0 +1,19 @@
+{
+  "name": "chevrons-up",
+  "category": "navigation",
+  "description": "Move to the top item.",
+  "tags": ["up", "jump", "navigation"],
+  "directional": false,
+  "useCase": "Move to the top item.",
+  "misuse": "Use a text label when the action or destination is ambiguous.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete symbol is centered inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete symbol is centered inside the 18 × 18 drawing frame."
+    }
+  }
+}
