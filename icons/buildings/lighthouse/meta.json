@@ -1,0 +1,19 @@
+{
+  "name": "lighthouse",
+  "category": "buildings",
+  "description": "A lighthouse or coastal navigation landmark.",
+  "tags": ["lighthouse", "coast", "navigation"],
+  "directional": false,
+  "useCase": "A lighthouse or coastal navigation landmark.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}

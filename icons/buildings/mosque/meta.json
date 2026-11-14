@@ -1,0 +1,19 @@
+{
+  "name": "mosque",
+  "category": "buildings",
+  "description": "A mosque or Muslim place of worship.",
+  "tags": ["mosque", "worship", "building"],
+  "directional": false,
+  "useCase": "A mosque or Muslim place of worship.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A pointed minaret cap and domed prayer hall remain separate at native size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A pointed minaret cap and domed prayer hall remain separate at native size."
+    }
+  }
+}
