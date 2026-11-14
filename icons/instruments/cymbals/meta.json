@@ -1,0 +1,19 @@
+{
+  "name": "cymbals",
+  "category": "instruments",
+  "description": "A pair of cymbals or a cymbal percussion part.",
+  "tags": ["cymbals", "percussion", "brass"],
+  "directional": false,
+  "useCase": "A pair of cymbals or a cymbal percussion part.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Each plate has a raised central bell above its broad rim, with a clear gap between the two cymbals."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Each plate has a raised central bell above its broad rim, with a clear gap between the two cymbals."
+    }
+  }
+}
