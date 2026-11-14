@@ -23,6 +23,9 @@ icon exports exactly its two masters, not the whole set. Consumers needing no JS
 can copy or reference a raw SVG or a sprite symbol.
 
 No automatic DOM scan, MutationObserver or global configuration is installed.
+The DOM adapter has its own `noci-icons/dom` entry; `noci-icons/core` and individual
+definitions type-check on a server without TypeScript's DOM library. ESM and CJS
+conditions each resolve matching declaration files (`.d.ts` / `.d.cts`).
 `createIcon` uses the caller's `Document` (or the browser default) at invocation time,
 so importing the package works without DOM globals. `renderIcon` is deterministic
 and server-safe. DOM integration does not replace framework-managed nodes.
