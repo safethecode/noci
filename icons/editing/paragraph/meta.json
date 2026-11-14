@@ -1,0 +1,19 @@
+{
+  "name": "paragraph",
+  "category": "editing",
+  "description": "Show paragraph formatting marks.",
+  "tags": ["paragraph", "format", "marks"],
+  "directional": false,
+  "useCase": "Show paragraph formatting marks.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
