@@ -32,6 +32,7 @@ export const categories = [
   'sports',
   'health',
   'education',
+  'science',
 ];
 const permitted = {
   path: ['d'],
