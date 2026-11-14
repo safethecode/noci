@@ -1,0 +1,19 @@
+{
+  "name": "currency-pound",
+  "category": "finance",
+  "description": "A pound sterling currency amount.",
+  "tags": ["pound", "currency", "sterling"],
+  "directional": false,
+  "useCase": "A pound sterling currency amount.",
+  "misuse": "Include a currency code when the denomination is ambiguous.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
