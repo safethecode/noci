@@ -1,5 +1,6 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { Resvg } from '@resvg/resvg-js';
+import svgpath from 'svgpath';
 
 export const categories = [
   'foundation',
@@ -53,6 +54,10 @@ function attributes(source) {
 
 /** Accept only Noci's flat, self-closing SVG subset. No XML entities, refs or scripts. */
 export function parseMaster(svg, size) {
+  const grid = size === 16 ? 4 : 8;
+  const onGrid = (value) =>
+    Number.isFinite(value) && Math.abs(value * grid - Math.round(value * grid)) < 0.000001;
+  const gridMessage = `Use ${1 / grid}px steps for move points and straight strokes.`;
   const document = svg.trim().match(/^<svg(\s[^>]*)>([\s\S]*)<\/svg>$/);
   assert(document, 'Expected one SVG root without XML declarations or comments.');
   const root = attributes(document[1]);
@@ -98,11 +103,28 @@ export function parseMaster(svg, size) {
       } else if (key === 'points') {
         assert(/^[\d\s.,+-]+$/.test(value), 'Invalid point list.');
       } else {
-        assert(/^-?(?:\d+(?:\.\d+)?|\.\d+)$/.test(value), `Invalid numeric ${key}.`);
+        assert(
+          /^-?(?:\d+(?:\.\d+)?|\.\d+)$/.test(value) && Number.isFinite(Number(value)),
+          `Invalid numeric ${key}.`,
+        );
       }
     }
     if (tag === 'path') {
       assert(typeof attrs.d === 'string', 'Path needs d.');
+      const path = svgpath(attrs.d);
+      assert(!path.err, `Invalid path: ${path.err}`);
+      path.abs().iterate((segment, _index, x, y) => {
+        assert(segment.slice(1).every(Number.isFinite), 'Path coordinates must be finite.');
+        if (['M', 'L', 'H', 'V'].includes(segment[0])) {
+          assert(segment.slice(1).every(onGrid), gridMessage);
+        }
+        if (segment[0] === 'H') {
+          assert(onGrid(y), gridMessage);
+        }
+        if (segment[0] === 'V') {
+          assert(onGrid(x), gridMessage);
+        }
+      });
     }
     if (tag === 'circle') {
       assert(Number(attrs.r) > 0 && attrs.cx != null && attrs.cy != null, 'Invalid circle.');
@@ -112,15 +134,36 @@ export function parseMaster(svg, size) {
         Number(attrs.width) > 0 && Number(attrs.height) > 0 && attrs.x != null && attrs.y != null,
         'Invalid rect.',
       );
+      assert(
+        ['x', 'y', 'width', 'height'].every((key) => onGrid(Number(attrs[key]))),
+        gridMessage,
+      );
+      assert(
+        ['rx', 'ry'].every((key) => attrs[key] == null || Number(attrs[key]) >= 0),
+        'Corner radii must be non-negative.',
+      );
     }
     if (tag === 'line') {
       assert(
         ['x1', 'x2', 'y1', 'y2'].every((k) => attrs[k] != null),
         'Invalid line.',
       );
+      assert(
+        Object.values(attrs).every((value) => onGrid(Number(value))),
+        gridMessage,
+      );
     }
     if (tag === 'polyline' || tag === 'polygon') {
       assert(attrs.points, 'Point list is required.');
+      const points = attrs.points
+        .trim()
+        .split(/[\s,]+/)
+        .map(Number);
+      assert(
+        points.length >= (tag === 'polygon' ? 6 : 4) && points.length % 2 === 0,
+        'Point lists need complete coordinate pairs.',
+      );
+      assert(points.every(onGrid), gridMessage);
     }
     if (attrs.fill || attrs.stroke) {
       assert(
