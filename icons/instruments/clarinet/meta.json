@@ -1,0 +1,19 @@
+{
+  "name": "clarinet",
+  "category": "instruments",
+  "description": "A clarinet or a single-reed woodwind part.",
+  "tags": ["clarinet", "reed", "woodwind"],
+  "directional": false,
+  "useCase": "A clarinet or a single-reed woodwind part.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "An angled reed mouthpiece and a modestly flared bell retain the woodwind silhouette without a bottle-like shoulder."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "An angled reed mouthpiece and a modestly flared bell retain the woodwind silhouette without a bottle-like shoulder."
+    }
+  }
+}
