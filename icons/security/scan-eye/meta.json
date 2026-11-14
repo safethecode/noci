@@ -4,16 +4,16 @@
   "description": "Authenticate with an eye scan.",
   "tags": ["scan", "eye", "biometric"],
   "directional": false,
-  "useCase": "Authenticate with an eye scan.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify an eye-scan authentication option beside its label.",
+  "misuse": "Do not use the eye scan for generic visibility controls or as confirmation that someone has been authenticated.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A taller eye contour leaves more than 1px around the pupil while keeping the four scan corners separate."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The wider eye has a separately tuned opening with at least 1.5px around the pupil and clear space to the scan corners."
     }
   }
 }

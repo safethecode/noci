@@ -4,16 +4,16 @@
   "description": "A secure storage safe.",
   "tags": ["safe", "vault", "storage"],
   "directional": false,
-  "useCase": "A secure storage safe.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify a vault or protected storage feature.",
+  "misuse": "Do not use the safe alone to promise that stored information is protected.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Short wheel spokes leave 1.25px of space to the door frame while the two attached hinge marks retain the safe silhouette."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Longer wheel spokes retain at least 1.5px of space from the door frame without moving the wheel or its hinges."
     }
   }
 }

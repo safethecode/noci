@@ -4,16 +4,16 @@
   "description": "A protected access setting.",
   "tags": ["shield", "lock", "access"],
   "directional": false,
-  "useCase": "A protected access setting.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify a protected access setting that requires authentication.",
+  "misuse": "Do not use the shield as proof of security or permission; label the actual access state.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A shorter lock body leaves its lower corners clear of the shield curve while preserving an open shackle and a visible body opening."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The wider lock retains a larger body opening, with its lower edge lifted clear of the shield curve."
     }
   }
 }
