@@ -1,0 +1,19 @@
+{
+  "name": "earth",
+  "category": "maps",
+  "description": "Earth or a global environmental view.",
+  "tags": ["earth", "world", "environment"],
+  "directional": false,
+  "useCase": "Earth or a global environmental view.",
+  "misuse": "Use a map when geographic precision is needed.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "radar",
+  "category": "maps",
+  "description": "Detect nearby objects or locations.",
+  "tags": ["radar", "nearby", "detect"],
+  "directional": false,
+  "useCase": "Detect nearby objects or locations.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The smaller inner ring leaves a clear gap around the return marker at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The return marker sits between the rings without touching their contours."
+    }
+  }
+}

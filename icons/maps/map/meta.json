@@ -1,0 +1,19 @@
+{
+  "name": "map",
+  "category": "maps",
+  "description": "A folded map or a map view.",
+  "tags": ["map", "location", "geography"],
+  "directional": false,
+  "useCase": "A folded map or a map view.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
