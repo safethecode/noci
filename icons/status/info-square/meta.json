@@ -4,16 +4,16 @@
   "description": "Additional information.",
   "tags": ["info", "details", "help"],
   "directional": false,
-  "useCase": "Additional information.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Show additional information beside a labeled field or setting.",
+  "misuse": "Do not use the info mark alone as the accessible name of a control.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A slightly lower stem leaves more than 1px before the original dot while keeping the information mark centered in its frame."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The original larger dot and stem retain at least 1.5px of space inside the unchanged square frame."
     }
   }
 }

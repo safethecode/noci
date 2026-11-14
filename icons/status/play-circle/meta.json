@@ -4,16 +4,16 @@
   "description": "Start the current process.",
   "tags": ["play", "start", "control"],
   "directional": false,
-  "useCase": "Start the current process.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Start or resume the current process or playback.",
+  "misuse": "Do not use the play triangle as a page navigation arrow.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A compact closed play triangle keeps a visible opening and at least 1px of space to the unchanged circular keyline."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The left triangle corners sit slightly farther inside the circle, retaining a large opening and at least 1.5px of space to the keyline."
     }
   }
 }
