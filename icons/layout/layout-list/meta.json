@@ -1,0 +1,19 @@
+{
+  "name": "layout-list",
+  "category": "layout",
+  "description": "Show content as a list with thumbnails.",
+  "tags": ["list", "view", "thumbnails"],
+  "directional": false,
+  "useCase": "Show content as a list with thumbnails.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
