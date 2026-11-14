@@ -1,0 +1,19 @@
+{
+  "name": "barcode",
+  "category": "commerce",
+  "description": "A barcode or product identifier.",
+  "tags": ["barcode", "product", "sku"],
+  "directional": false,
+  "useCase": "A barcode or product identifier.",
+  "misuse": "Use a generated barcode to encode a product identifier.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
