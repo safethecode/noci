@@ -1,0 +1,19 @@
+{
+  "name": "currency-ruble",
+  "category": "finance",
+  "description": "A ruble currency amount.",
+  "tags": ["ruble", "currency", "money"],
+  "directional": false,
+  "useCase": "A ruble currency amount.",
+  "misuse": "Include a currency code when the denomination is ambiguous.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
