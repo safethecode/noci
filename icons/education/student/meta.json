@@ -1,0 +1,19 @@
+{
+  "name": "student",
+  "category": "education",
+  "description": "A student or learner reading a book.",
+  "tags": ["student", "learner", "person"],
+  "directional": false,
+  "useCase": "A student or learner reading a book.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A visible head and open book identify a learner reading, with a clear gap above the pages."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A visible head and open book identify a learner reading, with a clear gap above the pages."
+    }
+  }
+}

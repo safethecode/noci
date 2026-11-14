@@ -1,0 +1,19 @@
+{
+  "name": "diploma",
+  "category": "education",
+  "description": "A rolled diploma or graduation document.",
+  "tags": ["diploma", "graduation", "document"],
+  "directional": false,
+  "useCase": "A rolled diploma or graduation document.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A cylindrical paper roll with a visible end and tied ribbon is distinct from an open scroll."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A cylindrical paper roll with a visible end and tied ribbon is distinct from an open scroll."
+    }
+  }
+}

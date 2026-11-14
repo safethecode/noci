@@ -1,0 +1,19 @@
+{
+  "name": "certificate",
+  "category": "education",
+  "description": "A certificate or documented qualification.",
+  "tags": ["certificate", "qualification", "document"],
+  "directional": false,
+  "useCase": "A certificate or documented qualification.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The open lower paper edge leaves the seal and its ribbon tails clear."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The open lower paper edge leaves the seal and its ribbon tails clear."
+    }
+  }
+}

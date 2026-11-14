@@ -1,0 +1,19 @@
+{
+  "name": "protractor",
+  "category": "education",
+  "description": "A protractor or measure an angle.",
+  "tags": ["protractor", "angle", "geometry"],
+  "directional": false,
+  "useCase": "A protractor or measure an angle.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A true semicircular outline and three attached angle ticks retain the protractor shape."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A true semicircular outline and three attached angle ticks retain the protractor shape."
+    }
+  }
+}
