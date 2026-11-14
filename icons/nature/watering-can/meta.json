@@ -1,0 +1,19 @@
+{
+  "name": "watering-can",
+  "category": "nature",
+  "description": "A watering can or water a plant.",
+  "tags": ["watering", "garden", "plant"],
+  "directional": false,
+  "useCase": "A watering can or water a plant.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The spout meets the center of the angled rose, opposite the open handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The spout meets the center of the angled rose, opposite the open handle."
+    }
+  }
+}

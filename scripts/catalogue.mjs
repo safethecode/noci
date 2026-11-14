@@ -26,6 +26,7 @@ export const categories = [
   'transport',
   'buildings',
   'home',
+  'nature',
 ];
 const permitted = {
   path: ['d'],
