@@ -18,6 +18,8 @@ export const categories = [
   'people',
   'time',
   'weather',
+  'finance',
+  'commerce',
 ];
 const permitted = {
   path: ['d'],
