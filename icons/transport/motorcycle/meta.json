@@ -1,0 +1,19 @@
+{
+  "name": "motorcycle",
+  "category": "transport",
+  "description": "A motorcycle or motorbike route.",
+  "tags": ["motorcycle", "motorbike", "vehicle"],
+  "directional": false,
+  "useCase": "A motorcycle or motorbike route.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The engine block is omitted so the frame and wheels remain distinct."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "An open frame separates the seat, steering stem and two wheels."
+    }
+  }
+}
