@@ -67,7 +67,7 @@ export function parseMaster(svg, size) {
 }
 
 export function rasterMetrics(svg, size, zoom = 8) {
-  const result = new Resvg(svg, { fitTo: { mode: 'zoom', value: zoom } }).render();
+  const result = new Resvg(svg, { fitTo: { mode: 'zoom', value: zoom }, font: { loadSystemFonts: false } }).render();
   const pixels = result.pixels, width = result.width, height = result.height;
   let minX = width, maxX = -1, minY = height, maxY = -1, mass = 0, xMass = 0, yMass = 0;
   for (let y = 0; y < height; y++) for (let x = 0; x < width; x++) {
