@@ -1,0 +1,29 @@
+{
+  "name": "search",
+  "category": "navigation",
+  "description": "A circular lens with a short search handle.",
+  "tags": [
+    "find",
+    "lookup",
+    "magnify"
+  ],
+  "directional": false,
+  "useCase": "Open or submit a named search action.",
+  "misuse": "A magnifier can also mean zoom; provide context.",
+  "optical": {
+    "16": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The circular lens is intentionally above-left of the full silhouette center; the short handle balances the open lower-right space. Text master: 1.5px construction."
+    },
+    "24": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The circular lens is intentionally above-left of the full silhouette center; the short handle balances the open lower-right space. Interface master: 1.75px construction."
+    }
+  }
+}

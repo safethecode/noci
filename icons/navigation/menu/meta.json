@@ -1,0 +1,29 @@
+{
+  "name": "menu",
+  "category": "navigation",
+  "description": "Three evenly spaced menu strokes.",
+  "tags": [
+    "navigation",
+    "drawer",
+    "list"
+  ],
+  "directional": false,
+  "useCase": "Open the main navigation menu.",
+  "misuse": "Label the button and expose expanded state.",
+  "optical": {
+    "16": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Text master: 1.5px construction."
+    },
+    "24": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Interface master: 1.75px construction."
+    }
+  }
+}

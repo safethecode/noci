@@ -1,0 +1,29 @@
+{
+  "name": "arrow-left",
+  "category": "navigation",
+  "description": "A restrained left-pointing navigation arrow.",
+  "tags": [
+    "back",
+    "previous",
+    "direction"
+  ],
+  "directional": true,
+  "useCase": "Go back to the previous page.",
+  "misuse": "Use a named navigation control; do not imply a destructive undo.",
+  "optical": {
+    "16": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The straight shaft and arrowhead share a centered bounding box; preserve the intended directional mass rather than recentering by centroid. Text master: 1.5px construction."
+    },
+    "24": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The straight shaft and arrowhead share a centered bounding box; preserve the intended directional mass rather than recentering by centroid. Interface master: 1.75px construction."
+    }
+  }
+}
