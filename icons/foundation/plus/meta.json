@@ -1,0 +1,29 @@
+{
+  "name": "plus",
+  "category": "foundation",
+  "description": "Two evenly weighted perpendicular strokes.",
+  "tags": [
+    "add",
+    "create",
+    "new"
+  ],
+  "directional": false,
+  "useCase": "Add an item beside an Add label.",
+  "misuse": "A plus alone does not explain what will be added.",
+  "optical": {
+    "16": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "Independently placed on the 16px text keyline; keep the intended geometric axes centered."
+    },
+    "24": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "Independently placed on the 24px interface keyline with restrained extent beside utility icons."
+    }
+  }
+}
