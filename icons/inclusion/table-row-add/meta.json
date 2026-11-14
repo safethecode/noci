@@ -1,0 +1,29 @@
+{
+  "name": "table-row-add",
+  "category": "inclusion",
+  "description": "A split table frame with a separate row-add marker.",
+  "tags": [
+    "table",
+    "row",
+    "add"
+  ],
+  "directional": false,
+  "useCase": "Add a table row with an above/below text label.",
+  "misuse": "This generic add-row glyph does not specify above or below.",
+  "optical": {
+    "16": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The same table frame and add marker as table-column-add are transposed, preserving weight and the gap around the badge. Text master: 1.5px construction."
+    },
+    "24": {
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "The same table frame and add marker as table-column-add are transposed, preserving weight and the gap around the badge. Interface master: 1.75px construction."
+    }
+  }
+}
