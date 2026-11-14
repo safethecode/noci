@@ -1,0 +1,19 @@
+{
+  "name": "fireplace",
+  "category": "home",
+  "description": "A fireplace or indoor hearth.",
+  "tags": ["fireplace", "hearth", "heating"],
+  "directional": false,
+  "useCase": "A fireplace or indoor hearth.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "An asymmetric flame has clear space below the mantel and inside the hearth."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "An asymmetric flame has clear space below the mantel and inside the hearth."
+    }
+  }
+}
