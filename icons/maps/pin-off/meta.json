@@ -1,0 +1,19 @@
+{
+  "name": "pin-off",
+  "category": "maps",
+  "description": "Unpin an item.",
+  "tags": ["pin", "remove", "unpin"],
+  "directional": false,
+  "useCase": "Unpin an item.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
