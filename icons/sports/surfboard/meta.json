@@ -1,0 +1,19 @@
+{
+  "name": "surfboard",
+  "category": "sports",
+  "description": "A surfboard or surfing activity.",
+  "tags": ["surfboard", "surfing", "sport"],
+  "directional": false,
+  "useCase": "A surfboard or surfing activity.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A pointed nose, straight tail and central stringer identify a surfboard rather than a leaf."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A pointed nose, straight tail and central stringer identify a surfboard rather than a leaf."
+    }
+  }
+}

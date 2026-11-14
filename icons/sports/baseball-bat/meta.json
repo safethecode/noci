@@ -1,0 +1,19 @@
+{
+  "name": "baseball-bat",
+  "category": "sports",
+  "description": "A baseball bat or batting practice.",
+  "tags": ["baseball", "bat", "sport"],
+  "directional": false,
+  "useCase": "A baseball bat or batting practice.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A long tapered barrel joins a single handle stroke, with a separate knob at its end."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A long tapered barrel joins a single handle stroke, with a separate knob at its end."
+    }
+  }
+}
