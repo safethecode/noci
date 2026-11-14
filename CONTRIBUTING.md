@@ -25,6 +25,8 @@ npm run check
 npm run browsers:install
 npm run test:browser
 npm run qa
+npm run qa -- --category navigation
+npm run qa -- --name search --theme dark
 ```
 
 Inspect icons at their actual sizes on light and dark backgrounds. Check square containers and text in different fonts. Keep related shapes and baselines consistent. Inspect small gaps, intersections and clipping.
