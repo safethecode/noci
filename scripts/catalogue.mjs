@@ -11,6 +11,7 @@ export const categories = [
   'communication',
   'editing',
   'layout',
+  'security',
 ];
 const permitted = {
   path: ['d'],
