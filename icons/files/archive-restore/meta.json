@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A taller box keeps the compact arrow shaft and head clear of the lid and lower edge."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The box is extended vertically so the complete arrow keeps its original length with clear gaps at both ends."
     }
   }
 }

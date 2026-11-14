@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A compact complete arrow keeps its shaft and head clear of the clip and lower edge."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The longer arrow keeps clear gaps to the clip and lower edge while retaining a complete head and shaft."
     }
   }
 }
