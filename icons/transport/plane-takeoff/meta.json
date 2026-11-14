@@ -1,0 +1,19 @@
+{
+  "name": "plane-takeoff",
+  "category": "transport",
+  "description": "A departing flight.",
+  "tags": ["plane", "takeoff", "flight"],
+  "directional": false,
+  "useCase": "A departing flight.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A single fuselage stroke and two open wings keep the departing plane clear above the runway."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wings and tail meet one fuselage; the runway remains separate below."
+    }
+  }
+}
