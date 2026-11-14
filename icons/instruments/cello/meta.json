@@ -1,0 +1,19 @@
+{
+  "name": "cello",
+  "category": "instruments",
+  "description": "A cello or a low bowed-string part.",
+  "tags": ["cello", "orchestra", "strings"],
+  "directional": false,
+  "useCase": "A cello or a low bowed-string part.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The open body, long neck and endpin carry the cello shape at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A shorter, higher bridge stays clear of the curved body and its waist."
+    }
+  }
+}
