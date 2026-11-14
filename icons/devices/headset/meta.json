@@ -1,0 +1,19 @@
+{
+  "name": "headset",
+  "category": "devices",
+  "description": "A headset or customer support channel.",
+  "tags": ["headset", "support", "audio"],
+  "directional": false,
+  "useCase": "A headset or customer support channel.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
