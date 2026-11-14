@@ -4,16 +4,16 @@
   "description": "A credential or encryption key file.",
   "tags": ["document", "key", "credential"],
   "directional": false,
-  "useCase": "A credential or encryption key file.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify a credential or encryption key file in a file list.",
+  "misuse": "Do not use this symbol to claim that a file is secure or access has been granted.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The key sits above the page bottom with its bow inset from the left edge, leaving 1px between the painted mark and both borders."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The wider bow and longer shaft retain at least 1.5px of painted clearance from the page border; the tooth remains distinct."
     }
   }
 }
