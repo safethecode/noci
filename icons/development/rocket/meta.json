@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A slightly fuller body makes room for a larger central window with a clear opening and space around its rim."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The window is moved slightly down the rocket axis to clear the shell while retaining its original size."
     }
   }
 }
