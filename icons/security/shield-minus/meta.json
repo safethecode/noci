@@ -1,0 +1,19 @@
+{
+  "name": "shield-minus",
+  "category": "security",
+  "description": "Remove a protection rule.",
+  "tags": ["shield", "remove", "rule"],
+  "directional": false,
+  "useCase": "Remove a protection rule.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
