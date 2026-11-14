@@ -1,0 +1,19 @@
+{
+  "name": "compass",
+  "category": "maps",
+  "description": "A compass or a map orientation.",
+  "tags": ["compass", "direction", "orientation"],
+  "directional": false,
+  "useCase": "A compass or a map orientation.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+    }
+  }
+}
