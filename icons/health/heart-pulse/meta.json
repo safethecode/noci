@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Two open heart lobes sit above a separate pulse trace; the waveform replaces the lower point so it cannot merge into a checkmark."
+      "reason": "Shorter lower contour ends leave a clear gap above the complete pulse trace."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Two open heart lobes sit above a separate pulse trace; the waveform replaces the lower point so it cannot merge into a checkmark."
+      "reason": "The wider heart leaves the full pulse trace clear of both open ends."
     }
   }
 }
