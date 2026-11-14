@@ -1,7 +1,7 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { Resvg } from '@resvg/resvg-js';
 
-export const categories = ['foundation', 'navigation', 'actions', 'status', 'inclusion'];
+export const categories = ['foundation', 'navigation', 'actions', 'status', 'inclusion', 'files'];
 const permitted = {
   path: ['d'],
   circle: ['cx', 'cy', 'r', 'fill', 'stroke'],
