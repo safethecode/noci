@@ -1,0 +1,19 @@
+{
+  "name": "celery",
+  "category": "food",
+  "description": "A celery stalk with a broad leafy crown.",
+  "tags": ["celery", "vegetable", "ingredient"],
+  "directional": false,
+  "useCase": "Identify celery in recipes, groceries or produce selections.",
+  "misuse": "Use a visible label when a fruit or vegetable identifies an ingredient, product or dietary choice.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One short crown vein stops above the narrow stalk."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger crown keeps its vein separate from the open lower stalk."
+    }
+  }
+}
