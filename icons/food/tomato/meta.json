@@ -1,0 +1,19 @@
+{
+  "name": "tomato",
+  "category": "food",
+  "description": "A tomato with a broad round body, pointed calyx and short stem.",
+  "tags": ["tomato", "vegetable", "ingredient"],
+  "directional": false,
+  "useCase": "Identify tomatoes in recipes, groceries or ingredient lists.",
+  "misuse": "Use a visible label when a fruit or vegetable identifies an ingredient, product or dietary choice.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A pointed calyx forms the upper edge without a tiny closed leaf loop."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger tomato retains its broad base below the short stem and calyx."
+    }
+  }
+}
