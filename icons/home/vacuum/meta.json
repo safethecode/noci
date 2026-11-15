@@ -1,0 +1,19 @@
+{
+  "name": "vacuum",
+  "category": "home",
+  "description": "An upright vacuum with a narrow body and broad floor head.",
+  "tags": ["vacuum", "cleaning", "appliance"],
+  "directional": false,
+  "useCase": "Identify vacuum cleaners or a cleaning equipment category.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A tall motor body separates the vacuum silhouette from a simple brush or plunger."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The taller tank and broad floor head stay balanced around the short upper handle."
+    }
+  }
+}
