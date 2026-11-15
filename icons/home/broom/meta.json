@@ -1,0 +1,19 @@
+{
+  "name": "broom",
+  "category": "home",
+  "description": "A broom with a long handle and flared bristles.",
+  "tags": ["broom", "cleaning", "tool"],
+  "directional": false,
+  "useCase": "Identify sweeping supplies or cleaning tasks.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One central strand keeps the small flared broom head open."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Two separated strands divide the larger bristle head into broad sections."
+    }
+  }
+}
