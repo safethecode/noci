@@ -1,0 +1,19 @@
+{
+  "name": "dishwasher",
+  "category": "home",
+  "description": "A dishwasher with plates resting in a rack.",
+  "tags": ["dishwasher", "kitchen", "appliance"],
+  "directional": false,
+  "useCase": "Identify a dishwasher amenity or kitchen appliance category.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two open plate curves sit on a rack without a cramped control strip."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger front panel adds a clear control strip above the plate rack."
+    }
+  }
+}
