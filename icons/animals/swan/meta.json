@@ -1,0 +1,19 @@
+{
+  "name": "swan",
+  "category": "animals",
+  "description": "A swan or a waterfowl collection.",
+  "tags": ["swan", "waterfowl", "bird"],
+  "directional": false,
+  "useCase": "A swan or a waterfowl collection.",
+  "misuse": "Use a visible label when a bird identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The curved neck stays open above a low body and raised tail."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A longer neck curve keeps the head separate from the body."
+    }
+  }
+}
