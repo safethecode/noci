@@ -1,0 +1,19 @@
+{
+  "name": "kiwi",
+  "category": "animals",
+  "description": "A kiwi bird or flightless birds.",
+  "tags": ["kiwi", "flightless", "bird"],
+  "directional": false,
+  "useCase": "A kiwi bird or flightless birds.",
+  "misuse": "Use a visible label when a bird identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A rounded body, long bill and two short legs define the small flightless bird."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "An inset eye stays clear of the rounded head above the long bill."
+    }
+  }
+}
