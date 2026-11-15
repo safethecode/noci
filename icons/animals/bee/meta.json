@@ -1,0 +1,19 @@
+{
+  "name": "bee",
+  "category": "animals",
+  "description": "A bee with a striped abdomen and two visible wings.",
+  "tags": ["bee", "pollinator", "insect"],
+  "directional": false,
+  "useCase": "Identify bees, pollination or beekeeping activities.",
+  "misuse": "Use a visible label when this animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two broad wings and one body band keep the small bee clear without facial marks."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Two separated body bands and a larger head retain the striped abdomen."
+    }
+  }
+}
