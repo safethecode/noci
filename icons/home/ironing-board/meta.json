@@ -1,0 +1,19 @@
+{
+  "name": "ironing-board",
+  "category": "home",
+  "description": "An ironing board with crossed supports.",
+  "tags": ["ironing", "laundry", "furniture"],
+  "directional": false,
+  "useCase": "Identify an ironing board amenity or laundry equipment.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad thin board sits above the two crossed supports."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider board retains a rounded end and an open folding stand."
+    }
+  }
+}
