@@ -1,0 +1,19 @@
+{
+  "name": "blender",
+  "category": "home",
+  "description": "A blender with a tapered jug and broad motor base.",
+  "tags": ["blender", "kitchen", "appliance"],
+  "directional": false,
+  "useCase": "Identify a blender amenity or food preparation appliance.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A tapered jug sits directly on the broad base without cramped controls."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger jug adds one open handle beside the motor base."
+    }
+  }
+}
