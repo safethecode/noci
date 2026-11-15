@@ -1,0 +1,19 @@
+{
+  "name": "cutting-board",
+  "category": "food",
+  "description": "A cutting board with a hanging hole and one cut mark.",
+  "tags": ["board", "cutting", "utensil"],
+  "directional": false,
+  "useCase": "Identify cutting boards or food preparation surfaces.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One hanging hole and a broad cut mark stay clear inside the rounded board."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger board leaves room around the hanging hole and cut mark."
+    }
+  }
+}
