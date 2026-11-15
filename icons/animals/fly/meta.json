@@ -1,0 +1,19 @@
+{
+  "name": "fly",
+  "category": "animals",
+  "description": "A fly with two broad wings and six legs.",
+  "tags": ["fly", "pest", "insect"],
+  "directional": false,
+  "useCase": "Identify flies or household insect control.",
+  "misuse": "Use a visible label when this animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The front and middle legs emerge from behind the wing edges, with a separate rear pair below."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Six leg ends remain distinct around the open head and two broad wings, with their upper parts hidden behind the wings."
+    }
+  }
+}
