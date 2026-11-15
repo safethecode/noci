@@ -1,0 +1,19 @@
+{
+  "name": "garlic",
+  "category": "food",
+  "description": "A garlic bulb with three broad cloves and a short neck.",
+  "tags": ["garlic", "vegetable", "ingredient"],
+  "directional": false,
+  "useCase": "Identify garlic in recipes, groceries or ingredient lists.",
+  "misuse": "Use a visible label when a fruit or vegetable identifies an ingredient, product or dietary choice.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two clove boundaries meet the flat base and keep the center clove open."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger bulb retains three broad cloves beneath its short neck."
+    }
+  }
+}
