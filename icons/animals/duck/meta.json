@@ -1,0 +1,19 @@
+{
+  "name": "duck",
+  "category": "animals",
+  "description": "A duck or waterfowl care.",
+  "tags": ["duck", "waterfowl", "bird"],
+  "directional": false,
+  "useCase": "A duck or waterfowl care.",
+  "misuse": "Use a visible label when a bird identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad bill and low body identify the duck without an extra wing stroke."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger head has room for one eye above the broad bill."
+    }
+  }
+}
