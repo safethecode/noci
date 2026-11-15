@@ -1,0 +1,19 @@
+{
+  "name": "mantis",
+  "category": "animals",
+  "description": "A praying mantis with folded forelegs.",
+  "tags": ["mantis", "garden", "insect"],
+  "directional": false,
+  "useCase": "Identify praying mantises or predatory garden insects.",
+  "misuse": "Use a visible label when this animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A wider triangular head and open foreleg folds keep the face and six legs readable."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The broad head and spaced limb ends keep the full mantis silhouette clear."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "moth",
+  "category": "animals",
+  "description": "A moth with angular folded wings.",
+  "tags": ["moth", "nocturnal", "insect"],
+  "directional": false,
+  "useCase": "Identify moth observations or nocturnal wildlife.",
+  "misuse": "Use a visible label when this animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Angular folded wings and a tapered body distinguish the moth silhouette."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The broad angular wings remain distinct from the rounded butterfly wings."
+    }
+  }
+}

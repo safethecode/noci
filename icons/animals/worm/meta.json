@@ -1,0 +1,19 @@
+{
+  "name": "worm",
+  "category": "animals",
+  "description": "A worm with a winding body.",
+  "tags": ["worm", "soil", "animal"],
+  "directional": false,
+  "useCase": "Identify worms, soil wildlife or composting activities.",
+  "misuse": "Use a visible label when this animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A single winding outline keeps the rounded body continuous."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider bends retain an open channel through the winding body."
+    }
+  }
+}

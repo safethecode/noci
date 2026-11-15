@@ -1,0 +1,19 @@
+{
+  "name": "butterfly",
+  "category": "animals",
+  "description": "A butterfly with four rounded wings.",
+  "tags": ["butterfly", "pollinator", "insect"],
+  "directional": false,
+  "useCase": "Identify butterfly observations or pollinator habitats.",
+  "misuse": "Use a visible label when this animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Rounded upper and lower wings join a slim body below two antennae."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Wider wing lobes keep their open spaces beside the central body."
+    }
+  }
+}

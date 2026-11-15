@@ -1,0 +1,19 @@
+{
+  "name": "grasshopper",
+  "category": "animals",
+  "description": "A grasshopper with a long folded hind leg.",
+  "tags": ["grasshopper", "jump", "insect"],
+  "directional": false,
+  "useCase": "Identify grasshoppers or grassland wildlife.",
+  "misuse": "Use a visible label when this animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete hind leg meets the body edge and leaves an open body compartment and separate feet."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The folded hind leg leaves a broad body opening and a clear gap between the middle and rear feet."
+    }
+  }
+}

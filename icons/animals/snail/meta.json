@@ -1,0 +1,19 @@
+{
+  "name": "snail",
+  "category": "animals",
+  "description": "A snail with a coiled shell and two raised tentacles.",
+  "tags": ["snail", "shell", "garden"],
+  "directional": false,
+  "useCase": "Identify snails or small garden wildlife.",
+  "misuse": "Use a visible label when this animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad spiral and two splayed eye stalks stay clear above the foot."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The taller shell leaves room for separate eye stalks rooted on the head."
+    }
+  }
+}
