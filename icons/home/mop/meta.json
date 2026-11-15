@@ -1,0 +1,19 @@
+{
+  "name": "mop",
+  "category": "home",
+  "description": "A mop with four loose strands beneath a long handle.",
+  "tags": ["mop", "cleaning", "tool"],
+  "directional": false,
+  "useCase": "Identify mops or wet floor cleaning equipment.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Four loose curves stay visibly separate below the handle bar."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger mop keeps broad gaps between its loose strands."
+    }
+  }
+}
