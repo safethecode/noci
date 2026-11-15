@@ -1,0 +1,19 @@
+{
+  "name": "cucumber",
+  "category": "food",
+  "description": "A curved cucumber with three small skin marks.",
+  "tags": ["cucumber", "vegetable", "ingredient"],
+  "directional": false,
+  "useCase": "Identify cucumbers in recipes, groceries or produce selections.",
+  "misuse": "Use a visible label when a fruit or vegetable identifies an ingredient, product or dietary choice.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three separated skin marks follow the diagonal body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger body leaves clear space around each of its three skin marks."
+    }
+  }
+}
