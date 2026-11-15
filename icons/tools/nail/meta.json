@@ -1,0 +1,19 @@
+{
+  "name": "nail",
+  "category": "tools",
+  "description": "A nail with a round head and a long straight shaft.",
+  "tags": ["nail", "fastener", "hardware"],
+  "directional": false,
+  "useCase": "Identify nails or nail fastening steps in assembly instructions.",
+  "misuse": "Use a visible label when a tool identifies equipment, a product or an instruction.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The shallow round head stays open above the long straight shaft."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger head forms an open disc above the full shaft."
+    }
+  }
+}

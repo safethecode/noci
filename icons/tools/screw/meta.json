@@ -1,0 +1,19 @@
+{
+  "name": "screw",
+  "category": "tools",
+  "description": "A screw with a flat head and two diagonal thread turns.",
+  "tags": ["screw", "fastener", "hardware"],
+  "directional": false,
+  "useCase": "Identify screws or threaded fasteners in assembly instructions.",
+  "misuse": "Use a visible label when a tool identifies equipment, a product or an instruction.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two separated thread turns cross the long shaft below the flat head."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger shaft keeps broad gaps between the two thread turns."
+    }
+  }
+}

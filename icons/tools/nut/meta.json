@@ -1,0 +1,19 @@
+{
+  "name": "nut",
+  "category": "tools",
+  "description": "A hexagonal nut with a round central opening.",
+  "tags": ["nut", "fastener", "hardware"],
+  "directional": false,
+  "useCase": "Identify nuts or threaded fastening parts in assembly instructions.",
+  "misuse": "Use a visible label when a tool identifies equipment, a product or an instruction.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad hexagonal rim stays clear around one open circular hole."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger hole remains separate from every side of the hexagonal rim."
+    }
+  }
+}

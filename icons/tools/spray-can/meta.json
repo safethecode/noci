@@ -1,0 +1,19 @@
+{
+  "name": "spray-can",
+  "category": "tools",
+  "description": "An aerosol spray can with a raised nozzle and short label line.",
+  "tags": ["spray", "paint", "tool"],
+  "directional": false,
+  "useCase": "Identify aerosol spray cans or spray painting supplies.",
+  "misuse": "Use a visible label when a tool identifies equipment, a product or an instruction.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The raised nozzle stays open above one broad can body and a short label line."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger nozzle and can body retain clear openings around their shared shoulder."
+    }
+  }
+}

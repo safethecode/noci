@@ -1,0 +1,19 @@
+{
+  "name": "car-jack",
+  "category": "tools",
+  "description": "A scissor car jack with crossed lift arms and a central screw.",
+  "tags": ["jack", "vehicle", "tool"],
+  "directional": false,
+  "useCase": "Identify car jacks or vehicle lifting equipment.",
+  "misuse": "Use a visible label when a tool identifies equipment, a product or an instruction.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two broad arm openings remain clear above and below the horizontal screw."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger scissor frame stays open between the top saddle and lower foot."
+    }
+  }
+}

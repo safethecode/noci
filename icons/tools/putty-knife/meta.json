@@ -1,0 +1,19 @@
+{
+  "name": "putty-knife",
+  "category": "tools",
+  "description": "A putty knife with a broad blade, narrow neck and short handle.",
+  "tags": ["putty", "scraping", "tool"],
+  "directional": false,
+  "useCase": "Identify putty knives or surface filling and scraping tools.",
+  "misuse": "Use a visible label when a tool identifies equipment, a product or an instruction.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The wide blade narrows into one open neck above the handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger blade and handle retain broad openings around their shared neck."
+    }
+  }
+}

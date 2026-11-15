@@ -1,0 +1,19 @@
+{
+  "name": "welding-mask",
+  "category": "tools",
+  "description": "A welding mask with a broad shield and open rectangular viewing window.",
+  "tags": ["welding", "protection", "tool"],
+  "directional": false,
+  "useCase": "Identify welding masks or face protection equipment.",
+  "misuse": "Use a visible label when a tool identifies equipment, a product or an instruction.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The viewing window remains open and clear of the shield edges."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger shield leaves broad space around the rectangular viewing window."
+    }
+  }
+}

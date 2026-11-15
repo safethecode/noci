@@ -1,0 +1,19 @@
+{
+  "name": "clamp",
+  "category": "tools",
+  "description": "A C clamp with an open frame, screw and turning handle.",
+  "tags": ["clamp", "workshop", "tool"],
+  "directional": false,
+  "useCase": "Identify clamps or workpiece holding equipment.",
+  "misuse": "Use a visible label when a tool identifies equipment, a product or an instruction.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The screw pad stays clear below the upper jaw, with the handle below the frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger frame leaves open space around the screw and turning handle."
+    }
+  }
+}

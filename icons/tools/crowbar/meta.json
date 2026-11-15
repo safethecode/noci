@@ -1,0 +1,19 @@
+{
+  "name": "crowbar",
+  "category": "tools",
+  "description": "A crowbar with a long diagonal shaft and two bent ends.",
+  "tags": ["crowbar", "prying", "tool"],
+  "directional": false,
+  "useCase": "Identify crowbars or demolition hand tools.",
+  "misuse": "Use a visible label when a tool identifies equipment, a product or an instruction.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two short bends remain visible at opposite ends of the long shaft."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger shaft keeps both prying ends within the common square frame."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "hex-key",
+  "category": "tools",
+  "description": "A hex key with two arms meeting at a right angle.",
+  "tags": ["hex-key", "fastener", "tool"],
+  "directional": false,
+  "useCase": "Identify hex keys or furniture assembly tools.",
+  "misuse": "Use a visible label when a tool identifies equipment, a product or an instruction.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both arms stay open through the broad elbow of the key."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger key keeps a clear continuous opening along both arms."
+    }
+  }
+}

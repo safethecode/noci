@@ -1,0 +1,19 @@
+{
+  "name": "hacksaw",
+  "category": "tools",
+  "description": "A hacksaw with an arched frame, straight blade and open handle.",
+  "tags": ["hacksaw", "cutting", "tool"],
+  "directional": false,
+  "useCase": "Identify hacksaws or metal cutting hand tools.",
+  "misuse": "Use a visible label when a tool identifies equipment, a product or an instruction.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The blade meets the side of the open handle below one broad frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger frame keeps the blade and handle opening distinct."
+    }
+  }
+}

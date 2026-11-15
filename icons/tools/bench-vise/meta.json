@@ -1,0 +1,19 @@
+{
+  "name": "bench-vise",
+  "category": "tools",
+  "description": "A bench vise with two open jaws, a screw handle and a broad pedestal.",
+  "tags": ["vise", "workshop", "tool"],
+  "directional": false,
+  "useCase": "Identify bench vises or fixed workpiece holding equipment.",
+  "misuse": "Use a visible label when a tool identifies equipment, a product or an instruction.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The separated jaws and screw handle remain clear above the pedestal."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger jaws stay open beside the external screw handle."
+    }
+  }
+}
