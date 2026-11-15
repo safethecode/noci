@@ -1,0 +1,19 @@
+{
+  "name": "scorpion",
+  "category": "animals",
+  "description": "A scorpion in side profile, with a curled tail and an open pincer.",
+  "tags": ["scorpion", "arachnid", "animal"],
+  "directional": false,
+  "useCase": "Identify scorpions or desert arachnids.",
+  "misuse": "Use a visible label when this animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The raised open pincer clears the body and joins it through a complete bent arm."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A higher pincer keeps its full opening clear of the body and removes the small crossing at the joint."
+    }
+  }
+}
