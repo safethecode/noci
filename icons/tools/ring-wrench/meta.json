@@ -1,0 +1,19 @@
+{
+  "name": "ring-wrench",
+  "category": "tools",
+  "description": "A ring wrench with an enclosed hexagonal head and a bent handle.",
+  "tags": ["wrench", "spanner", "tool"],
+  "directional": false,
+  "useCase": "Identify ring wrenches or enclosed-head fastening tools.",
+  "misuse": "Use a visible label when a tool identifies equipment, a product or an instruction.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One broad hexagonal head opening stays clear above the bent handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger ring head retains a broad opening beside the full handle."
+    }
+  }
+}
