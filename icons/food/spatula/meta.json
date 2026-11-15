@@ -1,0 +1,19 @@
+{
+  "name": "spatula",
+  "category": "food",
+  "description": "A slotted spatula with a broad head and straight handle.",
+  "tags": ["spatula", "cooking", "utensil"],
+  "directional": false,
+  "useCase": "Identify spatulas or food turning tools.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One long slot keeps the small head open above the handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Two separated slots fit within the larger spatula head."
+    }
+  }
+}
