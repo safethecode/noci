@@ -1,0 +1,19 @@
+{
+  "name": "tongs",
+  "category": "food",
+  "description": "A pair of food tongs with two rounded gripping paddles.",
+  "tags": ["tongs", "cooking", "utensil"],
+  "directional": false,
+  "useCase": "Identify food tongs or gripping utensils.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two open paddles join the long arms above the lower hinge."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger gripping paddles retain broad openings above the two arms."
+    }
+  }
+}
