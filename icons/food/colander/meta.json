@@ -1,0 +1,19 @@
+{
+  "name": "colander",
+  "category": "food",
+  "description": "A colander with side handles and two drain holes.",
+  "tags": ["colander", "draining", "utensil"],
+  "directional": false,
+  "useCase": "Identify colanders or food draining tools.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two clear drain marks sit inside a broad bowl below the side handles."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger bowl keeps the drain marks clear of the rim and sides."
+    }
+  }
+}
