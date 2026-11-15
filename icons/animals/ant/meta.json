@@ -1,0 +1,19 @@
+{
+  "name": "ant",
+  "category": "animals",
+  "description": "An ant with three body sections and six legs.",
+  "tags": ["ant", "colony", "insect"],
+  "directional": false,
+  "useCase": "Identify ant observations, colonies or pest control.",
+  "misuse": "Use a visible label when this animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A narrow middle body spaces six legs without crowding the full head or wider abdomen."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The slim middle body and broad abdomen preserve three distinct sections with six separate leg ends."
+    }
+  }
+}
