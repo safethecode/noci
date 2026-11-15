@@ -1,0 +1,19 @@
+{
+  "name": "grater",
+  "category": "food",
+  "description": "A box grater with a loop handle and two cutting holes.",
+  "tags": ["grater", "cooking", "utensil"],
+  "directional": false,
+  "useCase": "Identify graters or food shredding tools.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two diagonally placed holes stay clear inside the box below the loop handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger grater leaves room around its handle and cutting marks."
+    }
+  }
+}
