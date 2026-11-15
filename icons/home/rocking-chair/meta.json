@@ -1,0 +1,19 @@
+{
+  "name": "rocking-chair",
+  "category": "home",
+  "description": "A rocking chair in side profile.",
+  "tags": ["rocking", "chair", "furniture"],
+  "directional": false,
+  "useCase": "Identify a rocking chair or a nursery seating amenity.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A sloped back and two supports sit on one curved rocker."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger profile keeps the rocker visibly curved beneath the seat."
+    }
+  }
+}

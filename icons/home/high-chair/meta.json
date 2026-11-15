@@ -1,0 +1,19 @@
+{
+  "name": "high-chair",
+  "category": "home",
+  "description": "A child high chair with a tray and footrest.",
+  "tags": ["high-chair", "child", "seat"],
+  "directional": false,
+  "useCase": "Identify high chair availability in a dining or accommodation listing.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad tray and low footrest sit below the small backrest."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger tray and footrest stay separate between the tall splayed legs."
+    }
+  }
+}

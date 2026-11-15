@@ -1,0 +1,19 @@
+{
+  "name": "dustpan",
+  "category": "home",
+  "description": "A dustpan with an open handle above a wide scoop.",
+  "tags": ["dustpan", "cleaning", "tool"],
+  "directional": false,
+  "useCase": "Identify dustpans or sweeping equipment.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad scoop sits below one clear loop handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger scoop and loop handle retain open counters."
+    }
+  }
+}

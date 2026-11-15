@@ -1,0 +1,19 @@
+{
+  "name": "bench",
+  "category": "home",
+  "description": "A bench with a wide backrest and seat.",
+  "tags": ["bench", "seat", "furniture"],
+  "directional": false,
+  "useCase": "Identify shared seating in a venue, garden or furniture catalogue.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The wide backrest and full-width seat distinguish the bench from a single chair."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger bench keeps a broad seat and two continuous leg supports."
+    }
+  }
+}

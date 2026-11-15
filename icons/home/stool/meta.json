@@ -1,0 +1,19 @@
+{
+  "name": "stool",
+  "category": "home",
+  "description": "A stool with a broad seat and splayed legs.",
+  "tags": ["stool", "seat", "furniture"],
+  "directional": false,
+  "useCase": "Identify stool seating or a furniture product category.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A low rounded seat sits above two splayed legs and one cross brace."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger seat and longer legs retain the open space above the brace."
+    }
+  }
+}

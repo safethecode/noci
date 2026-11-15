@@ -1,0 +1,19 @@
+{
+  "name": "soap-dispenser",
+  "category": "home",
+  "description": "A soap dispenser with a pump and broad bottle.",
+  "tags": ["soap", "bathroom", "dispenser"],
+  "directional": false,
+  "useCase": "Identify a soap dispenser or hand washing supplies.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A centered pump stem and clear nozzle sit above the broad bottle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger centered pump leaves clear space below the nozzle."
+    }
+  }
+}

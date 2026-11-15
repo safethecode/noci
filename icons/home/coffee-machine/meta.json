@@ -1,0 +1,19 @@
+{
+  "name": "coffee-machine",
+  "category": "home",
+  "description": "A coffee machine with a spout above a small cup.",
+  "tags": ["coffee-machine", "coffee", "appliance"],
+  "directional": false,
+  "useCase": "Identify a coffee machine amenity or a coffee preparation appliance.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A small cup stays clear below the spout and above the machine base."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger cup leaves clear gaps below the spout and above the drip tray."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "stove",
+  "category": "home",
+  "description": "A cooking hob with four burner rings.",
+  "tags": ["stove", "hob", "kitchen"],
+  "directional": false,
+  "useCase": "Identify a stove or cooking hob amenity.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Four burner rings fill the small square without an extra enclosing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger hob adds a frame around four clear burner rings."
+    }
+  }
+}

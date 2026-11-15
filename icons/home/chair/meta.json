@@ -1,0 +1,19 @@
+{
+  "name": "chair",
+  "category": "home",
+  "description": "A dining chair with a backrest and two visible legs.",
+  "tags": ["chair", "seat", "furniture"],
+  "directional": false,
+  "useCase": "Identify seating availability or a chair product category.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The backrest and seat remain separate between two continuous supports."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A wider seat and backrest leave open space around the front legs."
+    }
+  }
+}

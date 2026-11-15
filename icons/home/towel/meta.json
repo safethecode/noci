@@ -1,0 +1,19 @@
+{
+  "name": "towel",
+  "category": "home",
+  "description": "A towel hanging over a short rail.",
+  "tags": ["towel", "bathroom", "linen"],
+  "directional": false,
+  "useCase": "Identify towel availability or a bath linen product category.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The rail stops at the towel edges, leaving the hanging fabric clear."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger towel keeps one separated hem line near the lower edge."
+    }
+  }
+}

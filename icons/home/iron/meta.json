@@ -1,0 +1,19 @@
+{
+  "name": "iron",
+  "category": "home",
+  "description": "A clothes iron with an open handle and pointed sole.",
+  "tags": ["iron", "laundry", "appliance"],
+  "directional": false,
+  "useCase": "Identify an iron amenity or garment care tool.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "An open handle sits above the pointed sole without small internal controls."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger sole and handle keep their open counters."
+    }
+  }
+}
