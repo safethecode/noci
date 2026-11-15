@@ -1,0 +1,19 @@
+{
+  "name": "turkey",
+  "category": "animals",
+  "description": "A turkey or poultry care.",
+  "tags": ["turkey", "poultry", "bird"],
+  "directional": false,
+  "useCase": "A turkey or poultry care.",
+  "misuse": "Use a visible label when a bird identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A scalloped fan sits behind a rounded body with a small head and two clear legs."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger side profile keeps the fan, small head and short legs distinct without decorative rays."
+    }
+  }
+}

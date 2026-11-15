@@ -1,0 +1,19 @@
+{
+  "name": "rooster",
+  "category": "animals",
+  "description": "A rooster or poultry care.",
+  "tags": ["rooster", "comb", "poultry"],
+  "directional": false,
+  "useCase": "A rooster or poultry care.",
+  "misuse": "Use a visible label when a bird identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The comb, beak and curved neck feathers distinguish the small head profile."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A lower eye stays clear of the comb and beak, while curved neck feathers join the profile."
+    }
+  }
+}

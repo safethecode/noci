@@ -1,0 +1,19 @@
+{
+  "name": "owl",
+  "category": "animals",
+  "description": "An owl or nocturnal wildlife.",
+  "tags": ["owl", "nocturnal", "bird"],
+  "directional": false,
+  "useCase": "An owl or nocturnal wildlife.",
+  "misuse": "Use a visible label when a bird identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Filled eyes and a raised beak keep the small owl face open."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The raised central brow keeps both open facial discs clear of the head outline."
+    }
+  }
+}

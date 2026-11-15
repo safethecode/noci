@@ -1,0 +1,19 @@
+{
+  "name": "chicken",
+  "category": "animals",
+  "description": "A hen or poultry care.",
+  "tags": ["chicken", "hen", "poultry"],
+  "directional": false,
+  "useCase": "A hen or poultry care.",
+  "misuse": "Use a visible label when a bird identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A rounded body, small head and two short legs make a compact hen silhouette."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider body leaves clear space between the two legs."
+    }
+  }
+}

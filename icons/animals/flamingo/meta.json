@@ -1,0 +1,19 @@
+{
+  "name": "flamingo",
+  "category": "animals",
+  "description": "A flamingo or wading birds.",
+  "tags": ["flamingo", "wader", "bird"],
+  "directional": false,
+  "useCase": "A flamingo or wading birds.",
+  "misuse": "Use a visible label when a bird identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A bent bill and one folded leg distinguish the small wading bird."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The curved neck stays separate from the folded leg and body."
+    }
+  }
+}

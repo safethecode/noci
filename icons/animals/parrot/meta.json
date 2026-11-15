@@ -1,0 +1,19 @@
+{
+  "name": "parrot",
+  "category": "animals",
+  "description": "A parrot or pet bird care.",
+  "tags": ["parrot", "pet", "bird"],
+  "directional": false,
+  "useCase": "A parrot or pet bird care.",
+  "misuse": "Use a visible label when a bird identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A short open wing curve sits inside the folded body below the hooked bill."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A higher eye and lower wing curve keep the face, bill and wing distinct."
+    }
+  }
+}

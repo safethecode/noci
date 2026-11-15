@@ -1,0 +1,19 @@
+{
+  "name": "hummingbird",
+  "category": "animals",
+  "description": "A hummingbird or nectar-feeding birds.",
+  "tags": ["hummingbird", "hover", "bird"],
+  "directional": false,
+  "useCase": "A hummingbird or nectar-feeding birds.",
+  "misuse": "Use a visible label when a bird identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A long bill, raised wing and tapered tail define the hovering silhouette."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger wing and forked tail keep their open spaces."
+    }
+  }
+}

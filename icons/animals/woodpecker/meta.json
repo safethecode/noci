@@ -1,0 +1,19 @@
+{
+  "name": "woodpecker",
+  "category": "animals",
+  "description": "A woodpecker climbing a tree.",
+  "tags": ["woodpecker", "tree", "bird"],
+  "directional": false,
+  "useCase": "A woodpecker climbing a tree.",
+  "misuse": "Use a visible label when a bird identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The rounded head stays clear while the beak and foot touch the trunk."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The rounded head leaves clear space around one eye while the beak and foot meet the trunk."
+    }
+  }
+}
