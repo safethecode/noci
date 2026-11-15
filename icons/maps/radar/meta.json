@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The smaller inner ring leaves a clear gap around the return marker at text size."
+      "reason": "One outer ring leaves room for a distinct return marker beside the complete sweep."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The return marker sits between the rings without touching their contours."
+      "reason": "An open inner ring and separated return marker keep the full radar sweep clear."
     }
   }
 }
