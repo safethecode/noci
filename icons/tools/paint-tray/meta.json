@@ -1,0 +1,19 @@
+{
+  "name": "paint-tray",
+  "category": "tools",
+  "description": "A paint tray with a broad paint well and two ramp ribs.",
+  "tags": ["paint", "tray", "tool"],
+  "directional": false,
+  "useCase": "Identify paint trays or roller painting equipment.",
+  "misuse": "Use a visible label when a tool identifies equipment, a product or an instruction.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two short ramp ribs stay separate below the open paint well."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger tray keeps the paint well and two ramp ribs clear."
+    }
+  }
+}
