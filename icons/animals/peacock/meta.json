@@ -1,0 +1,19 @@
+{
+  "name": "peacock",
+  "category": "animals",
+  "description": "A peacock with its tail displayed.",
+  "tags": ["peacock", "fan", "bird"],
+  "directional": false,
+  "useCase": "A peacock with its tail displayed.",
+  "misuse": "Use a visible label when a bird identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A scalloped fan surrounds a clear bird profile with a small beak and crown."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A scalloped fan surrounds a clear bird profile with a small beak and crown."
+    }
+  }
+}
