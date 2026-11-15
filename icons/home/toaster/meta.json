@@ -1,0 +1,19 @@
+{
+  "name": "toaster",
+  "category": "home",
+  "description": "A toaster with a raised slice of bread and a side lever.",
+  "tags": ["toaster", "bread", "appliance"],
+  "directional": false,
+  "useCase": "Identify a toaster amenity or kitchen appliance.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A tall bread slice remains open above the rounded toaster body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger bread slice and side lever retain clear space within the body."
+    }
+  }
+}
