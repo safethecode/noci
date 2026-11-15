@@ -1,0 +1,19 @@
+{
+  "name": "caterpillar",
+  "category": "animals",
+  "description": "A caterpillar with a scalloped body and a raised head.",
+  "tags": ["caterpillar", "larva", "insect"],
+  "directional": false,
+  "useCase": "Identify caterpillars or insect growth stages.",
+  "misuse": "Use a visible label when this animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A scalloped body, raised head and short legs distinguish the larva from a worm."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger scalloped back retains clear body segments and a raised head."
+    }
+  }
+}
