@@ -1,0 +1,19 @@
+{
+  "name": "ostrich",
+  "category": "animals",
+  "description": "An ostrich or flightless birds.",
+  "tags": ["ostrich", "flightless", "bird"],
+  "directional": false,
+  "useCase": "An ostrich or flightless birds.",
+  "misuse": "Use a visible label when a bird identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A long neck and two long legs remain distinct around a compact body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The curved neck and splayed legs balance the wider body."
+    }
+  }
+}
