@@ -1,0 +1,19 @@
+{
+  "name": "folding-chair",
+  "category": "home",
+  "description": "A folding chair with a compact backrest and crossed supports.",
+  "tags": ["folding", "chair", "furniture"],
+  "directional": false,
+  "useCase": "Identify portable seating or folding furniture.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A shallow backrest leaves room for the open folding frame below the seat."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Crossed supports stay clear below the broad seat and backrest."
+    }
+  }
+}
