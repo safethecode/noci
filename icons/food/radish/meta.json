@@ -1,0 +1,19 @@
+{
+  "name": "radish",
+  "category": "food",
+  "description": "A radish with a tapered root and three open leaves.",
+  "tags": ["radish", "vegetable", "ingredient"],
+  "directional": false,
+  "useCase": "Identify radishes in recipes, groceries or produce selections.",
+  "misuse": "Use a visible label when a fruit or vegetable identifies an ingredient, product or dietary choice.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad pointed root stays open beneath three separated leaf tips."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger root keeps the leaf stems clear above its tapered body."
+    }
+  }
+}

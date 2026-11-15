@@ -1,0 +1,19 @@
+{
+  "name": "mango",
+  "category": "food",
+  "description": "A mango with a curved tapered body and one inner contour.",
+  "tags": ["mango", "fruit", "ingredient"],
+  "directional": false,
+  "useCase": "Identify mangoes in recipes, produce lists or drinks.",
+  "misuse": "Use a visible label when a fruit or vegetable identifies an ingredient, product or dietary choice.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One inner curve follows the broad tapered body without a narrow closed compartment."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger inner contour stays clear of the skin around both ends."
+    }
+  }
+}

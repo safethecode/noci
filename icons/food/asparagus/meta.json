@@ -1,0 +1,19 @@
+{
+  "name": "asparagus",
+  "category": "food",
+  "description": "An asparagus spear with a layered pointed tip and broad stalk.",
+  "tags": ["asparagus", "vegetable", "ingredient"],
+  "directional": false,
+  "useCase": "Identify asparagus in recipes, groceries or produce selections.",
+  "misuse": "Use a visible label when a fruit or vegetable identifies an ingredient, product or dietary choice.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One broad tip fold leaves an open stalk beneath it."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger spear keeps its pointed crown and lower stalk open."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "pumpkin",
+  "category": "food",
+  "description": "A pumpkin with three broad lobes and a bent stem.",
+  "tags": ["pumpkin", "vegetable", "ingredient"],
+  "directional": false,
+  "useCase": "Identify pumpkins in recipes, produce lists or seasonal foods.",
+  "misuse": "Use a visible label when a fruit or vegetable identifies an ingredient, product or dietary choice.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two lobe boundaries open into a wide base below the bent stem."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pumpkin keeps all three lobes open around the stem joint."
+    }
+  }
+}

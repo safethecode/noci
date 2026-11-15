@@ -1,0 +1,19 @@
+{
+  "name": "artichoke",
+  "category": "food",
+  "description": "An artichoke with overlapping pointed leaves and a short stem.",
+  "tags": ["artichoke", "vegetable", "ingredient"],
+  "directional": false,
+  "useCase": "Identify artichokes in produce lists, recipes or groceries.",
+  "misuse": "Use a visible label when a fruit or vegetable identifies an ingredient, product or dietary choice.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three broad leaf regions stay open above the short stem."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger artichoke keeps the pointed upper leaves clear of the lower band."
+    }
+  }
+}

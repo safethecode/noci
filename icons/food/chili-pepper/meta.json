@@ -1,0 +1,19 @@
+{
+  "name": "chili-pepper",
+  "category": "food",
+  "description": "A curved chili pepper with a pointed tip and bent stem.",
+  "tags": ["chili", "pepper", "ingredient"],
+  "directional": false,
+  "useCase": "Identify chili peppers in recipes, groceries or spice choices.",
+  "misuse": "Use a visible label when a fruit or vegetable identifies an ingredient, product or dietary choice.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The curved body tapers to one clear point below the bent stem."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pepper retains its open curved body and pointed tip."
+    }
+  }
+}

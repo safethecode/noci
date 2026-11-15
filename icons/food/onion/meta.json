@@ -1,0 +1,19 @@
+{
+  "name": "onion",
+  "category": "food",
+  "description": "An onion with a pointed neck and one curved inner layer.",
+  "tags": ["onion", "vegetable", "ingredient"],
+  "directional": false,
+  "useCase": "Identify onions in recipes, groceries or produce lists.",
+  "misuse": "Use a visible label when a fruit or vegetable identifies an ingredient, product or dietary choice.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One broad inner curve stays clear of the outer bulb below the pointed neck."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger inner layer remains open beneath the neck and above the base."
+    }
+  }
+}

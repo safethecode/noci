@@ -1,0 +1,19 @@
+{
+  "name": "coconut",
+  "category": "food",
+  "description": "A coconut half with an oval cut face and three short shell fibers.",
+  "tags": ["coconut", "fruit", "ingredient"],
+  "directional": false,
+  "useCase": "Identify coconut ingredients, drinks or grocery products.",
+  "misuse": "Use a visible label when a fruit or vegetable identifies an ingredient, product or dietary choice.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three attached shell fibers distinguish the coconut from a smooth bowl."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger cut face stays open above the fibrous rounded shell."
+    }
+  }
+}

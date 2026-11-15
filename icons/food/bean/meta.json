@@ -1,0 +1,19 @@
+{
+  "name": "bean",
+  "category": "food",
+  "description": "A bean with a broad curved body and inward notch.",
+  "tags": ["bean", "legume", "ingredient"],
+  "directional": false,
+  "useCase": "Identify beans in recipes, groceries or protein ingredients.",
+  "misuse": "Use a visible label when a fruit or vegetable identifies an ingredient, product or dietary choice.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One broad kidney shape stays open around the inward notch."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger bean retains a gentle inward curve without a small inner mark."
+    }
+  }
+}

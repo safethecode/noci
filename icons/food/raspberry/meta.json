@@ -1,0 +1,19 @@
+{
+  "name": "raspberry",
+  "category": "food",
+  "description": "A raspberry with a tapered scalloped body, three berry rows and two leaves.",
+  "tags": ["raspberry", "fruit", "ingredient"],
+  "directional": false,
+  "useCase": "Identify raspberries in groceries, recipes or fruit choices.",
+  "misuse": "Use a visible label when a fruit or vegetable identifies an ingredient, product or dietary choice.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three shallow berry rows stay open within the tapered scalloped outline."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger berry keeps broad openings between its three curved rows."
+    }
+  }
+}
