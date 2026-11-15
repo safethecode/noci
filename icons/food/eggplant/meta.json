@@ -1,0 +1,19 @@
+{
+  "name": "eggplant",
+  "category": "food",
+  "description": "An eggplant with a curved body, pointed cap and long stem.",
+  "tags": ["eggplant", "vegetable", "ingredient"],
+  "directional": false,
+  "useCase": "Identify eggplants in produce lists, recipes or groceries.",
+  "misuse": "Use a visible label when a fruit or vegetable identifies an ingredient, product or dietary choice.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The curved body and pointed cap form a broad open silhouette below the stem."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger body keeps its pointed cap clear beside the long stem."
+    }
+  }
+}
