@@ -1,0 +1,19 @@
+{
+  "name": "frying-pan",
+  "category": "food",
+  "description": "A shallow frying pan in side profile with a raised handle.",
+  "tags": ["pan", "cooking", "utensil"],
+  "directional": false,
+  "useCase": "Identify frying pans or pan cooking equipment.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A shallow bowl and raised handle distinguish the pan from a round lens or scoop."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pan keeps its flat base and raised side handle clear."
+    }
+  }
+}
