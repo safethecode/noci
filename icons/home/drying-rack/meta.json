@@ -1,0 +1,19 @@
+{
+  "name": "drying-rack",
+  "category": "home",
+  "description": "A drying rack with fabric hanging between two floor supports.",
+  "tags": ["drying", "laundry", "rack"],
+  "directional": false,
+  "useCase": "Identify a portable drying rack or laundry drying amenity.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The hanging fabric stays separate from two floor supports."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger rack keeps the rail behind the fabric and its supports outside it."
+    }
+  }
+}
