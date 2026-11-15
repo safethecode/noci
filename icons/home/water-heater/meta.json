@@ -1,0 +1,19 @@
+{
+  "name": "water-heater",
+  "category": "home",
+  "description": "A water heater with a round control and two lower pipes.",
+  "tags": ["water-heater", "hot-water", "appliance"],
+  "directional": false,
+  "useCase": "Identify a water heater or hot water equipment.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A single round control sits between the tank outline and two attached pipes."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger tank leaves clear space around the control ring."
+    }
+  }
+}
