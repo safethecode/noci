@@ -1,0 +1,19 @@
+{
+  "name": "pepper-mill",
+  "category": "food",
+  "description": "A pepper mill with a rounded top and narrow waist.",
+  "tags": ["pepper", "mill", "seasoning"],
+  "directional": false,
+  "useCase": "Identify pepper mills or seasoning equipment.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A narrow waist connects the rounded top to the flared base."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger mill keeps the continuous body open below the top knob."
+    }
+  }
+}
