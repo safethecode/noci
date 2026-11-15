@@ -1,0 +1,19 @@
+{
+  "name": "strainer",
+  "category": "food",
+  "description": "A mesh strainer with a round head and diagonal handle.",
+  "tags": ["strainer", "mesh", "utensil"],
+  "directional": false,
+  "useCase": "Identify strainers or fine food filtering tools.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two crossing mesh wires stay clear inside the round strainer head."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger mesh head keeps broad openings around the two wires."
+    }
+  }
+}
