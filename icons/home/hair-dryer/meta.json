@@ -1,0 +1,19 @@
+{
+  "name": "hair-dryer",
+  "category": "home",
+  "description": "A hair dryer with a tapered nozzle and lower handle.",
+  "tags": ["hair-dryer", "bathroom", "appliance"],
+  "directional": false,
+  "useCase": "Identify hair dryer availability or a hair styling tool.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The tapered nozzle and broad handle carry the small appliance silhouette."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger handle remains open beneath the tapered dryer body."
+    }
+  }
+}
