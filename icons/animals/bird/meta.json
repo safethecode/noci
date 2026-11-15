@@ -1,0 +1,19 @@
+{
+  "name": "bird",
+  "category": "animals",
+  "description": "A small bird or a bird collection.",
+  "tags": ["bird", "avian", "wildlife"],
+  "directional": false,
+  "useCase": "A small bird or a bird collection.",
+  "misuse": "Use a visible label when a bird identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "An open wing stroke sits inside a compact bird profile."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger bird leaves clear space around the eye and open wing stroke."
+    }
+  }
+}
