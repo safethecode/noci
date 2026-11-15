@@ -1,0 +1,19 @@
+{
+  "name": "bottle-opener",
+  "category": "food",
+  "description": "A bottle opener with a broad opening and short inner lip.",
+  "tags": ["opener", "bottle", "utensil"],
+  "directional": false,
+  "useCase": "Identify bottle openers or bottle opening tools.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One inner lip remains clear inside the open head above the handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger opener keeps the inner lip separate from the opposite side."
+    }
+  }
+}
