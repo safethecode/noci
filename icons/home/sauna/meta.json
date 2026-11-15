@@ -1,0 +1,19 @@
+{
+  "name": "sauna",
+  "category": "home",
+  "description": "A sauna bench beneath three rising steam lines.",
+  "tags": ["sauna", "steam", "amenity"],
+  "directional": false,
+  "useCase": "Identify sauna availability in a spa or accommodation listing.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three steam curves stay clear of the simple bench below."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger steam curves leave open space above the bench and legs."
+    }
+  }
+}
