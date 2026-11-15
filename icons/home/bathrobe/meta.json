@@ -1,0 +1,19 @@
+{
+  "name": "bathrobe",
+  "category": "home",
+  "description": "A bathrobe with sleeves, overlapping lapels and a belt.",
+  "tags": ["bathrobe", "bathroom", "linen"],
+  "directional": false,
+  "useCase": "Identify a bathrobe amenity or a robe product category.",
+  "misuse": "Pair this object with a visible label when it describes an amenity, product or service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The wrap and belt meet inside a compact robe silhouette."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger sleeves, lapels and belt retain open space around the torso."
+    }
+  }
+}
