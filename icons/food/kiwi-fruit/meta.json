@@ -1,0 +1,19 @@
+{
+  "name": "kiwi-fruit",
+  "category": "food",
+  "description": "A kiwi fruit cross-section with a central core and four seeds.",
+  "tags": ["kiwi", "fruit", "ingredient"],
+  "directional": false,
+  "useCase": "Identify kiwi fruit in recipes, groceries or ingredient selections.",
+  "misuse": "Use a visible label when a fruit or vegetable identifies an ingredient, product or dietary choice.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Four separated seeds surround a small solid core inside the cut fruit."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger seeds and core retain clear space within the outer skin."
+    }
+  }
+}
