@@ -1,0 +1,19 @@
+{
+  "name": "mosquito",
+  "category": "animals",
+  "description": "A mosquito in side profile, with a long mouthpart and a raised wing.",
+  "tags": ["mosquito", "pest", "insect"],
+  "directional": false,
+  "useCase": "Identify mosquitoes or mosquito control.",
+  "misuse": "Use a visible label when this animal identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The feeler stays ahead of the wing and the three visible legs end separately below the body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A forward feeler avoids the wing crossing, while a lower rear foot separates from the abdomen tip."
+    }
+  }
+}
