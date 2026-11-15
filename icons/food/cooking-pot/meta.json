@@ -1,0 +1,19 @@
+{
+  "name": "cooking-pot",
+  "category": "food",
+  "description": "A cooking pot with a lid and two side handles.",
+  "tags": ["pot", "cooking", "utensil"],
+  "directional": false,
+  "useCase": "Identify a cooking pot or stovetop cooking equipment.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad pot and two short side handles sit below an open lid grip."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pot leaves room inside the lid grip and below the rim."
+    }
+  }
+}
