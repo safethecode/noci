@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A true semicircular outline and three attached angle ticks retain the protractor shape."
+      "reason": "Angled ticks stop higher so the scale stays clear of the baseline."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "A true semicircular outline and three attached angle ticks retain the protractor shape."
+      "reason": "Longer ticks keep clear space above the baseline."
     }
   }
 }
