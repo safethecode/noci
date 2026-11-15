@@ -1,0 +1,19 @@
+{
+  "name": "bolt",
+  "category": "tools",
+  "description": "A bolt with a broad hexagonal head and straight shank.",
+  "tags": ["bolt", "fastener", "hardware"],
+  "directional": false,
+  "useCase": "Identify bolts or bolt fastening steps in assembly instructions.",
+  "misuse": "Use a visible label when a tool identifies equipment, a product or an instruction.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The head and shank retain separate broad openings at their joint."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger head stays distinct above the long open shank."
+    }
+  }
+}
