@@ -1,0 +1,19 @@
+{
+  "name": "eagle",
+  "category": "animals",
+  "description": "An eagle or birds of prey.",
+  "tags": ["eagle", "raptor", "bird"],
+  "directional": false,
+  "useCase": "An eagle or birds of prey.",
+  "misuse": "Use a visible label when a bird identifies a category, service or place.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A single eye stays clear inside the broad head above the hooked beak."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A single eye stays clear inside the broad head above the hooked beak."
+    }
+  }
+}
