@@ -1,0 +1,19 @@
+{
+  "name": "peeler",
+  "category": "food",
+  "description": "A vegetable peeler with a wide blade and open frame.",
+  "tags": ["peeler", "vegetable", "utensil"],
+  "directional": false,
+  "useCase": "Identify vegetable peelers or food preparation tools.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One wide blade sits above the open frame and handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger frame retains a broad opening below the blade."
+    }
+  }
+}

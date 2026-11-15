@@ -1,0 +1,19 @@
+{
+  "name": "takeout-box",
+  "category": "food",
+  "description": "A takeout carton with two open flaps.",
+  "tags": ["takeout", "carton", "packaging"],
+  "directional": false,
+  "useCase": "Identify takeout packaging or food delivery orders.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two open flaps sit above the tapered carton without a small seal mark."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger carton keeps the flap tips apart above the opening."
+    }
+  }
+}

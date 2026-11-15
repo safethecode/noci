@@ -1,0 +1,19 @@
+{
+  "name": "apron",
+  "category": "food",
+  "description": "An apron with a neck loop and waist band.",
+  "tags": ["apron", "cooking", "clothing"],
+  "directional": false,
+  "useCase": "Identify aprons or cooking preparation clothing.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "An open neck loop and waist band remain clear inside the apron silhouette."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger apron keeps the neck loop and lower band open."
+    }
+  }
+}

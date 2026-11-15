@@ -1,0 +1,19 @@
+{
+  "name": "salt-shaker",
+  "category": "food",
+  "description": "A salt shaker with a perforated cap and tapered bottle.",
+  "tags": ["salt", "shaker", "seasoning"],
+  "directional": false,
+  "useCase": "Identify salt shakers or tabletop seasoning.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two cap holes remain clear above the tapered bottle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger cap keeps two separated holes above the bottle shoulders."
+    }
+  }
+}

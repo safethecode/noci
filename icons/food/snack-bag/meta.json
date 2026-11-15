@@ -1,0 +1,19 @@
+{
+  "name": "snack-bag",
+  "category": "food",
+  "description": "A snack packet with crimped edges and a curved chip mark.",
+  "tags": ["snack", "bag", "packaging"],
+  "directional": false,
+  "useCase": "Identify packaged snacks in a shop, pantry or meal log.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The crimped packet keeps one open chip curve clear of its sides."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger packet leaves room around the open chip mark."
+    }
+  }
+}

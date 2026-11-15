@@ -1,0 +1,19 @@
+{
+  "name": "masher",
+  "category": "food",
+  "description": "A potato masher with a long handle and slotted plate.",
+  "tags": ["masher", "potato", "utensil"],
+  "directional": false,
+  "useCase": "Identify mashers or food mashing tools.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three broad sections stay open inside the low plate below the handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger plate retains three open sections between its two inner wires."
+    }
+  }
+}

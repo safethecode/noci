@@ -1,0 +1,19 @@
+{
+  "name": "ladle",
+  "category": "food",
+  "description": "A ladle with a round bowl, rim line and bent upper handle.",
+  "tags": ["ladle", "soup", "utensil"],
+  "directional": false,
+  "useCase": "Identify ladles or soup serving tools.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A rim line distinguishes the round bowl below the long diagonal handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger bowl keeps clear openings above and below its rim line."
+    }
+  }
+}

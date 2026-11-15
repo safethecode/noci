@@ -1,0 +1,19 @@
+{
+  "name": "chef-hat",
+  "category": "food",
+  "description": "A chef hat with a broad rounded crown and lower band.",
+  "tags": ["chef", "hat", "cooking"],
+  "directional": false,
+  "useCase": "Identify cooking roles or a culinary category.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad crown sits above one separated hat band."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger crown and band retain clear interior openings."
+    }
+  }
+}

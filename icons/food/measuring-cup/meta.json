@@ -1,0 +1,19 @@
+{
+  "name": "measuring-cup",
+  "category": "food",
+  "description": "A measuring cup with a handle and two scale marks.",
+  "tags": ["measuring", "cup", "utensil"],
+  "directional": false,
+  "useCase": "Identify liquid measuring cups or recipe measurement tools.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two separated scale marks remain clear inside the cup."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger cup keeps the scale marks separate from the handle opening."
+    }
+  }
+}

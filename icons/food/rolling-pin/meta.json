@@ -1,0 +1,19 @@
+{
+  "name": "rolling-pin",
+  "category": "food",
+  "description": "A rolling pin with handles at both ends.",
+  "tags": ["rolling-pin", "baking", "utensil"],
+  "directional": false,
+  "useCase": "Identify rolling pins or dough preparation tools.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The diagonal barrel keeps both handles inside the square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger barrel retains a broad open center between the two handles."
+    }
+  }
+}

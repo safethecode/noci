@@ -1,0 +1,19 @@
+{
+  "name": "meal-tray",
+  "category": "food",
+  "description": "A covered meal tray with a domed lid.",
+  "tags": ["tray", "meal", "service"],
+  "directional": false,
+  "useCase": "Identify meal service, catering or room service.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A domed lid stays clear above one broad tray line."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger dome and tray retain clear space below the lid."
+    }
+  }
+}

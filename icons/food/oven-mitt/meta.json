@@ -1,0 +1,19 @@
+{
+  "name": "oven-mitt",
+  "category": "food",
+  "description": "An oven mitt with a thumb and broad cuff.",
+  "tags": ["mitt", "baking", "protection"],
+  "directional": false,
+  "useCase": "Identify oven mitts or heat protection utensils.",
+  "misuse": "Use a visible label when this object identifies a product, service or dietary category.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The thumb and broad cuff form one clear mitt silhouette."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger cuff stays separate from the thumb and rounded hand."
+    }
+  }
+}
