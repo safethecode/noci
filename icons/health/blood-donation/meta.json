@@ -1,0 +1,19 @@
+{
+  "name": "blood-donation",
+  "category": "health",
+  "description": "A droplet containing a medical cross.",
+  "tags": ["blood", "donation", "care"],
+  "directional": false,
+  "useCase": "Identify blood donation or blood collection.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete medical item retains its defining parts and open spaces at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete silhouette and defining parts stay centered inside the shared drawing frame."
+    }
+  }
+}
