@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A broader flame stays clear above the lower barrel rim, with the full tube, base and gas inlet retained."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A lower barrel rim leaves clear air below the full flame while preserving the tube, base and gas inlet."
     }
   }
 }
