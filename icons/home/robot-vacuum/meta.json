@@ -1,0 +1,19 @@
+{
+  "name": "robot-vacuum",
+  "category": "home",
+  "description": "A round robot vacuum with a broad front bumper and top control button.",
+  "tags": ["robot", "vacuum", "cleaning"],
+  "directional": false,
+  "useCase": "Identify a robot vacuum in home cleaning controls or appliance settings.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete circular body retains a full bumper seam and one round control."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete round body leaves clear space around its bumper seam and top control."
+    }
+  }
+}
