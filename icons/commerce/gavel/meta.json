@@ -1,0 +1,19 @@
+{
+  "name": "gavel",
+  "category": "commerce",
+  "description": "A complete auction gavel with a broad striking head, handle and separate block.",
+  "tags": ["gavel", "auction", "bidding"],
+  "directional": false,
+  "useCase": "Open an auction or choose bidding features in a marketplace.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full striking head and handle stay clear of the separate auction block."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger gavel keeps its complete striking head and handle above a clear separate block."
+    }
+  }
+}
