@@ -1,0 +1,19 @@
+{
+  "name": "square-dashed",
+  "category": "foundation",
+  "description": "A complete square boundary made of separated rounded strokes.",
+  "tags": ["square", "selection", "dashed"],
+  "directional": false,
+  "useCase": "Identify a square selection boundary in drawing tools or shape selectors.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Four rounded corner strokes follow the plain square’s frame while leaving each side open at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The rounded corners follow the plain square, with four middle strokes and clear gaps around all four sides."
+    }
+  }
+}
