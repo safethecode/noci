@@ -1,10 +1,10 @@
 {
   "name": "lightbulb-off",
   "category": "education",
-  "description": "A dark bulb or turn a light off.",
+  "description": "A lightbulb crossed by a diagonal slash.",
   "tags": ["lightbulb", "off", "lighting"],
   "directional": false,
-  "useCase": "A dark bulb or turn a light off.",
+  "useCase": "Indicate that a light is off.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
