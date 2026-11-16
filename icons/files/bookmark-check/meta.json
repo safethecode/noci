@@ -1,0 +1,19 @@
+{
+  "name": "bookmark-check",
+  "category": "files",
+  "description": "A notched bookmark with a check mark.",
+  "tags": ["bookmark", "check", "saved"],
+  "directional": false,
+  "useCase": "Mark a saved item as complete.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A complete ribbon and its V-shaped notch surround a clear central mark."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full ribbon outline keeps the central mark clear of its lower notch."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "bookmark-x",
+  "category": "files",
+  "description": "A notched bookmark with an X.",
+  "tags": ["bookmark", "x", "saved"],
+  "directional": false,
+  "useCase": "Indicate an unavailable saved item.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A complete ribbon and its V-shaped notch surround a clear central mark."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full ribbon outline keeps the central mark clear of its lower notch."
+    }
+  }
+}
