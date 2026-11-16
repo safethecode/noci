@@ -1,0 +1,19 @@
+{
+  "name": "coat",
+  "category": "clothing",
+  "description": "A long coat with two sleeves, an open neckline and a flared lower hem.",
+  "tags": ["coat", "outerwear", "clothing"],
+  "directional": false,
+  "useCase": "Identify coats or longer outerwear in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The long flared body stays open on both sides of the center fastening."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger coat keeps two full sleeves above its wide lower hem."
+    }
+  }
+}
