@@ -1,0 +1,19 @@
+{
+  "name": "diamond-dashed",
+  "category": "foundation",
+  "description": "A complete diamond boundary made of four separated corner strokes.",
+  "tags": ["diamond", "selection", "dashed"],
+  "directional": false,
+  "useCase": "Identify a diamond selection boundary in drawing tools or shape selectors.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Four complete pointed corners retain distinct gaps along all four sides."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "All four complete corner strokes retain broad gaps within the shared frame."
+    }
+  }
+}
