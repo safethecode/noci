@@ -1,0 +1,19 @@
+{
+  "name": "rice-cooker",
+  "category": "home",
+  "description": "A rice cooker with a carry handle, broad lid, curved bowl and front control panel.",
+  "tags": ["rice", "cooking", "appliance"],
+  "directional": false,
+  "useCase": "Identify a rice cooker in kitchen appliance controls or cooking equipment.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete handle and rounded bowl surround one large open control panel."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The carry handle, broad lid and full bowl retain open interiors around the panel."
+    }
+  }
+}
