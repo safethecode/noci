@@ -1,0 +1,19 @@
+{
+  "name": "pretzel",
+  "category": "food",
+  "description": "A twisted pretzel with three complete open loops.",
+  "tags": ["pretzel", "snack", "baking"],
+  "directional": false,
+  "useCase": "Show pretzels in a bakery menu or snack list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two upper loops meet above the full lower twist, leaving three open spaces."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pretzel retains both upper loops and the complete broad lower twist."
+    }
+  }
+}
