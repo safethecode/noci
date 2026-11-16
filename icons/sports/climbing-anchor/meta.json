@@ -1,0 +1,19 @@
+{
+  "name": "climbing-anchor",
+  "category": "sports",
+  "description": "A climbing piton with an open eyelet and a broad tapered metal blade.",
+  "tags": ["anchor", "climbing", "equipment"],
+  "directional": false,
+  "useCase": "Identify climbing pitons or fixed metal climbing anchors.",
+  "misuse": "Use a visible label when equipment identifies a product, outdoor activity or required gear.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The open eyelet meets the complete tapered metal blade."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger piton keeps a broad open eyelet beside the complete metal blade."
+    }
+  }
+}
