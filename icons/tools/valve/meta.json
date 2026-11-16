@@ -1,19 +1,19 @@
 {
   "name": "valve",
   "category": "tools",
-  "description": "A pipe valve or control a fluid flow.",
+  "description": "A pipe valve with a horizontal handle.",
   "tags": ["valve", "pipe", "plumbing"],
   "directional": false,
-  "useCase": "A pipe valve or control a fluid flow.",
+  "useCase": "Show a valve for adjusting fluid flow.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A taller pipe leaves clear space above and below both interior lines."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The pipe height keeps both interior lines clear of its upper and lower edges."
     }
   }
 }
