@@ -1,0 +1,19 @@
+{
+  "name": "cooler",
+  "category": "sports",
+  "description": "A portable cooler with a broad insulated lid, complete top handle and deep box body.",
+  "tags": ["cooler", "camping", "food"],
+  "directional": false,
+  "useCase": "Identify portable coolers or insulated outdoor food containers.",
+  "misuse": "Use a visible label when equipment identifies a product, outdoor activity or required gear.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full top handle stays open above the lid band and deep cooler body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger cooler retains a complete handle, open lid band and broad lower body."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "picnic-basket",
+  "category": "sports",
+  "description": "A woven picnic basket with a complete arched handle and four broad woven panels.",
+  "tags": ["basket", "picnic", "equipment"],
+  "directional": false,
+  "useCase": "Identify picnic baskets or woven outdoor food carriers.",
+  "misuse": "Use a visible label when equipment identifies a product, outdoor activity or required gear.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The arched carrying handle stays open above four broad basket panels."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger basket retains the complete carrying handle and four clear woven panels."
+    }
+  }
+}

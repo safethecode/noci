@@ -1,0 +1,19 @@
+{
+  "name": "thermos",
+  "category": "sports",
+  "description": "A vacuum flask with a complete screw-on drinking cup and open cup handle.",
+  "tags": ["thermos", "camping", "drink"],
+  "directional": false,
+  "useCase": "Identify vacuum flasks or insulated drink containers.",
+  "misuse": "Use a visible label when equipment identifies a product, outdoor activity or required gear.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The drinking cup and its open handle sit above the complete rounded flask."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger flask keeps the drinking cup and complete cup handle open."
+    }
+  }
+}
