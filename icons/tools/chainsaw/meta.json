@@ -1,0 +1,19 @@
+{
+  "name": "chainsaw",
+  "category": "tools",
+  "description": "A chainsaw with a full motor housing, rear grip and long guide bar.",
+  "tags": ["chainsaw", "gardening", "tool"],
+  "directional": false,
+  "useCase": "Show chainsaws in an outdoor power tool inventory.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full motor housing joins an open rear grip and long chain bar, with separated end teeth on both sides."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger diagonal chainsaw keeps its complete housing, open rear grip and full chain bar with separated teeth."
+    }
+  }
+}
