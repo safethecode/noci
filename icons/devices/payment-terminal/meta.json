@@ -1,0 +1,19 @@
+{
+  "name": "payment-terminal",
+  "category": "devices",
+  "description": "A complete payment terminal with a printed receipt, display and two control buttons.",
+  "tags": ["payment", "terminal", "checkout"],
+  "directional": false,
+  "useCase": "Choose a payment terminal or show card payments at checkout.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full printed receipt, display and two visible buttons remain distinct."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger terminal keeps its complete receipt, display and two widely spaced controls."
+    }
+  }
+}
