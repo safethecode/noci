@@ -1,0 +1,19 @@
+{
+  "name": "sock",
+  "category": "clothing",
+  "description": "A single sock with a ribbed cuff, shaped heel and long foot.",
+  "tags": ["sock", "hosiery", "clothing"],
+  "directional": false,
+  "useCase": "Identify socks or hosiery in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full heel and foot stay open below the broad cuff."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger sock keeps the cuff band and continuous heel-to-toe shape clear."
+    }
+  }
+}
