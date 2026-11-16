@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The telescope emerges through an opening in the dome instead of crossing a complete roof arc."
+      "reason": "The dome meets the telescope at its sides, with a lower roof ledge clearing the telescope and doorway."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The telescope emerges through an opening in the dome instead of crossing a complete roof arc."
+      "reason": "The larger dome stops at the telescope sides, with a clear ledge above the doorway."
     }
   }
 }
