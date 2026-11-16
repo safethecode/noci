@@ -1,0 +1,19 @@
+{
+  "name": "coat-rack",
+  "category": "home",
+  "description": "A freestanding coat rack with a full central post, two curved hooks and spread feet.",
+  "tags": ["coats", "hooks", "furniture"],
+  "directional": false,
+  "useCase": "Identify coat stands in entryway plans or furniture catalogues.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete central post supports two full curved hooks and two broad feet."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The whole stand keeps its upturned hooks and complete spread base."
+    }
+  }
+}
