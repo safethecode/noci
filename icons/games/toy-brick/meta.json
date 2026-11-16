@@ -1,0 +1,19 @@
+{
+  "name": "toy-brick",
+  "category": "games",
+  "description": "A complete toy building brick with two broad studs.",
+  "tags": ["brick", "toys", "building"],
+  "directional": false,
+  "useCase": "Show building bricks in a toy catalogue or play activity list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both full studs stay open above the complete broad brick body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger building brick keeps both complete studs and its full rounded body."
+    }
+  }
+}
