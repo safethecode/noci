@@ -1,10 +1,10 @@
 {
   "name": "arrow-up-to-line",
   "category": "navigation",
-  "description": "Move content to the up boundary.",
+  "description": "An arrow pointing up to a horizontal line.",
   "tags": ["up", "boundary", "align"],
   "directional": false,
-  "useCase": "Move content to the up boundary.",
+  "useCase": "Move content to the top boundary.",
   "misuse": "Use a text label when the action or destination is ambiguous.",
   "optical": {
     "16": {
