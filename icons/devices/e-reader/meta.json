@@ -1,0 +1,19 @@
+{
+  "name": "e-reader",
+  "category": "devices",
+  "description": "A complete e-reader with three clear lines of page text.",
+  "tags": ["e-reader", "reading", "device"],
+  "directional": false,
+  "useCase": "Choose an e-reader or show an electronic book reading device.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three page lines stay clear of the complete device border and each other."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger reader keeps a full device border and three widely spaced page lines."
+    }
+  }
+}

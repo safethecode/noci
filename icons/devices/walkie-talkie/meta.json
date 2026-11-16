@@ -1,0 +1,19 @@
+{
+  "name": "walkie-talkie",
+  "category": "devices",
+  "description": "A handheld radio with a full antenna, tuning knob and speaker grille.",
+  "tags": ["radio", "walkie-talkie", "communication"],
+  "directional": false,
+  "useCase": "Choose a handheld radio or indicate two-way radio communication.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The antenna, open tuning knob and two speaker slots stay distinct on the full body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger radio keeps its complete antenna, open knob and widely spaced speaker grille."
+    }
+  }
+}
