@@ -1,0 +1,19 @@
+{
+  "name": "sushi-roll",
+  "category": "food",
+  "description": "A sushi roll with an oval rice face, central filling and wrapped body.",
+  "tags": ["sushi", "rice", "roll"],
+  "directional": false,
+  "useCase": "Identify sushi rolls in food menus or ordering controls.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The broader rice face surrounds a full open filling above the complete short wrapped body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The broad oval rice face keeps the open filling distinct from the complete wrapped body."
+    }
+  }
+}
