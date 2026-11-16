@@ -1,10 +1,10 @@
 {
   "name": "arrow-down-right",
   "category": "navigation",
-  "description": "Move toward the down right.",
+  "description": "An arrow pointing toward the lower right.",
   "tags": ["down-right", "direction", "move"],
   "directional": false,
-  "useCase": "Move toward the down right.",
+  "useCase": "Indicate movement toward the lower right.",
   "misuse": "Use a text label when the action or destination is ambiguous.",
   "optical": {
     "16": {
