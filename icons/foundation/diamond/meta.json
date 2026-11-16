@@ -1,0 +1,19 @@
+{
+  "name": "diamond",
+  "category": "foundation",
+  "description": "A diamond with a complete symmetric outline.",
+  "tags": ["diamond", "shape", "geometry"],
+  "directional": false,
+  "useCase": "Identify the diamond shape in drawing tools, diagrams or shape selectors.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete form retains clear edges and an open center within the shared drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger complete form retains balanced edges and an open center within the shared drawing frame."
+    }
+  }
+}
