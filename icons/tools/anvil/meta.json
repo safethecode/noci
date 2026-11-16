@@ -1,0 +1,19 @@
+{
+  "name": "anvil",
+  "category": "tools",
+  "description": "An anvil with a tapered horn, flat face, narrow waist and broad foot.",
+  "tags": ["anvil", "metalwork", "tool"],
+  "directional": false,
+  "useCase": "Identify an anvil or metal forming.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete working silhouette and supports retain clear open spaces at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full working silhouette and supports stay centered inside the shared drawing frame."
+    }
+  }
+}
