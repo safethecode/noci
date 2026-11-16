@@ -1,10 +1,10 @@
 {
   "name": "tape-measure",
   "category": "tools",
-  "description": "A tape measure or measure a length.",
+  "description": "A retractable tape measure with a rounded case and extended tape.",
   "tags": ["tape", "measure", "tool"],
   "directional": false,
-  "useCase": "A tape measure or measure a length.",
+  "useCase": "Choose a tape measure or indicate a length measurement.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
