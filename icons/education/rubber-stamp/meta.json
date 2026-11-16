@@ -1,0 +1,19 @@
+{
+  "name": "rubber-stamp",
+  "category": "education",
+  "description": "A rubber stamp with a broad grip, short central stem and flat stamping base.",
+  "tags": ["stamp", "office", "stationery"],
+  "directional": false,
+  "useCase": "Identify physical rubber stamps or document stamping tools.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific art material.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The broad grip stays open above the short stem and full stamping base."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger stamp retains a complete grip, open stem and broad flat base."
+    }
+  }
+}
