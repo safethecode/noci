@@ -1,0 +1,19 @@
+{
+  "name": "curling-stone",
+  "category": "sports",
+  "description": "A low cylindrical curling stone with a curved raised handle.",
+  "tags": ["curling", "stone", "equipment"],
+  "directional": false,
+  "useCase": "Identify curling stones or curling equipment.",
+  "misuse": "Use a visible label when equipment identifies a sport, product or activity.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad curved stone body and short open handle show the low cylindrical profile."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The curved body seam and raised handle remain separate and open."
+    }
+  }
+}
