@@ -1,6 +1,6 @@
 {
   "name": "table-row-add",
-  "category": "inclusion",
+  "category": "layout",
   "description": "A split table frame with a separate row-add marker.",
   "tags": ["table", "row", "add"],
   "directional": false,
