@@ -1,0 +1,19 @@
+{
+  "name": "vr-headset",
+  "category": "devices",
+  "description": "A complete virtual reality headset with a top strap, front sensors and nose opening.",
+  "tags": ["vr", "headset", "immersive"],
+  "directional": false,
+  "useCase": "Choose a virtual reality headset or open immersive device settings.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full strap, broad visor, two visible sensors and nose opening remain distinct."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger headset keeps its complete strap, broad visor, two sensors and nose opening."
+    }
+  }
+}
