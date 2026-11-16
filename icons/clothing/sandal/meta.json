@@ -1,0 +1,19 @@
+{
+  "name": "sandal",
+  "category": "clothing",
+  "description": "An open sandal with a back strap, curved forefoot strap and flat sole.",
+  "tags": ["sandal", "footwear", "clothing"],
+  "directional": false,
+  "useCase": "Identify sandals or open summer footwear.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A back strap and curved forefoot strap leave the middle of the sandal open."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The two broad straps remain separate above the complete flat sole."
+    }
+  }
+}
