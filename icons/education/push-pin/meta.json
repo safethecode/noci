@@ -1,0 +1,19 @@
+{
+  "name": "push-pin",
+  "category": "education",
+  "description": "A push pin with a broad cap, tapered body and complete pointed stem.",
+  "tags": ["pin", "board", "stationery"],
+  "directional": false,
+  "useCase": "Identify push pins or pinning physical notes to a board.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific art material.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The cap and tapered body remain open above the full pin stem."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pin retains a broad cap and complete pointed stem."
+    }
+  }
+}
