@@ -1,0 +1,19 @@
+{
+  "name": "cotton-swab",
+  "category": "personal-care",
+  "description": "A cotton swab with two rounded cotton tips joined by a complete thin stem.",
+  "tags": ["swab", "cotton", "grooming"],
+  "directional": false,
+  "useCase": "Identify cotton swabs or small cosmetic application tools.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific grooming task.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both rounded cotton tips stay open around the complete central stem."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger swab retains two full rounded tips and a clear central stem."
+    }
+  }
+}
