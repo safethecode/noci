@@ -1,0 +1,19 @@
+{
+  "name": "chevron-down-circle",
+  "category": "navigation",
+  "description": "A chevron pointing down inside a circle.",
+  "tags": ["navigation", "down", "circle"],
+  "directional": false,
+  "useCase": "Indicate movement down in a compact navigation button.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete chevron stays clear of its frame at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The shared frame surrounds a centered chevron with open corners."
+    }
+  }
+}
