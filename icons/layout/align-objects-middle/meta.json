@@ -1,0 +1,19 @@
+{
+  "name": "align-objects-middle",
+  "category": "layout",
+  "description": "Two objects aligned at their vertical centers.",
+  "tags": ["alignment", "middle", "objects"],
+  "directional": false,
+  "useCase": "Align selected objects at their centers.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two complete object outlines retain visible interiors beside their alignment guide."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full outlines share a consistent guide and clear interior space."
+    }
+  }
+}
