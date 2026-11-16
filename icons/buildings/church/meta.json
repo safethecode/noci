@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A lower, flatter roof leaves a clear gap beneath the full crossbar and keeps the doorway open."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A lower roof separates the full crossbar from both slopes while preserving the tall doorway."
     }
   }
 }

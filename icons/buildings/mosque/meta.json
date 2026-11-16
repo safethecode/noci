@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A pointed minaret cap and domed prayer hall remain separate at native size."
+      "reason": "A higher minaret cap and wider gap keep the minaret separate from the dome."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "A pointed minaret cap and domed prayer hall remain separate at native size."
+      "reason": "A centered dome sits above the prayer hall with clear space beside the full minaret."
     }
   }
 }
