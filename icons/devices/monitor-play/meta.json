@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The taller shared frame holds a wider closed play triangle with an open center and clear margins above a compact angled stand."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The complete play triangle sits inside the taller shared frame with clear margins above the centered stand."
     }
   }
 }
