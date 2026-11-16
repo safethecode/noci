@@ -1,0 +1,19 @@
+{
+  "name": "scarf",
+  "category": "clothing",
+  "description": "A wrapped scarf with a broad neck band and two separate hanging ends.",
+  "tags": ["scarf", "winter", "clothing"],
+  "directional": false,
+  "useCase": "Identify scarves or neckwear in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The wide neck band joins two broad scarf ends with a clear gap between them."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger scarf keeps two full separate ends beneath its broad wrapped band."
+    }
+  }
+}
