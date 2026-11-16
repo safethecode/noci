@@ -1,0 +1,19 @@
+{
+  "name": "smartphone-plus",
+  "category": "devices",
+  "description": "A smartphone with a plus sign and a bottom home indicator.",
+  "tags": ["phone", "plus", "device"],
+  "directional": false,
+  "useCase": "Add or pair a smartphone.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The whole screen marker remains clear of the shared phone frame and lower home indicator."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete screen marker and lower home indicator retain clear margins inside the shared phone frame."
+    }
+  }
+}

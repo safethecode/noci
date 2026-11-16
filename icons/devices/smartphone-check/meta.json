@@ -1,0 +1,19 @@
+{
+  "name": "smartphone-check",
+  "category": "devices",
+  "description": "A smartphone with a check mark and a bottom home indicator.",
+  "tags": ["phone", "check", "device"],
+  "directional": false,
+  "useCase": "Identify a connected or verified smartphone.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The whole screen marker remains clear of the shared phone frame and lower home indicator."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete screen marker and lower home indicator retain clear margins inside the shared phone frame."
+    }
+  }
+}

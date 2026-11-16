@@ -1,0 +1,19 @@
+{
+  "name": "monitor-warning",
+  "category": "devices",
+  "description": "A monitor with an exclamation mark inside the screen.",
+  "tags": ["screen", "warning", "device"],
+  "directional": false,
+  "useCase": "Indicate a display that requires attention.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The whole marker stays clear inside the shared screen above the complete angled stand."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete marker retains clear space inside the shared screen above its full centered stand."
+    }
+  }
+}
