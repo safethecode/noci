@@ -1,0 +1,19 @@
+{
+  "name": "camping-stove",
+  "category": "sports",
+  "description": "A portable camping stove with two pot supports, a burner bar and a fuel canister.",
+  "tags": ["stove", "camping", "cooking"],
+  "directional": false,
+  "useCase": "Identify portable canister stoves or outdoor cooking gear.",
+  "misuse": "Use a visible label when equipment identifies a product, outdoor activity or required gear.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two complete pot supports sit above the burner and open fuel canister."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger stove keeps both pot supports and the complete fuel canister clear."
+    }
+  }
+}
