@@ -1,0 +1,19 @@
+{
+  "name": "popsicle",
+  "category": "food",
+  "description": "A frozen popsicle with a complete rounded stick.",
+  "tags": ["popsicle", "dessert", "frozen"],
+  "directional": false,
+  "useCase": "Choose frozen ice pops from a dessert menu.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The diagonal frozen bar retains its complete rounded stick and one centered groove."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger popsicle keeps its full rounded stick and a clear groove inside the bar."
+    }
+  }
+}
