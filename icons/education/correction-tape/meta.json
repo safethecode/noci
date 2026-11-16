@@ -1,0 +1,19 @@
+{
+  "name": "correction-tape",
+  "category": "education",
+  "description": "A correction tape dispenser with a round spool window and angled application tip.",
+  "tags": ["correction", "tape", "stationery"],
+  "directional": false,
+  "useCase": "Identify correction tape or dry paper correction tools.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific art material.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The open spool window stays clear inside the rounded case beside the full application tip."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger case keeps a clear round spool window and a complete angled application tip."
+    }
+  }
+}
