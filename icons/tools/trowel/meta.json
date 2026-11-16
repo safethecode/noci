@@ -1,10 +1,10 @@
 {
   "name": "trowel",
   "category": "tools",
-  "description": "A masonry trowel or apply mortar.",
+  "description": "A masonry trowel with a triangular blade and raised handle.",
   "tags": ["trowel", "masonry", "construction"],
   "directional": false,
-  "useCase": "A masonry trowel or apply mortar.",
+  "useCase": "Choose a masonry trowel or indicate mortar application.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
