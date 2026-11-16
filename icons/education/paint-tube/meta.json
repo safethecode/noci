@@ -1,0 +1,19 @@
+{
+  "name": "paint-tube",
+  "category": "education",
+  "description": "A flexible paint tube with a screw cap, tapered shoulders and folded lower seam.",
+  "tags": ["paint", "tube", "art"],
+  "directional": false,
+  "useCase": "Identify paint tubes or concentrated art materials.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific art material.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The open cap and broad body stay clear above the folded lower seam."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger tube keeps the cap, tapered shoulders and folded seam distinct."
+    }
+  }
+}
