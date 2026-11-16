@@ -1,0 +1,19 @@
+{
+  "name": "chess-bishop",
+  "category": "games",
+  "description": "A complete chess bishop with a diagonal mitre slit and broad base.",
+  "tags": ["bishop", "chess", "games"],
+  "directional": false,
+  "useCase": "Choose or identify a bishop in a chess interface.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full mitre keeps a short diagonal slit above the complete stem and broad open base."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger bishop retains its complete mitre, diagonal slit, full tapered stem and open base."
+    }
+  }
+}
