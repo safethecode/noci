@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
-import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+import { mkdir, mkdtemp, open, readFile, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -9,12 +9,17 @@ const root = fileURLToPath(new URL('../', import.meta.url));
 const directory = await mkdtemp(join(tmpdir(), 'noci-package-'));
 const npm = process.platform === 'win32' ? 'npm.cmd' : 'npm';
 try {
-  const [packed] = JSON.parse(
+  const report = join(directory, 'pack.json');
+  const output = await open(report, 'w');
+  try {
     execFileSync(npm, ['pack', '--json', '--ignore-scripts', '--pack-destination', directory], {
       cwd: root,
-      encoding: 'utf8',
-    }),
-  );
+      stdio: ['ignore', output.fd, 'pipe'],
+    });
+  } finally {
+    await output.close();
+  }
+  const [packed] = JSON.parse(await readFile(report, 'utf8'));
   assert.ok(packed.files.some((x) => x.path === 'dist/core.d.ts'));
   assert.ok(
     packed.files.every(
