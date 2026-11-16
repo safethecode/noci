@@ -1,0 +1,19 @@
+{
+  "name": "distribute-vertical",
+  "category": "layout",
+  "description": "Three evenly spaced marks between horizontal boundary guides.",
+  "tags": ["distribution", "vertical", "objects"],
+  "directional": false,
+  "useCase": "Distribute selected objects with equal vertical spacing.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three separate marks remain evenly spaced between two full boundary guides."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The evenly spaced marks retain open gaps between the complete guides."
+    }
+  }
+}
