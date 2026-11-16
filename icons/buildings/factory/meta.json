@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Two wider windows fit beneath matching roof steps, while the full chimney stays clear of the right wall."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Three full windows fit below the stepped roof, with room inside the chimney and beside the right wall."
     }
   }
 }
