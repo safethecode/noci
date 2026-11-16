@@ -1,0 +1,19 @@
+{
+  "name": "compact-mirror",
+  "category": "personal-care",
+  "description": "An open compact mirror with a raised round lid, offset hinge and shallow case.",
+  "tags": ["mirror", "compact", "cosmetics"],
+  "directional": false,
+  "useCase": "Identify folding compact mirrors or portable makeup mirrors.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific grooming task.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The raised round mirror stays clear above the offset shallow case and full hinge."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger open compact retains a round lid, offset hinge and complete shallow case."
+    }
+  }
+}

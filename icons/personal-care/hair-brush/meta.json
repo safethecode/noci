@@ -1,0 +1,19 @@
+{
+  "name": "hair-brush",
+  "category": "personal-care",
+  "description": "A paddle hairbrush with a rounded bristle head and complete handle.",
+  "tags": ["brush", "hair", "grooming"],
+  "directional": false,
+  "useCase": "Identify paddle hairbrushes or hair brushing tools.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific grooming task.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Four separate bristle marks remain clear in the broad head above the complete handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Two rows of bristle marks stay clear inside the full rounded head above the handle."
+    }
+  }
+}

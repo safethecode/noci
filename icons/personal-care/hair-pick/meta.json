@@ -1,0 +1,19 @@
+{
+  "name": "hair-pick",
+  "category": "personal-care",
+  "description": "A hair pick with long separate teeth and an open loop handle.",
+  "tags": ["pick", "hair", "grooming"],
+  "directional": false,
+  "useCase": "Identify hair picks or tools for lifting and styling textured hair.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific grooming task.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Five full teeth stay clear above the broad spine and open loop handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Six separate teeth sit above the complete spine and broad loop handle."
+    }
+  }
+}

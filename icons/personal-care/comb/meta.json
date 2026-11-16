@@ -1,0 +1,19 @@
+{
+  "name": "comb",
+  "category": "personal-care",
+  "description": "A hair comb with a broad spine and separate straight teeth.",
+  "tags": ["comb", "hair", "grooming"],
+  "directional": false,
+  "useCase": "Identify combs or hair detangling tools.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific grooming task.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Five full teeth stay separate below the broad open spine."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Six full teeth retain clear gaps below the complete comb spine."
+    }
+  }
+}

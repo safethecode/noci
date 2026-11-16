@@ -1,0 +1,19 @@
+{
+  "name": "cosmetic-jar",
+  "category": "personal-care",
+  "description": "A low cosmetic jar with a broad screw lid and rounded lower body.",
+  "tags": ["jar", "skincare", "cosmetics"],
+  "directional": false,
+  "useCase": "Identify cream jars or wide cosmetic containers.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific grooming task.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The broad open lid sits above the complete rounded jar body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger jar retains a clear lid band and a broad open lower body."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "bobby-pin",
+  "category": "personal-care",
+  "description": "A bobby pin with one wavy arm and one straight arm joined at the rounded end.",
+  "tags": ["pin", "hair", "grooming"],
+  "directional": false,
+  "useCase": "Identify bobby pins or small hair fastening tools.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific grooming task.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full wavy arm stays clear of the straight arm around the rounded join."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pin keeps its complete wavy and straight arms separate."
+    }
+  }
+}

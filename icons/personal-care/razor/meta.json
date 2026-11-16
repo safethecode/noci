@@ -1,0 +1,19 @@
+{
+  "name": "razor",
+  "category": "personal-care",
+  "description": "A safety razor with a broad blade head and complete straight handle.",
+  "tags": ["razor", "shaving", "grooming"],
+  "directional": false,
+  "useCase": "Identify manual razors or shaving tools.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific grooming task.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The broad open blade head sits above the complete handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger razor keeps a clear blade head and open full-length handle."
+    }
+  }
+}

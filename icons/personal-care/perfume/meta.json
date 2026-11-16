@@ -1,0 +1,19 @@
+{
+  "name": "perfume",
+  "category": "personal-care",
+  "description": "A perfume atomizer with a complete pump, short neck and broad glass bottle.",
+  "tags": ["perfume", "fragrance", "cosmetics"],
+  "directional": false,
+  "useCase": "Identify perfume bottles or refillable fragrance atomizers.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific grooming task.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The raised pump stays clear above the open neck and broad bottle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger atomizer retains the complete pump, short neck and broad glass bottle."
+    }
+  }
+}

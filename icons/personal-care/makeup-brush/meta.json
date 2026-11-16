@@ -1,0 +1,19 @@
+{
+  "name": "makeup-brush",
+  "category": "personal-care",
+  "description": "A powder makeup brush with a full rounded bristle head and long narrow handle.",
+  "tags": ["brush", "makeup", "cosmetics"],
+  "directional": false,
+  "useCase": "Identify powder brushes or makeup application tools.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific grooming task.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full rounded head stays open above the complete narrow handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger brush keeps a broad bristle head and a full open handle."
+    }
+  }
+}

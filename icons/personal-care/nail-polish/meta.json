@@ -1,0 +1,19 @@
+{
+  "name": "nail-polish",
+  "category": "personal-care",
+  "description": "A nail polish bottle with a tall brush cap and broad glass body.",
+  "tags": ["polish", "nails", "cosmetics"],
+  "directional": false,
+  "useCase": "Identify nail polish or nail color products.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific grooming task.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full brush cap joins the open shoulders of the glass bottle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger bottle keeps the complete cap and broad glass body clear."
+    }
+  }
+}
