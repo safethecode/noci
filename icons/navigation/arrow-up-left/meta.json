@@ -1,10 +1,10 @@
 {
   "name": "arrow-up-left",
   "category": "navigation",
-  "description": "Move toward the up left.",
+  "description": "An arrow pointing toward the upper left.",
   "tags": ["up-left", "direction", "move"],
   "directional": false,
-  "useCase": "Move toward the up left.",
+  "useCase": "Indicate movement toward the upper left.",
   "misuse": "Use a text label when the action or destination is ambiguous.",
   "optical": {
     "16": {

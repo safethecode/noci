@@ -1,10 +1,10 @@
 {
   "name": "arrow-down-left",
   "category": "navigation",
-  "description": "Move toward the down left.",
+  "description": "An arrow pointing toward the lower left.",
   "tags": ["down-left", "direction", "move"],
   "directional": false,
-  "useCase": "Move toward the down left.",
+  "useCase": "Indicate movement toward the lower left.",
   "misuse": "Use a text label when the action or destination is ambiguous.",
   "optical": {
     "16": {
