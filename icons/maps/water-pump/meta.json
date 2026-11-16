@@ -1,0 +1,19 @@
+{
+  "name": "water-pump",
+  "category": "maps",
+  "description": "A complete hand water pump with a broad lever, curved spout and upright body.",
+  "tags": ["pump", "water", "utilities"],
+  "directional": false,
+  "useCase": "Locate a hand water pump on a utility map or outdoor facilities list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full lever and curved spout remain distinct around the complete open pump body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pump keeps its full lever, curved spout and complete upright body."
+    }
+  }
+}
