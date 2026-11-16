@@ -1,19 +1,19 @@
 {
   "name": "drill",
   "category": "tools",
-  "description": "A power drill or drilling work.",
+  "description": "A cordless power drill with a chuck, bit and battery.",
   "tags": ["drill", "power", "tool"],
   "directional": false,
-  "useCase": "A power drill or drilling work.",
+  "useCase": "Show drills and drilling work in a tool menu.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The full bit and chuck stay visible beside a compact motor, grip and battery."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The larger motor and battery retain a full projecting bit and roomy chuck."
     }
   }
 }
