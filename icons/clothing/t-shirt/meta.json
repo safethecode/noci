@@ -1,0 +1,19 @@
+{
+  "name": "t-shirt",
+  "category": "clothing",
+  "description": "A short-sleeved T-shirt with a round neckline.",
+  "tags": ["shirt", "casual", "clothing"],
+  "directional": false,
+  "useCase": "Identify T-shirts or casual tops in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The round neckline and two short sleeves form one open silhouette."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger shirt keeps its round neckline and both short sleeves clear."
+    }
+  }
+}
