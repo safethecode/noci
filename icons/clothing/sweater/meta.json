@@ -1,0 +1,19 @@
+{
+  "name": "sweater",
+  "category": "clothing",
+  "description": "A long-sleeved sweater with a round neck and a ribbed lower hem.",
+  "tags": ["knitwear", "sweater", "clothing"],
+  "directional": false,
+  "useCase": "Identify sweaters or knitwear in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both sleeves meet the body at clear square underarms above the open lower hem."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete sleeves join square underarms above the broad lower hem."
+    }
+  }
+}
