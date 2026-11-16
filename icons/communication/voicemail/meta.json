@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The two complete reels are spaced apart above the connecting lower stroke, keeping both centers clear."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The larger reels retain a clear central gap and meet the connecting stroke at their lower edges."
     }
   }
 }
