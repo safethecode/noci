@@ -1,0 +1,19 @@
+{
+  "name": "folder-open-minus",
+  "category": "files",
+  "description": "An open folder with a complete front flap and a minus sign.",
+  "tags": ["folder", "minus", "open"],
+  "directional": false,
+  "useCase": "Remove items from an open folder.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The tapered front flap leaves a clear opening beside the rear wall, below the complete status marker."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete front flap keeps a clear opening beside the rear wall and below the full status marker."
+    }
+  }
+}
