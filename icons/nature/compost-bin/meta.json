@@ -1,0 +1,19 @@
+{
+  "name": "compost-bin",
+  "category": "nature",
+  "description": "A complete compost bin with a projecting flat lid and a pointed leaf emblem.",
+  "tags": ["compost", "bin", "garden"],
+  "directional": false,
+  "useCase": "Find a compost bin or choose organic waste collection in a garden plan.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A tall tapered bin gives the pointed leaf and its connected stem clear space beneath the full projecting lid."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pointed leaf and connected stem stay clear inside the tapered bin beneath its projecting lid."
+    }
+  }
+}
