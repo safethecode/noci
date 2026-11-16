@@ -1,0 +1,19 @@
+{
+  "name": "puzzle-piece",
+  "category": "games",
+  "description": "A complete jigsaw corner piece with an open tab and rounded socket.",
+  "tags": ["puzzle", "games", "piece"],
+  "directional": false,
+  "useCase": "Choose jigsaw puzzles or show a puzzle activity.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete upper tab and right socket stay open beside two full flat edges."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger corner piece keeps its full tab, rounded socket and both flat sides."
+    }
+  }
+}

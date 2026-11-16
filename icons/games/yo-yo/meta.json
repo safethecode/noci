@@ -1,0 +1,19 @@
+{
+  "name": "yo-yo",
+  "category": "games",
+  "description": "A yo-yo with two offset discs, an open hub and a full string.",
+  "tags": ["yo-yo", "toys", "play"],
+  "directional": false,
+  "useCase": "Show yo-yos in a toy catalogue or play activity list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The front disc and open hub sit in front of the full rear disc, with a visible complete string."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger yo-yo keeps its complete front disc, open hub and visible rear rim beside the full string."
+    }
+  }
+}

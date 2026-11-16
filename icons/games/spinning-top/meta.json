@@ -1,0 +1,19 @@
+{
+  "name": "spinning-top",
+  "category": "games",
+  "description": "A spinning top with a full round cap, spindle and pointed body.",
+  "tags": ["top", "toys", "play"],
+  "directional": false,
+  "useCase": "Show spinning tops in a toy catalogue or play activity list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete oval cap joins the full pointed body below a short upright spindle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger spinning top keeps its full cap, short spindle and complete pointed body."
+    }
+  }
+}

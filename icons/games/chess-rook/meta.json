@@ -1,0 +1,19 @@
+{
+  "name": "chess-rook",
+  "category": "games",
+  "description": "A complete chess rook with three battlements and a broad base.",
+  "tags": ["rook", "chess", "games"],
+  "directional": false,
+  "useCase": "Choose or identify a rook in a chess interface.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both open crown slots stay clear above the complete tapered body and full base."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger rook keeps all three battlements, both full crown slots and the complete body and base."
+    }
+  }
+}

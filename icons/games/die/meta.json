@@ -1,0 +1,19 @@
+{
+  "name": "die",
+  "category": "games",
+  "description": "A die showing five complete spaced pips.",
+  "tags": ["die", "games", "chance"],
+  "directional": false,
+  "useCase": "Choose dice games or show a roll action.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Five broad pips stay separate inside the complete rounded die face."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger die keeps all five pips clear of its full rounded edge."
+    }
+  }
+}

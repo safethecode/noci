@@ -39,6 +39,7 @@ export const categories = [
   'clothing',
   'personal-care',
   'craft',
+  'games',
 ];
 const permitted = {
   path: ['d'],

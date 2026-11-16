@@ -1,0 +1,19 @@
+{
+  "name": "kite",
+  "category": "games",
+  "description": "A complete kite with four open panels and a curved tail.",
+  "tags": ["kite", "play", "outdoors"],
+  "directional": false,
+  "useCase": "Show kite flying in an outdoor activity list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "All four kite panels stay open above the complete curved tail."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger kite keeps all four open panels and the full curved tail."
+    }
+  }
+}

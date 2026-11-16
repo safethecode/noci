@@ -1,0 +1,19 @@
+{
+  "name": "chess-knight",
+  "category": "games",
+  "description": "A complete chess knight with a horse profile, visible eye and broad base.",
+  "tags": ["knight", "chess", "games"],
+  "directional": false,
+  "useCase": "Choose or identify a knight in a chess interface.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The filled eye sits on a pixel center inside the full horse profile, above the open base."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger knight keeps its full horse profile, visible eye and complete broad base."
+    }
+  }
+}

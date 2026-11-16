@@ -1,0 +1,19 @@
+{
+  "name": "marble",
+  "category": "games",
+  "description": "A complete glass marble with a curved inner swirl.",
+  "tags": ["marble", "toys", "play"],
+  "directional": false,
+  "useCase": "Show marbles in a toy catalogue or game activity list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One full curved swirl stays inside the complete round marble edge."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger marble keeps its full curved swirl and complete circular edge clear."
+    }
+  }
+}
