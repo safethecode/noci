@@ -1,10 +1,10 @@
 {
   "name": "lightbulb-on",
   "category": "education",
-  "description": "An illuminated bulb or turn a light on.",
+  "description": "A lit lightbulb surrounded by light rays.",
   "tags": ["lightbulb", "on", "lighting"],
   "directional": false,
-  "useCase": "An illuminated bulb or turn a light on.",
+  "useCase": "Indicate that a light is on.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {

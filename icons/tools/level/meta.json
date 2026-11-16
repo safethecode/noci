@@ -1,10 +1,10 @@
 {
   "name": "level",
   "category": "tools",
-  "description": "A spirit level or check that a surface is level.",
+  "description": "A spirit level with a central window and two end marks.",
   "tags": ["level", "alignment", "tool"],
   "directional": false,
-  "useCase": "A spirit level or check that a surface is level.",
+  "useCase": "Choose a spirit level or check whether a surface is level.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {

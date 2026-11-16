@@ -1,10 +1,10 @@
 {
   "name": "protractor",
   "category": "education",
-  "description": "A protractor or measure an angle.",
+  "description": "A semicircular protractor with a straight base and angle marks.",
   "tags": ["protractor", "angle", "geometry"],
   "directional": false,
-  "useCase": "A protractor or measure an angle.",
+  "useCase": "Choose a protractor or indicate an angle measurement.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
