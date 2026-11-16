@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The diagonal case keeps the clock hands distinct and leaves clear openings in both complete strap ends."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The larger diagonal case leaves more room around the full clock hands and retains both closed strap loops."
     }
   }
 }
