@@ -1,0 +1,19 @@
+{
+  "name": "yarn",
+  "category": "craft",
+  "description": "A ball of yarn with a loose trailing end.",
+  "tags": ["yarn", "knitting", "thread"],
+  "directional": false,
+  "useCase": "A ball of yarn with a loose trailing end.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One broad winding line stays clear inside the complete yarn ball, with a visible loose end."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Two curved winding lines sit inside the larger yarn ball, with the loose end attached to its lower side."
+    }
+  }
+}
