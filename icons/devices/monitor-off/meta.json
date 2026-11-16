@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The upper frame opens away from the full slash, while the taller shared frame and angled stand keep the free strokes separate."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The taller shared frame and shorter centered foot leave clear space around the full diagonal slash."
     }
   }
 }
