@@ -1,0 +1,19 @@
+{
+  "name": "steamed-bun",
+  "category": "food",
+  "description": "A round steamed bun with three folds gathered at the crown.",
+  "tags": ["bun", "bao", "steamed"],
+  "directional": false,
+  "useCase": "Identify steamed buns in food menus or ordering controls.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three whole crown folds stay separated inside the complete rounded bun."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full rounded bun leaves clear space around all three crown folds."
+    }
+  }
+}
