@@ -1,0 +1,19 @@
+{
+  "name": "knitting-needles",
+  "category": "craft",
+  "description": "Two crossed knitting needles with round end stops.",
+  "tags": ["needles", "knitting", "craft"],
+  "directional": false,
+  "useCase": "Two crossed knitting needles with round end stops.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two full needle shafts cross below separate round end stops."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger crossed needles keep their complete shafts and broad round end stops."
+    }
+  }
+}
