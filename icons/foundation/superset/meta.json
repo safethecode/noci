@@ -1,0 +1,19 @@
+{
+  "name": "superset",
+  "category": "foundation",
+  "description": "A complete superset sign with a curved right edge and open left side.",
+  "tags": ["superset", "math", "sets"],
+  "directional": false,
+  "useCase": "Identify the superset symbol in an expression editor or mathematical diagram.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete symbol retains its whole curves and strokes with clear internal spaces."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete larger symbol retains balanced curves and full strokes with clear internal spaces."
+    }
+  }
+}
