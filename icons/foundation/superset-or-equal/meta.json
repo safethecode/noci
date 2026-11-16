@@ -1,0 +1,19 @@
+{
+  "name": "superset-or-equal",
+  "category": "foundation",
+  "description": "A superset symbol above an equality bar.",
+  "tags": ["superset", "equal", "set"],
+  "directional": false,
+  "useCase": "Indicate that one set contains or equals another.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full logical mark retains its defining bars, curves and clear spaces beside text."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete logical mark stays centered inside the shared drawing frame."
+    }
+  }
+}
