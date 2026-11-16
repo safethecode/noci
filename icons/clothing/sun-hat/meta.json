@@ -1,0 +1,19 @@
+{
+  "name": "sun-hat",
+  "category": "clothing",
+  "description": "A sun hat with a tapered crown and wide curved brim.",
+  "tags": ["hat", "sun", "clothing"],
+  "directional": false,
+  "useCase": "Identify sun hats or wide-brimmed headwear.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The tapered crown joins a broad curved brim with an open center."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger hat keeps the crown and wide curved brim distinct."
+    }
+  }
+}
