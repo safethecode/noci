@@ -1,0 +1,19 @@
+{
+  "name": "folder-open-warning",
+  "category": "files",
+  "description": "An open folder with a complete front flap and an exclamation mark.",
+  "tags": ["folder", "warning", "open"],
+  "directional": false,
+  "useCase": "Indicate an open folder that requires attention.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The tapered front flap leaves a clear opening beside the rear wall, below the complete status marker."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete front flap keeps a clear opening beside the rear wall and below the full status marker."
+    }
+  }
+}
