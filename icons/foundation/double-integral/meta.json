@@ -1,0 +1,19 @@
+{
+  "name": "double-integral",
+  "category": "foundation",
+  "description": "Two complete integral signs side by side.",
+  "tags": ["integral", "calculus", "double"],
+  "directional": false,
+  "useCase": "Indicate an integral over two variables.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete mathematical mark retains its defining strokes and open spaces beside text."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full mathematical mark is centered inside the shared drawing frame."
+    }
+  }
+}
