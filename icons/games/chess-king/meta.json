@@ -1,0 +1,19 @@
+{
+  "name": "chess-king",
+  "category": "games",
+  "description": "A complete chess king with an upright cross and broad base.",
+  "tags": ["king", "chess", "games"],
+  "directional": false,
+  "useCase": "Choose or identify a king in a chess interface.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full crossbar stays clear of the complete tapered body above an open base."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger king keeps its full cross, complete tapered body and broad open base."
+    }
+  }
+}
