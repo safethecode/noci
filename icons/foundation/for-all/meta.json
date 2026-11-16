@@ -1,0 +1,19 @@
+{
+  "name": "for-all",
+  "category": "foundation",
+  "description": "The universal quantifier, shaped like an inverted A.",
+  "tags": ["logic", "universal", "quantifier"],
+  "directional": false,
+  "useCase": "Indicate that a statement applies to every element.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full logical mark retains its defining bars, curves and clear spaces beside text."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete logical mark stays centered inside the shared drawing frame."
+    }
+  }
+}
