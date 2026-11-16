@@ -1,0 +1,19 @@
+{
+  "name": "glue-bottle",
+  "category": "education",
+  "description": "A squeeze glue bottle with a pointed nozzle and broad shoulders.",
+  "tags": ["glue", "adhesive", "stationery"],
+  "directional": false,
+  "useCase": "Identify bottled craft glue or squeeze adhesive.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific art material.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete pointed nozzle opens directly into the broad bottle body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger nozzle remains open above the broad shoulder region."
+    }
+  }
+}

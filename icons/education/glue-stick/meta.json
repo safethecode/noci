@@ -1,0 +1,19 @@
+{
+  "name": "glue-stick",
+  "category": "education",
+  "description": "A capped glue stick with a broad cap, tube and twist base.",
+  "tags": ["glue", "craft", "stationery"],
+  "directional": false,
+  "useCase": "Identify glue sticks or solid paper adhesive.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific art material.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three broad open sections describe the cap, tube and twist base."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger glue stick keeps its cap and twist base separate from the main tube."
+    }
+  }
+}

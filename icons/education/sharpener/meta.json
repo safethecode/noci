@@ -1,0 +1,19 @@
+{
+  "name": "sharpener",
+  "category": "education",
+  "description": "A pencil sharpener with a separate blade side and an open round pencil hole.",
+  "tags": ["sharpener", "pencil", "stationery"],
+  "directional": false,
+  "useCase": "Identify pencil sharpeners or pencil maintenance tools.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific art material.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The round pencil hole stays clear beside the narrow blade section."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger sharpener keeps its circular pencil hole clear of the blade side and frame."
+    }
+  }
+}

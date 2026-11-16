@@ -1,0 +1,19 @@
+{
+  "name": "crayon",
+  "category": "education",
+  "description": "A wax crayon with a broad colored tip and paper wrapper.",
+  "tags": ["crayon", "drawing", "stationery"],
+  "directional": false,
+  "useCase": "Identify wax crayons or children’s drawing materials.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific art material.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The taller pointed tip stays open above two clear wrapper sections."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger crayon keeps its pointed tip and two wrapper sections clear."
+    }
+  }
+}

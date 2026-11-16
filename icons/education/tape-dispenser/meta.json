@@ -1,0 +1,19 @@
+{
+  "name": "tape-dispenser",
+  "category": "education",
+  "description": "A desktop tape dispenser with a large tape roll, open hub and raised cutting edge.",
+  "tags": ["tape", "office", "stationery"],
+  "directional": false,
+  "useCase": "Identify desktop tape dispensers or adhesive tape tools.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific art material.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A large open hub and full tape roll stay clear above the base beside the raised cutter."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger tape roll keeps a wide open hub above the base beside the full raised cutter."
+    }
+  }
+}
