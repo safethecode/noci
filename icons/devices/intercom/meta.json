@@ -1,0 +1,19 @@
+{
+  "name": "intercom",
+  "category": "devices",
+  "description": "A complete wall intercom with a speaker grille and open call button.",
+  "tags": ["intercom", "entry", "communication"],
+  "directional": false,
+  "useCase": "Choose a door intercom or indicate an entry communication system.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full call button stays open below the speaker grille inside the complete body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger intercom keeps its complete body, speaker grille and open call button."
+    }
+  }
+}
