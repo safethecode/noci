@@ -1,0 +1,19 @@
+{
+  "name": "balloon",
+  "category": "games",
+  "description": "A round tied balloon with a complete curled string.",
+  "tags": ["balloon", "party", "play"],
+  "directional": false,
+  "useCase": "Show party balloons in an event or decoration list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full round balloon joins its visible knot and complete short curled string."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger balloon keeps its complete rounded body, tied knot and full curled string."
+    }
+  }
+}
