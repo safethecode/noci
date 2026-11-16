@@ -1,0 +1,19 @@
+{
+  "name": "fortune-cookie",
+  "category": "food",
+  "description": "A folded fortune cookie with a complete paper fortune.",
+  "tags": ["cookie", "dessert", "fortune"],
+  "directional": false,
+  "useCase": "Show fortune cookies in a dessert menu or takeaway order.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both folded cookie halves meet the complete paper strip at the central crease."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger cookie keeps its full folded halves and the complete paper emerging from the crease."
+    }
+  }
+}

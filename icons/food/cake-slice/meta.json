@@ -1,0 +1,19 @@
+{
+  "name": "cake-slice",
+  "category": "food",
+  "description": "A complete wedge of layer cake with a triangular top.",
+  "tags": ["cake", "dessert", "slice"],
+  "directional": false,
+  "useCase": "Choose an individual cake slice from a dessert menu.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full triangular top sits above two complete open cake layers."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger cake slice keeps its complete top and both broad cake layers clear."
+    }
+  }
+}

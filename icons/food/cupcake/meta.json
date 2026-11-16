@@ -1,0 +1,19 @@
+{
+  "name": "cupcake",
+  "category": "food",
+  "description": "A cupcake with a full frosting crown and fluted wrapper.",
+  "tags": ["cupcake", "dessert", "baking"],
+  "directional": false,
+  "useCase": "Show cupcakes in a bakery menu or order list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three connected frosting lobes sit above two complete open wrapper panels."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger cupcake retains its full frosting crown and two broad wrapper panels."
+    }
+  }
+}

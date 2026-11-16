@@ -1,0 +1,19 @@
+{
+  "name": "cookie",
+  "category": "food",
+  "description": "A round cookie with five separate chocolate chips.",
+  "tags": ["cookie", "dessert", "baking"],
+  "directional": false,
+  "useCase": "Show cookies in a bakery menu or snack list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Five spaced chips stay clear of the complete round cookie edge."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger cookie keeps five separated chips inside its full circular edge."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "pudding",
+  "category": "food",
+  "description": "A molded pudding with a full oval caramel top.",
+  "tags": ["pudding", "dessert", "sweet"],
+  "directional": false,
+  "useCase": "Choose molded puddings from a dessert menu.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete oval top joins both tapered sides above the rounded pudding base."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pudding keeps its full oval top and broad rounded lower edge."
+    }
+  }
+}

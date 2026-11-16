@@ -1,0 +1,19 @@
+{
+  "name": "doughnut",
+  "category": "food",
+  "description": "A ring doughnut with three spaced sugar sprinkles.",
+  "tags": ["doughnut", "dessert", "baking"],
+  "directional": false,
+  "useCase": "Show ring doughnuts in a bakery menu.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A simple complete ring keeps the center hole open at the smallest size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger doughnut keeps three separated sprinkles between the complete rim and center hole."
+    }
+  }
+}

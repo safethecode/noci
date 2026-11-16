@@ -1,0 +1,19 @@
+{
+  "name": "ice-cream-cone",
+  "category": "food",
+  "description": "A full scoop of ice cream above a pointed cone.",
+  "tags": ["ice-cream", "dessert", "frozen"],
+  "directional": false,
+  "useCase": "Choose ice cream served in a cone.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete rounded scoop overhangs an open pointed cone."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger ice cream retains its full scoop and complete cone with one clear waffle band."
+    }
+  }
+}

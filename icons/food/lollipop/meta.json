@@ -1,0 +1,19 @@
+{
+  "name": "lollipop",
+  "category": "food",
+  "description": "A round swirled lollipop on a complete stick.",
+  "tags": ["lollipop", "dessert", "candy"],
+  "directional": false,
+  "useCase": "Show lollipops in a sweets menu or shop catalogue.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A short open swirl stays clear inside the round head above the full diagonal stick."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger lollipop keeps a clear inner swirl and a complete attached stick."
+    }
+  }
+}

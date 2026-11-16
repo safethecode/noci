@@ -1,0 +1,19 @@
+{
+  "name": "waffle",
+  "category": "food",
+  "description": "A butter-topped waffle with six complete open pockets.",
+  "tags": ["waffle", "dessert", "breakfast"],
+  "directional": false,
+  "useCase": "Choose waffles from a breakfast or dessert menu.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Six broad waffle pockets remain open below a complete butter pat."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger waffle keeps all six open pockets and the complete butter pat."
+    }
+  }
+}

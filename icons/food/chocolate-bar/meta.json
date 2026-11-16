@@ -1,0 +1,19 @@
+{
+  "name": "chocolate-bar",
+  "category": "food",
+  "description": "A segmented chocolate bar in a folded open wrapper.",
+  "tags": ["chocolate", "dessert", "snack"],
+  "directional": false,
+  "useCase": "Show chocolate bars in a snack list or shop catalogue.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Four full chocolate segments meet the folded wrapper without crossing its visible upper edge."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger chocolate bar keeps four complete exposed segments above the full folded wrapper."
+    }
+  }
+}
