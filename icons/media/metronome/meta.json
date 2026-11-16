@@ -1,0 +1,19 @@
+{
+  "name": "metronome",
+  "category": "media",
+  "description": "A complete pyramid metronome with a pendulum rod and visible sliding weight.",
+  "tags": ["metronome", "tempo", "audio"],
+  "directional": false,
+  "useCase": "Choose a metronome or set a practice tempo in a music interface.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full pendulum rod and solid sliding weight stay clear of the broad body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger metronome keeps its complete body, pendulum rod and visible sliding weight."
+    }
+  }
+}
