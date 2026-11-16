@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A rounded plume closes around the full shaft; one complete barb leaves open space at text size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Two full barbs join the rounded plume, with clear spaces around the diagonal shaft."
     }
   }
 }
