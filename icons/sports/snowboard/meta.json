@@ -1,0 +1,19 @@
+{
+  "name": "snowboard",
+  "category": "sports",
+  "description": "A rounded snowboard with two separate open bindings.",
+  "tags": ["snowboard", "snow", "equipment"],
+  "directional": false,
+  "useCase": "Identify snowboards or snowboarding equipment.",
+  "misuse": "Use a visible label when equipment identifies a sport, product or activity.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two offset binding loops stay open on opposite sides of the narrow board."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The longer board keeps its two open bindings separate between the rounded ends."
+    }
+  }
+}
