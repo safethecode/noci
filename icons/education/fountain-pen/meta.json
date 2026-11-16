@@ -1,0 +1,19 @@
+{
+  "name": "fountain-pen",
+  "category": "education",
+  "description": "A fountain pen with a long barrel and a broad pointed nib.",
+  "tags": ["nib", "writing", "stationery"],
+  "directional": false,
+  "useCase": "Identify fountain pens or ink drawing nibs.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific art material.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A full open barrel joins the broad nib without a cramped internal slit."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete barrel and broad nib keep clear space around the full nib slit."
+    }
+  }
+}
