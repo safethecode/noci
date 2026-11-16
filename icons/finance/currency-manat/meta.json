@@ -1,0 +1,19 @@
+{
+  "name": "currency-manat",
+  "category": "finance",
+  "description": "The Azerbaijani manat currency symbol.",
+  "tags": ["manat", "azerbaijani", "currency"],
+  "directional": false,
+  "useCase": "Identify an amount denominated in manat.",
+  "misuse": "Pair the symbol with a currency code when the currency could be unclear.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete currency mark keeps its distinguishing strokes and open interior spaces at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full currency mark retains its distinguishing strokes inside the shared drawing frame."
+    }
+  }
+}
