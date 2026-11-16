@@ -1,0 +1,19 @@
+{
+  "name": "oil-pump",
+  "category": "buildings",
+  "description": "A complete oil pumpjack with a curved head, walking beam, support frame and counterweight.",
+  "tags": ["oil", "pump", "industry"],
+  "directional": false,
+  "useCase": "Identify an oil pumpjack in an industrial facility or energy infrastructure map.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full curved head, beam, support frame, front rod and counterweight remain distinct."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pumpjack keeps its full head, beam, support frame, front rod and counterweight."
+    }
+  }
+}

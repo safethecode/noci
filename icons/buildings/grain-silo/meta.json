@@ -1,0 +1,19 @@
+{
+  "name": "grain-silo",
+  "category": "buildings",
+  "description": "A complete grain silo with a conical roof, curved rim and broad cylindrical body.",
+  "tags": ["grain", "silo", "industry"],
+  "directional": false,
+  "useCase": "Identify grain storage in a farm, logistics map or facility catalogue.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full conical roof and curved rim stay distinct above the broad divided silo body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger silo keeps its complete conical roof, curved rim and full cylindrical body."
+    }
+  }
+}
