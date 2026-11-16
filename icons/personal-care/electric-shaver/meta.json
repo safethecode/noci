@@ -1,0 +1,19 @@
+{
+  "name": "electric-shaver",
+  "category": "personal-care",
+  "description": "An electric shaver with a broad foil head, rounded body and separate power button.",
+  "tags": ["shaver", "shaving", "grooming"],
+  "directional": false,
+  "useCase": "Identify electric foil shavers or powered shaving tools.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific grooming task.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three foil marks and a separate power button remain clear inside the full shaver."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger shaver keeps its three foil marks separate above the rounded body and power button."
+    }
+  }
+}
