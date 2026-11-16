@@ -1,0 +1,19 @@
+{
+  "name": "tsunami",
+  "category": "weather",
+  "description": "A tall breaking wave above a separate water line.",
+  "tags": ["tsunami", "wave", "hazard"],
+  "directional": false,
+  "useCase": "Show a tsunami warning in coastal weather or emergency information.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The curled tip sits farther from the outer slope, keeping the full crest and wave face clear above the water line."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full curling crest leaves clear space beside the outer slope and above the separate water line."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "hurricane",
+  "category": "weather",
+  "description": "A hurricane with a full open eye and two curved storm bands.",
+  "tags": ["hurricane", "storm", "hazard"],
+  "directional": false,
+  "useCase": "Show a hurricane warning on a weather or emergency map.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete open eye joins two full storm bands that curl outward."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger hurricane keeps its full open eye and both broad outward storm bands."
+    }
+  }
+}

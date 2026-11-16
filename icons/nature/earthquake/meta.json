@@ -1,0 +1,19 @@
+{
+  "name": "earthquake",
+  "category": "nature",
+  "description": "Two offset ground blocks separated by a complete open fault.",
+  "tags": ["earthquake", "ground", "hazard"],
+  "directional": false,
+  "useCase": "Show earthquake hazards in an emergency map or alert list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both complete ground blocks stay separated by a broad open fractured gap."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger earthquake keeps both full offset ground blocks and a clear open fault."
+    }
+  }
+}
