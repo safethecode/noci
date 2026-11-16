@@ -1,0 +1,19 @@
+{
+  "name": "hand-plane",
+  "category": "tools",
+  "description": "A hand plane with a flat sole, a front knob and a tall rear handle.",
+  "tags": ["plane", "woodwork", "tool"],
+  "directional": false,
+  "useCase": "Identify planing or smoothing a wooden surface.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete working silhouette and supports retain clear open spaces at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full working silhouette and supports stay centered inside the shared drawing frame."
+    }
+  }
+}
