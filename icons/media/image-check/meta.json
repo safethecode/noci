@@ -1,0 +1,19 @@
+{
+  "name": "image-check",
+  "category": "media",
+  "description": "An image with a separate check mark.",
+  "tags": ["image", "check", "status"],
+  "directional": false,
+  "useCase": "Mark an image as selected or validated.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The frame opens around the complete marker while the whole mountain motif remains visible."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full marker stays clear of the shared image frame and complete mountain motif."
+    }
+  }
+}

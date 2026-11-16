@@ -1,0 +1,19 @@
+{
+  "name": "image-search",
+  "category": "media",
+  "description": "An image with a complete magnifying glass.",
+  "tags": ["image", "search", "find"],
+  "directional": false,
+  "useCase": "Find an image or identify image search results.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The frame opens around the complete marker while the whole mountain motif remains visible."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full marker stays clear of the shared image frame and complete mountain motif."
+    }
+  }
+}
