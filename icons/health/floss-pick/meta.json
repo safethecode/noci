@@ -1,0 +1,19 @@
+{
+  "name": "floss-pick",
+  "category": "health",
+  "description": "A curved dental floss pick with a taut thread and a full handle.",
+  "tags": ["floss", "dental", "hygiene"],
+  "directional": false,
+  "useCase": "Identify flossing or dental hygiene.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete medical item retains its defining parts and open spaces at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete silhouette and defining parts stay centered inside the shared drawing frame."
+    }
+  }
+}
