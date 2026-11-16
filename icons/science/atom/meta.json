@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Blunter oval ends keep all six outer openings clear while the three centered orbits leave room around the nucleus."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Three centered ellipses close smoothly, with open outer cells and clear space around the nucleus."
     }
   }
 }
