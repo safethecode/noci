@@ -1,0 +1,19 @@
+{
+  "name": "arrow-down-right-square",
+  "category": "navigation",
+  "description": "An arrow pointing toward the lower right inside a square.",
+  "tags": ["arrow", "square", "navigation"],
+  "directional": false,
+  "useCase": "Indicate movement toward the lower right in navigation controls.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The whole arrow keeps clear margins inside the square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger arrow retains clear margins and balanced proportions inside the square frame."
+    }
+  }
+}
