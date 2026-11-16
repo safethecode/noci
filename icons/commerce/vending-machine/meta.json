@@ -1,0 +1,19 @@
+{
+  "name": "vending-machine",
+  "category": "commerce",
+  "description": "A complete vending machine with two displayed products, a dispensing slot and payment button.",
+  "tags": ["vending", "machine", "retail"],
+  "directional": false,
+  "useCase": "Find a vending machine or show self-service retail amenities.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two solid product marks stay above the full dispensing slot and visible payment button."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Two open product packets stay above the complete dispensing slot and payment button."
+    }
+  }
+}
