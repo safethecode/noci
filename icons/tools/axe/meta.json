@@ -1,19 +1,19 @@
 {
   "name": "axe",
   "category": "tools",
-  "description": "An axe or split wood.",
+  "description": "An axe with a curved cutting edge and a full handle.",
   "tags": ["axe", "wood", "tool"],
   "directional": false,
-  "useCase": "An axe or split wood.",
+  "useCase": "Show axes and wood-splitting tools in an equipment list.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The broad curved blade and flat back sit across a complete diagonal handle."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The larger head retains a curved cutting edge, a flat back and a full diagonal handle."
     }
   }
 }
