@@ -1,0 +1,19 @@
+{
+  "name": "parallel-bars",
+  "category": "sports",
+  "description": "Parallel gymnastics bars with two offset rails and four support posts.",
+  "tags": ["gymnastics", "bars", "equipment"],
+  "directional": false,
+  "useCase": "Identify parallel bars or gymnastics training equipment.",
+  "misuse": "Use a visible label when equipment identifies a sport, product or activity.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Offset rails and four spaced posts describe the apparatus in perspective."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger rails keep clear gaps between the four support posts."
+    }
+  }
+}
