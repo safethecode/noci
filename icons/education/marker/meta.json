@@ -1,0 +1,19 @@
+{
+  "name": "marker",
+  "category": "education",
+  "description": "An uncapped felt marker with a chisel tip and broad barrel.",
+  "tags": ["marker", "drawing", "stationery"],
+  "directional": false,
+  "useCase": "Identify felt markers or broad drawing pens.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific art material.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full chisel tip sits above two open barrel sections."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger marker keeps its angled felt tip clear above the broad barrel."
+    }
+  }
+}
