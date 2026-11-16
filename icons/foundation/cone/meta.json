@@ -1,0 +1,19 @@
+{
+  "name": "cone",
+  "category": "foundation",
+  "description": "A complete cone with a pointed top and a full elliptical base.",
+  "tags": ["cone", "shape", "geometry"],
+  "directional": false,
+  "useCase": "Identify a cone in geometry lessons, drawing tools or three-dimensional object selectors.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full pointed body stays distinct above the complete open base ellipse."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The whole pointed body and complete elliptical base retain broad interiors."
+    }
+  }
+}
