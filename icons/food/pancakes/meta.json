@@ -1,0 +1,19 @@
+{
+  "name": "pancakes",
+  "category": "food",
+  "description": "Three stacked pancakes topped with a pat of butter.",
+  "tags": ["pancakes", "dessert", "breakfast"],
+  "directional": false,
+  "useCase": "Choose pancakes from a breakfast menu.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three complete rounded pancakes remain open below a full butter pat."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pancake stack keeps all three open layers and the complete butter pat."
+    }
+  }
+}
