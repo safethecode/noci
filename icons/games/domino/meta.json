@@ -1,0 +1,19 @@
+{
+  "name": "domino",
+  "category": "games",
+  "description": "A complete double-one domino with a central divider.",
+  "tags": ["domino", "games", "tile"],
+  "directional": false,
+  "useCase": "Choose domino games or show a domino set.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both full tile halves remain open around one pip each in the diagonal frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger domino keeps both complete halves and their single pips clear."
+    }
+  }
+}
