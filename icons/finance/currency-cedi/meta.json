@@ -1,0 +1,19 @@
+{
+  "name": "currency-cedi",
+  "category": "finance",
+  "description": "The Ghanaian cedi currency symbol.",
+  "tags": ["cedi", "ghanaian", "currency"],
+  "directional": false,
+  "useCase": "Identify an amount denominated in cedi.",
+  "misuse": "Pair the symbol with a currency code when the currency could be unclear.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete currency mark keeps its distinguishing strokes and open interior spaces at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full currency mark retains its distinguishing strokes inside the shared drawing frame."
+    }
+  }
+}
