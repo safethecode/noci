@@ -1,0 +1,19 @@
+{
+  "name": "barcode-scanner",
+  "category": "commerce",
+  "description": "A complete handheld barcode scanner with a broad scanning head and angled grip.",
+  "tags": ["barcode", "scanner", "checkout"],
+  "directional": false,
+  "useCase": "Choose a handheld barcode scanner for checkout or stock management.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full scanning window stays clear inside the head above the complete angled grip."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Three clear scan marks sit inside the full head above the complete angled grip."
+    }
+  }
+}
