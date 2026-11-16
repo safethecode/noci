@@ -1,0 +1,19 @@
+{
+  "name": "thread-spool",
+  "category": "craft",
+  "description": "A spool of thread between two full end flanges.",
+  "tags": ["thread", "sewing", "spool"],
+  "directional": false,
+  "useCase": "A spool of thread between two full end flanges.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two open flanges bound the full winding core and one central thread line."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger spool keeps both flanges, the complete winding core and its central thread line open."
+    }
+  }
+}
