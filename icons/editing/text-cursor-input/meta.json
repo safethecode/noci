@@ -1,0 +1,19 @@
+{
+  "name": "text-cursor-input",
+  "category": "editing",
+  "description": "An input field with an insertion caret and a short text line.",
+  "tags": ["text", "input", "cursor"],
+  "directional": false,
+  "useCase": "Focus a field or indicate editable text.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete text marks retain clear spacing inside the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full text marks and control shape retain clear margins at interface size."
+    }
+  }
+}
