@@ -1,0 +1,19 @@
+{
+  "name": "cake",
+  "category": "food",
+  "description": "A frosted celebration cake with a lit candle.",
+  "tags": ["cake", "dessert", "celebration"],
+  "directional": false,
+  "useCase": "Choose celebration cakes from a bakery menu.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full frosting wave stays open above the cake base and below a separate candle flame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger cake keeps the complete frosting wave, candle and detached flame clear."
+    }
+  }
+}
