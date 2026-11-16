@@ -1,0 +1,19 @@
+{
+  "name": "bow-tie",
+  "category": "clothing",
+  "description": "A bow tie with two broad folded wings and a central knot.",
+  "tags": ["bow", "formal", "clothing"],
+  "directional": false,
+  "useCase": "Identify bow ties or formal neckwear in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two open folded wings meet the broad central knot."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger bow keeps its central knot and both folded wings open."
+    }
+  }
+}
