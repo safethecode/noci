@@ -1,6 +1,6 @@
 {
   "name": "subscript",
-  "category": "inclusion",
+  "category": "editing",
   "description": "A stable x with a lowered numeral two.",
   "tags": ["type", "baseline", "notation"],
   "directional": false,

@@ -1,6 +1,6 @@
 {
   "name": "superscript",
-  "category": "inclusion",
+  "category": "editing",
   "description": "The shared x with a raised numeral two.",
   "tags": ["type", "exponent", "notation"],
   "directional": false,

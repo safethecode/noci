@@ -1,6 +1,6 @@
 {
   "name": "table-column-add",
-  "category": "inclusion",
+  "category": "layout",
   "description": "A split table frame with a separate column-add marker.",
   "tags": ["table", "column", "add"],
   "directional": false,

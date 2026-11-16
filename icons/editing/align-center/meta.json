@@ -1,6 +1,6 @@
 {
   "name": "align-center",
-  "category": "inclusion",
+  "category": "editing",
   "description": "A centered square with separated horizontal and vertical axes.",
   "tags": ["center", "align", "axes"],
   "directional": false,
