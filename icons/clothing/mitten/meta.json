@@ -1,0 +1,19 @@
+{
+  "name": "mitten",
+  "category": "clothing",
+  "description": "A mitten with a separate thumb shape and broad cuff.",
+  "tags": ["mitten", "winter", "clothing"],
+  "directional": false,
+  "useCase": "Identify mittens or winter handwear in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A complete thumb joins the rounded hand above an open cuff band."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger mitten keeps the thumb contour and broad cuff distinct."
+    }
+  }
+}
