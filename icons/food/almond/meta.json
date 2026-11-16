@@ -1,0 +1,19 @@
+{
+  "name": "almond",
+  "category": "food",
+  "description": "A complete almond with a pointed top and a clear central crease.",
+  "tags": ["almond", "nut", "food"],
+  "directional": false,
+  "useCase": "Identify almonds in ingredient lists, food menus or allergen information.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full pointed almond keeps a short crease clear of the outer shell."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger almond retains its full pointed contour and open central crease."
+    }
+  }
+}

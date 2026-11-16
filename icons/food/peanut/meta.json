@@ -1,0 +1,19 @@
+{
+  "name": "peanut",
+  "category": "food",
+  "description": "A complete two-lobed peanut pod with two visible kernels.",
+  "tags": ["peanut", "nut", "food"],
+  "directional": false,
+  "useCase": "Identify peanuts in ingredient lists, food menus or allergen information.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two compact kernels sit inside the complete peanut shell with clear space around both lobes."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger peanut keeps its full two-lobed pod, narrow waist and two visible kernels."
+    }
+  }
+}

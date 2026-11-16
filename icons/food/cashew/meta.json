@@ -1,0 +1,19 @@
+{
+  "name": "cashew",
+  "category": "food",
+  "description": "A complete curved cashew with two rounded ends and a broad open center.",
+  "tags": ["cashew", "nut", "food"],
+  "directional": false,
+  "useCase": "Identify cashews in ingredient lists, food menus or allergen information.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full curved nut retains two rounded ends and an open center."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger cashew keeps its complete curved body, rounded ends and open center."
+    }
+  }
+}
