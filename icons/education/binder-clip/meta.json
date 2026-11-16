@@ -1,0 +1,19 @@
+{
+  "name": "binder-clip",
+  "category": "education",
+  "description": "A binder clip with a broad tapered spring body and an upright wire handle.",
+  "tags": ["clip", "office", "stationery"],
+  "directional": false,
+  "useCase": "Identify binder clips or removable paper fasteners.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific art material.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The broad spring body stays open below the complete wire handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger clip keeps a clear wire handle opening above its tapered body."
+    }
+  }
+}
