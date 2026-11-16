@@ -1,0 +1,19 @@
+{
+  "name": "ballpoint-pen",
+  "category": "education",
+  "description": "A ballpoint pen with a pointed tip, separate upper barrel and pocket clip.",
+  "tags": ["pen", "writing", "stationery"],
+  "directional": false,
+  "useCase": "Identify ballpoint pens or everyday writing tools.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific art material.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The open barrel and pocket clip remain distinct above the pointed tip."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pen keeps a broad barrel band and a complete pocket clip."
+    }
+  }
+}
