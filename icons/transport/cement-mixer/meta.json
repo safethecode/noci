@@ -1,0 +1,19 @@
+{
+  "name": "cement-mixer",
+  "category": "transport",
+  "description": "A concrete mixer truck with a complete tapered drum, cab and two full wheels.",
+  "tags": ["concrete", "mixer", "construction"],
+  "directional": false,
+  "useCase": "Choose a concrete mixer truck for construction equipment or delivery services.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full tapered mixer drum has a curved belly above two complete wheels."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger truck keeps the full tapered drum, cab and both complete wheels."
+    }
+  }
+}
