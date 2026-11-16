@@ -1,0 +1,19 @@
+{
+  "name": "exists",
+  "category": "foundation",
+  "description": "The existential quantifier, shaped like a reversed E.",
+  "tags": ["logic", "exists", "quantifier"],
+  "directional": false,
+  "useCase": "Indicate that at least one element satisfies a statement.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full logical mark retains its defining bars, curves and clear spaces beside text."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete logical mark stays centered inside the shared drawing frame."
+    }
+  }
+}
