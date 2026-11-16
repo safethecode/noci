@@ -1,0 +1,19 @@
+{
+  "name": "arrow-up-wide-narrow",
+  "category": "editing",
+  "description": "An upward arrow beside three bars that decrease in length from top to bottom.",
+  "tags": ["sort", "up", "wide-narrow"],
+  "directional": false,
+  "useCase": "Sort values from longer to shorter using the indicated direction.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three distinct bar lengths leave clear space beside the complete directional arrow."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full arrow and separate bars share the square drawing frame."
+    }
+  }
+}
