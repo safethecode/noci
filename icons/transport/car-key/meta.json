@@ -1,0 +1,19 @@
+{
+  "name": "car-key",
+  "category": "transport",
+  "description": "A car key with a rounded remote fob, round button and toothed key blade.",
+  "tags": ["key", "car", "remote"],
+  "directional": false,
+  "useCase": "Identify car keys, vehicle access or remote key settings.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The whole remote fob keeps its button clear above the attached full key blade."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete remote fob and key blade retain a distinct button and tooth."
+    }
+  }
+}
