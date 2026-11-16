@@ -1,0 +1,19 @@
+{
+  "name": "facial-roller",
+  "category": "personal-care",
+  "description": "A double-ended facial roller with a broad upper roller and smaller lower roller.",
+  "tags": ["roller", "skincare", "cosmetics"],
+  "directional": false,
+  "useCase": "Identify facial rollers or handheld skincare massage tools.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific grooming task.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both complete rollers remain open at the ends of the full central handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger upper roller and smaller lower roller retain clear openings around the complete handle."
+    }
+  }
+}
