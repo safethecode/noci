@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A slightly wider chamber keeps a clear ring around the round hole while the full mouthpiece and sound marks remain visible."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The larger chamber, hole and mouthpiece retain their clear spacing below the two sound marks."
     }
   }
 }

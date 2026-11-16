@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The full bow sits behind the arrow shaft, leaving clear space around both complete arrowhead wings."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The larger bow and full arrowhead remain separate while the shaft meets the bow and string."
     }
   }
 }
