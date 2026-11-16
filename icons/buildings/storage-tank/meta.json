@@ -1,0 +1,19 @@
+{
+  "name": "storage-tank",
+  "category": "buildings",
+  "description": "A complete cylindrical storage tank with an oval top and curved lower edge.",
+  "tags": ["tank", "storage", "industry"],
+  "directional": false,
+  "useCase": "Identify bulk liquid storage in an industrial facility or infrastructure map.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full oval top and broad curved tank body retain clear interiors."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger tank keeps its complete oval top and full broad cylindrical body."
+    }
+  }
+}
