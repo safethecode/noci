@@ -1,0 +1,19 @@
+{
+  "name": "garden-hose",
+  "category": "tools",
+  "description": "A continuous coiled garden hose with a complete spray nozzle.",
+  "tags": ["hose", "gardening", "water"],
+  "directional": false,
+  "useCase": "Show garden hoses in a watering equipment list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One full hose turn connects to an open nozzle, with the loose inner end kept clear."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger continuous hose keeps its complete nozzle and loose inner end separated from the coil."
+    }
+  }
+}
