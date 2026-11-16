@@ -1,0 +1,19 @@
+{
+  "name": "water-well",
+  "category": "maps",
+  "description": "A covered water well with two full supports and a complete bucket above an open round rim.",
+  "tags": ["well", "water", "utilities"],
+  "directional": false,
+  "useCase": "Locate a covered water well on a map or outdoor facilities list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full roof and supports frame a complete bucket above the open round well rim."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger well keeps its full roof, two supports, open bucket and complete round rim."
+    }
+  }
+}
