@@ -1,0 +1,19 @@
+{
+  "name": "trackball",
+  "category": "devices",
+  "description": "A complete trackball with an exposed round ball and split lower buttons.",
+  "tags": ["trackball", "pointer", "input"],
+  "directional": false,
+  "useCase": "Choose a trackball pointing device in input settings or a hardware catalogue.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full exposed ball stays clear of the split lower buttons inside the complete body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger trackball retains the full ball, two lower buttons and broad curved body."
+    }
+  }
+}
