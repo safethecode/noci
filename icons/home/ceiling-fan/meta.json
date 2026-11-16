@@ -1,0 +1,19 @@
+{
+  "name": "ceiling-fan",
+  "category": "home",
+  "description": "A ceiling fan seen from below, with four complete curved blades and a central hub.",
+  "tags": ["fan", "ceiling", "air"],
+  "directional": false,
+  "useCase": "Identify ceiling fan controls or ceiling fixtures in a room plan.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Four whole curved blades attach to one central hub within a square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Four complete curved blades retain balanced spacing around the central hub."
+    }
+  }
+}
