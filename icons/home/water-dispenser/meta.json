@@ -1,0 +1,19 @@
+{
+  "name": "water-dispenser",
+  "category": "home",
+  "description": "A water dispenser with a full top bottle, dispensing tap and drip tray.",
+  "tags": ["water", "dispenser", "appliance"],
+  "directional": false,
+  "useCase": "Identify drinking water dispensers in shared spaces or appliance controls.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The whole bottle and cabinet keep the dispensing tap clear above the tray."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full bottle, cabinet, tap and drip tray retain distinct open spaces."
+    }
+  }
+}

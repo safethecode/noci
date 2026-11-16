@@ -1,0 +1,19 @@
+{
+  "name": "humidifier",
+  "category": "home",
+  "description": "A humidifier with a rounded water tank, control button and two rising trails of mist.",
+  "tags": ["mist", "water", "appliance"],
+  "directional": false,
+  "useCase": "Identify a humidifier in room comfort or appliance controls.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full tank, round control and two complete mist trails remain separated."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The broad tank leaves clear space below both mist trails and around its control."
+    }
+  }
+}

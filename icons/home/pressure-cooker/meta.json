@@ -1,0 +1,19 @@
+{
+  "name": "pressure-cooker",
+  "category": "home",
+  "description": "A pressure cooker with a complete closed pot, raised pressure valve and two side handles.",
+  "tags": ["pressure", "cooking", "appliance"],
+  "directional": false,
+  "useCase": "Identify a pressure cooker in kitchen appliances or cooking controls.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full closed pot, attached pressure valve and two handles retain a square silhouette."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete pot leaves a broad interior below its pressure valve and side handles."
+    }
+  }
+}

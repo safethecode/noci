@@ -1,0 +1,19 @@
+{
+  "name": "air-fryer",
+  "category": "home",
+  "description": "An air fryer with a display, full pull-out basket and central handle.",
+  "tags": ["fryer", "cooking", "appliance"],
+  "directional": false,
+  "useCase": "Identify an air fryer in kitchen appliances or cooking controls.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The display stays above the full basket and its attached central handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete rounded case contains a separate display and broad handled basket."
+    }
+  }
+}

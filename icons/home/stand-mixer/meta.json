@@ -1,0 +1,19 @@
+{
+  "name": "stand-mixer",
+  "category": "home",
+  "description": "A stand mixer with a full motor head, rear support, mixing shaft and open bowl.",
+  "tags": ["mixer", "baking", "appliance"],
+  "directional": false,
+  "useCase": "Identify a stand mixer in baking tools or kitchen appliance controls.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The whole motor head, support and open bowl stay visible around the mixing shaft."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full motor head and rear stand leave clear space around the mixing bowl and shaft."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "juicer",
+  "category": "home",
+  "description": "A citrus juicer with a whole pointed reamer, collecting bowl and motor base.",
+  "tags": ["citrus", "juice", "appliance"],
+  "directional": false,
+  "useCase": "Identify a citrus juicer in kitchen appliances or juice preparation.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The whole pointed reamer and collecting bowl sit above a complete motor base."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full citrus reamer, broad collecting bowl and motor base retain open interiors."
+    }
+  }
+}

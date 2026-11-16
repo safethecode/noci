@@ -1,0 +1,19 @@
+{
+  "name": "food-processor",
+  "category": "home",
+  "description": "A food processor with a full bowl, feed tube, mixing shaft, side handle and motor base.",
+  "tags": ["processor", "cooking", "appliance"],
+  "directional": false,
+  "useCase": "Identify food processors in kitchen equipment or appliance controls.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The whole bowl, feed tube and motor base keep a clear side handle and central shaft."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full feed tube and bowl sit above a complete motor base, with a separate open handle."
+    }
+  }
+}
