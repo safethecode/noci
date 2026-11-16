@@ -1,0 +1,19 @@
+{
+  "name": "electric-pole",
+  "category": "maps",
+  "description": "A complete utility pole with two crossarms and two top insulator posts.",
+  "tags": ["electricity", "pole", "utilities"],
+  "directional": false,
+  "useCase": "Locate a power pole on a utility map or inspection list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both full crossarms and insulator posts stay clear around the complete centered pole."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pole retains both complete crossarms and widely spaced top insulators."
+    }
+  }
+}
