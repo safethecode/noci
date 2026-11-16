@@ -1,0 +1,19 @@
+{
+  "name": "archive-warning",
+  "category": "files",
+  "description": "A lidded archive box with an exclamation mark.",
+  "tags": ["archive", "warning", "storage"],
+  "directional": false,
+  "useCase": "Identify an archived item that needs attention.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The dot sits slightly higher so the exclamation stays visible inside the shared rounded box at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The shared lid and rounded box retain clear margins around the full status mark."
+    }
+  }
+}
