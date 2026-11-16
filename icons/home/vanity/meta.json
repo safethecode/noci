@@ -1,0 +1,19 @@
+{
+  "name": "vanity",
+  "category": "home",
+  "description": "A dressing table with a complete raised mirror, broad tabletop and two visible legs.",
+  "tags": ["mirror", "dressing", "furniture"],
+  "directional": false,
+  "useCase": "Identify dressing tables in bedroom plans or furniture catalogues.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full raised mirror stays clear above the whole tabletop and both legs."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete mirror and support retain open space above the broad dressing table."
+    }
+  }
+}
