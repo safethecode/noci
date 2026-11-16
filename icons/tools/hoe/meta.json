@@ -1,0 +1,19 @@
+{
+  "name": "hoe",
+  "category": "tools",
+  "description": "A garden hoe with a full broad angled blade.",
+  "tags": ["hoe", "gardening", "tool"],
+  "directional": false,
+  "useCase": "Choose a hoe for soil cultivation from a gardening tool list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full shaft meets a broad complete hoe blade with an open center."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger hoe keeps the complete angled blade distinct from its long shaft."
+    }
+  }
+}
