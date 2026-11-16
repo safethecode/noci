@@ -1,0 +1,19 @@
+{
+  "name": "monitor-search",
+  "category": "devices",
+  "description": "A monitor with a complete magnifying glass inside the screen.",
+  "tags": ["screen", "search", "device"],
+  "directional": false,
+  "useCase": "Find a display or choose a screen for sharing.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The whole marker stays clear inside the shared screen above the complete angled stand."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete marker retains clear space inside the shared screen above its full centered stand."
+    }
+  }
+}
