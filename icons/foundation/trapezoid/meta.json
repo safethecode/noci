@@ -1,0 +1,19 @@
+{
+  "name": "trapezoid",
+  "category": "foundation",
+  "description": "A complete trapezoid with a short upper edge and broad lower edge.",
+  "tags": ["trapezoid", "shape", "geometry"],
+  "directional": false,
+  "useCase": "Identify the trapezoid shape in drawing tools, diagrams or shape selectors.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete form retains clear edges and an open center within the shared drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger complete form retains balanced edges and an open center within the shared drawing frame."
+    }
+  }
+}
