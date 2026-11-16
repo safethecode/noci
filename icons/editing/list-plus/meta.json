@@ -1,0 +1,19 @@
+{
+  "name": "list-plus",
+  "category": "editing",
+  "description": "A three-row bulleted list beside a plus sign.",
+  "tags": ["list", "plus", "items"],
+  "directional": false,
+  "useCase": "Add an item to a list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three complete bullet-and-line rows leave clear space for a separate status mark."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Three full rows and a complete status mark remain distinct inside the shared frame."
+    }
+  }
+}
