@@ -1,0 +1,19 @@
+{
+  "name": "equal",
+  "category": "foundation",
+  "description": "An equals sign with two full parallel strokes.",
+  "tags": ["equal", "math", "comparison"],
+  "directional": false,
+  "useCase": "Identify equality comparisons in an expression editor.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete symbol keeps its full strokes and clear spaces within the shared drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete larger symbol retains clear spaces and balanced full strokes."
+    }
+  }
+}
