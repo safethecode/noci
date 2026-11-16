@@ -1,0 +1,19 @@
+{
+  "name": "claves",
+  "category": "instruments",
+  "description": "Two complete rounded wooden percussion sticks set at different heights.",
+  "tags": ["claves", "sticks", "percussion"],
+  "directional": false,
+  "useCase": "Choose claves in an instrument library, rhythm lesson or music product list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both full rounded sticks retain open centers with a broad gap between them."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pair keeps both complete rounded sticks and their open spacing."
+    }
+  }
+}
