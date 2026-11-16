@@ -1,0 +1,19 @@
+{
+  "name": "fencing-mask",
+  "category": "sports",
+  "description": "A fencing mask with a rounded mesh face and tapered lower bib.",
+  "tags": ["fencing", "mask", "equipment"],
+  "directional": false,
+  "useCase": "Identify fencing masks or fencing protection equipment.",
+  "misuse": "Use a visible label when equipment identifies a sport, product or activity.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Four broad mesh regions remain open inside the complete mask outline."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger mask keeps its four mesh regions clear above the tapered bib."
+    }
+  }
+}

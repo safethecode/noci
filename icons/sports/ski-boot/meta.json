@@ -1,0 +1,19 @@
+{
+  "name": "ski-boot",
+  "category": "sports",
+  "description": "A ski boot with two buckles and a thick sole.",
+  "tags": ["skiing", "boot", "equipment"],
+  "directional": false,
+  "useCase": "Identify ski boots or alpine skiing footwear.",
+  "misuse": "Use a visible label when equipment identifies a sport, product or activity.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two separated buckles sit above a broad open sole band."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger boot keeps both buckles and the thick sole distinct."
+    }
+  }
+}

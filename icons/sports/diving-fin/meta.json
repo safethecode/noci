@@ -1,0 +1,19 @@
+{
+  "name": "diving-fin",
+  "category": "sports",
+  "description": "A diving fin with an open foot pocket and a long ribbed blade.",
+  "tags": ["fin", "diving", "equipment"],
+  "directional": false,
+  "useCase": "Identify diving fins or swim propulsion equipment.",
+  "misuse": "Use a visible label when equipment identifies a sport, product or activity.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A short open foot pocket joins the broad blade above its central reinforcing rib."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full foot pocket and long blade retain clear openings on either side of the central rib."
+    }
+  }
+}

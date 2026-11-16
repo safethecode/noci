@@ -1,0 +1,19 @@
+{
+  "name": "rowing-oar",
+  "category": "sports",
+  "description": "A rowing oar with a broad blunt blade, narrow neck and long diagonal shaft.",
+  "tags": ["oar", "rowing", "equipment"],
+  "directional": false,
+  "useCase": "Identify rowing oars or paddling equipment.",
+  "misuse": "Use a visible label when equipment identifies a sport, product or activity.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad rounded blade edge stays distinct from the narrow neck and long shaft."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger blade has a broad blunt end and tapers toward the complete shaft."
+    }
+  }
+}

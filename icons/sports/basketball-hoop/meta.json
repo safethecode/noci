@@ -1,0 +1,19 @@
+{
+  "name": "basketball-hoop",
+  "category": "sports",
+  "description": "A basketball hoop with a rectangular backboard and open net.",
+  "tags": ["basketball", "hoop", "equipment"],
+  "directional": false,
+  "useCase": "Identify basketball hoops or basketball facilities.",
+  "misuse": "Use a visible label when equipment identifies a sport, product or activity.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three broad net regions stay open below the complete backboard."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A target box fits inside the larger backboard above the full open net."
+    }
+  }
+}

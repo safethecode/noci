@@ -1,0 +1,19 @@
+{
+  "name": "gymnastics-rings",
+  "category": "sports",
+  "description": "Two gymnastics rings hanging from straight straps.",
+  "tags": ["gymnastics", "rings", "equipment"],
+  "directional": false,
+  "useCase": "Identify gymnastics rings or suspended bodyweight training equipment.",
+  "misuse": "Use a visible label when equipment identifies a sport, product or activity.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two open rings remain separate below their complete straps."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger rings keep clear openings and a broad gap between them."
+    }
+  }
+}

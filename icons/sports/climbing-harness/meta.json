@@ -1,0 +1,19 @@
+{
+  "name": "climbing-harness",
+  "category": "sports",
+  "description": "A climbing harness with a waist belt and two connected leg loops.",
+  "tags": ["climbing", "harness", "equipment"],
+  "directional": false,
+  "useCase": "Identify climbing harnesses or climbing equipment.",
+  "misuse": "Use a visible label when equipment identifies a sport, product or activity.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two separated leg loops hang below one broad open waist belt."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger belt and both complete leg loops retain clear openings."
+    }
+  }
+}
