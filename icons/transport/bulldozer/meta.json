@@ -1,0 +1,19 @@
+{
+  "name": "bulldozer",
+  "category": "transport",
+  "description": "A tracked bulldozer with a rear cab, projecting engine hood and complete curved blade.",
+  "tags": ["bulldozer", "tracks", "construction"],
+  "directional": false,
+  "useCase": "Choose a bulldozer in construction equipment or earthmoving services.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The rear cab and full stepped hood sit above the continuous track, with clear space beside the blade."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full engine hood projects ahead of the rear cab with clear space above the blade linkage."
+    }
+  }
+}
