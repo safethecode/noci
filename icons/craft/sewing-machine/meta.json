@@ -1,0 +1,19 @@
+{
+  "name": "sewing-machine",
+  "category": "craft",
+  "description": "A sewing machine with an open arm, needle and complete stitching bed.",
+  "tags": ["machine", "sewing", "equipment"],
+  "directional": false,
+  "useCase": "A sewing machine with an open arm, needle and complete stitching bed.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full arm leaves room for the needle above a complete stitching bed."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger machine keeps its open arm, needle, handwheel mark and full stitching bed clear."
+    }
+  }
+}
