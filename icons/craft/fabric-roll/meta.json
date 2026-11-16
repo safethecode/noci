@@ -1,0 +1,19 @@
+{
+  "name": "fabric-roll",
+  "category": "craft",
+  "description": "A roll of fabric unfurled into a broad sheet.",
+  "tags": ["fabric", "roll", "sewing"],
+  "directional": false,
+  "useCase": "A roll of fabric unfurled into a broad sheet.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full rolled cylinder joins a complete broad sheet, with a clear round end and spindle mark."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger fabric roll keeps its full cylinder and round end above the complete unfurled sheet."
+    }
+  }
+}

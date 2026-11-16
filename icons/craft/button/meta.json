@@ -1,0 +1,19 @@
+{
+  "name": "button",
+  "category": "craft",
+  "description": "A round sewing button with four thread holes.",
+  "tags": ["button", "sewing", "fastener"],
+  "directional": false,
+  "useCase": "A round sewing button with four thread holes.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Four filled thread holes remain separate inside the complete round button."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger button keeps four evenly spaced thread holes inside its full circular rim."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "sewing-needle",
+  "category": "craft",
+  "description": "A sewing needle with a complete open eye.",
+  "tags": ["needle", "sewing", "thread"],
+  "directional": false,
+  "useCase": "A sewing needle with a complete open eye.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad open eye joins the full diagonal needle shaft."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger needle keeps a complete elongated eye above its full shaft."
+    }
+  }
+}

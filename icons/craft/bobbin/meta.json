@@ -1,0 +1,19 @@
+{
+  "name": "bobbin",
+  "category": "craft",
+  "description": "A sewing-machine bobbin viewed through its center hole.",
+  "tags": ["bobbin", "sewing", "thread"],
+  "directional": false,
+  "useCase": "A sewing-machine bobbin viewed through its center hole.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A solid center mark and four broad flange holes stay clear of the complete outer rim."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger bobbin keeps a broad spindle hole and four separate flange holes."
+    }
+  }
+}

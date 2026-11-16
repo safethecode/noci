@@ -1,0 +1,19 @@
+{
+  "name": "thimble",
+  "category": "craft",
+  "description": "A protective sewing thimble with a dotted dome and lower rim.",
+  "tags": ["thimble", "sewing", "protection"],
+  "directional": false,
+  "useCase": "A protective sewing thimble with a dotted dome and lower rim.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Four spaced dimples sit inside the tapered dome above its complete lower band."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger thimble retains four clear dimples above the full lower rim."
+    }
+  }
+}

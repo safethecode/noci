@@ -1,0 +1,19 @@
+{
+  "name": "safety-pin",
+  "category": "craft",
+  "description": "A closed safety pin with a spring eye and protective clasp.",
+  "tags": ["pin", "sewing", "fastener"],
+  "directional": false,
+  "useCase": "A closed safety pin with a spring eye and protective clasp.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete clasp and spring eye join the two sides of the diagonal safety pin."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger safety pin keeps its open spring eye and complete protective clasp."
+    }
+  }
+}

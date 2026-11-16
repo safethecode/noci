@@ -1,0 +1,19 @@
+{
+  "name": "rotary-cutter",
+  "category": "craft",
+  "description": "A rotary fabric cutter with a full round blade and diagonal handle.",
+  "tags": ["cutter", "fabric", "tool"],
+  "directional": false,
+  "useCase": "A rotary fabric cutter with a full round blade and diagonal handle.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete round blade and central hub meet both edges of the full handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger cutter keeps a clear round blade, centered hub and complete diagonal grip."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "dress-form",
+  "category": "craft",
+  "description": "A freestanding dress form with a shaped torso and pedestal.",
+  "tags": ["dress", "tailoring", "form"],
+  "directional": false,
+  "useCase": "A freestanding dress form with a shaped torso and pedestal.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete neck, shoulders and fitted waist stand above a full pedestal."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger dress form keeps the shaped torso and complete supporting pedestal."
+    }
+  }
+}

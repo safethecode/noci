@@ -1,0 +1,19 @@
+{
+  "name": "embroidery-hoop",
+  "category": "craft",
+  "description": "A clamped embroidery hoop holding a short stitched line.",
+  "tags": ["embroidery", "hoop", "sewing"],
+  "directional": false,
+  "useCase": "A clamped embroidery hoop holding a short stitched line.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full upper clamp joins the round hoop above one open stitched line."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger hoop retains its complete clamp and a clear stitched line inside the frame."
+    }
+  }
+}
