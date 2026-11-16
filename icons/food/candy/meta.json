@@ -1,0 +1,19 @@
+{
+  "name": "candy",
+  "category": "food",
+  "description": "A wrapped sweet with two complete twisted wrapper ends.",
+  "tags": ["candy", "dessert", "sweet"],
+  "directional": false,
+  "useCase": "Show wrapped sweets in a shop catalogue.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both broad wrapper ends stay open beside the full diagonal candy center."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger wrapped sweet keeps its complete oval center and both broad wrapper ends."
+    }
+  }
+}
