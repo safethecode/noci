@@ -1,0 +1,19 @@
+{
+  "name": "dresser",
+  "category": "home",
+  "description": "A complete chest of drawers with two broad drawers and round pulls.",
+  "tags": ["drawers", "storage", "furniture"],
+  "directional": false,
+  "useCase": "Identify a dresser in bedroom plans, storage settings or furniture catalogues.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two full drawers retain equal open areas around their round pulls."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Both complete drawers keep broad interiors and evenly placed round pulls."
+    }
+  }
+}
