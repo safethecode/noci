@@ -1,19 +1,19 @@
 {
   "name": "pickaxe",
   "category": "tools",
-  "description": "A pickaxe or excavation tool.",
+  "description": "A pickaxe with a curved head and two pointed ends.",
   "tags": ["pickaxe", "mining", "tool"],
   "directional": false,
-  "useCase": "A pickaxe or excavation tool.",
+  "useCase": "Show pickaxes and excavation tools in an equipment list.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The thicker curved head leaves a clear opening above the full diagonal handle."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The larger curved head retains an open center and two complete pointed ends."
     }
   }
 }
