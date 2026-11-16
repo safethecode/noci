@@ -1,0 +1,19 @@
+{
+  "name": "swimming-goggles",
+  "category": "sports",
+  "description": "Swimming goggles with two open lenses, a nose bridge and a continuous strap.",
+  "tags": ["swimming", "goggles", "equipment"],
+  "directional": false,
+  "useCase": "Identify swimming goggles or swim training equipment.",
+  "misuse": "Use a visible label when equipment identifies a sport, product or activity.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two broad lenses stay open below the complete strap and curved bridge."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger lenses remain distinct around the nose bridge and upper strap."
+    }
+  }
+}
