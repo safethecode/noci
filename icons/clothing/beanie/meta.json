@@ -1,0 +1,19 @@
+{
+  "name": "beanie",
+  "category": "clothing",
+  "description": "A knitted beanie with a rounded crown and wide folded cuff.",
+  "tags": ["beanie", "winter", "clothing"],
+  "directional": false,
+  "useCase": "Identify beanies or knitted winter hats.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two broad crown panels stay open above the complete folded cuff."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger beanie retains clear crown panels and a wide folded cuff."
+    }
+  }
+}
