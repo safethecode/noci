@@ -1,0 +1,19 @@
+{
+  "name": "text-direction-left-to-right",
+  "category": "editing",
+  "description": "Two text lines above an arrow pointing right.",
+  "tags": ["text", "direction", "ltr"],
+  "directional": false,
+  "useCase": "Set the writing direction to left to right.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete text marks retain clear spacing inside the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full text marks and control shape retain clear margins at interface size."
+    }
+  }
+}
