@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The smaller garage keeps two full shutter openings and omits the attic mark so the roof and door remain clear."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A lower attic mark clears the roof, and the two shutter openings remain separate below it."
     }
   }
 }
