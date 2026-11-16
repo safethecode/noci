@@ -1,0 +1,19 @@
+{
+  "name": "shaving-brush",
+  "category": "personal-care",
+  "description": "A shaving brush with a full rounded bristle head and broad short handle.",
+  "tags": ["brush", "shaving", "grooming"],
+  "directional": false,
+  "useCase": "Identify shaving brushes or lather preparation tools.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific grooming task.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The rounded bristle head remains open above the broad tapered handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger brush keeps a clear bristle head and complete broad handle."
+    }
+  }
+}
