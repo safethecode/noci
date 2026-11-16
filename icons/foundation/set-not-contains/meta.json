@@ -1,0 +1,19 @@
+{
+  "name": "set-not-contains",
+  "category": "foundation",
+  "description": "A contains-as-member symbol crossed by a cancellation stroke.",
+  "tags": ["set", "negation", "contains"],
+  "directional": false,
+  "useCase": "Indicate that a set does not contain an element.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full logical mark retains its defining bars, curves and clear spaces beside text."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete logical mark stays centered inside the shared drawing frame."
+    }
+  }
+}
