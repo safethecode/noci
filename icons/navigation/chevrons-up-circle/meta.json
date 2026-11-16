@@ -1,0 +1,19 @@
+{
+  "name": "chevrons-up-circle",
+  "category": "navigation",
+  "description": "Two chevrons pointing up inside a circle.",
+  "tags": ["fast-navigation", "up", "circle"],
+  "directional": false,
+  "useCase": "Indicate a larger step up in a compact navigation button.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete chevron stays clear of its frame at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The shared frame surrounds a centered chevron with open corners."
+    }
+  }
+}
