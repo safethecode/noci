@@ -1,0 +1,19 @@
+{
+  "name": "pill-round",
+  "category": "health",
+  "description": "A round tablet with an inset score line and a shallow side edge.",
+  "tags": ["pill", "tablet", "medicine"],
+  "directional": false,
+  "useCase": "Identify a scored round medicine tablet.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete scored face and shallow side edge make the medicine tablet clear at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The inset score remains separate from the complete top rim while the lower edge shows the tablet thickness."
+    }
+  }
+}
