@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The taller shared screen uses two angled supports so the stand does not crowd its lower edge."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The taller shared screen retains a centered support and a shorter foot that clears the off variant’s diagonal slash."
     }
   }
 }
