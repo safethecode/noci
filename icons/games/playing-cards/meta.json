@@ -1,0 +1,19 @@
+{
+  "name": "playing-cards",
+  "category": "games",
+  "description": "Two complete overlapping playing cards with a visible club suit.",
+  "tags": ["cards", "games", "deck"],
+  "directional": false,
+  "useCase": "Choose card games or show a deck of playing cards.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full club suit stays clear inside the front card, with the visible rear card edge connected behind it."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger card pair keeps a complete club suit and both visible card outlines clear."
+    }
+  }
+}
