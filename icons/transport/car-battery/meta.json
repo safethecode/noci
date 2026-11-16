@@ -1,0 +1,19 @@
+{
+  "name": "car-battery",
+  "category": "transport",
+  "description": "An automotive battery with two terminals and positive and negative markings.",
+  "tags": ["battery", "car", "electrical"],
+  "directional": false,
+  "useCase": "Identify automotive batteries or vehicle electrical systems.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both terminals and the whole battery case surround separated positive and negative marks."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete terminals and case leave clear space around both electrical markings."
+    }
+  }
+}
