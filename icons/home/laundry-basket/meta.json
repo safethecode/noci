@@ -1,0 +1,19 @@
+{
+  "name": "laundry-basket",
+  "category": "home",
+  "description": "A complete tapered laundry basket with an oval rim and two broad ventilation slots.",
+  "tags": ["laundry", "basket", "storage"],
+  "directional": false,
+  "useCase": "Identify laundry baskets in household storage or furniture catalogues.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full oval rim and tapered basket keep both ventilation slots distinct."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete rim and basket surround two separated broad ventilation slots."
+    }
+  }
+}
