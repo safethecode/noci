@@ -1,0 +1,19 @@
+{
+  "name": "crochet-hook",
+  "category": "craft",
+  "description": "A crochet hook with an open hook and a broad lower grip.",
+  "tags": ["hook", "crochet", "craft"],
+  "directional": false,
+  "useCase": "A crochet hook with an open hook and a broad lower grip.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full open hook sits above a complete broad grip along the diagonal shaft."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger crochet hook keeps its open head and full lower grip distinct."
+    }
+  }
+}
