@@ -1,0 +1,19 @@
+{
+  "name": "chess-queen",
+  "category": "games",
+  "description": "A complete chess queen with a three-point crown and broad base.",
+  "tags": ["queen", "chess", "games"],
+  "directional": false,
+  "useCase": "Choose or identify a queen in a chess interface.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full three-point crown sits above a complete open stem and broad base."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger queen keeps its complete crown, open tapered stem and full broad base."
+    }
+  }
+}
