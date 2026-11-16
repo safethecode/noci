@@ -1,0 +1,19 @@
+{
+  "name": "ottoman",
+  "category": "home",
+  "description": "An upholstered footstool with a complete rounded cushion, lower seat and two visible legs.",
+  "tags": ["footstool", "seat", "furniture"],
+  "directional": false,
+  "useCase": "Identify ottomans in seating plans or furniture catalogues.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full rounded cushion and lower seat stay above two complete legs."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete padded seat keeps its seam clear above both full supporting legs."
+    }
+  }
+}
