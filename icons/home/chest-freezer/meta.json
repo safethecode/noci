@@ -1,0 +1,19 @@
+{
+  "name": "chest-freezer",
+  "category": "home",
+  "description": "A chest freezer with a complete hinged top and broad front pull handle.",
+  "tags": ["freezer", "storage", "appliance"],
+  "directional": false,
+  "useCase": "Identify a chest freezer in cold storage or kitchen appliance controls.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete raised lid and broad front panel surround a separated pull handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full lid and cabinet retain open interiors around the front handle."
+    }
+  }
+}
