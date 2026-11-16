@@ -1,0 +1,19 @@
+{
+  "name": "not-congruent",
+  "category": "foundation",
+  "description": "A congruence sign crossed by a cancellation stroke.",
+  "tags": ["congruence", "negation", "relation"],
+  "directional": false,
+  "useCase": "Indicate that two shapes or forms are not congruent.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete cancellation stroke crosses the same full wave and equality bars as the congruent control."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full cancellation stroke distinguishes the mark while its wave and equality bars match the congruent control."
+    }
+  }
+}

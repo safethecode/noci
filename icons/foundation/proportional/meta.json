@@ -1,0 +1,19 @@
+{
+  "name": "proportional",
+  "category": "foundation",
+  "description": "A proportionality symbol with one closed loop and two open tails.",
+  "tags": ["proportion", "ratio", "relation"],
+  "directional": false,
+  "useCase": "Indicate that two quantities are proportional.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete mathematical mark retains its defining strokes and open spaces beside text."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full mathematical mark is centered inside the shared drawing frame."
+    }
+  }
+}

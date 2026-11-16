@@ -1,0 +1,19 @@
+{
+  "name": "partial-derivative",
+  "category": "foundation",
+  "description": "A partial derivative symbol with a curved upper tail and a closed lower bowl.",
+  "tags": ["derivative", "calculus", "math"],
+  "directional": false,
+  "useCase": "Indicate differentiation with respect to one variable.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete mathematical mark retains its defining strokes and open spaces beside text."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full mathematical mark is centered inside the shared drawing frame."
+    }
+  }
+}
