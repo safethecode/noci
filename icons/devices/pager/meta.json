@@ -1,0 +1,19 @@
+{
+  "name": "pager",
+  "category": "devices",
+  "description": "A complete pager with a belt clip, open display and visible button.",
+  "tags": ["pager", "messages", "device"],
+  "directional": false,
+  "useCase": "Choose a pager or indicate a portable paging device.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full belt clip, open display and solid button stay distinct on the wide body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pager retains its complete clip, open display and visible control button."
+    }
+  }
+}
