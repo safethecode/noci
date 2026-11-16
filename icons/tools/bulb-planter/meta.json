@@ -1,0 +1,19 @@
+{
+  "name": "bulb-planter",
+  "category": "tools",
+  "description": "A bulb planter with a complete grip above an open cutting cylinder.",
+  "tags": ["planter", "gardening", "tool"],
+  "directional": false,
+  "useCase": "Show bulb planters in a gardening tool inventory.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full hand grip joins the open cylinder rim above both complete cutting sides."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger planter keeps the complete grip, open cylinder rim and full tapered cutting body."
+    }
+  }
+}
