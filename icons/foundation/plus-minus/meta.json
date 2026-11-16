@@ -1,0 +1,19 @@
+{
+  "name": "plus-minus",
+  "category": "foundation",
+  "description": "A complete plus-minus sign with a plus above a separate minus.",
+  "tags": ["plus", "minus", "math"],
+  "directional": false,
+  "useCase": "Identify the plus minus symbol in an expression editor or mathematical diagram.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete symbol retains its whole curves and strokes with clear internal spaces."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete larger symbol retains balanced curves and full strokes with clear internal spaces."
+    }
+  }
+}

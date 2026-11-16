@@ -1,0 +1,19 @@
+{
+  "name": "subset",
+  "category": "foundation",
+  "description": "A complete subset sign with a curved left edge and open right side.",
+  "tags": ["subset", "math", "sets"],
+  "directional": false,
+  "useCase": "Identify the subset symbol in an expression editor or mathematical diagram.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete symbol retains its whole curves and strokes with clear internal spaces."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete larger symbol retains balanced curves and full strokes with clear internal spaces."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "divide",
+  "category": "foundation",
+  "description": "A division sign with one full bar and two round dots.",
+  "tags": ["divide", "math", "arithmetic"],
+  "directional": false,
+  "useCase": "Identify division in arithmetic tools or an expression editor.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete symbol keeps its full strokes and clear spaces within the shared drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete larger symbol retains clear spaces and balanced full strokes."
+    }
+  }
+}
