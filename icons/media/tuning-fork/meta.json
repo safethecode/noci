@@ -1,0 +1,19 @@
+{
+  "name": "tuning-fork",
+  "category": "media",
+  "description": "A complete tuning fork with two long prongs, a curved bridge and centered stem.",
+  "tags": ["tuning", "pitch", "audio"],
+  "directional": false,
+  "useCase": "Choose a tuning fork or indicate a reference pitch for instrument tuning.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The two full prongs join a broad curved bridge above the complete centered stem."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger fork keeps both full prongs, the broad curved bridge and centered stem."
+    }
+  }
+}

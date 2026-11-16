@@ -1,0 +1,19 @@
+{
+  "name": "cassette",
+  "category": "media",
+  "description": "A complete audio cassette with two visible reel hubs and a tapered lower opening.",
+  "tags": ["cassette", "tape", "audio"],
+  "directional": false,
+  "useCase": "Choose a cassette tape or represent an analogue audio recording.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two solid reel hubs stay visible above the full tapered tape opening."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Two solid reel hubs stay clear of the complete lower tape opening."
+    }
+  }
+}
