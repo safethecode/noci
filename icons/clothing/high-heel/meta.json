@@ -1,0 +1,19 @@
+{
+  "name": "high-heel",
+  "category": "clothing",
+  "description": "A high-heeled shoe with an open upper and a complete block heel.",
+  "tags": ["heel", "footwear", "clothing"],
+  "directional": false,
+  "useCase": "Identify high-heeled shoes in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full heel and toe meet the same ground line around the open arch."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger shoe retains its complete heel and toe on a shared ground line."
+    }
+  }
+}
