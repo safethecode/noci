@@ -1,0 +1,19 @@
+{
+  "name": "archive-search",
+  "category": "files",
+  "description": "A lidded archive box with a magnifying glass.",
+  "tags": ["archive", "search", "storage"],
+  "directional": false,
+  "useCase": "Search archived items.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The shared lid and rounded box leave clear margins around the complete status mark at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The shared lid and rounded box retain clear margins around the full status mark."
+    }
+  }
+}
