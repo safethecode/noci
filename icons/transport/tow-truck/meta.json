@@ -1,0 +1,19 @@
+{
+  "name": "tow-truck",
+  "category": "transport",
+  "description": "A tow truck with a raised boom, complete hanging hook, cab and two full wheels.",
+  "tags": ["tow", "truck", "recovery"],
+  "directional": false,
+  "useCase": "Find roadside recovery or select a tow truck in a vehicle list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A full raised boom and open hook distinguish the truck above its two wheels."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger tow truck keeps a complete boom, hanging hook, cab and two full wheels."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "dump-truck",
+  "category": "transport",
+  "description": "A dump truck with a complete raised tipping bed, cab and two full wheels.",
+  "tags": ["dump", "truck", "construction"],
+  "directional": false,
+  "useCase": "Choose a dump truck for construction vehicles or hauling services.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A tilted open bed is separated from the full cab and both wheels."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger dump truck keeps its complete tipping bed, cab and both full wheels."
+    }
+  }
+}

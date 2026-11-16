@@ -1,0 +1,19 @@
+{
+  "name": "food-truck",
+  "category": "transport",
+  "description": "A serving truck with an open counter, raised sign, cab and two full wheels.",
+  "tags": ["food", "truck", "catering"],
+  "directional": false,
+  "useCase": "Find a food truck or select mobile catering in a map or vendor list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The counter, raised sign and cab stay distinct above two complete wheels."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger truck keeps its serving counter, raised sign and two full wheels."
+    }
+  }
+}
