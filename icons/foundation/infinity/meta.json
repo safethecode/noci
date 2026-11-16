@@ -1,0 +1,19 @@
+{
+  "name": "infinity",
+  "category": "foundation",
+  "description": "A complete infinity sign with two closed curved loops.",
+  "tags": ["infinity", "math", "unlimited"],
+  "directional": false,
+  "useCase": "Identify infinity or an unlimited value in mathematical tools.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete symbol keeps its full strokes and clear spaces within the shared drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete larger symbol retains clear spaces and balanced full strokes."
+    }
+  }
+}
