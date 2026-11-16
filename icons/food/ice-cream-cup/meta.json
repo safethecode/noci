@@ -1,0 +1,19 @@
+{
+  "name": "ice-cream-cup",
+  "category": "food",
+  "description": "A round scoop of ice cream in a cup with a complete spoon.",
+  "tags": ["ice-cream", "dessert", "cup"],
+  "directional": false,
+  "useCase": "Choose ice cream served in a cup.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A complete round scoop and visible spoon head meet the broad serving cup."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger cup keeps the complete rounded scoop, spoon head and attached spoon handle."
+    }
+  }
+}
