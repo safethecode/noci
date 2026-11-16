@@ -1,0 +1,19 @@
+{
+  "name": "approximately-equal",
+  "category": "foundation",
+  "description": "An approximately-equal sign with two complete curved strokes.",
+  "tags": ["approximate", "math", "comparison"],
+  "directional": false,
+  "useCase": "Identify approximate equality in an expression editor.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete symbol keeps its full strokes and clear spaces within the shared drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete larger symbol retains clear spaces and balanced full strokes."
+    }
+  }
+}
