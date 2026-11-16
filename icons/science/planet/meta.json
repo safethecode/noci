@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A full oval ring sits in front of the round planet, with the hidden parts of the planet rim omitted to keep three open spaces."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A larger oval ring crosses the round planet, with visible upper and lower arcs leaving open caps above and below the ring."
     }
   }
 }
