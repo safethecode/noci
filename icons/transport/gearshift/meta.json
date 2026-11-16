@@ -1,0 +1,19 @@
+{
+  "name": "gearshift",
+  "category": "transport",
+  "description": "A gear lever with a round knob, full shaft, protective boot and broad base.",
+  "tags": ["gear", "car", "transmission"],
+  "directional": false,
+  "useCase": "Identify a manual gear lever or vehicle transmission controls.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full knob and shaft connect to a broad boot with a clear interior."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete knob, shaft and protective boot stay balanced above the full base."
+    }
+  }
+}
