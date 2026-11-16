@@ -1,0 +1,19 @@
+{
+  "name": "chisel",
+  "category": "tools",
+  "description": "A broad chisel blade attached to a rounded hand grip.",
+  "tags": ["chisel", "woodwork", "tool"],
+  "directional": false,
+  "useCase": "Identify a chisel or controlled wood cutting.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A diagonal construction balances the complete grip and working end inside the square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete tool sits diagonally in the shared frame with its grip and working end intact."
+    }
+  }
+}

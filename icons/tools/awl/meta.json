@@ -1,0 +1,19 @@
+{
+  "name": "awl",
+  "category": "tools",
+  "description": "A pointed awl with a broad rounded grip.",
+  "tags": ["awl", "piercing", "tool"],
+  "directional": false,
+  "useCase": "Identify piercing, marking or an awl tool.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A diagonal construction balances the complete grip and working end inside the square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete tool sits diagonally in the shared frame with its grip and working end intact."
+    }
+  }
+}

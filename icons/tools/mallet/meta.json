@@ -1,0 +1,19 @@
+{
+  "name": "mallet",
+  "category": "tools",
+  "description": "A broad rounded mallet head attached to a full handle.",
+  "tags": ["mallet", "hammer", "tool"],
+  "directional": false,
+  "useCase": "Identify a mallet or gentle hammering.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete diagonal mallet retains an open grip and a broad rounded head."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete tool sits diagonally in the shared frame with its grip and working end intact."
+    }
+  }
+}
