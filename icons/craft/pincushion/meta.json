@@ -1,0 +1,19 @@
+{
+  "name": "pincushion",
+  "category": "craft",
+  "description": "A rounded pincushion holding two headed sewing pins.",
+  "tags": ["pincushion", "sewing", "pins"],
+  "directional": false,
+  "useCase": "A rounded pincushion holding two headed sewing pins.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two full headed pins enter the broad cushion on either side of its center seam."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger cushion keeps both headed pins and the complete dividing seam clear."
+    }
+  }
+}
