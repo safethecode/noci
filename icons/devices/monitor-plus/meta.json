@@ -1,0 +1,19 @@
+{
+  "name": "monitor-plus",
+  "category": "devices",
+  "description": "A monitor with a plus sign inside the screen.",
+  "tags": ["screen", "plus", "device"],
+  "directional": false,
+  "useCase": "Add a display or monitor.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The whole marker stays clear inside the shared screen above the complete angled stand."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete marker retains clear space inside the shared screen above its full centered stand."
+    }
+  }
+}
