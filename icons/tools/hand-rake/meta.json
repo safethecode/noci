@@ -1,0 +1,19 @@
+{
+  "name": "hand-rake",
+  "category": "tools",
+  "description": "A handheld garden rake with three complete curved claws.",
+  "tags": ["rake", "gardening", "tool"],
+  "directional": false,
+  "useCase": "Show hand rakes in a gardening tool inventory.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A compact full handle and longer shaft leave clear space beside the three curved tines."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete D-handle sits clear of the curved tines, with a visible connecting shaft."
+    }
+  }
+}
