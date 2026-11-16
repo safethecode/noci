@@ -1,0 +1,19 @@
+{
+  "name": "dibber",
+  "category": "tools",
+  "description": "A pointed planting dibber with a complete T-shaped hand grip.",
+  "tags": ["dibber", "planting", "tool"],
+  "directional": false,
+  "useCase": "Choose a planting dibber from a seedling equipment list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full T-handle and planting point connect through a visible shaft."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A clear shaft separates the full T-handle from the planting point."
+    }
+  }
+}

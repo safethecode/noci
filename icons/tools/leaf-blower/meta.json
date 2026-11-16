@@ -1,0 +1,19 @@
+{
+  "name": "leaf-blower",
+  "category": "tools",
+  "description": "A handheld leaf blower with a round motor housing and complete nozzle.",
+  "tags": ["blower", "gardening", "machine"],
+  "directional": false,
+  "useCase": "Show leaf blowers in a garden equipment list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full round motor and open fan hub join a complete upper grip and broad nozzle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger blower keeps its complete motor, open hub, full grip and broad outlet nozzle."
+    }
+  }
+}

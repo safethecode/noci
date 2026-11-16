@@ -1,0 +1,19 @@
+{
+  "name": "pruning-shears",
+  "category": "tools",
+  "description": "Curved pruning shears with two complete open hand grips.",
+  "tags": ["shears", "gardening", "tool"],
+  "directional": false,
+  "useCase": "Show pruning shears in a garden tool inventory.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both full hand grips stay open below the complete curved cutting blades."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pruning shears keep both complete grips and the full curved blade pair."
+    }
+  }
+}

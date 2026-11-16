@@ -1,0 +1,19 @@
+{
+  "name": "garden-fork",
+  "category": "tools",
+  "description": "A garden fork with an open grip and three full tines.",
+  "tags": ["fork", "gardening", "tool"],
+  "directional": false,
+  "useCase": "Choose a garden fork from a tool inventory.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete open grip joins three spaced tines along the diagonal shaft."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger garden fork keeps its open grip, full shaft and all three tines clear."
+    }
+  }
+}

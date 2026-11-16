@@ -1,0 +1,19 @@
+{
+  "name": "soil-sieve",
+  "category": "tools",
+  "description": "A round soil sieve with a complete mesh surface and deep rim.",
+  "tags": ["sieve", "gardening", "soil"],
+  "directional": false,
+  "useCase": "Choose a soil sieve from a planting equipment list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Four open mesh panels sit inside the full round rim above the complete lower wall."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger sieve keeps all four mesh panels and the full deep circular rim clear."
+    }
+  }
+}

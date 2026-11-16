@@ -1,0 +1,19 @@
+{
+  "name": "lawn-mower",
+  "category": "tools",
+  "description": "A push lawn mower with two open wheels and a complete handle.",
+  "tags": ["mower", "gardening", "machine"],
+  "directional": false,
+  "useCase": "Choose a lawn mower from a garden equipment list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both full wheel holes remain open below the complete cutting deck, engine and push handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger mower keeps both wheel holes, the full engine and deck, and the complete push handle clear."
+    }
+  }
+}

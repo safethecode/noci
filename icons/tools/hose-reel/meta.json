@@ -1,0 +1,19 @@
+{
+  "name": "hose-reel",
+  "category": "tools",
+  "description": "A garden hose reel on a complete stand with a winding crank.",
+  "tags": ["reel", "gardening", "hose"],
+  "directional": false,
+  "useCase": "Choose a hose reel from an outdoor watering equipment list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The open spool and hub sit above a complete stand beside the full winding crank."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger reel keeps its full spool, open hub, complete stand and winding crank clear."
+    }
+  }
+}
