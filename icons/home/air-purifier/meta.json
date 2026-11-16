@@ -1,0 +1,19 @@
+{
+  "name": "air-purifier",
+  "category": "home",
+  "description": "An air purifier with a top outlet and two broad ventilation slots.",
+  "tags": ["air", "filter", "appliance"],
+  "directional": false,
+  "useCase": "Identify an air purifier in indoor air quality or appliance controls.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full case and three horizontal openings keep distinct white spaces."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete case retains its top outlet and two wide ventilation slots."
+    }
+  }
+}
