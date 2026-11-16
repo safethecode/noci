@@ -1,0 +1,19 @@
+{
+  "name": "car-door",
+  "category": "transport",
+  "description": "A car door with a sloping window frame, full lower panel and pull handle.",
+  "tags": ["door", "car", "bodywork"],
+  "directional": false,
+  "useCase": "Identify vehicle doors in controls, parts catalogues or service diagrams.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full sloping window and lower door panel keep the pull handle clear of their edges."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete window frame and door panel retain clear space around the handle."
+    }
+  }
+}
