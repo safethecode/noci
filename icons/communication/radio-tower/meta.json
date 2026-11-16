@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Gentler signal curves stay separate from the central antenna, above a braced frame whose two legs extend below the crossbar."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Broader signal curves surround the central antenna, and the full crossbar joins both sloping legs without protruding."
     }
   }
 }
