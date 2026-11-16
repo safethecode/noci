@@ -1,0 +1,19 @@
+{
+  "name": "cooling-tower",
+  "category": "buildings",
+  "description": "A complete cooling tower with an open round rim, narrow waist and broad base.",
+  "tags": ["cooling", "tower", "industry"],
+  "directional": false,
+  "useCase": "Identify a cooling tower in an industrial facility or infrastructure map.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full open rim stays distinct above the narrow waist and broad base."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger tower keeps its complete open rim, narrow waist and full broad base."
+    }
+  }
+}
