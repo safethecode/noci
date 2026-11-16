@@ -1,0 +1,19 @@
+{
+  "name": "fishing-reel",
+  "category": "sports",
+  "description": "A fishing reel seen from the side, with an open spool hub and full winding crank.",
+  "tags": ["reel", "fishing", "equipment"],
+  "directional": false,
+  "useCase": "Identify fishing reels or fishing line winding equipment.",
+  "misuse": "Use a visible label when equipment identifies a product, outdoor activity or required gear.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full spool and open hub remain clear beside the complete winding crank."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger reel retains a broad spool, open hub and complete winding crank."
+    }
+  }
+}
