@@ -1,0 +1,19 @@
+{
+  "name": "medicine-bottle",
+  "category": "health",
+  "description": "A capped medicine bottle with a medical cross on its label.",
+  "tags": ["bottle", "medicine", "pharmacy"],
+  "directional": false,
+  "useCase": "Identify bottled medicine or a pharmacy item.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete medical item retains its defining parts and open spaces at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete silhouette and defining parts stay centered inside the shared drawing frame."
+    }
+  }
+}

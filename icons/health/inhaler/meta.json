@@ -1,0 +1,19 @@
+{
+  "name": "inhaler",
+  "category": "health",
+  "description": "An upright medicine canister in an L-shaped inhaler with a mouthpiece.",
+  "tags": ["inhaler", "medicine", "breathing"],
+  "directional": false,
+  "useCase": "Identify inhaled medicine or an inhaler device.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete medical item retains its defining parts and open spaces at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete silhouette and defining parts stay centered inside the shared drawing frame."
+    }
+  }
+}

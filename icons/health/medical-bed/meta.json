@@ -1,0 +1,19 @@
+{
+  "name": "medical-bed",
+  "category": "health",
+  "description": "A bed with a pillow, two legs and a medical cross.",
+  "tags": ["bed", "hospital", "care"],
+  "directional": false,
+  "useCase": "Identify a hospital bed or inpatient care.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete medical item retains its defining parts and open spaces at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete silhouette and defining parts stay centered inside the shared drawing frame."
+    }
+  }
+}
