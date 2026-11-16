@@ -1,0 +1,19 @@
+{
+  "name": "asterisk",
+  "category": "foundation",
+  "description": "An asterisk with six complete arms meeting at one center.",
+  "tags": ["asterisk", "required", "wildcard"],
+  "directional": false,
+  "useCase": "Represent an asterisk or accompany visible text that identifies a required field.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete form retains clear edges and an open center within the shared drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger complete form retains balanced edges and an open center within the shared drawing frame."
+    }
+  }
+}

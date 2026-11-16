@@ -1,0 +1,19 @@
+{
+  "name": "squircle",
+  "category": "foundation",
+  "description": "A complete squircle with four continuous curved corners.",
+  "tags": ["squircle", "shape", "geometry"],
+  "directional": false,
+  "useCase": "Identify a squircle in drawing tools or shape selectors.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full continuous curve keeps a broad open center and balanced sides."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete continuous outline retains balanced sides and a broad interior."
+    }
+  }
+}

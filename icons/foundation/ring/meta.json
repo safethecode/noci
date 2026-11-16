@@ -1,0 +1,19 @@
+{
+  "name": "ring",
+  "category": "foundation",
+  "description": "A complete circular ring with a broad band and open center.",
+  "tags": ["ring", "shape", "geometry"],
+  "directional": false,
+  "useCase": "Identify an annular shape in drawing tools, diagrams or shape selectors.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full concentric outlines leave a clear band and central opening."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Both complete concentric outlines retain a broad band and central opening."
+    }
+  }
+}

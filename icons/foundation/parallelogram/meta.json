@@ -1,0 +1,19 @@
+{
+  "name": "parallelogram",
+  "category": "foundation",
+  "description": "A complete parallelogram with two pairs of parallel edges.",
+  "tags": ["parallelogram", "shape", "geometry"],
+  "directional": false,
+  "useCase": "Identify the parallelogram shape in drawing tools, diagrams or shape selectors.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete form retains clear edges and an open center within the shared drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger complete form retains balanced edges and an open center within the shared drawing frame."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "triangle-dashed",
+  "category": "foundation",
+  "description": "A complete triangle boundary made of three separated corner strokes.",
+  "tags": ["triangle", "selection", "dashed"],
+  "directional": false,
+  "useCase": "Identify a triangular selection boundary in drawing tools or shape selectors.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three complete corner strokes describe the triangle with clear gaps along all sides."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "All three complete corners retain clear gaps within the shared drawing frame."
+    }
+  }
+}

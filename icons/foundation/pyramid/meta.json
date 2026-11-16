@@ -1,0 +1,19 @@
+{
+  "name": "pyramid",
+  "category": "foundation",
+  "description": "A complete pyramid with a pointed apex and two visible triangular faces.",
+  "tags": ["pyramid", "shape", "geometry"],
+  "directional": false,
+  "useCase": "Identify a pyramid in geometry lessons, drawing tools or three-dimensional object selectors.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two complete triangular faces remain distinct along their shared full edge."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Both complete triangular faces retain clear interiors beneath the apex."
+    }
+  }
+}

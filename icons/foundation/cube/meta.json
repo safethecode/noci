@@ -1,0 +1,19 @@
+{
+  "name": "cube",
+  "category": "foundation",
+  "description": "A complete cube with a square front and two visible receding faces.",
+  "tags": ["cube", "shape", "geometry"],
+  "directional": false,
+  "useCase": "Identify a cube in drawing tools, geometry lessons or three-dimensional object selectors.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three whole faces retain distinct interiors inside a square envelope."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The square front and both complete receding faces retain broad interiors."
+    }
+  }
+}

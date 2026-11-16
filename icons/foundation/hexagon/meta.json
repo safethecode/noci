@@ -1,0 +1,19 @@
+{
+  "name": "hexagon",
+  "category": "foundation",
+  "description": "A complete six-sided polygon with flat upper and lower edges.",
+  "tags": ["hexagon", "shape", "polygon"],
+  "directional": false,
+  "useCase": "Identify the hexagon shape in drawing tools, diagrams or shape selectors.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete form retains clear edges and an open center within the shared drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger complete form retains balanced edges and an open center within the shared drawing frame."
+    }
+  }
+}
