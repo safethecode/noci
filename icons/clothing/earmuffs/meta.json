@@ -1,0 +1,19 @@
+{
+  "name": "earmuffs",
+  "category": "clothing",
+  "description": "Two round padded winter earmuffs joined by a curved headband.",
+  "tags": ["earmuffs", "winter", "clothing"],
+  "directional": false,
+  "useCase": "Identify winter earmuffs or warm ear coverings.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two round padded muffs stay separate below the continuous headband."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger round muffs retain clear openings below the complete curved band."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "shirt",
+  "category": "clothing",
+  "description": "A long-sleeved shirt with an open V neckline and two buttons.",
+  "tags": ["shirt", "formal", "clothing"],
+  "directional": false,
+  "useCase": "Identify shirts or button-front tops in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two separate buttons remain clear between the open neckline and lower hem."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger shirt keeps both full sleeves and two centered buttons clear."
+    }
+  }
+}

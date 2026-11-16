@@ -1,0 +1,19 @@
+{
+  "name": "belt",
+  "category": "clothing",
+  "description": "A belt with a broad rectangular buckle and a visible fastening prong.",
+  "tags": ["belt", "buckle", "clothing"],
+  "directional": false,
+  "useCase": "Identify belts or waist accessories in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The buckle stays open around its short fastening prong."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger belt retains a complete buckle and a clear fastening prong."
+    }
+  }
+}

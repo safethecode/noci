@@ -1,0 +1,19 @@
+{
+  "name": "baseball-cap",
+  "category": "clothing",
+  "description": "A baseball cap seen from the front, with a curved crown and broad projecting visor.",
+  "tags": ["cap", "headwear", "clothing"],
+  "directional": false,
+  "useCase": "Identify baseball caps or casual headwear in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A divided curved crown sits above the broad open visor."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger cap keeps the crown panels and curved visor clear."
+    }
+  }
+}

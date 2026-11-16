@@ -1,0 +1,19 @@
+{
+  "name": "sneaker",
+  "category": "clothing",
+  "description": "A low sneaker with a curved collar, a diagonal lace and a thick sole.",
+  "tags": ["sneaker", "footwear", "clothing"],
+  "directional": false,
+  "useCase": "Identify sneakers or casual athletic shoes in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One short lace stays clear of the complete thick sole."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "One full diagonal lace stays clear of the complete thick sole."
+    }
+  }
+}

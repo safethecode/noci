@@ -1,0 +1,19 @@
+{
+  "name": "shorts",
+  "category": "clothing",
+  "description": "A pair of shorts with a wide waistband and two short legs.",
+  "tags": ["shorts", "summer", "clothing"],
+  "directional": false,
+  "useCase": "Identify shorts in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The crotch clears the broad waistband between two full short legs."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger shorts keep both leg openings beneath the broad waistband."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "jacket",
+  "category": "clothing",
+  "description": "A short jacket with long sleeves, a center fastening and a broad lower band.",
+  "tags": ["jacket", "outerwear", "clothing"],
+  "directional": false,
+  "useCase": "Identify jackets or short outerwear in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The center fastening divides the broad lower band between two full sleeves."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger jacket keeps both sleeves and the two lower band sections clear."
+    }
+  }
+}

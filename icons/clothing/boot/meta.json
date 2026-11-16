@@ -1,0 +1,19 @@
+{
+  "name": "boot",
+  "category": "clothing",
+  "description": "An ankle boot with a tall shaft, broad toe and thick sole.",
+  "tags": ["boot", "footwear", "clothing"],
+  "directional": false,
+  "useCase": "Identify boots in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The tall shaft and broad toe remain open above the thick sole band."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger boot keeps its shaft and toe clear above the complete sole."
+    }
+  }
+}

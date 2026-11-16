@@ -1,0 +1,19 @@
+{
+  "name": "skirt",
+  "category": "clothing",
+  "description": "A flared skirt with a broad waistband and one central pleat.",
+  "tags": ["skirt", "pleat", "clothing"],
+  "directional": false,
+  "useCase": "Identify skirts in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad waistband stays above two open pleated sections."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger skirt keeps its waistband and central pleat open and balanced."
+    }
+  }
+}

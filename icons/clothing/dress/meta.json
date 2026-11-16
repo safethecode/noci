@@ -1,0 +1,19 @@
+{
+  "name": "dress",
+  "category": "clothing",
+  "description": "A sleeveless dress with a shaped neckline, fitted waist and flared skirt.",
+  "tags": ["dress", "formal", "clothing"],
+  "directional": false,
+  "useCase": "Identify dresses or one-piece garments in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A shallow neckline keeps the complete bodice open above the fitted waist."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The shallower neckline leaves clear space above the complete fitted waist."
+    }
+  }
+}

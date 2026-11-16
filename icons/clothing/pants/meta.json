@@ -1,0 +1,19 @@
+{
+  "name": "pants",
+  "category": "clothing",
+  "description": "A pair of long trousers with a waistband and two separate legs.",
+  "tags": ["pants", "trousers", "clothing"],
+  "directional": false,
+  "useCase": "Identify trousers or long pants in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two full trouser legs stay open below the broad waistband."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger trousers keep the waistband and both long legs clear."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "hoodie",
+  "category": "clothing",
+  "description": "A hooded sweatshirt with a broad open hood and long sleeves.",
+  "tags": ["hood", "sweatshirt", "clothing"],
+  "directional": false,
+  "useCase": "Identify hoodies or hooded casual clothing.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The open hood sits above two full sleeves with square underarms."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger hood and complete sleeves retain open regions above the straight lower hem."
+    }
+  }
+}
