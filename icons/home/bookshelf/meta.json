@@ -1,0 +1,19 @@
+{
+  "name": "bookshelf",
+  "category": "home",
+  "description": "A complete two-shelf bookcase with upright books above a horizontal book.",
+  "tags": ["books", "shelves", "furniture"],
+  "directional": false,
+  "useCase": "Identify a bookcase in room plans, furniture catalogues or storage settings.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both full shelves contain complete open book shapes with clear interiors."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full case surrounds two upright books and one broad horizontal book."
+    }
+  }
+}

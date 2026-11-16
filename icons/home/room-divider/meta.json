@@ -1,0 +1,19 @@
+{
+  "name": "room-divider",
+  "category": "home",
+  "description": "A complete folding room divider with three joined panels.",
+  "tags": ["divider", "privacy", "furniture"],
+  "directional": false,
+  "useCase": "Identify folding privacy screens in room plans or furniture catalogues.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three complete folded panels keep separate broad interiors in a square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "All three full folded panels retain clear interiors and continuous shared edges."
+    }
+  }
+}

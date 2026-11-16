@@ -1,0 +1,19 @@
+{
+  "name": "shoe-rack",
+  "category": "home",
+  "description": "A complete two-tier shoe rack with supporting posts and one whole shoe.",
+  "tags": ["shoes", "storage", "furniture"],
+  "directional": false,
+  "useCase": "Identify shoe racks in entryway plans or furniture catalogues.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, -0.5],
+      "reason": "The full shoe has a raised heel and curved toe above the rack. Shorter posts expose the shoe silhouette, and a small upward shift balances it above the two shelves."
+    },
+    "24": {
+      "offset": [0, -0.75],
+      "reason": "The complete shoe upper curves into a rounded toe above the two shelves. The posts end at the upper shelf, and a small upward shift balances the whole rack."
+    }
+  }
+}

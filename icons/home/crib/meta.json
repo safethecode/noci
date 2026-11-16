@@ -1,0 +1,19 @@
+{
+  "name": "crib",
+  "category": "home",
+  "description": "A baby crib with complete corner posts, upper and lower rails, and three upright slats.",
+  "tags": ["baby", "bed", "furniture"],
+  "directional": false,
+  "useCase": "Identify baby cribs in nursery plans or furniture catalogues.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Whole corner posts and three broad-spaced slats preserve all four rail openings."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete posts and rails surround three full upright slats with clear openings."
+    }
+  }
+}

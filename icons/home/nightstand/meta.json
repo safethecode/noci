@@ -1,0 +1,19 @@
+{
+  "name": "nightstand",
+  "category": "home",
+  "description": "A bedside table with a full front drawer, lower shelf and two supporting legs.",
+  "tags": ["bedside", "drawer", "furniture"],
+  "directional": false,
+  "useCase": "Identify a nightstand in bedroom plans or furniture catalogues.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full drawer, open lower shelf and both legs remain visible around one round pull."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete drawer and shelf sit above two whole supporting legs."
+    }
+  }
+}

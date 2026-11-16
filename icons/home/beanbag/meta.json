@@ -1,0 +1,19 @@
+{
+  "name": "beanbag",
+  "category": "home",
+  "description": "A complete beanbag chair with a soft curved back and a broad seat seam.",
+  "tags": ["beanbag", "seat", "furniture"],
+  "directional": false,
+  "useCase": "Identify beanbag seating in room plans or furniture catalogues.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete soft back and broad lower seat keep open interiors in a square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The whole curved chair retains its raised back and complete lower seat seam."
+    }
+  }
+}

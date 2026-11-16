@@ -1,0 +1,19 @@
+{
+  "name": "folding-table",
+  "category": "home",
+  "description": "A complete folding table with a broad tabletop and two crossing legs.",
+  "tags": ["table", "folding", "furniture"],
+  "directional": false,
+  "useCase": "Identify folding tables in furniture catalogues, room plans or event layouts.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The whole tabletop and both complete crossing legs stay balanced within a square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full tabletop retains a clear interior above two whole crossed supports."
+    }
+  }
+}
