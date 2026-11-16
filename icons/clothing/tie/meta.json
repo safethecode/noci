@@ -1,0 +1,19 @@
+{
+  "name": "tie",
+  "category": "clothing",
+  "description": "A necktie with a broad knot and pointed lower end.",
+  "tags": ["tie", "formal", "clothing"],
+  "directional": false,
+  "useCase": "Identify neckties or formal neckwear in a clothing catalogue.",
+  "misuse": "Use a visible label when clothing identifies a product, size or dress requirement.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The open knot meets a complete tapered tie with a pointed end."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger knot stays open above the long pointed tie."
+    }
+  }
+}
