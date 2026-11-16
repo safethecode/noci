@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Opposed jaw faces share a baseline below the rail, with clear measuring space and open jaw interiors."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Longer opposed jaw faces retain a clear measuring gap below the rail and slider."
     }
   }
 }

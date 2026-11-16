@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 \u00d7 12 drawing frame."
+      "reason": "The outer strings meet the upper outside of three touching solid bobs, keeping clear space beside the full frame."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 \u00d7 18 drawing frame."
+      "reason": "Three touching solid bobs hang from separate strings inside the full frame."
     }
   }
 }
