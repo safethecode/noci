@@ -1,0 +1,19 @@
+{
+  "name": "easel",
+  "category": "education",
+  "description": "A painting easel with a broad board, upper support and three visible legs.",
+  "tags": ["easel", "painting", "art"],
+  "directional": false,
+  "useCase": "Identify easels or supported painting surfaces.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific art material.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full board sits above three separate easel legs."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger easel keeps the broad board and all three visible legs distinct."
+    }
+  }
+}
