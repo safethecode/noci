@@ -1,0 +1,19 @@
+{
+  "name": "daffodil",
+  "category": "nature",
+  "description": "A complete daffodil bloom with six broad petals around an open central trumpet.",
+  "tags": ["daffodil", "flower", "garden"],
+  "directional": false,
+  "useCase": "Choose a daffodil in a plant catalogue, garden plan or flower list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Six complete broad petals surround a clearly open central trumpet."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger bloom keeps six full petals clear of the broad open central trumpet."
+    }
+  }
+}
