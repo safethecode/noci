@@ -1,0 +1,19 @@
+{
+  "name": "typewriter",
+  "category": "devices",
+  "description": "A complete typewriter with a printed page, wide roller and sloped keyboard.",
+  "tags": ["typewriter", "typing", "writing"],
+  "directional": false,
+  "useCase": "Choose a typewriter or represent mechanical typing and writing tools.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The printed page, roller and centered key row stay clear inside the complete sloped base."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger typewriter keeps the full printed page, wide roller and sloped keyboard."
+    }
+  }
+}
