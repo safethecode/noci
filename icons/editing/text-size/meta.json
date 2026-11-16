@@ -1,0 +1,19 @@
+{
+  "name": "text-size",
+  "category": "editing",
+  "description": "Two T-shaped letters at different sizes.",
+  "tags": ["text", "size", "type"],
+  "directional": false,
+  "useCase": "Choose the size of text.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete text marks retain clear spacing inside the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full text marks and control shape retain clear margins at interface size."
+    }
+  }
+}
