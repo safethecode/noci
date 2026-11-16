@@ -1,0 +1,19 @@
+{
+  "name": "star-circle",
+  "category": "foundation",
+  "description": "A star inside a circle.",
+  "tags": ["star", "circle", "symbol"],
+  "directional": false,
+  "useCase": "Mark an item for quick access in a compact button or status indicator.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete central symbol remains clear of its shared frame at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete symbol and shared frame retain open interior spacing."
+    }
+  }
+}
