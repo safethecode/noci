@@ -1,0 +1,19 @@
+{
+  "name": "radical",
+  "category": "foundation",
+  "description": "A complete square-root sign with a full rising stem and upper bar.",
+  "tags": ["root", "math", "radical"],
+  "directional": false,
+  "useCase": "Identify square-root operations in mathematical tools or an expression editor.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete symbol keeps its full strokes and clear spaces within the shared drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete larger symbol retains clear spaces and balanced full strokes."
+    }
+  }
+}
