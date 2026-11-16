@@ -1,0 +1,19 @@
+{
+  "name": "lacrosse-stick",
+  "category": "sports",
+  "description": "A lacrosse stick with a flared mesh head and long straight shaft.",
+  "tags": ["lacrosse", "stick", "equipment"],
+  "directional": false,
+  "useCase": "Identify lacrosse sticks or lacrosse training equipment.",
+  "misuse": "Use a visible label when equipment identifies a sport, product or activity.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One full mesh band stays clear inside the flared head above the straight shaft."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger mesh head retains two broad open regions above the full shaft."
+    }
+  }
+}
