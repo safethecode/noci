@@ -1,0 +1,19 @@
+{
+  "name": "chess-pawn",
+  "category": "games",
+  "description": "A complete chess pawn with a round head and broad base.",
+  "tags": ["pawn", "chess", "games"],
+  "directional": false,
+  "useCase": "Choose or identify a pawn in a chess interface.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete round head joins the full tapered stem above a broad open base."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pawn keeps its full round head, tapered stem and complete open base."
+    }
+  }
+}
