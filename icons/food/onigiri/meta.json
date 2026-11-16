@@ -1,0 +1,19 @@
+{
+  "name": "onigiri",
+  "category": "food",
+  "description": "An onigiri rice ball with rounded sides and a rectangular seaweed wrap.",
+  "tags": ["onigiri", "rice", "seaweed"],
+  "directional": false,
+  "useCase": "Identify onigiri in food menus or ordering controls.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The whole rounded rice ball surrounds a complete open seaweed panel at its base."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete rice ball retains clear space around the full seaweed wrap."
+    }
+  }
+}
