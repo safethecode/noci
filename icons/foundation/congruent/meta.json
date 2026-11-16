@@ -1,0 +1,19 @@
+{
+  "name": "congruent",
+  "category": "foundation",
+  "description": "A wave above two equality bars.",
+  "tags": ["congruence", "geometry", "relation"],
+  "directional": false,
+  "useCase": "Indicate congruent shapes or equivalent forms.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete mathematical mark retains its defining strokes and open spaces beside text."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full mathematical mark is centered inside the shared drawing frame."
+    }
+  }
+}
