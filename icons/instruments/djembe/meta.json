@@ -1,0 +1,19 @@
+{
+  "name": "djembe",
+  "category": "instruments",
+  "description": "A goblet-shaped hand drum with a full broad head and flared foot.",
+  "tags": ["djembe", "drum", "percussion"],
+  "directional": false,
+  "useCase": "Choose a djembe in an instrument library, lesson or music product list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full drum head joins a broad bowl, narrow stem and flared foot."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger drum retains its complete head, curved bowl and flared foot."
+    }
+  }
+}

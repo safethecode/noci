@@ -1,0 +1,19 @@
+{
+  "name": "castanets",
+  "category": "instruments",
+  "description": "Two complete hollow castanet shells joined by a curved cord.",
+  "tags": ["castanets", "shells", "percussion"],
+  "directional": false,
+  "useCase": "Choose castanets in an instrument library, dance lesson or music product list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full curved cord arches clear beside the first shell, while both complete shells retain open interiors."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pair keeps both full hollow shells and the complete connecting cord."
+    }
+  }
+}

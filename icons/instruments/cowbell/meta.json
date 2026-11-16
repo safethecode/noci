@@ -1,0 +1,19 @@
+{
+  "name": "cowbell",
+  "category": "instruments",
+  "description": "A flared metal cowbell with a full hanging loop and open rectangular mouth.",
+  "tags": ["cowbell", "bell", "percussion"],
+  "directional": false,
+  "useCase": "Choose a cowbell in an instrument library, percussion lesson or music product list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full hanging loop sits above a flared bell with an open mouth."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger bell keeps its full loop, flared body and wide open mouth."
+    }
+  }
+}

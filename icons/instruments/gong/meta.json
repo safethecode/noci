@@ -1,0 +1,19 @@
+{
+  "name": "gong",
+  "category": "instruments",
+  "description": "A complete round gong with a raised central boss suspended in a square stand.",
+  "tags": ["gong", "metal", "percussion"],
+  "directional": false,
+  "useCase": "Choose a gong in an instrument library, percussion lesson or music product list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full gong and its visible center stay clear of the surrounding stand."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger gong keeps its full round plate, raised boss and complete stand."
+    }
+  }
+}

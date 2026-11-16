@@ -1,0 +1,19 @@
+{
+  "name": "bongos",
+  "category": "instruments",
+  "description": "Two complete tapered bongo drums joined by a short bridge.",
+  "tags": ["bongos", "drums", "percussion"],
+  "directional": false,
+  "useCase": "Choose bongos in an instrument library, lesson or music product list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Each drum keeps its full open head and tapered body beside the connecting bridge."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger pair keeps two complete heads, tapered bodies and a short bridge."
+    }
+  }
+}
