@@ -1,0 +1,19 @@
+{
+  "name": "food-trailer",
+  "category": "transport",
+  "description": "A rounded serving trailer with a counter, full wheel and projecting tow hitch.",
+  "tags": ["food", "trailer", "catering"],
+  "directional": false,
+  "useCase": "Find a food trailer or choose a mobile catering trailer in a vendor list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The hitch leg stays clear of the rounded body, with the serving slot centered above the wheel."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger rounded body keeps a full serving slot, open wheel and separate hitch leg."
+    }
+  }
+}
