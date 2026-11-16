@@ -1,0 +1,19 @@
+{
+  "name": "not-parallel",
+  "category": "foundation",
+  "description": "Two parallel lines crossed by a cancellation stroke.",
+  "tags": ["parallel", "negation", "relation"],
+  "directional": false,
+  "useCase": "Indicate that two lines are not parallel.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete upright lines retain their spacing; a rising cancellation stroke distinguishes the negated form."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The shared upright lines and the rising cancellation stroke keep the relation clear beside text."
+    }
+  }
+}
