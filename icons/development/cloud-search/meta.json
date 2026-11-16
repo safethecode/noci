@@ -1,0 +1,19 @@
+{
+  "name": "cloud-search",
+  "category": "development",
+  "description": "A cloud containing a magnifying glass.",
+  "tags": ["cloud", "search", "service"],
+  "directional": false,
+  "useCase": "Search cloud resources.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete cloud outline leaves clear room for a full central status mark."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full cloud silhouette and status mark retain clear interior margins."
+    }
+  }
+}
