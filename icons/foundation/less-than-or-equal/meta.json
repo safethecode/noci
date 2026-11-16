@@ -1,0 +1,19 @@
+{
+  "name": "less-than-or-equal",
+  "category": "foundation",
+  "description": "The less-than-or-equal comparison symbol.",
+  "tags": ["comparison", "less", "equal"],
+  "directional": false,
+  "useCase": "Show that one value is less than or equal to another.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete mathematical mark retains its defining strokes and open spaces beside text."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full mathematical mark is centered inside the shared drawing frame."
+    }
+  }
+}
