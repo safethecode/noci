@@ -1,0 +1,19 @@
+{
+  "name": "seam-ripper",
+  "category": "craft",
+  "description": "A seam ripper with two unequal prongs and a broad handle.",
+  "tags": ["seam", "sewing", "tool"],
+  "directional": false,
+  "useCase": "A seam ripper with two unequal prongs and a broad handle.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two full unequal prongs stay open above the complete diagonal handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger ripper keeps both curved prongs and the protective ball above a full handle."
+    }
+  }
+}
