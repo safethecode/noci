@@ -1,0 +1,19 @@
+{
+  "name": "radiator",
+  "category": "transport",
+  "description": "An engine radiator with a complete cooling core, broad fins and filler cap.",
+  "tags": ["radiator", "car", "cooling"],
+  "directional": false,
+  "useCase": "Identify engine radiators or vehicle cooling systems.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full cooling core retains four clear openings below the attached filler cap."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete core and three broad fins keep clear openings beneath the filler cap."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "engine",
+  "category": "transport",
+  "description": "An engine block with a filler cap, side connection and sloping upper housing.",
+  "tags": ["engine", "car", "mechanical"],
+  "directional": false,
+  "useCase": "Identify vehicle engines, engine status or engine components.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full engine block and attached filler cap retain a clear side connection and sloped upper housing."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The whole engine silhouette retains its filler cap, side connection and broad open interior."
+    }
+  }
+}

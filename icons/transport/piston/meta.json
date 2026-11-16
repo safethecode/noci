@@ -1,0 +1,19 @@
+{
+  "name": "piston",
+  "category": "transport",
+  "description": "An engine piston with a broad crown, full connecting rod and open lower bearing.",
+  "tags": ["piston", "engine", "mechanical"],
+  "directional": false,
+  "useCase": "Identify pistons or engine components in automotive parts catalogues and service diagrams.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The whole crown and rod stay connected to both sides of the full open lower bearing."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete crown, connecting rod and lower bearing retain distinct open interiors."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "exhaust",
+  "category": "transport",
+  "description": "An exhaust silencer with a complete chamber and two connected bent pipes.",
+  "tags": ["exhaust", "car", "silencer"],
+  "directional": false,
+  "useCase": "Identify exhaust components or vehicle exhaust systems.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The whole chamber stays clearly separated from both full outer pipe sections."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete silencer chamber leaves broad gaps beside its attached bent pipes."
+    }
+  }
+}
