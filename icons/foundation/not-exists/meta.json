@@ -1,0 +1,19 @@
+{
+  "name": "not-exists",
+  "category": "foundation",
+  "description": "An existential quantifier crossed by a cancellation stroke.",
+  "tags": ["logic", "negation", "quantifier"],
+  "directional": false,
+  "useCase": "Indicate that no element satisfies a statement.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full logical mark retains its defining bars, curves and clear spaces beside text."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete logical mark stays centered inside the shared drawing frame."
+    }
+  }
+}
