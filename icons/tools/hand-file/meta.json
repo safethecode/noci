@@ -1,0 +1,19 @@
+{
+  "name": "hand-file",
+  "category": "tools",
+  "description": "A rectangular hand file with a marked blade and a rounded grip.",
+  "tags": ["file", "finishing", "tool"],
+  "directional": false,
+  "useCase": "Identify a hand file or surface finishing.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A diagonal construction balances the complete grip and working end inside the square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete tool sits diagonally in the shared frame with its grip and working end intact."
+    }
+  }
+}
