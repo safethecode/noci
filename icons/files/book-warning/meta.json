@@ -1,0 +1,19 @@
+{
+  "name": "book-warning",
+  "category": "files",
+  "description": "An exclamation mark on a closed book.",
+  "tags": ["book", "warning", "reading"],
+  "directional": false,
+  "useCase": "Show a book or reading item that needs attention.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A taller stem and a dot centered on a pixel keep the exclamation clear inside the complete cover."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete cover and lower page edge share a centered status mark."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "book-search",
+  "category": "files",
+  "description": "A magnifying glass on a closed book.",
+  "tags": ["book", "search", "reading"],
+  "directional": false,
+  "useCase": "Find a book or search its contents.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A full cover and rounded lower binding leave room for a clear status mark."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete cover and lower page edge share a centered status mark."
+    }
+  }
+}
