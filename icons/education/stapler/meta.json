@@ -1,0 +1,19 @@
+{
+  "name": "stapler",
+  "category": "education",
+  "description": "A desktop stapler with a rounded upper arm, rear hinge and separate lower jaw.",
+  "tags": ["stapler", "office", "stationery"],
+  "directional": false,
+  "useCase": "Identify staplers or paper fastening tools.",
+  "misuse": "Use a visible label when a tool identifies a product or a specific art material.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete lower jaw stays clear below the rounded upper arm."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger stapler retains a broad upper arm and a clear opening above the lower jaw."
+    }
+  }
+}
