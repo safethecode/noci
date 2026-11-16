@@ -1,0 +1,19 @@
+{
+  "name": "fire-hydrant",
+  "category": "maps",
+  "description": "A complete fire hydrant with a domed cap, two side outlets and a broad base.",
+  "tags": ["hydrant", "fire", "utilities"],
+  "directional": false,
+  "useCase": "Locate a fire hydrant on a utility map or inspection list.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full domed body and both open side outlets stay distinct around the visible center fitting."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger hydrant keeps the complete domed body, two open outlets and broad base."
+    }
+  }
+}
