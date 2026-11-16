@@ -1,0 +1,19 @@
+{
+  "name": "boombox",
+  "category": "media",
+  "description": "A complete portable stereo with a carrying handle, display and two full speakers.",
+  "tags": ["boombox", "stereo", "audio"],
+  "directional": false,
+  "useCase": "Choose a portable stereo or represent a boombox music player.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both solid speaker grilles remain visible below the display and full carrying handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger stereo keeps both open speakers, display and complete carrying handle."
+    }
+  }
+}
