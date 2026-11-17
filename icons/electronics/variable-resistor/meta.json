@@ -1,0 +1,19 @@
+{
+  "name": "variable-resistor",
+  "category": "electronics",
+  "description": "A resistive element with two terminals and a complete diagonal adjustment arrow.",
+  "tags": ["resistance", "adjust", "circuit"],
+  "directional": false,
+  "useCase": "Show an adjustable resistance in a circuit editor.",
+  "misuse": "Use accompanying text for the component value and circuit connection.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full diagonal shaft crosses the resistive element; a rounded solid head remains clear of the body without a cramped inner outline."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full two-terminal topology, diagonal shaft and solid arrowhead retain clear open space."
+    }
+  }
+}
