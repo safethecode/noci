@@ -1,0 +1,19 @@
+{
+  "name": "layout-template-footer",
+  "category": "layout",
+  "description": "Two content cards above a wide footer card.",
+  "tags": ["layout", "template", "footer"],
+  "directional": false,
+  "useCase": "Two content cards above a wide footer card.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Separate cards retain one pixel of clear space and open interiors inside the shared square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Separate cards retain 1.5 pixels of clear space and open interiors inside the shared square frame."
+    }
+  }
+}
