@@ -1,0 +1,19 @@
+{
+  "name": "video-pause",
+  "category": "media",
+  "description": "A video camera with two solid pause bars.",
+  "tags": ["video", "pause", "capture"],
+  "directional": false,
+  "useCase": "Pause a video capture or camera preview.",
+  "misuse": "Name the control for the video action it performs; do not rely on color alone to indicate recording.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete camera body and lens surround a separate solid control mark inside the shared square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Both complete pause bars align with the other control marks inside the unchanged camera outline."
+    }
+  }
+}

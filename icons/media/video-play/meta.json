@@ -1,0 +1,19 @@
+{
+  "name": "video-play",
+  "category": "media",
+  "description": "A video camera with a solid play triangle.",
+  "tags": ["video", "play", "start"],
+  "directional": false,
+  "useCase": "Start a video preview or camera feed.",
+  "misuse": "Name the control for the video action it performs; do not rely on color alone to indicate recording.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete camera body and lens surround a separate solid control mark inside the shared square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The camera outline matches its family while open spaces keep each control mark clear at toolbar sizes."
+    }
+  }
+}
