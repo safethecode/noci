@@ -1,0 +1,19 @@
+{
+  "name": "handshake",
+  "category": "people",
+  "description": "Two hands clasped in a handshake.",
+  "tags": ["handshake", "agreement", "partnership"],
+  "directional": false,
+  "useCase": "Represent an agreement, partnership or greeting.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0.5],
+      "reason": "Solid cuff bands keep the complete palms clear; a small downward shift centers the lateral grip."
+    },
+    "24": {
+      "offset": [0, 0.75],
+      "reason": "Open cuffs frame the overlapping thumb; a small downward shift balances the full grip."
+    }
+  }
+}
