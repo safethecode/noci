@@ -1,0 +1,19 @@
+{
+  "name": "teapot",
+  "category": "food",
+  "description": "A lidded teapot with a pouring spout and side handle.",
+  "tags": ["tea", "brewing", "teapot"],
+  "directional": false,
+  "useCase": "Brew and serve tea with a teapot.",
+  "misuse": "Use a label when this object identifies a product or a preparation method.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A complete side handle and upturned spout remain clear around the lidded body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The broad body, full lid knob, pouring spout and side handle retain open interiors."
+    }
+  }
+}
