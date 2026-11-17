@@ -1,0 +1,19 @@
+{
+  "name": "zodiac-capricorn",
+  "category": "foundation",
+  "description": "The Capricorn zodiac sign.",
+  "tags": ["capricorn", "zodiac", "astrology"],
+  "directional": false,
+  "useCase": "Identify Capricorn in a zodiac sign selector or astrology calendar.",
+  "misuse": "Pair the symbol with a visible sign name.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The angled entry and complete lower loop remain distinct at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider optical frame keeps the full sign and its internal spaces clear beside larger text."
+    }
+  }
+}
