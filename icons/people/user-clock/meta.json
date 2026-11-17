@@ -1,0 +1,19 @@
+{
+  "name": "user-clock",
+  "category": "people",
+  "description": "A user profile beside a complete clock.",
+  "tags": ["user", "clock", "schedule"],
+  "directional": false,
+  "useCase": "Show a user schedule or time-related account action.",
+  "misuse": "Label the control with the specific user or scheduling action it performs.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The visible profile shoulder joins the complete clock rim while both hands retain clear space."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The head, visible shoulder and complete clock share a balanced square drawing frame."
+    }
+  }
+}
