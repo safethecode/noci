@@ -1,0 +1,19 @@
+{
+  "name": "smoke-detector",
+  "category": "home",
+  "description": "A round smoke detector with three curved vents and a central test button.",
+  "tags": ["smoke", "detector", "alarm"],
+  "directional": false,
+  "useCase": "Smoke detector equipment, sensor placement or home safety devices.",
+  "misuse": "Pair alarm states with a clear text label; this icon identifies the device.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three complete vent arcs surround a centered, native-visible test button."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Longer vent arcs and a larger test button keep every opening clear."
+    }
+  }
+}
