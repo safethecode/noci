@@ -1,0 +1,19 @@
+{
+  "name": "folder-ellipsis",
+  "category": "files",
+  "description": "A complete folder containing three separate dots.",
+  "tags": ["more", "actions", "folder"],
+  "directional": false,
+  "useCase": "Open additional actions for a folder.",
+  "misuse": "Label the folder action explicitly; arrows depict fixed physical directions.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full folder and tab stay unchanged; the complete dot row moves a quarter unit right and down so all three equal dots remain equally clear at native size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full shared folder and complete content marker retain their direction and generous separation."
+    }
+  }
+}
