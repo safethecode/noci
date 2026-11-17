@@ -1,0 +1,19 @@
+{
+  "name": "calendars",
+  "category": "time",
+  "description": "Two overlapping calendars with separate bindings.",
+  "tags": ["calendars", "months", "schedule"],
+  "directional": false,
+  "useCase": "Show multiple calendars or a multi-month view.",
+  "misuse": "Label the control with the specific calendar action, date or period it changes.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both complete calendars retain separate full bindings, with a broad front sheet and clear space below the rear tabs."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Both complete calendars retain separate full bindings, with a broad front sheet and clear space below the rear tabs."
+    }
+  }
+}
