@@ -1,0 +1,19 @@
+{
+  "name": "alien",
+  "category": "games",
+  "description": "An alien with a broad forehead, tapered chin and two slanted eyes.",
+  "tags": ["alien", "space", "character"],
+  "directional": false,
+  "useCase": "Represent an alien character or a science fiction theme.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two full, slanted eyes remain separate inside a wide forehead and tapered chin."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Symmetrical eyes and a broad, rounded head keep the character balanced in its square frame."
+    }
+  }
+}
