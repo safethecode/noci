@@ -1,0 +1,19 @@
+{
+  "name": "paper-shredder",
+  "category": "education",
+  "description": "A paper shredder with a feeding sheet and three cut strips.",
+  "tags": ["paper", "shredder", "office"],
+  "directional": false,
+  "useCase": "A paper shredder with a feeding sheet and three cut strips.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete silhouette and important working parts remain distinct at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete silhouette and working parts retain clear space inside the shared square frame."
+    }
+  }
+}

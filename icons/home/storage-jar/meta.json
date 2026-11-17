@@ -1,0 +1,19 @@
+{
+  "name": "storage-jar",
+  "category": "home",
+  "description": "A wide storage jar with rounded shoulders and a fitted lid.",
+  "tags": ["jar", "storage", "container"],
+  "directional": false,
+  "useCase": "A wide storage jar with rounded shoulders and a fitted lid.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete silhouette and important working parts remain distinct at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete silhouette and working parts retain clear space inside the shared square frame."
+    }
+  }
+}

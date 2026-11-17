@@ -1,0 +1,19 @@
+{
+  "name": "hole-punch",
+  "category": "education",
+  "description": "A side view of a paper punch with a hinged press lever and a broad base.",
+  "tags": ["paper", "punch", "office"],
+  "directional": false,
+  "useCase": "A two-hole paper punch with a curved handle and a broad base.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The angled press lever and raised punch leave a clear paper throat above the base."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full press lever, rear hinge and raised punch remain distinct above the broad base."
+    }
+  }
+}
