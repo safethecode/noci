@@ -1,0 +1,19 @@
+{
+  "name": "zodiac-pisces",
+  "category": "foundation",
+  "description": "The Pisces zodiac sign.",
+  "tags": ["pisces", "zodiac", "astrology"],
+  "directional": false,
+  "useCase": "Identify Pisces in a zodiac sign selector or astrology calendar.",
+  "misuse": "Pair the symbol with a visible sign name.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two opposed curves meet one central bar without closing the surrounding white areas."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider optical frame keeps the full sign and its internal spaces clear beside larger text."
+    }
+  }
+}
