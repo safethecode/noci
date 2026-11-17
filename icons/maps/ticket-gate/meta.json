@@ -1,0 +1,19 @@
+{
+  "name": "ticket-gate",
+  "category": "maps",
+  "description": "Two ticket-gate housings with reader divisions and separate barrier leaves.",
+  "tags": ["ticket", "gate", "transit"],
+  "directional": false,
+  "useCase": "Identify ticket gates at a station entrance or in a transit facility plan.",
+  "misuse": "Use ticket for admission or fare purchase; this mark locates the gate.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The reader divisions and paired barrier leaves stay distinct, with a clear central passage."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Mirrored housings keep their reader faces and separate barrier leaves balanced around the passage."
+    }
+  }
+}
