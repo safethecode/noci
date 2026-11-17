@@ -1,0 +1,19 @@
+{
+  "name": "invert-colors",
+  "category": "inclusion",
+  "description": "A complete symmetric droplet with one solid half.",
+  "tags": ["invert", "color", "accessibility"],
+  "directional": false,
+  "useCase": "Switch between normal and inverted interface colors.",
+  "misuse": "Pair this symbol with a setting label and visible on/off state.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full-width symmetric droplet follows the square keyline; the solid half shares its exact outer curves."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete symbol retains its geometric center and functional parts at interface size."
+    }
+  }
+}
