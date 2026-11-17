@@ -1,0 +1,19 @@
+{
+  "name": "radio-off",
+  "category": "media",
+  "description": "A radio receiver interrupted by a diagonal slash.",
+  "tags": ["radio", "audio", "disabled"],
+  "directional": false,
+  "useCase": "Indicate that a named radio receiver or radio service is disabled.",
+  "misuse": "Use a label to state the affected control and whether it is disabled or unavailable.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Deliberate openings around the full diagonal slash preserve the identifying parts at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full slash and separate functional parts keep the disabled state clear within the square frame."
+    }
+  }
+}

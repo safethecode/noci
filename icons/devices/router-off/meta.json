@@ -1,0 +1,19 @@
+{
+  "name": "router-off",
+  "category": "devices",
+  "description": "A two-antenna wireless router interrupted by a diagonal slash.",
+  "tags": ["router", "network", "disabled"],
+  "directional": false,
+  "useCase": "Indicate that a named wireless router is disabled or unavailable.",
+  "misuse": "Use a label to state the affected control and whether it is disabled or unavailable.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A complete right antenna, the visible lower left antenna and both LEDs identify the physical router without a wireless activity arc."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The broad enclosure, complete right antenna and two separate indicators preserve the router identity around the slash."
+    }
+  }
+}
