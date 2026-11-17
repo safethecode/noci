@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A narrower prompt separates the chevron from the underscore by more than 1px and lifts both clear of the page bottom."
+      "reason": "A curved outer edge leaves a clear opening inside the complete page fold at text size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger prompt keeps a generous gap before its longer underscore, with at least 1.5px of painted space to the page border."
+      "reason": "The wider curved fold leaves a clear opening while keeping the complete page outline."
     }
   }
 }
