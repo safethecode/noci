@@ -1,0 +1,19 @@
+{
+  "name": "send-clock",
+  "category": "communication",
+  "description": "A paper plane beside a complete clock.",
+  "tags": ["send", "schedule", "clock"],
+  "directional": false,
+  "useCase": "Schedule the named message to be sent later.",
+  "misuse": "Use a label to state the specific communication, account or event action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The foreground clock covers the crease while both wings and the complete plane tip remain visible."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A complete clock overlays the plane crease; both full wings retain open faces at toolbar size."
+    }
+  }
+}
