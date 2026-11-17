@@ -1,15 +1,15 @@
 {
   "name": "toucan",
   "category": "animals",
-  "description": "A toucan or tropical birds.",
+  "description": "A toucan with a broad bill and a long tail.",
   "tags": ["toucan", "bill", "tropical"],
   "directional": false,
-  "useCase": "A toucan or tropical birds.",
+  "useCase": "Identify toucans or tropical birds.",
   "misuse": "Use a visible label when a bird identifies a category, service or place.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The broad bill and long folded body carry the small toucan profile."
+      "reason": "A wider head blends smoothly into the back and keeps the eye clear of the bill."
     },
     "24": {
       "offset": [0, 0],

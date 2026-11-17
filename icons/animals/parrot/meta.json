@@ -1,15 +1,15 @@
 {
   "name": "parrot",
   "category": "animals",
-  "description": "A parrot or pet bird care.",
+  "description": "A parrot with a hooked bill, folded wing and long tail.",
   "tags": ["parrot", "pet", "bird"],
   "directional": false,
-  "useCase": "A parrot or pet bird care.",
+  "useCase": "Identify parrots, pet birds or bird care.",
   "misuse": "Use a visible label when a bird identifies a category, service or place.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A short open wing curve sits inside the folded body below the hooked bill."
+      "reason": "A clear eye and a slim folded wing stay separate inside the complete bird outline."
     },
     "24": {
       "offset": [0, 0],
