@@ -1,0 +1,19 @@
+{
+  "name": "kerning",
+  "category": "editing",
+  "description": "A letter pair above two inward-facing arrows.",
+  "tags": ["text", "kerning", "spacing"],
+  "directional": false,
+  "useCase": "Adjust spacing between a particular pair of letters.",
+  "misuse": "Use letter-spacing to adjust spacing uniformly across a whole text selection.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The letter strokes and separate formatting marks remain readable inside the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The letter forms retain open spaces and clear separation from the formatting marks at text and toolbar sizes."
+    }
+  }
+}
