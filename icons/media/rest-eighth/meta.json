@@ -1,0 +1,19 @@
+{
+  "name": "rest-eighth",
+  "category": "media",
+  "description": "An eighth-note rest with a full hooked stem and one solid head.",
+  "tags": ["rest", "eighth", "notation"],
+  "directional": false,
+  "useCase": "Insert an eighth-note rest in a musical score editor.",
+  "misuse": "Use music-note for a general musical note or sound.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full hooked stem and small solid head preserve the conventional eighth rest."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger hook remains clear beside the complete descending stem and solid head."
+    }
+  }
+}
