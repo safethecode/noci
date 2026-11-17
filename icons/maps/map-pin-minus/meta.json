@@ -1,0 +1,19 @@
+{
+  "name": "map-pin-minus",
+  "category": "maps",
+  "description": "A location pin with a minus sign.",
+  "tags": ["location", "remove", "map"],
+  "directional": false,
+  "useCase": "A location pin with a minus sign.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete location pin surrounds a compact marker with clear space at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete location pin and full marker share a centered square drawing frame."
+    }
+  }
+}

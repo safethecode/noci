@@ -1,0 +1,19 @@
+{
+  "name": "map-pin-warning",
+  "category": "maps",
+  "description": "A location pin with an exclamation mark.",
+  "tags": ["location", "warning", "map"],
+  "directional": false,
+  "useCase": "A location pin with an exclamation mark.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The larger lower dot leaves clear space below the complete stem and stays visible beside text."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A larger warning dot matches the stroke weight and stays clear of the complete pin and stem."
+    }
+  }
+}
