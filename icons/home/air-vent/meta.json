@@ -1,0 +1,19 @@
+{
+  "name": "air-vent",
+  "category": "home",
+  "description": "A square ventilation grille with three angled louvers.",
+  "tags": ["ventilation", "grille", "airflow"],
+  "directional": false,
+  "useCase": "Ventilation outlets, airflow equipment or room ventilation controls.",
+  "misuse": "Use menu for a navigation drawer.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three complete solid louvers stay separate inside an outlined grille."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Broader angled louvers retain clear margins inside the same square frame."
+    }
+  }
+}
