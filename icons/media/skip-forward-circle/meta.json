@@ -1,0 +1,19 @@
+{
+  "name": "skip-forward-circle",
+  "category": "media",
+  "description": "A forward playback triangle and track boundary inside a circular frame.",
+  "tags": ["skip", "next", "playback"],
+  "directional": false,
+  "useCase": "Go to the next track.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete playback triangle and shorter full track boundary retain clear gaps from each other and the shared frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full playback markers retain the same spacing and direction within the shared frame."
+    }
+  }
+}
