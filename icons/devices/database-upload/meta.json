@@ -1,0 +1,19 @@
+{
+  "name": "database-upload",
+  "category": "devices",
+  "description": "A database cylinder with an upward arrow.",
+  "tags": ["database", "import", "upload"],
+  "directional": false,
+  "useCase": "Import data into a database.",
+  "misuse": "Name the action or status in the surrounding text or the control label.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The open lower-right rim leaves clear space for the complete action mark, while the upper ellipse and two lower layers identify the database."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete action mark remains separate from the database layers, with shared margins around the full square drawing frame."
+    }
+  }
+}
