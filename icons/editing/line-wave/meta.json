@@ -1,0 +1,19 @@
+{
+  "name": "line-wave",
+  "category": "editing",
+  "description": "A smooth line with two opposite curves.",
+  "tags": ["line", "wave", "stroke"],
+  "directional": false,
+  "useCase": "Choose or draw this type of stroke.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full stroke and its separate marks stay clear and centered inside the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete stroke and separated marks retain clear space inside the square drawing frame."
+    }
+  }
+}
