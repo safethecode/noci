@@ -1,0 +1,19 @@
+{
+  "name": "accidental-sharp",
+  "category": "media",
+  "description": "A musical sharp with upright stems and two rising crossbars.",
+  "tags": ["sharp", "pitch", "notation"],
+  "directional": false,
+  "useCase": "Apply a sharp accidental to raise a written pitch by one semitone.",
+  "misuse": "Use hash for a channel or topic tag.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Upright stems and rising crossbars distinguish the musical sharp from a hash."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger sharp keeps upright stems and two full rising crossbars around an open center."
+    }
+  }
+}
