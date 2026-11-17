@@ -1,0 +1,19 @@
+{
+  "name": "user-search",
+  "category": "people",
+  "description": "A complete head-and-shoulders avatar beside a complete magnifying glass.",
+  "tags": ["account", "search", "person"],
+  "directional": false,
+  "useCase": "Find an account or open a person search.",
+  "misuse": "Label the account action or status explicitly; the symbol alone does not establish identity or permission.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full head uses the shared avatar size; both complete shoulders and the separate account marker retain clear gaps."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The head uses the shared interface avatar radius; both complete shoulders and the separate marker retain generous clear gaps."
+    }
+  }
+}

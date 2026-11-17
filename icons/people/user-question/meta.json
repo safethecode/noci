@@ -1,0 +1,19 @@
+{
+  "name": "user-question",
+  "category": "people",
+  "description": "A complete head-and-shoulders avatar beside a question mark.",
+  "tags": ["account", "question", "person"],
+  "directional": false,
+  "useCase": "Show an account needing clarification or open account help.",
+  "misuse": "Label the account action or status explicitly; the symbol alone does not establish identity or permission.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A full question hook and larger dot remain distinct beside the shared avatar at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The head uses the shared interface avatar radius; both complete shoulders and the separate marker retain generous clear gaps."
+    }
+  }
+}
