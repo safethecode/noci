@@ -1,0 +1,19 @@
+{
+  "name": "corner-up-left-square",
+  "category": "navigation",
+  "description": "Turn up then left inside a square.",
+  "tags": ["turn", "route", "square"],
+  "directional": false,
+  "useCase": "Turn up then left.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A complete bent shaft and full arrowhead remain clear of the enclosing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete turn arrow retains open space around the shaft, head and enclosing frame."
+    }
+  }
+}
