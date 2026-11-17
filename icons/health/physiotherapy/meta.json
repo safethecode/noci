@@ -1,0 +1,19 @@
+{
+  "name": "physiotherapy",
+  "category": "health",
+  "description": "A therapist supports a patient's raised leg.",
+  "tags": ["physiotherapy", "rehabilitation", "care"],
+  "directional": false,
+  "useCase": "Identify physiotherapy or rehabilitation services.",
+  "misuse": "Use medical-bed for a patient bed without a treatment pose.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The raised leg, assisting arm and treatment plinth remain distinct at small sizes."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The raised leg, assisting arm and treatment plinth remain distinct at small sizes."
+    }
+  }
+}

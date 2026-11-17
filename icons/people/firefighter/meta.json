@@ -1,0 +1,19 @@
+{
+  "name": "firefighter",
+  "category": "people",
+  "description": "A firefighter wears a crested helmet with neck protection.",
+  "tags": ["firefighter", "helmet", "service"],
+  "directional": false,
+  "useCase": "Identify firefighters or a fire service assistance point.",
+  "misuse": "Use a label to identify the specific public service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A raised helmet crest and complete neck guards distinguish the protective headwear from a general hard hat."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A raised helmet crest and complete neck guards distinguish the protective headwear from a general hard hat."
+    }
+  }
+}

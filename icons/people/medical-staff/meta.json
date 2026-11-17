@@ -1,0 +1,19 @@
+{
+  "name": "medical-staff",
+  "category": "people",
+  "description": "A medical staff member wears a stethoscope.",
+  "tags": ["medical", "staff", "care"],
+  "directional": false,
+  "useCase": "Identify clinical staff or a medical assistance point.",
+  "misuse": "Use a label when a specific clinical profession matters.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The stethoscope tube and chestpiece stay visible inside the broad staff bust."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The stethoscope tube and chestpiece stay visible inside the broad staff bust."
+    }
+  }
+}

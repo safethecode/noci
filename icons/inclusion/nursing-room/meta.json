@@ -1,0 +1,19 @@
+{
+  "name": "nursing-room",
+  "category": "inclusion",
+  "description": "A seated adult cradles an infant at the chest.",
+  "tags": ["nursing", "feeding", "facility"],
+  "directional": false,
+  "useCase": "Locate a private infant feeding or parent room.",
+  "misuse": "Use medical-staff for a clinical staff workroom.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The seated adult, cradled infant and chair keep the feeding-room pose clear."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The seated adult, cradled infant and chair keep the feeding-room pose clear."
+    }
+  }
+}

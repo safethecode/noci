@@ -1,0 +1,19 @@
+{
+  "name": "baby-changing",
+  "category": "inclusion",
+  "description": "An infant lies on a changing table with raised legs.",
+  "tags": ["baby", "changing", "facility"],
+  "directional": false,
+  "useCase": "Locate baby changing facilities.",
+  "misuse": "Use crib for an infant sleeping space.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The infant and changing surface retain clear space and complete supports."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The infant and changing surface retain clear space and complete supports."
+    }
+  }
+}
