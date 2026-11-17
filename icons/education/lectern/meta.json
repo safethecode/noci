@@ -1,0 +1,19 @@
+{
+  "name": "lectern",
+  "category": "education",
+  "description": "A lectern with a sloping reading surface and a complete supporting pedestal.",
+  "tags": ["lectern", "podium", "lecture"],
+  "directional": false,
+  "useCase": "Identify a lectern, speaking position or reading stand.",
+  "misuse": "Use presentation for a slide screen rather than the speaker’s furniture.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full sloping reading surface remains distinct above a broad supporting pedestal."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A complete sloped top and centered pedestal keep the lectern balanced in its square frame."
+    }
+  }
+}
