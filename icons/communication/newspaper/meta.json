@@ -1,0 +1,19 @@
+{
+  "name": "newspaper",
+  "category": "communication",
+  "description": "A folded newspaper with a picture, text columns and a curled lower corner.",
+  "tags": ["newspaper", "news", "press"],
+  "directional": false,
+  "useCase": "Open news articles, press coverage or a newspaper edition.",
+  "misuse": "Use file-text for a general document rather than a news publication.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A full folded sheet, solid picture and two clear text marks keep the newspaper legible at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Separate text columns and a complete curled corner distinguish the newspaper from a generic page."
+    }
+  }
+}
