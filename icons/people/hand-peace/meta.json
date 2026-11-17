@@ -1,0 +1,19 @@
+{
+  "name": "hand-peace",
+  "category": "people",
+  "description": "A hand with the index and middle fingers extended in a V.",
+  "tags": ["hand", "peace", "gesture"],
+  "directional": false,
+  "useCase": "Represent a peace or victory hand gesture beside a clear label.",
+  "misuse": "Hand gestures can carry different meanings across cultures. Explain the intended action with text.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete fingers, thumb and palm fit the shared square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Open finger separations and clear palm contours keep the full hand readable at toolbar sizes."
+    }
+  }
+}
