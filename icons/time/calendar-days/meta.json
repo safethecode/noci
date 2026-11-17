@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The shared calendar binding stays complete while an open header leaves clear space for the date marks."
     },
     "24": {
       "offset": [0, 0],
