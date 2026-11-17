@@ -1,0 +1,19 @@
+{
+  "name": "corner-left-up-circle",
+  "category": "navigation",
+  "description": "Turn left then up inside a circle.",
+  "tags": ["turn", "route", "circle"],
+  "directional": false,
+  "useCase": "Turn left then up.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A complete bent shaft and full arrowhead remain clear of the enclosing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete turn arrow retains open space around the shaft, head and enclosing frame."
+    }
+  }
+}
