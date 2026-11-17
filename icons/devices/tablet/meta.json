@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The complete home indicator sits one pixel clear of the bottom frame."
     },
     "24": {
       "offset": [0, 0],
