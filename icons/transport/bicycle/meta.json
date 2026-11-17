@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A raised saddle and short seat post leave the upper frame clear; both wheels, the crank and the handlebar retain their geometry."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A distinct saddle and seat post leave clear space above the complete frame; wheel, crank and handlebar geometry is retained."
     }
   }
 }
