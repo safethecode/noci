@@ -1,0 +1,19 @@
+{
+  "name": "text-to-speech",
+  "category": "inclusion",
+  "description": "Three text lines beside a complete loudspeaker and sound wave.",
+  "tags": ["speech", "read", "accessibility"],
+  "directional": false,
+  "useCase": "Read written content aloud or open text-to-speech settings.",
+  "misuse": "Expose the playback state and spoken content in accessible text.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "All three text rows, the full speaker body and the whole sound wave retain clear spacing."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete symbol retains its geometric center and functional parts at interface size."
+    }
+  }
+}

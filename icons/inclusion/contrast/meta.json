@@ -1,0 +1,19 @@
+{
+  "name": "contrast",
+  "category": "inclusion",
+  "description": "A geometrically centered circle with one solid half.",
+  "tags": ["contrast", "display", "accessibility"],
+  "directional": false,
+  "useCase": "Open contrast controls or adjust display contrast.",
+  "misuse": "Expose the actual setting and its value in text.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The shared circular keyline stays centered; the solid half conveys contrast without moving the outer silhouette."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete symbol retains its geometric center and functional parts at interface size."
+    }
+  }
+}
