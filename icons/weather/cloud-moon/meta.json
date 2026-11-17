@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The crescent joins the top of the cloud without entering its white interior, and its free tip leaves an open channel."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The complete crescent stays outside the cloud’s white interior and leaves a wider channel beside its free tip."
     }
   }
 }
