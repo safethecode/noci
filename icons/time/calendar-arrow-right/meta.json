@@ -1,0 +1,19 @@
+{
+  "name": "calendar-arrow-right",
+  "category": "time",
+  "description": "A calendar with a right-pointing arrow.",
+  "tags": ["calendar", "next", "date"],
+  "directional": false,
+  "useCase": "Move to a later date or calendar period.",
+  "misuse": "Label the control with the specific calendar action, date or period it changes.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete bindings and action marks remain separated inside the shared square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The calendar outline and full action marks retain clear spaces at toolbar sizes."
+    }
+  }
+}
