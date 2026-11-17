@@ -1,0 +1,19 @@
+{
+  "name": "cave",
+  "category": "nature",
+  "description": "A broad cave entrance within a rough rock face.",
+  "tags": ["cave", "rock", "geology"],
+  "directional": false,
+  "useCase": "Identify natural caves or cave entrances.",
+  "misuse": "Use a visible label when this landscape identifies a place or habitat.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete arched opening remains broad inside an irregular rock outline."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A broad entrance and irregular rock face distinguish the cave from a built tunnel."
+    }
+  }
+}
