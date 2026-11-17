@@ -1,0 +1,19 @@
+{
+  "name": "rulers",
+  "category": "layout",
+  "description": "Top and left canvas rulers with alternating short ticks.",
+  "tags": ["rulers", "canvas", "measure"],
+  "directional": false,
+  "useCase": "Show rulers along the top and left edges of a canvas.",
+  "misuse": "Use the single ruler icon for a dimension or distance.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Top and left ruler edges follow the canvas frame, leaving the lower-right area open."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Longer ruler edges preserve alternating ticks and the open canvas area."
+    }
+  }
+}
