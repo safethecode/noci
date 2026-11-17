@@ -1,19 +1,19 @@
 {
   "name": "door-open",
   "category": "home",
-  "description": "An open door, enter or leave a room.",
+  "description": "An open door with a visible frame and handle.",
   "tags": ["door", "open", "entry"],
   "directional": false,
-  "useCase": "An open door, enter or leave a room.",
+  "useCase": "Identify an entrance, exit or open doorway.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The knob moves inward to leave clear space along the door edge."
+      "reason": "A clear knob and a continuous threshold keep the open doorway legible."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The knob keeps clear space beside the open panel edge."
+      "reason": "The threshold joins the full panel edge with a continuous stroke."
     }
   }
 }

@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Two small handles stay clear inside the shared cabinet outline."
     },
     "24": {
       "offset": [0, 0],
