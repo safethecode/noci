@@ -1,0 +1,19 @@
+{
+  "name": "number-5-circle",
+  "category": "foundation",
+  "description": "The number five inside a circle.",
+  "tags": ["number", "step", "circle"],
+  "directional": false,
+  "useCase": "Number steps, callouts or items.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full lower bowl bends down sooner to stay clear of the complete upper bar."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete numeral has wider openings inside the same centered frame."
+    }
+  }
+}

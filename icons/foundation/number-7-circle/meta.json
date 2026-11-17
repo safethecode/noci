@@ -1,0 +1,19 @@
+{
+  "name": "number-7-circle",
+  "category": "foundation",
+  "description": "The number seven inside a circle.",
+  "tags": ["number", "step", "circle"],
+  "directional": false,
+  "useCase": "Number steps, callouts or items.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete numeral keeps its open spaces and remains clear of the enclosing frame at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete numeral has wider openings inside the same centered frame."
+    }
+  }
+}
