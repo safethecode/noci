@@ -1,0 +1,19 @@
+{
+  "name": "fire-extinguisher",
+  "category": "tools",
+  "description": "A portable fire extinguisher with squeeze levers and a side hose.",
+  "tags": ["fire", "extinguisher", "safety"],
+  "directional": false,
+  "useCase": "Identify fire extinguishers in equipment lists or safety inspections.",
+  "misuse": "Use fire-hydrant for fixed outdoor water supplies.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full tank, upper lever and side hose stay distinct in the small frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger tank keeps both complete levers and the full side hose clear."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "spray-bottle",
+  "category": "home",
+  "description": "A trigger spray bottle.",
+  "tags": ["spray", "cleaning", "bottle"],
+  "directional": false,
+  "useCase": "Identify trigger bottles or surface-cleaning supplies.",
+  "misuse": "Use spray-can for aerosol cans.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A full trigger stays clear beside the broad bottle below the complete spray head."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger spray head, curved trigger and broad bottle retain clear working spaces."
+    }
+  }
+}
