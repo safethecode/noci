@@ -1,0 +1,19 @@
+{
+  "name": "squares-subtract",
+  "category": "editing",
+  "description": "A notched rear square beside the removed front square.",
+  "tags": ["vector", "subtract", "shapes"],
+  "directional": false,
+  "useCase": "Subtract the front vector shape from the shape behind it.",
+  "misuse": "Use a label to distinguish the four vector Boolean operations.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The notched rear shape and open front corner stay separate at the shared bounds."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger notch and open front corner preserve clear space at both ends."
+    }
+  }
+}

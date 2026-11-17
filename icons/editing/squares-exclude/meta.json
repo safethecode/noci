@@ -1,0 +1,19 @@
+{
+  "name": "squares-exclude",
+  "category": "editing",
+  "description": "Two filled remaining regions with a transparent overlap between them.",
+  "tags": ["vector", "exclude", "shapes"],
+  "directional": false,
+  "useCase": "Keep the non-overlapping areas of selected vector shapes.",
+  "misuse": "Use a label to distinguish the four vector Boolean operations.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Filled remaining regions use beveled tips to leave clear air around the transparent overlap."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger retained regions keep wider gaps across both beveled tips and the transparent center."
+    }
+  }
+}
