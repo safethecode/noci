@@ -1,0 +1,19 @@
+{
+  "name": "bollard",
+  "category": "maps",
+  "description": "A rounded traffic post with a reflective band and a ground line.",
+  "tags": ["post", "barrier", "street"],
+  "directional": false,
+  "useCase": "Locate fixed traffic posts in a street or site plan.",
+  "misuse": "Use traffic-cone for a movable warning marker.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The rounded post and both band divisions stay open above a centered ground line."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The open band and rounded cap stay clear above the centered ground line."
+    }
+  }
+}
