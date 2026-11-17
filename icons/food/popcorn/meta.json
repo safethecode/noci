@@ -1,0 +1,19 @@
+{
+  "name": "popcorn",
+  "category": "food",
+  "description": "Three popped kernels above a striped popcorn tub.",
+  "tags": ["popcorn", "snack", "cinema"],
+  "directional": false,
+  "useCase": "Popcorn snacks, cinema refreshments or snack selections.",
+  "misuse": "Use corn for a fresh ear of corn.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three solid kernels stay distinct above a broad striped tub."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Separate popped kernels and a single carton stripe keep every part clear."
+    }
+  }
+}
