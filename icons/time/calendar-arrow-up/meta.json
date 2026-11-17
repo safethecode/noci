@@ -1,0 +1,19 @@
+{
+  "name": "calendar-arrow-up",
+  "category": "time",
+  "description": "A calendar with an upward-pointing arrow.",
+  "tags": ["calendar", "ascending", "sort"],
+  "directional": false,
+  "useCase": "Sort calendar dates in ascending order.",
+  "misuse": "Label the control with the specific calendar action, date or period it changes.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete bindings and action marks remain separated inside the shared square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The calendar outline and full action marks retain clear spaces at toolbar sizes."
+    }
+  }
+}
