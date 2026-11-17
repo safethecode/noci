@@ -1,19 +1,19 @@
 {
   "name": "bandage",
   "category": "health",
-  "description": "An adhesive bandage or minor wound care.",
+  "description": "An adhesive bandage with a central pad.",
   "tags": ["bandage", "wound", "care"],
   "directional": false,
-  "useCase": "An adhesive bandage or minor wound care.",
+  "useCase": "First aid supplies, minor wound care or adhesive dressings.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Two full pad dividers meet the capsule without protruding beyond its outline."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A wider central pad leaves clear space around a visible perforation."
     }
   }
 }
