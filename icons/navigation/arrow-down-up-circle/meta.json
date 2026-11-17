@@ -1,0 +1,19 @@
+{
+  "name": "arrow-down-up-circle",
+  "category": "navigation",
+  "description": "Two complete arrows pointing downward on the left and upward on the right inside a circle.",
+  "tags": ["switch", "arrows", "circle"],
+  "directional": false,
+  "useCase": "Switch between two choices or show a two-way transfer with a clear label.",
+  "misuse": "The depicted directions are fixed. Label the transfer or switching action explicitly.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Wider complete heads and slightly closer arrows keep both directions clear at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full paired arrows retain their exact direction and spacing within the shared interface frame."
+    }
+  }
+}
