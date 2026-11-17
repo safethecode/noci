@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A long divided wing case sits below a broad head and six clear legs."
+      "reason": "All six legs meet the edge of the wing case without crowding its two open halves."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger wing case keeps its center seam and three leg pairs readable."
+      "reason": "Legs meet the complete divided wing case with smooth inner edges."
     }
   }
 }
