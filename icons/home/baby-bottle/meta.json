@@ -1,0 +1,19 @@
+{
+  "name": "baby-bottle",
+  "category": "home",
+  "description": "A baby feeding bottle with a teat, collar and volume marks.",
+  "tags": ["baby", "bottle", "feeding"],
+  "directional": false,
+  "useCase": "Identify bottle feeding or infant feeding supplies.",
+  "misuse": "Pair this symbol with a label when the surrounding context does not identify the item.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The main outline retains the parts that identify the item, with clear inner space and a square safe frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The main outline and small functional parts remain separate and balanced inside the square drawing frame."
+    }
+  }
+}

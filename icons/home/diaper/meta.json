@@ -1,0 +1,19 @@
+{
+  "name": "diaper",
+  "category": "home",
+  "description": "A diaper with a waistband and two curved leg openings.",
+  "tags": ["baby", "diaper", "nappy"],
+  "directional": false,
+  "useCase": "Identify diapers or nappy changing supplies.",
+  "misuse": "Pair this symbol with a label when the surrounding context does not identify the item.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The main outline retains the parts that identify the item, with clear inner space and a square safe frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The main outline and small functional parts remain separate and balanced inside the square drawing frame."
+    }
+  }
+}

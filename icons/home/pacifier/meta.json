@@ -1,0 +1,19 @@
+{
+  "name": "pacifier",
+  "category": "home",
+  "description": "A pacifier with a teat, shield and loop handle.",
+  "tags": ["baby", "pacifier", "soother"],
+  "directional": false,
+  "useCase": "Identify a pacifier or infant soothing supplies.",
+  "misuse": "Pair this symbol with a label when the surrounding context does not identify the item.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The main outline retains the parts that identify the item, with clear inner space and a square safe frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The main outline and small functional parts remain separate and balanced inside the square drawing frame."
+    }
+  }
+}
