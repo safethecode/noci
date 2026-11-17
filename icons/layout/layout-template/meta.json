@@ -1,0 +1,19 @@
+{
+  "name": "layout-template",
+  "category": "layout",
+  "description": "A wide header card above two content cards.",
+  "tags": ["layout", "template", "header"],
+  "directional": false,
+  "useCase": "A wide header card above two content cards.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Separate cards retain one pixel of clear space and open interiors inside the shared square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Separate cards retain 1.5 pixels of clear space and open interiors inside the shared square frame."
+    }
+  }
+}
