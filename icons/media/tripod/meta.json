@@ -1,0 +1,19 @@
+{
+  "name": "tripod",
+  "category": "media",
+  "description": "A camera tripod with three full legs, a mounting head and a pan handle.",
+  "tags": ["tripod", "camera", "support"],
+  "directional": false,
+  "useCase": "Identify camera tripods in photography or filming equipment.",
+  "misuse": "Use gimbal for a handheld stabilizer.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three complete legs spread below the open mounting head and full pan handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger head and complete pan handle stay clear above three full legs."
+    }
+  }
+}
