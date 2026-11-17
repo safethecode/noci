@@ -1,0 +1,19 @@
+{
+  "name": "arrow-right-to-line-square",
+  "category": "navigation",
+  "description": "A complete right arrow pointing toward a separate boundary line inside a square.",
+  "tags": ["destination", "right", "transfer"],
+  "directional": false,
+  "useCase": "Show a right transfer toward a destination in a compact control.",
+  "misuse": "Label the destination or origin; the physical arrow direction stays fixed in every writing direction.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full shaft and both head arms remain clear of the whole boundary line and shared frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete arrow, whole boundary line and shared frame retain the same direction and generous clear gaps."
+    }
+  }
+}
