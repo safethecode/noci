@@ -1,0 +1,19 @@
+{
+  "name": "barrel",
+  "category": "home",
+  "description": "A wooden barrel.",
+  "tags": ["barrel", "cask", "storage"],
+  "directional": false,
+  "useCase": "Identify wooden barrels or stored goods in barrels.",
+  "misuse": "Pair this symbol with a clear label when its contents matter.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two complete hoops and a central stave remain clear inside the full bulging body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Broad spaces between the hoops and full stave keep the barrel distinct from a jar."
+    }
+  }
+}
