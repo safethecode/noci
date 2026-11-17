@@ -1,0 +1,19 @@
+{
+  "name": "gimbal",
+  "category": "media",
+  "description": "A handheld gimbal with a phone cradle, round motor and full grip.",
+  "tags": ["gimbal", "stabilizer", "filming"],
+  "directional": false,
+  "useCase": "Identify handheld phone stabilizers in filming equipment.",
+  "misuse": "Use tripod for a fixed camera support.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full phone cradle and round motor stay clear above the complete arm and grip."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger cradle, motor and full arm keep open space above the complete grip."
+    }
+  }
+}
