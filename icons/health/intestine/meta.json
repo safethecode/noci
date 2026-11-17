@@ -1,0 +1,19 @@
+{
+  "name": "intestine",
+  "category": "health",
+  "description": "An outer colon surrounding a winding small intestine and ending in the rectum.",
+  "tags": ["intestine", "bowel", "digestion"],
+  "directional": false,
+  "useCase": "Identify the intestines in labelled digestive anatomy content.",
+  "misuse": "Use a visible organ label when the icon identifies educational or health content.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The rounded colon segments frame a complete inner winding and a clear descending end."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The lobed colon retains open spaces around the full inner winding and rectal end."
+    }
+  }
+}
