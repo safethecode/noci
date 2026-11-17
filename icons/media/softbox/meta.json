@@ -1,0 +1,19 @@
+{
+  "name": "softbox",
+  "category": "media",
+  "description": "A studio softbox with a front diffuser, tapered housing and full light stand.",
+  "tags": ["softbox", "lighting", "studio"],
+  "directional": false,
+  "useCase": "Identify softboxes or diffused studio lighting equipment.",
+  "misuse": "Use floor-lamp for household lighting.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full diffuser and tapered housing sit above a complete three-foot stand."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger diffuser and complete housing retain open space above the full stand."
+    }
+  }
+}
