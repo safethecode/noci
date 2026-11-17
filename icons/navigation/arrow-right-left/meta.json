@@ -1,0 +1,19 @@
+{
+  "name": "arrow-right-left",
+  "category": "navigation",
+  "description": "A rightward arrow above a leftward arrow.",
+  "tags": ["arrows", "swap", "flow"],
+  "directional": false,
+  "useCase": "Indicate two opposing flows or swap their order.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two full arrows have separate shafts and complete heads inside the shared square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Two full arrows retain generous separation and matching head proportions."
+    }
+  }
+}
