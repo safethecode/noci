@@ -1,0 +1,19 @@
+{
+  "name": "layout-masonry",
+  "category": "layout",
+  "description": "Two stacked cards beside one tall card.",
+  "tags": ["layout", "masonry", "cards"],
+  "directional": false,
+  "useCase": "Two stacked cards beside one tall card.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Separate cards retain one pixel of clear space and open interiors inside the shared square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Separate cards retain 1.5 pixels of clear space and open interiors inside the shared square frame."
+    }
+  }
+}

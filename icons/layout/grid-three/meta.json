@@ -1,0 +1,19 @@
+{
+  "name": "grid-three",
+  "category": "layout",
+  "description": "Nine round dots arranged in a three-by-three grid.",
+  "tags": ["grid", "apps", "launcher"],
+  "directional": false,
+  "useCase": "Nine round dots arranged in a three-by-three grid.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Nine equally spaced round dots stay distinct at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Nine equally spaced round dots share the same square frame as the smaller master."
+    }
+  }
+}

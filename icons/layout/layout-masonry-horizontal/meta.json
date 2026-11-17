@@ -1,0 +1,19 @@
+{
+  "name": "layout-masonry-horizontal",
+  "category": "layout",
+  "description": "Two cards above one wide card.",
+  "tags": ["layout", "masonry", "rows"],
+  "directional": false,
+  "useCase": "Two cards above one wide card.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Separate cards retain one pixel of clear space and open interiors inside the shared square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Separate cards retain 1.5 pixels of clear space and open interiors inside the shared square frame."
+    }
+  }
+}
