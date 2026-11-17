@@ -1,0 +1,19 @@
+{
+  "name": "sand-dune",
+  "category": "nature",
+  "description": "Wind-shaped dune crests with a curved slip face.",
+  "tags": ["sand", "dune", "desert"],
+  "directional": false,
+  "useCase": "Identify sand dunes or desert terrain.",
+  "misuse": "Use a visible label when this landscape identifies a place or habitat.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Broad curved crests and a full slip-face contour distinguish the dune from a pointed mountain."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The overlapping dune crests and long curved face retain open land contours."
+    }
+  }
+}
