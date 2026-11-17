@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A taller eye contour leaves more than 1px around the pupil while keeping the four scan corners separate."
+      "reason": "A clear centered pupil stays inside the full eye and four scan corners."
     },
     "24": {
       "offset": [0, 0],
