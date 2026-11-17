@@ -1,0 +1,19 @@
+{
+  "name": "fast-forward-circle",
+  "category": "media",
+  "description": "Two forward playback triangles inside a circular frame.",
+  "tags": ["forward", "seek", "playback"],
+  "directional": false,
+  "useCase": "Seek forward quickly.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete rounded solid playback triangles keep their meaning clear without a cramped inner outline; the familiar playback direction remains fixed."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full playback markers retain the same spacing and direction within the shared frame."
+    }
+  }
+}
