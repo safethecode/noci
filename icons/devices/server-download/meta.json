@@ -1,0 +1,19 @@
+{
+  "name": "server-download",
+  "category": "devices",
+  "description": "Two horizontal server bays beside a downward arrow.",
+  "tags": ["server", "download", "transfer"],
+  "directional": false,
+  "useCase": "Retrieve files or data from a server.",
+  "misuse": "Name the file or data being retrieved and its source server.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The broad upper bay keeps its indicator and vent, while the lower rim opens around the complete downward arrow."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider bays retain their server profile and clear spacing around the complete downward arrow."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "server-upload",
+  "category": "devices",
+  "description": "Two horizontal server bays beside an upward arrow.",
+  "tags": ["server", "upload", "transfer"],
+  "directional": false,
+  "useCase": "Send files or data to a server.",
+  "misuse": "Name the file or data being sent and the destination server.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The broad upper bay keeps its indicator and vent, while the lower rim opens around the complete upward arrow."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider bays retain their server profile and clear spacing around the complete upward arrow."
+    }
+  }
+}

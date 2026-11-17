@@ -1,0 +1,19 @@
+{
+  "name": "server-warning",
+  "category": "devices",
+  "description": "Two horizontal server bays beside an exclamation mark.",
+  "tags": ["server", "attention", "alert"],
+  "directional": false,
+  "useCase": "Indicate a server condition that needs attention.",
+  "misuse": "Describe the condition that needs attention beside the icon.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The broad upper bay keeps its indicator and vent, while the lower rim opens around the complete exclamation mark."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider bays retain their server profile and clear spacing around the complete exclamation mark."
+    }
+  }
+}

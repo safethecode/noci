@@ -1,0 +1,19 @@
+{
+  "name": "server-x",
+  "category": "devices",
+  "description": "Two horizontal server bays beside a cross.",
+  "tags": ["server", "connection", "error"],
+  "directional": false,
+  "useCase": "Show a failed server connection or a host error.",
+  "misuse": "Use a label to describe the failed connection or host error.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The broad upper bay keeps its indicator and vent, while the lower rim opens around the complete cross."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider bays retain their server profile and clear spacing around the complete cross."
+    }
+  }
+}
