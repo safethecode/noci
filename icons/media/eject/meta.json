@@ -1,0 +1,19 @@
+{
+  "name": "eject",
+  "category": "media",
+  "description": "An outlined upward triangle above a separate horizontal bar.",
+  "tags": ["media", "eject", "drive"],
+  "directional": false,
+  "useCase": "Request ejection of removable media.",
+  "misuse": "Give an icon-only control an accessible name for its action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete mark and its separate bar or timeline remain clear within the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full terminals, open spaces and separate control marks retain balanced margins and clear spacing."
+    }
+  }
+}
