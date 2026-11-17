@@ -1,0 +1,19 @@
+{
+  "name": "terrain-lower",
+  "category": "editing",
+  "description": "A downward arrow above a hollow in a surface.",
+  "tags": ["terrain", "lower", "sculpt"],
+  "directional": false,
+  "useCase": "Lower part of a terrain surface.",
+  "misuse": "Pair this control with a clear label in a terrain or 3D editor.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete surface and editing gesture are centered within the shared square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Separated action marks and open surface contours preserve the editing action at toolbar sizes."
+    }
+  }
+}
