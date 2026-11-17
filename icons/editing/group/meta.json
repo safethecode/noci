@@ -1,0 +1,19 @@
+{
+  "name": "group",
+  "category": "editing",
+  "description": "A shared selection boundary around a square and a circle.",
+  "tags": ["group", "objects", "selection"],
+  "directional": false,
+  "useCase": "Group selected objects so they move and edit together.",
+  "misuse": "Use a label to distinguish object grouping from alignment or navigation.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Four corner brackets enclose two distinct object markers with open space around them."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Longer corner brackets leave the larger square and circle clearly separated."
+    }
+  }
+}
