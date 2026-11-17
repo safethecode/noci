@@ -1,0 +1,19 @@
+{
+  "name": "hand-point-left",
+  "category": "people",
+  "description": "A hand with its index finger pointing left.",
+  "tags": ["hand", "point", "left"],
+  "directional": false,
+  "useCase": "Draw attention to an item in the left part of an interface.",
+  "misuse": "Hand gestures can carry different meanings across cultures. Explain the intended action with text.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete fingers, thumb and palm fit the shared square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Open finger separations and clear palm contours keep the full hand readable at toolbar sizes."
+    }
+  }
+}

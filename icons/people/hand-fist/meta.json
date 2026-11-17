@@ -1,0 +1,19 @@
+{
+  "name": "hand-fist",
+  "category": "people",
+  "description": "A closed hand with four curled fingers and a thumb across the palm.",
+  "tags": ["hand", "fist", "gesture"],
+  "directional": false,
+  "useCase": "Represent a closed-hand gesture beside a clear label.",
+  "misuse": "Hand gestures can carry different meanings across cultures. Explain the intended action with text.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete fingers, thumb and palm fit the shared square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Open finger separations and clear palm contours keep the full hand readable at toolbar sizes."
+    }
+  }
+}
