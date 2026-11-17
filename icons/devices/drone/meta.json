@@ -1,0 +1,19 @@
+{
+  "name": "drone",
+  "category": "devices",
+  "description": "A quadcopter viewed from above.",
+  "tags": ["drone", "quadcopter", "aerial"],
+  "directional": false,
+  "useCase": "Select a camera drone or identify a quadcopter.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Four complete propellers surround a broad white body opening, with full arms seated at every hub."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Tangential propellers remain separate from the central body while all four arms reach their hubs."
+    }
+  }
+}
