@@ -1,0 +1,19 @@
+{
+  "name": "database-settings",
+  "category": "devices",
+  "description": "A database cylinder with two separate adjustment sliders.",
+  "tags": ["database", "settings", "configure"],
+  "directional": false,
+  "useCase": "Configure a database connection or its options.",
+  "misuse": "Label the control with the database operation it performs.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The database cylinder and separate operation mark occupy a shared square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Open cylinder counters and clear operation marks remain balanced at toolbar sizes."
+    }
+  }
+}
