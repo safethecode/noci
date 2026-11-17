@@ -1,0 +1,19 @@
+{
+  "name": "plunger",
+  "category": "home",
+  "description": "A cup plunger with a straight handle.",
+  "tags": ["plunger", "toilet", "cleaning"],
+  "directional": false,
+  "useCase": "Identify toilet plungers or bathroom maintenance tools.",
+  "misuse": "Use toilet for bathroom facilities.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The open straight handle joins a full bell-shaped cup without a doubled seam."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The longer open handle meets the full flared cup above a broad lower lip."
+    }
+  }
+}
