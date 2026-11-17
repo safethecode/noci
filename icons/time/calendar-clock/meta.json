@@ -1,7 +1,7 @@
 {
   "name": "calendar-clock",
   "category": "time",
-  "description": "An event with a scheduled time.",
+  "description": "A calendar with a complete clock badge.",
   "tags": ["calendar", "time", "schedule"],
   "directional": false,
   "useCase": "An event with a scheduled time.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A larger separate clock badge leaves air around both complete hands while both calendar rings and the page remain visible."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A larger separate clock badge leaves air around both complete hands while both calendar rings and the page remain visible."
     }
   }
 }
