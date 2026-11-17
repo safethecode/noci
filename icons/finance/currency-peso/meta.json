@@ -1,0 +1,19 @@
+{
+  "name": "currency-peso",
+  "category": "finance",
+  "description": "The Philippine peso currency sign.",
+  "tags": ["peso", "php", "currency"],
+  "directional": false,
+  "useCase": "Identify PHP in a labelled currency selector or price setting.",
+  "misuse": "Use the currency code with monetary amounts when the symbol alone could be ambiguous.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The defining strokes and bars keep the currency sign recognizable inside the shared square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The sign retains its characteristic bars and open spaces with clear margins inside the square drawing frame."
+    }
+  }
+}
