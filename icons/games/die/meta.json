@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Five broad pips stay separate inside the complete rounded die face."
+      "reason": "Five equal pips stay evenly spaced on a centered square grid."
     },
     "24": {
       "offset": [0, 0],
