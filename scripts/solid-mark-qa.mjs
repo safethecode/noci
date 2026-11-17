@@ -59,7 +59,7 @@ await writeFile(
       count: icons.length,
       reviewAlpha,
       interpretation:
-        'Inspect faint or empty marks in the complete icon at native size and beside text.',
+        'Inspect faint marks in the full icon. wholePeakAlpha measures the complete drawing at each mark; addedPeakAlpha and addedInkArea measure what the mark adds.',
       findings,
       marks,
     },
