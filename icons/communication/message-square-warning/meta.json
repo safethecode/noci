@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A shorter but distinct exclamation stem leaves full gaps above the dot and below the message frame."
+      "reason": "A quarter-pixel horizontal hint keeps the complete warning stem and dot distinct inside the bubble."
     },
     "24": {
       "offset": [0, 0],
