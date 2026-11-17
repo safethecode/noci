@@ -1,0 +1,19 @@
+{
+  "name": "search-square-dashed",
+  "category": "status",
+  "description": "A dashed square containing a complete magnifying glass.",
+  "tags": ["search", "dashed", "status"],
+  "directional": false,
+  "useCase": "Find or inspect a draft item.",
+  "misuse": "Describe the actual status in text; a dashed border alone does not define it.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete lens and handle sit slightly inward to clear the full dashed frame at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full frame and complete status marks retain the same centered layout with larger clear gaps."
+    }
+  }
+}
