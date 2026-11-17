@@ -1,0 +1,19 @@
+{
+  "name": "muffin-tray",
+  "category": "food",
+  "description": "A baking tray with four round cups and side grips.",
+  "tags": ["muffin", "tray", "baking"],
+  "directional": false,
+  "useCase": "Represent a muffin pan or baking equipment.",
+  "misuse": "Pair this symbol with a clear equipment or cooking-action label.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete equipment shapes and simple working details fit the shared square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Open equipment contours and separated details remain clear at text and toolbar sizes."
+    }
+  }
+}
