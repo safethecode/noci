@@ -1,0 +1,19 @@
+{
+  "name": "window-blinds",
+  "category": "home",
+  "description": "Horizontal window blinds with three slats and a full pull cord.",
+  "tags": ["window", "blinds", "shade"],
+  "directional": false,
+  "useCase": "Window shading, blind controls or room furnishing.",
+  "misuse": "Use curtain for fabric curtains.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A fine pull cord ends in a complete hanging weight beside the slatted panel."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A visible cord weight and wider slats keep the window blind distinct."
+    }
+  }
+}
