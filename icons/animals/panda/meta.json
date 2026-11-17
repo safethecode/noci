@@ -1,0 +1,19 @@
+{
+  "name": "panda",
+  "category": "animals",
+  "description": "A panda head with rounded ears, two dark eye patches and a nose.",
+  "tags": ["panda", "face", "nature"],
+  "directional": false,
+  "useCase": "Choose a panda in an animal selector or nature guide.",
+  "misuse": "Pair the stylized head with its name when identifying an animal.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The shared round head stays centered; both dark ear shapes, complete eye patches and nose retain their space."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The independently drawn interface master preserves the defining facial parts with larger clear space."
+    }
+  }
+}
