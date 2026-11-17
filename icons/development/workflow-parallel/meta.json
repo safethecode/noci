@@ -1,0 +1,19 @@
+{
+  "name": "workflow-parallel",
+  "category": "development",
+  "description": "Two parallel process steps between shared start and finish bars.",
+  "tags": ["workflow", "parallel", "diagram"],
+  "directional": false,
+  "useCase": "Two parallel process steps between shared start and finish bars.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete nodes retain open interiors and their connecting lines meet the node edges exactly."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Complete nodes and full connectors retain clear spaces inside the shared square frame."
+    }
+  }
+}
