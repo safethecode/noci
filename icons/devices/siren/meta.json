@@ -1,0 +1,19 @@
+{
+  "name": "siren",
+  "category": "devices",
+  "description": "An emergency beacon with a domed cover, rotor and three light rays.",
+  "tags": ["siren", "beacon", "alarm"],
+  "directional": false,
+  "useCase": "Identify emergency beacons in alarm settings or equipment lists.",
+  "misuse": "Pair the beacon with text to describe an alarm state or an active emergency.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The centered dome and footing leave 1px between the upper ray and cover, with an open interior around the rotor."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider dome and footing stay centered, with 1.5px below the upper ray and generous space around the rotor."
+    }
+  }
+}
