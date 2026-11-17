@@ -1,0 +1,19 @@
+{
+  "name": "touch-rotate",
+  "category": "editing",
+  "description": "Two raised fingertips beneath a complete curved rotation arrow.",
+  "tags": ["touch", "rotate", "instruction"],
+  "directional": false,
+  "useCase": "Twist two fingertips around each other to rotate content.",
+  "misuse": "Use a label to explain what the gesture changes and how it behaves in the application.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two raised fingertips stay below a separate curved movement arrow."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger hand opens the fingertip gap and leaves more space below the curved arrow."
+    }
+  }
+}
