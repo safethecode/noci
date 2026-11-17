@@ -1,0 +1,19 @@
+{
+  "name": "bell-check",
+  "category": "communication",
+  "description": "A notification bell containing a check mark.",
+  "tags": ["bell", "check", "notification"],
+  "directional": false,
+  "useCase": "A notification bell containing a check mark.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete bell and clapper surround a compact, clearly separated status mark."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full bell, clapper and complete status mark retain open spaces at interface size."
+    }
+  }
+}
