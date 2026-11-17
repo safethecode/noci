@@ -1,0 +1,19 @@
+{
+  "name": "micrometer",
+  "category": "tools",
+  "description": "An outside micrometer with a curved frame, anvil, spindle and thimble.",
+  "tags": ["micrometer", "dimension", "precision"],
+  "directional": false,
+  "useCase": "Identify an outside micrometer for precise dimensional measurement.",
+  "misuse": "Use caliper for sliding jaws on a straight measuring beam.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete curved frame surrounds a visible measuring gap beside the full thimble."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger frame retains the full anvil, spindle, thimble and open measuring gap."
+    }
+  }
+}

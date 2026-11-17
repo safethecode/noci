@@ -1,0 +1,19 @@
+{
+  "name": "anemometer",
+  "category": "tools",
+  "description": "A cup anemometer with three open bowls, full arms and a central spindle.",
+  "tags": ["anemometer", "wind", "speed"],
+  "directional": false,
+  "useCase": "Identify a cup anemometer for measuring wind speed.",
+  "misuse": "Use wind for weather conditions or wind-turbine for power generation.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three complete open cups remain distinct around the full central spindle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger open bowls and complete arms retain clear space beside the spindle."
+    }
+  }
+}

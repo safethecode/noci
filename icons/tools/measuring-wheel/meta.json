@@ -1,0 +1,19 @@
+{
+  "name": "measuring-wheel",
+  "category": "tools",
+  "description": "A measuring wheel with a full rim, axle and long handle.",
+  "tags": ["wheel", "distance", "measurement"],
+  "directional": false,
+  "useCase": "Identify a measuring wheel for checking distance along the ground.",
+  "misuse": "Use tape-measure for a retractable measuring tape.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A full open wheel sits beneath the long handle and complete axle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger rim stays open around the full axle and extended handle."
+    }
+  }
+}
