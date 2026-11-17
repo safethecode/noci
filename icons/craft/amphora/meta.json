@@ -1,0 +1,19 @@
+{
+  "name": "amphora",
+  "category": "craft",
+  "description": "A two-handled amphora.",
+  "tags": ["amphora", "pottery", "ceramic"],
+  "directional": false,
+  "useCase": "Identify amphorae in pottery catalogues or museum collections.",
+  "misuse": "Pair this symbol with a clear label when the vessel type matters.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two open handles frame a complete narrow neck and pointed body without extra decoration."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Broad handle channels remain clear beside the full neck, shoulders and tapered body."
+    }
+  }
+}
