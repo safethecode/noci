@@ -1,0 +1,19 @@
+{
+  "name": "waterfall",
+  "category": "nature",
+  "description": "Water falls from a rock ledge into a pool.",
+  "tags": ["waterfall", "water", "landscape"],
+  "directional": false,
+  "useCase": "Identify waterfalls or waterfall viewpoints.",
+  "misuse": "Use a visible label when this landscape identifies a place or habitat.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The falling water stays beside a complete rock ledge and above a separate pool."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full rock ledge, curved falling stream and lower pool retain clear separation."
+    }
+  }
+}
