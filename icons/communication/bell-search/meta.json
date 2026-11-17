@@ -1,0 +1,19 @@
+{
+  "name": "bell-search",
+  "category": "communication",
+  "description": "A notification bell containing a complete magnifying glass.",
+  "tags": ["bell", "search", "notification"],
+  "directional": false,
+  "useCase": "A notification bell containing a complete magnifying glass.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete magnifier moves a quarter unit left to keep its small white opening clear beside text."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full bell, clapper and complete status mark retain open spaces at interface size."
+    }
+  }
+}
