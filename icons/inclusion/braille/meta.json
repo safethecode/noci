@@ -1,0 +1,19 @@
+{
+  "name": "braille",
+  "category": "inclusion",
+  "description": "Six solid dots arranged as a complete Braille cell.",
+  "tags": ["braille", "tactile", "accessibility"],
+  "directional": false,
+  "useCase": "Open Braille output or tactile-reading settings.",
+  "misuse": "Keep a clear text label; the six-dot cell does not identify a language or message.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Six complete raised-dot markers keep equal row and column spacing in a centered cell."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete symbol retains its geometric center and functional parts at interface size."
+    }
+  }
+}
