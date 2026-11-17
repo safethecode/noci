@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A curved outer edge leaves a clear opening inside the complete page fold at text size."
+      "reason": "The whole lens sits higher and keeps a complete diagonal handle clear of the lower edge."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The wider curved fold leaves a clear opening while keeping the complete page outline."
+      "reason": "The whole lens and full original handle move upward together."
     }
   }
 }
