@@ -1,0 +1,19 @@
+{
+  "name": "hang-glider",
+  "category": "sports",
+  "description": "A swept delta wing with a pilot suspended below it.",
+  "tags": ["gliding", "flight", "equipment"],
+  "directional": false,
+  "useCase": "Identify hang gliders in an outdoor activity or equipment list.",
+  "misuse": "Use a visible label when this equipment identifies a sport, product or activity.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad open wing stays separate from the full prone pilot below it."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wide delta wing and suspended pilot remain separate at the larger optical size."
+    }
+  }
+}
