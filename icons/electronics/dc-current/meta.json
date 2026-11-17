@@ -1,0 +1,19 @@
+{
+  "name": "dc-current",
+  "category": "electronics",
+  "description": "One solid line above three separate dashes.",
+  "tags": ["dc", "current", "electrical"],
+  "directional": false,
+  "useCase": "Choose DC measurement or indicate a DC supply in an interface.",
+  "misuse": "Include the electrical quantity and value in text.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "All terminals and functional marks remain complete; the simple geometry keeps open gaps inside the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full electrical symbol retains its topology and larger clear gaps at interface size."
+    }
+  }
+}
