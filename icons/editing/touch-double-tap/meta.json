@@ -1,0 +1,19 @@
+{
+  "name": "touch-double-tap",
+  "category": "editing",
+  "description": "A complete pointing hand beside a contact ray and a count of two.",
+  "tags": ["touch", "double-tap", "instruction"],
+  "directional": false,
+  "useCase": "Touch the same point twice in quick succession.",
+  "misuse": "Use a label to explain what the gesture changes and how it behaves in the application.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full pointing hand stays separate from the contact ray and count of two."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger hand, ray and numeral retain clear spacing at the fingertip."
+    }
+  }
+}
