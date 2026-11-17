@@ -1,0 +1,19 @@
+{
+  "name": "earbuds",
+  "category": "devices",
+  "description": "A pair of wireless earbuds.",
+  "tags": ["earbuds", "earphones", "audio"],
+  "directional": false,
+  "useCase": "Choose in-ear audio devices or open earbud settings.",
+  "misuse": "Use headphones for over-ear audio devices.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two broad outlined heads and full stems remain separate without tiny speaker openings."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Complete rounded heads and evenly spaced stems identify a pair of in-ear earbuds."
+    }
+  }
+}
