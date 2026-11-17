@@ -1,0 +1,19 @@
+{
+  "name": "box-select",
+  "category": "editing",
+  "description": "Three marquee corners beside a filled selection cursor.",
+  "tags": ["selection", "marquee", "objects"],
+  "directional": false,
+  "useCase": "Drag a rectangular marquee to select several objects.",
+  "misuse": "Use the pointer icon for choosing one object with a click.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Open marquee corners leave clear space around the selection cursor."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger marquee and cursor retain the open lower-right corner and separate edges."
+    }
+  }
+}

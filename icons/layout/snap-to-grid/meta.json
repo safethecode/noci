@@ -1,0 +1,19 @@
+{
+  "name": "snap-to-grid",
+  "category": "layout",
+  "description": "A horseshoe magnet with solid pole tips beside three grid points.",
+  "tags": ["snap", "grid", "canvas"],
+  "directional": false,
+  "useCase": "Snap moved objects to points on the canvas grid.",
+  "misuse": "Use a label to distinguish grid snapping from guide snapping.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Solid pole caps keep the smaller magnet readable beside separated grid points."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A wider curved band and larger grid points preserve the magnet and grid relationship."
+    }
+  }
+}

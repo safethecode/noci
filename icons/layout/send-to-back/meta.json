@@ -1,0 +1,19 @@
+{
+  "name": "send-to-back",
+  "category": "layout",
+  "description": "An outlined front square over the visible edges of a selected rear square.",
+  "tags": ["arrange", "back", "objects"],
+  "directional": false,
+  "useCase": "Place selected objects behind every other object.",
+  "misuse": "Use a label to distinguish absolute stacking order from moving one layer.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The front outline stays complete while the selected rear square remains visible below and to the right."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Wider clearances keep the rear square distinct from the complete front outline."
+    }
+  }
+}

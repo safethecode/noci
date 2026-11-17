@@ -1,0 +1,19 @@
+{
+  "name": "bring-to-front",
+  "category": "layout",
+  "description": "A selected square in front of an outlined square.",
+  "tags": ["arrange", "front", "objects"],
+  "directional": false,
+  "useCase": "Place selected objects in front of every other object.",
+  "misuse": "Use a label to distinguish absolute stacking order from moving one layer.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A complete selected square stays in front of two separated rear edges."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A larger front square preserves clear gaps from the visible rear edges."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "snap-to-guides",
+  "category": "layout",
+  "description": "A horseshoe magnet with solid pole tips beside two perpendicular guides.",
+  "tags": ["snap", "guides", "canvas"],
+  "directional": false,
+  "useCase": "Snap moved objects to the canvas alignment guides.",
+  "misuse": "Use a label to distinguish grid snapping from guide snapping.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Solid pole caps keep the smaller magnet readable beside separate guide edges."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger magnet leaves wider clear space from both perpendicular guide edges."
+    }
+  }
+}
