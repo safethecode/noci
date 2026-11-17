@@ -1,0 +1,19 @@
+{
+  "name": "scan-check",
+  "category": "security",
+  "description": "A scan area containing a check mark.",
+  "tags": ["scan", "check", "capture"],
+  "directional": false,
+  "useCase": "A scan area containing a check mark.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The four complete scanning corners remain clear of the full content marker."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The four complete scanning corners and full content marker retain generous separation."
+    }
+  }
+}
