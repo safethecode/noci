@@ -1,0 +1,19 @@
+{
+  "name": "kidney",
+  "category": "health",
+  "description": "A bean-shaped kidney with a renal vessel and a descending ureter.",
+  "tags": ["kidney", "renal", "anatomy"],
+  "directional": false,
+  "useCase": "Identify kidney anatomy in labelled educational or health content.",
+  "misuse": "Use a visible organ label when the icon identifies educational or health content.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The inward hilum separates the renal vessel from the full descending ureter."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The inward hilum separates the renal vessel from the full descending ureter."
+    }
+  }
+}
