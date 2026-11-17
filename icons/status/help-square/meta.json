@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The same small question curve as help-circle stays separate from its dot and square frame by at least 1px."
+      "reason": "The complete question hook remains intact above a clearer separate dot."
     },
     "24": {
       "offset": [0, 0],
