@@ -1,0 +1,19 @@
+{
+  "name": "marsh",
+  "category": "nature",
+  "description": "Cattails and reeds rise from shallow marsh water.",
+  "tags": ["marsh", "wetland", "reeds"],
+  "directional": false,
+  "useCase": "Identify marshes or shallow wetlands.",
+  "misuse": "Use a visible label when this landscape identifies a place or habitat.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete cattail heads and reed leaves emerge from the shallow water lines."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full cattail stems meet the water surface while the lower water line remains separate."
+    }
+  }
+}
