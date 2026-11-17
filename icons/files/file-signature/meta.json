@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "An open handwritten stroke keeps its rises distinct without a return loop and stays at least 1px clear of the page border."
+      "reason": "A curved outer edge leaves a clear opening inside the complete page fold at text size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The handwriting uses longer independent curves with open valleys instead of a doubled loop; its lower and right edges clear the page by at least 1.5px."
+      "reason": "The wider curved fold leaves a clear opening while keeping the complete page outline."
     }
   }
 }
