@@ -1,0 +1,19 @@
+{
+  "name": "message-circle-warning",
+  "category": "communication",
+  "description": "A round speech bubble containing an exclamation mark.",
+  "tags": ["message", "warning", "chat"],
+  "directional": false,
+  "useCase": "Show a messaging warning with an explanatory label.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The larger dot and aligned warning column remain clear beside text."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full speech bubble, tail and content retain clear separation at interface size."
+    }
+  }
+}

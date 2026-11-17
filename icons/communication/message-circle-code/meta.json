@@ -1,0 +1,19 @@
+{
+  "name": "message-circle-code",
+  "category": "communication",
+  "description": "A round speech bubble containing two code chevrons.",
+  "tags": ["message", "code", "chat"],
+  "directional": false,
+  "useCase": "Open a conversation about code or a code comment.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete round speech bubble and tail remain unchanged; the content sits within its open interior."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full speech bubble, tail and content retain clear separation at interface size."
+    }
+  }
+}

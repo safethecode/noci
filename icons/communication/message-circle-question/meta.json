@@ -1,0 +1,19 @@
+{
+  "name": "message-circle-question",
+  "category": "communication",
+  "description": "A round speech bubble containing a question mark.",
+  "tags": ["message", "question", "chat"],
+  "directional": false,
+  "useCase": "Ask a question or open conversation help.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The wider hook keeps its opening clear, and the shifted dot stays visible beside text."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider hook keeps its open ends separate and retains the complete lower curve."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "message-circle-x",
+  "category": "communication",
+  "description": "A round speech bubble containing an x mark.",
+  "tags": ["message", "close", "chat"],
+  "directional": false,
+  "useCase": "Close or dismiss a conversation.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete speech bubble and tail remain unchanged; the full content marker is hinted inward to retain a clear gap at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full speech bubble, tail and content retain clear separation at interface size."
+    }
+  }
+}

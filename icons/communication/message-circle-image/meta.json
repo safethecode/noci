@@ -1,0 +1,19 @@
+{
+  "name": "message-circle-image",
+  "category": "communication",
+  "description": "A round speech bubble containing two landscape peaks and a sun.",
+  "tags": ["message", "image", "chat"],
+  "directional": false,
+  "useCase": "Open an image message or image conversation.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete speech bubble and tail remain unchanged; the full content marker is hinted inward to retain a clear gap at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full speech bubble, tail and content retain clear separation at interface size."
+    }
+  }
+}
