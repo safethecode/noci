@@ -1,0 +1,19 @@
+{
+  "name": "portafilter",
+  "category": "food",
+  "description": "An espresso filter basket with locking ears and a long handle.",
+  "tags": ["espresso", "basket", "barista"],
+  "directional": false,
+  "useCase": "Identify a removable espresso portafilter or its preparation step.",
+  "misuse": "Use a label when this object identifies a product or a preparation method.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two full locking ears distinguish the open basket beside the complete handle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full basket, locking ears and long handle retain clear space around their joins."
+    }
+  }
+}
