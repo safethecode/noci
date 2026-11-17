@@ -1,0 +1,19 @@
+{
+  "name": "glacier",
+  "category": "nature",
+  "description": "A crevassed glacier front stands above the water.",
+  "tags": ["glacier", "ice", "coast"],
+  "directional": false,
+  "useCase": "Identify tidewater glaciers or glacial ice fronts.",
+  "misuse": "Use a visible label when this landscape identifies a place or habitat.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two complete crevasses descend from the broad ice surface above a separate water line."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The broad glacier face and full crevasses retain open ice regions above the water."
+    }
+  }
+}

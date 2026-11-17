@@ -1,0 +1,19 @@
+{
+  "name": "coral",
+  "category": "nature",
+  "description": "A branching coral colony below the water surface.",
+  "tags": ["coral", "reef", "marine"],
+  "directional": false,
+  "useCase": "Identify coral reefs or marine habitats.",
+  "misuse": "Use a visible label when this landscape identifies a place or habitat.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete branching arms attach to the reef base below a separate water surface."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full coral forks and reef base retain clear space beneath the water surface."
+    }
+  }
+}

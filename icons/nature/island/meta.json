@@ -1,0 +1,19 @@
+{
+  "name": "island",
+  "category": "nature",
+  "description": "A small palm-covered island above the surrounding water.",
+  "tags": ["island", "coast", "landscape"],
+  "directional": false,
+  "useCase": "Identify islands or tropical island destinations.",
+  "misuse": "Use a visible label when this landscape identifies a place or habitat.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A complete palm rises from the island shore above a separate water line."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The planted island, full trunk and fronds remain distinct from the surrounding water."
+    }
+  }
+}
