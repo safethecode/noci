@@ -1,0 +1,19 @@
+{
+  "name": "border-top",
+  "category": "layout",
+  "description": "A solid top border above dotted cell guides.",
+  "tags": ["border", "cells", "top"],
+  "directional": false,
+  "useCase": "Apply a top border to the selected cells.",
+  "misuse": "The dotted points are alignment guides; name the border action on its control.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Round guide points mark the cell corners; continuous lines show the selected borders inside the shared square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Evenly spaced guide points retain the grid around the active border lines, with matched margins on every side."
+    }
+  }
+}
