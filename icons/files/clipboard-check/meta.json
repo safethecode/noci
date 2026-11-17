@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Shifted check endpoints retain their diagonal angle and stay clear of the clip and frame."
+      "reason": "A full clip with a clear inner opening and separated content strokes."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger check keeps its long diagonals with clear gaps inside the shared clipboard frame."
+      "reason": "A taller clip opening with clear space above the complete content symbol."
     }
   }
 }

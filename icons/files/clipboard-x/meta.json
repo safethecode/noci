@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A compact square X leaves clear gaps to the clip and lower edge."
+      "reason": "A full clip with a clear inner opening and separated content strokes."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger X retains its equal diagonals and clear space inside the shared clipboard frame."
+      "reason": "A taller clip opening with clear space above the complete content symbol."
     }
   }
 }

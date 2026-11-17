@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Round bullets have clear space before the two rows of text."
+      "reason": "A full clip with a clear inner opening and separated content strokes."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Larger round bullets retain clear spacing before the longer row strokes."
+      "reason": "A taller clip opening with clear space above the complete content symbol."
     }
   }
 }
