@@ -48,6 +48,8 @@ the same spacing and optical review rules as an outlined mark. All paint follows
    everything blindly to its mass centroid.
 6. Inspect at actual 16, 24, 32 and 48px on both light and dark backgrounds at DPR 1
    and 2. Enlarging an icon cannot establish small-size legibility.
+7. Run `npm run qa:marks` to find faint or empty solid marks. Inspect flagged marks
+   in the complete icon and beside text at DPR 1 and 2.
 
 Use repeatable keylines,
 consistent weight and visual inspection.
