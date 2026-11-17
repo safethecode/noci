@@ -1,0 +1,19 @@
+{
+  "name": "power-strip",
+  "category": "devices",
+  "description": "A power strip with two outlet pairs and a corded plug.",
+  "tags": ["power", "outlet", "extension"],
+  "directional": false,
+  "useCase": "Identify power strips in equipment lists or desk power controls.",
+  "misuse": "Use plug for a single power connection.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two outlet pairs sit inside a narrow strip beside a full outgoing cord and plug."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The longer strip keeps its two outlet pairs clear below the complete corded plug."
+    }
+  }
+}
