@@ -1,0 +1,19 @@
+{
+  "name": "touch-swipe-right",
+  "category": "editing",
+  "description": "A complete pointing hand beneath a rightward movement arrow.",
+  "tags": ["touch", "swipe", "right"],
+  "directional": false,
+  "useCase": "Slide one finger to the right across the surface.",
+  "misuse": "Use a label to explain what the gesture changes and how it behaves in the application.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A complete pointing hand stays below a separate rightward movement arrow."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger hand leaves wider clear space below the rightward arrow."
+    }
+  }
+}
