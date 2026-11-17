@@ -1,0 +1,19 @@
+{
+  "name": "tablet-x",
+  "category": "devices",
+  "description": "A tablet with an x mark.",
+  "tags": ["tablet", "unavailable", "device"],
+  "directional": false,
+  "useCase": "A tablet with an x mark.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete device frame and status marker retain clear spaces at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete device frame and full status marker stay centered inside the shared square frame."
+    }
+  }
+}
