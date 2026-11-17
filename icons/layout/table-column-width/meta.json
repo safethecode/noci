@@ -1,0 +1,19 @@
+{
+  "name": "table-column-width",
+  "category": "layout",
+  "description": "A single table column above a horizontal measurement arrow.",
+  "tags": ["table", "column", "width"],
+  "directional": false,
+  "useCase": "Adjust the width of selected table columns.",
+  "misuse": "Give the control an accessible name that specifies the table action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two stacked cells identify one column. Open cell counters and shallow complete arrowheads keep the dimension clear at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Both column edges align with the horizontal arrowheads, and the two open cells retain clear counters."
+    }
+  }
+}

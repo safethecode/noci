@@ -1,0 +1,19 @@
+{
+  "name": "table-row-move-up",
+  "category": "layout",
+  "description": "A table row above an upward arrow.",
+  "tags": ["table", "row", "up"],
+  "directional": false,
+  "useCase": "Move a selected table row upward.",
+  "misuse": "Give the control an accessible name that specifies the table action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The selected area or complete arrow stays clear against the cell guides, within the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The cell structure and complete action mark retain clear separation and matched margins around the square drawing frame."
+    }
+  }
+}

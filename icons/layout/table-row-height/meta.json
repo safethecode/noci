@@ -1,0 +1,19 @@
+{
+  "name": "table-row-height",
+  "category": "layout",
+  "description": "A single table row beside a vertical measurement arrow.",
+  "tags": ["table", "row", "height"],
+  "directional": false,
+  "useCase": "Adjust the height of selected table rows.",
+  "misuse": "Give the control an accessible name that specifies the table action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two adjoining cells identify one row. Open cell counters and shallow complete arrowheads keep the dimension clear at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Both row edges align with the vertical arrowheads, and the two open cells retain clear counters."
+    }
+  }
+}
