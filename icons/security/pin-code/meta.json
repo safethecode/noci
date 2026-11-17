@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Three equal dots remain centered and evenly spaced above the full input line."
     },
     "24": {
       "offset": [0, 0],
