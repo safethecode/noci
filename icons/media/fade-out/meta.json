@@ -1,0 +1,19 @@
+{
+  "name": "fade-out",
+  "category": "media",
+  "description": "A decreasing waveform above a rightward timeline arrow.",
+  "tags": ["audio", "fade-out", "volume"],
+  "directional": false,
+  "useCase": "Apply a gradual decrease in an audio clip's level.",
+  "misuse": "Give an icon-only control an accessible name for its action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete mark and its separate bar or timeline remain clear within the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full terminals, open spaces and separate control marks retain balanced margins and clear spacing."
+    }
+  }
+}
