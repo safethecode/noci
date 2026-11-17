@@ -1,0 +1,19 @@
+{
+  "name": "server-plus",
+  "category": "devices",
+  "description": "Two horizontal server bays beside a plus sign.",
+  "tags": ["server", "host", "create"],
+  "directional": false,
+  "useCase": "Create a server or add a host to an infrastructure list.",
+  "misuse": "Label the control with the type of server or host being added.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The broad upper bay keeps its indicator and vent, while the lower rim opens around the complete plus sign."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider bays retain their server profile and clear spacing around the complete plus sign."
+    }
+  }
+}
