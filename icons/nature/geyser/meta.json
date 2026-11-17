@@ -1,0 +1,19 @@
+{
+  "name": "geyser",
+  "category": "nature",
+  "description": "A tall water jet erupts from a low geothermal vent.",
+  "tags": ["geyser", "water", "geothermal"],
+  "directional": false,
+  "useCase": "Identify geysers or geothermal eruption sites.",
+  "misuse": "Use a visible label when this landscape identifies a place or habitat.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete rising and arching water jets emerge from the low ground vent."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The tall water column and full spray arcs remain distinct from the small geothermal mound."
+    }
+  }
+}
