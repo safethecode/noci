@@ -1,0 +1,19 @@
+{
+  "name": "fold-horizontal",
+  "category": "editing",
+  "description": "Two complete arrows pointing toward a dashed vertical axis.",
+  "tags": ["fold", "horizontal", "transform"],
+  "directional": false,
+  "useCase": "Collapse a region along its horizontal axis.",
+  "misuse": "Label the action when the affected selection or region is not clear.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete paired markers and all three axis dashes keep clear separation inside a balanced square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The paired markers retain the same symmetry and full geometry; the flip axis is extended slightly to match its painted width."
+    }
+  }
+}
