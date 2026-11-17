@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Blunter oval ends keep all six outer openings clear while the three centered orbits leave room around the nucleus."
+      "reason": "Three complete orbit contours share one outline, leaving the central nucleus and seven white regions clear at native size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Three centered ellipses close smoothly, with open outer cells and clear space around the nucleus."
+      "reason": "The nucleus is enlarged within the original orbit contours so it remains visible at native size."
     }
   }
 }

@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The three complete blades leave clear space around the central dot and keep their white interiors open."
     },
     "24": {
       "offset": [0, 0],
