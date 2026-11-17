@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A curved outer edge leaves a clear opening inside the complete page fold at text size."
+      "reason": "The handwritten mark keeps its tall leading curves and an open finishing stroke at text size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The wider curved fold leaves a clear opening while keeping the complete page outline."
+      "reason": "The full handwritten flourish ends lower, leaving clear space between its free tip and the preceding curve."
     }
   }
 }
