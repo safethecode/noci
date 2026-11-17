@@ -1,0 +1,19 @@
+{
+  "name": "squares-intersect",
+  "category": "editing",
+  "description": "The retained square intersection between two separated input corners.",
+  "tags": ["vector", "intersection", "shapes"],
+  "directional": false,
+  "useCase": "Keep only the overlapping area of selected vector shapes.",
+  "misuse": "Use a label to distinguish the four vector Boolean operations.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Separated input corners leave a clear gap around the retained central square."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Wider gaps separate the retained center from both larger input corners."
+    }
+  }
+}
