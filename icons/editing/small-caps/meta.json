@@ -1,0 +1,19 @@
+{
+  "name": "small-caps",
+  "category": "editing",
+  "description": "Two uppercase H forms at different heights.",
+  "tags": ["text", "small-caps", "font"],
+  "directional": false,
+  "useCase": "Use smaller capital letters in place of lowercase letters.",
+  "misuse": "Give the control an accessible name that describes the text formatting option.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The letter strokes and separate formatting marks remain readable inside the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The letter forms retain open spaces and clear separation from the formatting marks at text and toolbar sizes."
+    }
+  }
+}
