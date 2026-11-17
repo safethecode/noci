@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Text master: 1.5px construction. The complete silhouette is centered within the shared 12 × 12 drawing area."
+      "reason": "A curved outer edge leaves a clear opening inside the complete page fold at text size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Interface master: 1.75px construction. The complete silhouette is centered within the shared 18 × 18 drawing area."
+      "reason": "The wider curved fold leaves a clear opening while keeping the complete page outline."
     }
   }
 }
