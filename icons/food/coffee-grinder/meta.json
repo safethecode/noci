@@ -1,0 +1,19 @@
+{
+  "name": "coffee-grinder",
+  "category": "food",
+  "description": "A manual coffee grinder with a crank and collecting chamber.",
+  "tags": ["coffee", "grinding", "crank"],
+  "directional": false,
+  "useCase": "Grind coffee beans with a hand grinder.",
+  "misuse": "Use a label when this object identifies a product or a preparation method.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete crank and grip sit above a broad grinder body and collecting chamber."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full crank, shaft and divided grinder body retain clear separation and open interiors."
+    }
+  }
+}
