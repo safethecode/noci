@@ -1,0 +1,19 @@
+{
+  "name": "glove",
+  "category": "clothing",
+  "description": "A glove has four fingers, a thumb and a broad cuff.",
+  "tags": ["glove", "handwear", "clothing"],
+  "directional": false,
+  "useCase": "Identify full-finger gloves or protective handwear.",
+  "misuse": "Use mitten for handwear with a shared finger pocket.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One closed outer contour forms all four rounded fingers, the thumb and palm above a full cuff."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "One closed outer contour forms all four rounded fingers, the thumb and palm above a full cuff."
+    }
+  }
+}
