@@ -1,0 +1,19 @@
+{
+  "name": "credit-card-warning",
+  "category": "finance",
+  "description": "A complete payment card and stripe beside an exclamation mark.",
+  "tags": ["payment", "warning", "card"],
+  "directional": false,
+  "useCase": "Show a payment-card warning with an explanatory label.",
+  "misuse": "Use accompanying text for the payment status and next step.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A taller exclamation moves right to retain a clear stem and dot beside the full card."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete exclamation has a longer stem; its rightward placement leaves clear space around the card."
+    }
+  }
+}
