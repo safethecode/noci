@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The rounded head stays clear while the beak and foot touch the trunk."
+      "reason": "The foot joins within the belly outline without entering the white body, while the full beak and foot meet the trunk."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The rounded head leaves clear space around one eye while the beak and foot meet the trunk."
+      "reason": "The foot joins within the belly outline, with the complete foot, beak, trunk and separate eye retained."
     }
   }
 }
