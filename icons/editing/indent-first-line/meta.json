@@ -1,0 +1,19 @@
+{
+  "name": "indent-first-line",
+  "category": "editing",
+  "description": "A document ruler above a paragraph with an inset first line.",
+  "tags": ["indent", "paragraph", "ruler"],
+  "directional": false,
+  "useCase": "Set the indentation of the first line without moving the remaining paragraph lines.",
+  "misuse": "Pair this control with a label and a numeric indentation value.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A separate solid pointer identifies the shorter first line beneath the ruler."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger paragraph leaves more clear space around its first-line pointer."
+    }
+  }
+}
