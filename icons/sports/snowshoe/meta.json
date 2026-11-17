@@ -1,0 +1,19 @@
+{
+  "name": "snowshoe",
+  "category": "sports",
+  "description": "A snowshoe with a rounded front, tapered tail and open lacing around a central binding.",
+  "tags": ["snowshoe", "snow", "equipment"],
+  "directional": false,
+  "useCase": "Choose snowshoes or equipment for walking over deep snow.",
+  "misuse": "Use a visible label when this equipment identifies a sport, product or activity.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A long central binding and two side straps stay distinct inside the rounded toe and tapered tail."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider walking frame leaves more space around the complete binding and its two side straps."
+    }
+  }
+}

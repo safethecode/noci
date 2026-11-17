@@ -1,0 +1,19 @@
+{
+  "name": "dartboard",
+  "category": "sports",
+  "description": "A circular dartboard with four broad outer sectors and a central bullseye.",
+  "tags": ["darts", "target", "equipment"],
+  "directional": false,
+  "useCase": "Choose darts equipment or a darts activity.",
+  "misuse": "Use a visible label when this equipment identifies a sport, product or activity.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The centered board leaves four open sectors between the two rings and a clear gap around the bullseye."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Wider spaces around the bullseye and between the rings keep the segmented board clear."
+    }
+  }
+}

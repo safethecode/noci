@@ -1,0 +1,19 @@
+{
+  "name": "diving-tank",
+  "category": "sports",
+  "description": "A portable diving cylinder with a top valve and a full regulator hose.",
+  "tags": ["scuba", "tank", "equipment"],
+  "directional": false,
+  "useCase": "Choose scuba cylinders or compressed-air diving equipment.",
+  "misuse": "Use a visible label when this equipment identifies a sport, product or activity.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The cylinder sits left of center so its valve and complete right hose balance the full object."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A wider cylinder and longer hose leave a clear gap beside the regulator end."
+    }
+  }
+}
