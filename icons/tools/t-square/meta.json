@@ -1,0 +1,19 @@
+{
+  "name": "t-square",
+  "category": "tools",
+  "description": "A T-square with a broad head and a straight blade.",
+  "tags": ["square", "drafting", "tool"],
+  "directional": false,
+  "useCase": "A T-square with a broad head and a straight blade.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete working shape keeps its important openings clear at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete working shape retains open interiors inside the shared square frame."
+    }
+  }
+}
