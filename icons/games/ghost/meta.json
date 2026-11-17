@@ -1,0 +1,19 @@
+{
+  "name": "ghost",
+  "category": "games",
+  "description": "A round-headed ghost with two eyes and a loose, scalloped hem.",
+  "tags": ["ghost", "spirit", "halloween"],
+  "directional": false,
+  "useCase": "Represent a ghost character or a Halloween theme.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two separated eyes and three broad hem points keep the complete ghost clear at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A round head and evenly spaced eyes balance the wide, scalloped hem."
+    }
+  }
+}
