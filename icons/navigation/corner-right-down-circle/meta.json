@@ -1,0 +1,19 @@
+{
+  "name": "corner-right-down-circle",
+  "category": "navigation",
+  "description": "Turn right then down inside a circle.",
+  "tags": ["turn", "route", "circle"],
+  "directional": false,
+  "useCase": "Turn right then down.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A complete bent shaft and full arrowhead remain clear of the enclosing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete turn arrow retains open space around the shaft, head and enclosing frame."
+    }
+  }
+}
