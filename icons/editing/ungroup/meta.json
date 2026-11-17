@@ -1,0 +1,19 @@
+{
+  "name": "ungroup",
+  "category": "editing",
+  "description": "A square and a circle with arrows pointing out from their former group.",
+  "tags": ["ungroup", "objects", "selection"],
+  "directional": false,
+  "useCase": "Release grouped objects so they can be edited separately.",
+  "misuse": "Use a label to distinguish object grouping from alignment or navigation.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two outward arrows begin inside distinct square and circle object markers."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Longer arrows retain the same separate objects and outward release direction."
+    }
+  }
+}
