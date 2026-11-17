@@ -1,0 +1,19 @@
+{
+  "name": "heart-anatomical",
+  "category": "health",
+  "description": "An asymmetric anatomical heart with broad upper vessels and a curved surface groove.",
+  "tags": ["heart", "cardiac", "anatomy"],
+  "directional": false,
+  "useCase": "Identify heart anatomy in labelled education or cardiovascular content.",
+  "misuse": "Use a visible organ label when the icon identifies educational or health content.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The asymmetric body and apex sit below an open vessel arch and an angled inlet."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The broad vessel arch and separate angled inlet remain clear above the asymmetric heart body."
+    }
+  }
+}

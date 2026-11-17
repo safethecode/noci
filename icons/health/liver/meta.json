@@ -1,0 +1,19 @@
+{
+  "name": "liver",
+  "category": "health",
+  "description": "A broad liver with a large rounded lobe, tapered lobe and dividing seam.",
+  "tags": ["liver", "hepatic", "anatomy"],
+  "directional": false,
+  "useCase": "Identify the liver in labelled anatomy or digestive system content.",
+  "misuse": "Use a visible organ label when the icon identifies educational or health content.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad asymmetric outline retains the rounded large lobe and tapered smaller lobe."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A broad asymmetric outline retains the rounded large lobe and tapered smaller lobe."
+    }
+  }
+}
