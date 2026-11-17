@@ -1,0 +1,19 @@
+{
+  "name": "server-check",
+  "category": "devices",
+  "description": "Two horizontal server bays beside a checkmark.",
+  "tags": ["server", "connection", "success"],
+  "directional": false,
+  "useCase": "Show a successful server connection or host health check.",
+  "misuse": "Use text to identify which connection or health check succeeded.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The broad upper bay keeps its indicator and vent, while the lower rim opens around the complete checkmark."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider bays retain their server profile and clear spacing around the complete checkmark."
+    }
+  }
+}
