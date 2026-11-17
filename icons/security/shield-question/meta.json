@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A wider question hook and clear round dot fit inside the full shield outline."
     },
     "24": {
       "offset": [0, 0],

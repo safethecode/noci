@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Three foil marks and a separate power button remain clear inside the full shaver."
+      "reason": "A deeper foil head keeps three clear openings above the full handle and power button."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger shaver keeps its three foil marks separate above the rounded body and power button."
+      "reason": "Three equal foil openings stay clear above the full handle and power button."
     }
   }
 }
