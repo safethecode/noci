@@ -1,0 +1,19 @@
+{
+  "name": "bus-shelter",
+  "category": "maps",
+  "description": "A broad bench beneath a flat canopy with a side support.",
+  "tags": ["bus", "shelter", "street"],
+  "directional": false,
+  "useCase": "Identify a covered bus waiting area in a stop or street map.",
+  "misuse": "Use bench for seating without a shelter, or bus for the vehicle.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A solid backrest keeps the small bench readable beneath the canopy; the full seat and both legs remain."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The outlined backrest, wide seat, supports and canopy retain clear gaps in the complete shelter."
+    }
+  }
+}

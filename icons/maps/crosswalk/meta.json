@@ -1,0 +1,19 @@
+{
+  "name": "crosswalk",
+  "category": "maps",
+  "description": "A walking pedestrian above three crossing stripes.",
+  "tags": ["pedestrian", "crossing", "street"],
+  "directional": false,
+  "useCase": "Locate a pedestrian crossing on a street map or site plan.",
+  "misuse": "Use person-walking for a person or walking mode; this mark identifies a crossing.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete pedestrian stays separate from three broad crossing stripes, with both arms and legs clear."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full walking pose and three ground stripes remain distinct within the square street marker."
+    }
+  }
+}
