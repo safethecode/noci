@@ -1,0 +1,19 @@
+{
+  "name": "stomach",
+  "category": "health",
+  "description": "A curved stomach with an esophageal inlet and a short pyloric outlet.",
+  "tags": ["stomach", "digestion", "anatomy"],
+  "directional": false,
+  "useCase": "Identify the stomach in labelled anatomy or digestion content.",
+  "misuse": "Use a visible organ label when the icon identifies educational or health content.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full inlet and outlet frame the concave lesser curve and broad stomach body."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full inlet and outlet frame the concave lesser curve and broad stomach body."
+    }
+  }
+}
