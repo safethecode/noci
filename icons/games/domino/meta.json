@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Both full tile halves remain open around one pip each in the diagonal frame."
+      "reason": "Two equal pips sit symmetrically in the two halves, clear of the divider and outer edges."
     },
     "24": {
       "offset": [0, 0],
