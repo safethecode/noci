@@ -1,0 +1,19 @@
+{
+  "name": "overline",
+  "category": "editing",
+  "description": "A round letter beneath a separate line.",
+  "tags": ["text", "overline", "format"],
+  "directional": false,
+  "useCase": "Apply a line above the selected text.",
+  "misuse": "Give the control an accessible name that describes the text formatting option.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The letter strokes and separate formatting marks remain readable inside the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The letter forms retain open spaces and clear separation from the formatting marks at text and toolbar sizes."
+    }
+  }
+}
