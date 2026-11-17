@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A curved outer edge leaves a clear opening inside the complete page fold at text size."
+      "reason": "The full heart sits at the lower left with an open interior and both lobes clear of the page."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The wider curved fold leaves a clear opening while keeping the complete page outline."
+      "reason": "The wider heart sits slightly right to leave clear space beside the visible page edge."
     }
   }
 }

@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A curved outer edge leaves a clear opening inside the complete page fold at text size."
+      "reason": "Two full mountain peaks sit above the page bottom, with a larger sun placed clear of the ridge."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The wider curved fold leaves a clear opening while keeping the complete page outline."
+      "reason": "The complete mountain ridge moves slightly upward while the full sun and both peaks retain their proportions."
     }
   }
 }

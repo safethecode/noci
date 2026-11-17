@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A curved outer edge leaves a clear opening inside the complete page fold at text size."
+      "reason": "Three longer alternating zipper teeth leave clear spaces inside the small page."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The wider curved fold leaves a clear opening while keeping the complete page outline."
+      "reason": "Four full zipper teeth spread evenly between the page top and bottom with clear gaps."
     }
   }
 }

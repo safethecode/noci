@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A curved outer edge leaves a clear opening inside the complete page fold at text size."
+      "reason": "Three full text rows retain their lengths with clear, even spaces between them."
     },
     "24": {
       "offset": [0, 0],
