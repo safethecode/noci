@@ -1,0 +1,19 @@
+{
+  "name": "clock-minus",
+  "category": "time",
+  "description": "A clock with a separate minus sign.",
+  "tags": ["clock", "subtract", "time"],
+  "directional": false,
+  "useCase": "Subtract time from a schedule.",
+  "misuse": "Pair this symbol with a clear label that explains the timed action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The minus sign stays clear of the complete clock hands and rim terminals."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Open counters and clear spacing preserve the clock and its status mark at text and toolbar sizes."
+    }
+  }
+}
