@@ -1,0 +1,19 @@
+{
+  "name": "folder-arrow-up",
+  "category": "files",
+  "description": "A complete folder containing a complete up arrow.",
+  "tags": ["up", "move", "folder"],
+  "directional": false,
+  "useCase": "Move a folder to its parent directory.",
+  "misuse": "Label the folder action explicitly; arrows depict fixed physical directions.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full shared folder and tab stay unchanged; the complete content marker sits in its open body with clear gaps."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full shared folder and complete content marker retain their direction and generous separation."
+    }
+  }
+}
