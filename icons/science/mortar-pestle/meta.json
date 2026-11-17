@@ -1,0 +1,19 @@
+{
+  "name": "mortar-pestle",
+  "category": "science",
+  "description": "A deep mortar bowl with a thick pestle resting inside.",
+  "tags": ["mortar", "pestle", "grind"],
+  "directional": false,
+  "useCase": "A deep mortar bowl with a thick pestle resting inside.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete working shape keeps its important openings clear at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete working shape retains open interiors inside the shared square frame."
+    }
+  }
+}

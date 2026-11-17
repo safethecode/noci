@@ -1,0 +1,19 @@
+{
+  "name": "socket",
+  "category": "tools",
+  "description": "A wrench socket with a hexagonal opening and a complete side wall.",
+  "tags": ["socket", "wrench", "tool"],
+  "directional": false,
+  "useCase": "A wrench socket with a hexagonal opening and a complete side wall.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete working shape keeps its important openings clear at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete working shape retains open interiors inside the shared square frame."
+    }
+  }
+}

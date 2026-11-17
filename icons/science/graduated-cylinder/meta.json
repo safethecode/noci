@@ -1,0 +1,19 @@
+{
+  "name": "graduated-cylinder",
+  "category": "science",
+  "description": "A graduated measuring cylinder with two scale marks and a wide foot.",
+  "tags": ["cylinder", "measure", "laboratory"],
+  "directional": false,
+  "useCase": "A graduated measuring cylinder with two scale marks and a wide foot.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete working shape keeps its important openings clear at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete working shape retains open interiors inside the shared square frame."
+    }
+  }
+}
