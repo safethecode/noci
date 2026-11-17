@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A taller clasp gives its fastener dot 1px of vertical space while retaining the original wallet silhouette."
+      "reason": "A square flap leaves equal clearances around the centered round snap."
     },
     "24": {
       "offset": [0, 0],
