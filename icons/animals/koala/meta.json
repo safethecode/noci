@@ -1,0 +1,19 @@
+{
+  "name": "koala",
+  "category": "animals",
+  "description": "A koala head with rounded side ears and a tall nose.",
+  "tags": ["koala", "face", "nature"],
+  "directional": false,
+  "useCase": "Choose a koala in an animal selector or nature guide.",
+  "misuse": "Pair the stylized head with its name when identifying an animal.",
+  "optical": {
+    "16": {
+      "offset": [0, -0.25],
+      "reason": "Rounded side ears and a tall nose distinguish the head; a small upward hint balances its lower cheeks."
+    },
+    "24": {
+      "offset": [0, -0.375],
+      "reason": "The independently drawn round ears, complete eyes and prominent nose retain clear space at interface size."
+    }
+  }
+}
