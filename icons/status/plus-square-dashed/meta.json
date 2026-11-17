@@ -1,0 +1,19 @@
+{
+  "name": "plus-square-dashed",
+  "category": "status",
+  "description": "A dashed square containing a plus sign.",
+  "tags": ["plus", "dashed", "status"],
+  "directional": false,
+  "useCase": "Add a draft item or create an unconfirmed entry.",
+  "misuse": "Describe the actual status in text; a dashed border alone does not define it.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full dashed frame remains unchanged; complete status marks and open gaps stay clear at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full frame and complete status marks retain the same centered layout with larger clear gaps."
+    }
+  }
+}
