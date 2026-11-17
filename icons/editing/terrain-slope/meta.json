@@ -1,0 +1,19 @@
+{
+  "name": "terrain-slope",
+  "category": "editing",
+  "description": "A curved adjustment arrow above a sloped surface.",
+  "tags": ["terrain", "slope", "grade"],
+  "directional": false,
+  "useCase": "Adjust the slope of a terrain surface.",
+  "misuse": "Pair this control with a clear label in a terrain or 3D editor.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete ramp and curved adjustment arrow distinguish slope adjustment from a vertical raise action."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete ramp and curved adjustment arrow distinguish slope adjustment from a vertical raise action."
+    }
+  }
+}
