@@ -1,0 +1,19 @@
+{
+  "name": "hdmi-port",
+  "category": "devices",
+  "description": "An HDMI socket with a contact tongue and two lower chamfers.",
+  "tags": ["hdmi", "port", "display"],
+  "directional": false,
+  "useCase": "Choose an HDMI input or identify HDMI sockets beside a port label.",
+  "misuse": "The socket does not indicate a connected cable or a supported display format.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A wide socket and thin contact tongue retain 1px of clear air above and below the tongue."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider socket and contact tongue retain 1.5px of clear air above and below the tongue."
+    }
+  }
+}
