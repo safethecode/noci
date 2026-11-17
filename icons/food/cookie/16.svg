@@ -3,6 +3,6 @@
   <circle cx="6.5" cy="5.75" r="0.625" fill="currentColor" stroke="none"/>
   <circle cx="10" cy="6.5" r="0.625" fill="currentColor" stroke="none"/>
   <circle cx="10.25" cy="9.5" r="0.625" fill="currentColor" stroke="none"/>
-  <circle cx="6" cy="9.75" r="0.625" fill="currentColor" stroke="none"/>
-  <circle cx="7.75" cy="8" r="0.625" fill="currentColor" stroke="none"/>
+  <circle cx="6.25" cy="9.75" r="0.625" fill="currentColor" stroke="none"/>
+  <circle cx="7.75" cy="7.75" r="0.625" fill="currentColor" stroke="none"/>
 </svg>

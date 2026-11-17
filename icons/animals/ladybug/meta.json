@@ -1,7 +1,7 @@
 {
   "name": "ladybug",
   "category": "animals",
-  "description": "A ladybug with a round wing case and two spots.",
+  "description": "A ladybug with a rounded wing case and two spots.",
   "tags": ["ladybug", "garden", "insect"],
   "directional": false,
   "useCase": "Identify ladybugs or beneficial garden insects.",
@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Two spots remain clear of the center seam inside a round wing case."
+      "reason": "A wider, shorter wing case leaves a full head opening and clear spots on both sides of the seam."
     },
     "24": {
       "offset": [0, 0],
