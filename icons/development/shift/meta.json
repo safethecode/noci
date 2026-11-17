@@ -1,0 +1,19 @@
+{
+  "name": "shift",
+  "category": "development",
+  "description": "An outlined upward arrow representing the Shift key.",
+  "tags": ["keyboard", "modifier", "shift"],
+  "directional": false,
+  "useCase": "Represent Shift in a keyboard shortcut or keyboard control.",
+  "misuse": "Give the key an accessible name when its symbol is used without a text label.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete key symbol keeps its characteristic opening or separate bar clear within the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The open spaces and full terminals retain balanced margins around the complete keyboard symbol."
+    }
+  }
+}
