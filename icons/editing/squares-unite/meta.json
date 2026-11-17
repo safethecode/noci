@@ -1,0 +1,19 @@
+{
+  "name": "squares-unite",
+  "category": "editing",
+  "description": "The continuous outline of two united overlapping squares.",
+  "tags": ["vector", "union", "shapes"],
+  "directional": false,
+  "useCase": "Unite selected vector shapes into one combined outline.",
+  "misuse": "Use a label to distinguish the four vector Boolean operations.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A single stepped outline preserves the combined bounds of the two input squares."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger stepped outline keeps the same square relationship and an open center."
+    }
+  }
+}
