@@ -1,0 +1,19 @@
+{
+  "name": "clock-off",
+  "category": "time",
+  "description": "A clock crossed by a diagonal slash.",
+  "tags": ["clock", "off", "time"],
+  "directional": false,
+  "useCase": "Disable a timed process or indicate that timing is unavailable.",
+  "misuse": "Pair this symbol with a clear label that explains the timed action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both full clock hands remain visible beneath the slash, with the two rim arcs inside the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete hands, two rim arcs and full slash retain a balanced square silhouette."
+    }
+  }
+}

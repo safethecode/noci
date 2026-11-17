@@ -1,0 +1,19 @@
+{
+  "name": "clock-x",
+  "category": "time",
+  "description": "A clock with a separate cross.",
+  "tags": ["clock", "cancel", "time"],
+  "directional": false,
+  "useCase": "Cancel a scheduled action or indicate an expired time.",
+  "misuse": "Pair this symbol with a clear label that explains the timed action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The cross stays clear of both arc terminals while retaining the complete clock hands."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Open counters and clear spacing preserve the clock and its status mark at text and toolbar sizes."
+    }
+  }
+}

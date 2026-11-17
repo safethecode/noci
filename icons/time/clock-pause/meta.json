@@ -1,0 +1,19 @@
+{
+  "name": "clock-pause",
+  "category": "time",
+  "description": "A clock with two separate pause bars.",
+  "tags": ["clock", "pause", "time"],
+  "directional": false,
+  "useCase": "Pause a timed process.",
+  "misuse": "Pair this symbol with a clear label that explains the timed action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both pause bars remain distinct from each other, the rim and the complete clock hands."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Open counters and clear spacing preserve the clock and its status mark at text and toolbar sizes."
+    }
+  }
+}

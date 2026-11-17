@@ -1,0 +1,19 @@
+{
+  "name": "clock-warning",
+  "category": "time",
+  "description": "A clock with a separate exclamation mark.",
+  "tags": ["clock", "warning", "deadline"],
+  "directional": false,
+  "useCase": "Flag a deadline or time limit that needs attention.",
+  "misuse": "Pair this symbol with a clear label that explains the timed action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete clock hands and status mark remain separated inside the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Open counters and clear spacing preserve the clock and its status mark at text and toolbar sizes."
+    }
+  }
+}
