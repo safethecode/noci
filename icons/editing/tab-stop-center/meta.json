@@ -1,0 +1,19 @@
+{
+  "name": "tab-stop-center",
+  "category": "editing",
+  "description": "A centered tab marker below a horizontal document ruler.",
+  "tags": ["tab", "ruler", "text"],
+  "directional": false,
+  "useCase": "Set a tab stop that centers following text on its position.",
+  "misuse": "Use paragraph alignment controls when the entire paragraph should align to an edge.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A full centered tab marker stays separate from four attached ruler ticks."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger centered tab marker leaves wider clear space below the ruler."
+    }
+  }
+}
