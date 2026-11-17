@@ -1,0 +1,19 @@
+{
+  "name": "arrows-diagonal-down-square",
+  "category": "navigation",
+  "description": "A diagonal double-headed resize arrow inside a square.",
+  "tags": ["resize", "diagonal-down", "square"],
+  "directional": false,
+  "useCase": "Indicate resizing along the falling diagonal axis.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete diagonal heads have shorter arms so their free ends stay separate at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete double-headed arrow keeps at least 1.5 pixels of clear space from its enclosing frame."
+    }
+  }
+}
