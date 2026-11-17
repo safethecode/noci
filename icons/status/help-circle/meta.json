@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A separately shaped question curve remains open and leaves at least 1px before the dot and circular frame."
+      "reason": "The complete question hook remains intact above a clearer separate dot."
     },
     "24": {
       "offset": [0, 0],
