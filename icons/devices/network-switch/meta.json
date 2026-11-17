@@ -1,0 +1,19 @@
+{
+  "name": "network-switch",
+  "category": "devices",
+  "description": "A wired network switch with a top face and three front ports.",
+  "tags": ["network", "switch", "ethernet"],
+  "directional": false,
+  "useCase": "Identify a wired network switch or open its configuration.",
+  "misuse": "Use ethernet for a cable connection and router for a wireless router.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The top face and three separate front ports remain clear inside a centered broad chassis."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The top face separates from the port row, with clear space around all three ports."
+    }
+  }
+}

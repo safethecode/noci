@@ -1,0 +1,19 @@
+{
+  "name": "robot-arm",
+  "category": "devices",
+  "description": "An articulated robotic arm with three joints, a pedestal and a gripper.",
+  "tags": ["robot", "arm", "automation"],
+  "directional": false,
+  "useCase": "Identify a robotic arm or an automated assembly operation.",
+  "misuse": "Use a label when the hardware type or action is unclear from context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The outline retains the parts that identify the hardware, with clear spaces around its controls and joints inside the square safe frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete controls and functional parts remain balanced within the shared square frame."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "remote-control",
+  "category": "devices",
+  "description": "A handheld remote control with two buttons and an open cross pad.",
+  "tags": ["remote", "control", "device"],
+  "directional": false,
+  "useCase": "Choose a remote control or open its device settings.",
+  "misuse": "Use car-key for vehicle key fobs and gamepad for game controllers.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two buttons remain separate from an open cross pad in a narrow, centered case."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The open cross pad has clear space around all four ends and both buttons."
+    }
+  }
+}
