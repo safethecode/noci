@@ -1,0 +1,19 @@
+{
+  "name": "dental-floss",
+  "category": "personal-care",
+  "description": "A dental floss dispenser with a full lid seam and extended strand.",
+  "tags": ["dental", "floss", "care"],
+  "directional": false,
+  "useCase": "A dental floss dispenser with a full lid seam and extended strand.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete strand curls outward and ends above the dispenser; the lid seam and full case retain clear spacing."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full strand ends above the dispenser, keeping the free tip clear of the case."
+    }
+  }
+}

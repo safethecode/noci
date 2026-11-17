@@ -1,0 +1,19 @@
+{
+  "name": "tweezers",
+  "category": "personal-care",
+  "description": "Two full tweezer arms joined at a rounded spring.",
+  "tags": ["tweezers", "grooming", "care"],
+  "directional": false,
+  "useCase": "Two full tweezer arms joined at a rounded spring.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full rounded spring stays inside the drawing frame; both slanted tips and the hollow metal body remain clear."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete hollow metal body and both slanted tips retain larger clear openings."
+    }
+  }
+}
