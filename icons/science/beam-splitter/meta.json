@@ -1,0 +1,19 @@
+{
+  "name": "beam-splitter",
+  "category": "science",
+  "description": "A square optical cube with a diagonal splitting surface and three light paths.",
+  "tags": ["optics", "beam", "splitter"],
+  "directional": false,
+  "useCase": "Identify a component that divides an incident light beam into transmitted and reflected paths.",
+  "misuse": "Use a label to name the component; this symbol is not a scaled optical drawing.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Short light paths meet the cube without protruding into the two clear triangular faces."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The diagonal face remains separated from both open areas, while all three light paths stay inside the square drawing frame."
+    }
+  }
+}
