@@ -1,0 +1,19 @@
+{
+  "name": "server-minus",
+  "category": "devices",
+  "description": "Two horizontal server bays beside a minus sign.",
+  "tags": ["server", "host", "remove"],
+  "directional": false,
+  "useCase": "Remove a server or detach a host from an infrastructure list.",
+  "misuse": "Name the removal action explicitly when it affects a running host.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The broad upper bay keeps its indicator and vent, while the lower rim opens around the complete minus sign."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider bays retain their server profile and clear spacing around the complete minus sign."
+    }
+  }
+}
