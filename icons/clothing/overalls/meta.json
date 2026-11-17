@@ -1,0 +1,19 @@
+{
+  "name": "overalls",
+  "category": "clothing",
+  "description": "Bib overalls have shoulder straps and two separate legs.",
+  "tags": ["overalls", "workwear", "clothing"],
+  "directional": false,
+  "useCase": "Identify bib overalls or work clothing.",
+  "misuse": "Use pants for trousers without a bib and shoulder straps.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full straps, broad bib and two open leg shapes preserve the overall silhouette."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full straps, broad bib and two open leg shapes preserve the overall silhouette."
+    }
+  }
+}
