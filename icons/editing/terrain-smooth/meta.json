@@ -1,0 +1,19 @@
+{
+  "name": "terrain-smooth",
+  "category": "editing",
+  "description": "An angular surface above a smooth curve.",
+  "tags": ["terrain", "smooth", "sculpt"],
+  "directional": false,
+  "useCase": "Smooth sharp irregularities in a terrain surface.",
+  "misuse": "Pair this control with a clear label in a terrain or 3D editor.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete surface and editing gesture are centered within the shared square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Separated action marks and open surface contours preserve the editing action at toolbar sizes."
+    }
+  }
+}
