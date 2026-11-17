@@ -1,0 +1,19 @@
+{
+  "name": "folder-open-terminal",
+  "category": "files",
+  "description": "An open folder with a complete terminal prompt and underscore.",
+  "tags": ["folder", "terminal", "open"],
+  "directional": false,
+  "useCase": "Open a terminal in an expanded directory.",
+  "misuse": "Pair the icon with the folder name and expose its expanded state on the actual control.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete front flap and rear tab stay clear of the full resource marker."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The established open-folder body retains its full flap and tab with generous marker separation."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "folder-open-tree",
+  "category": "files",
+  "description": "An open folder with a complete branching hierarchy.",
+  "tags": ["folder", "hierarchy", "open"],
+  "directional": false,
+  "useCase": "Show the hierarchy within an expanded directory.",
+  "misuse": "Pair the icon with the folder name and expose its expanded state on the actual control.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete front flap and rear tab stay clear of the full resource marker."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The established open-folder body retains its full flap and tab with generous marker separation."
+    }
+  }
+}

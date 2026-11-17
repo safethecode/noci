@@ -1,0 +1,19 @@
+{
+  "name": "folder-open-video",
+  "category": "files",
+  "description": "An open folder with a complete solid play triangle.",
+  "tags": ["folder", "video", "open"],
+  "directional": false,
+  "useCase": "Identify an expanded video directory.",
+  "misuse": "Pair the icon with the folder name and expose its expanded state on the actual control.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete front flap and rear tab stay clear of the full resource marker."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The established open-folder body retains its full flap and tab with generous marker separation."
+    }
+  }
+}

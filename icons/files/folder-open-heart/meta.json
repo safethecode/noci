@@ -1,0 +1,19 @@
+{
+  "name": "folder-open-heart",
+  "category": "files",
+  "description": "An open folder with a complete heart.",
+  "tags": ["folder", "favorite", "open"],
+  "directional": false,
+  "useCase": "Identify a favorite folder while its contents are expanded.",
+  "misuse": "Pair the icon with the folder name and expose its expanded state on the actual control.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete front flap and rear tab stay clear of the full resource marker."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The established open-folder body retains its full flap and tab with generous marker separation."
+    }
+  }
+}
