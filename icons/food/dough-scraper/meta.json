@@ -1,0 +1,19 @@
+{
+  "name": "dough-scraper",
+  "category": "food",
+  "description": "A broad dough scraper with a top grip and measurement marks.",
+  "tags": ["dough", "scraper", "baking"],
+  "directional": false,
+  "useCase": "Divide dough or scrape a baking surface.",
+  "misuse": "Pair this symbol with a clear equipment or cooking-action label.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete equipment shapes and simple working details fit the shared square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Open equipment contours and separated details remain clear at text and toolbar sizes."
+    }
+  }
+}
