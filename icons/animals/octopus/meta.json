@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Separated front-arm curls and clear eye positions keep the octopus open at text size."
+      "reason": "The wider head gives both eyes clear space above the curled arms."
     },
     "24": {
       "offset": [0, 0],
