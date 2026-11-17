@@ -1,0 +1,19 @@
+{
+  "name": "tetrahedron",
+  "category": "foundation",
+  "description": "A tetrahedron with three visible triangular faces.",
+  "tags": ["tetrahedron", "solid", "geometry"],
+  "directional": false,
+  "useCase": "Select a tetrahedron primitive in a 3D editor.",
+  "misuse": "Label the solid when users need to distinguish it from other geometric primitives.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete visible face edges meet at shared vertices inside the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Symmetric outlines and separated face interiors preserve the solid geometry at toolbar sizes."
+    }
+  }
+}
