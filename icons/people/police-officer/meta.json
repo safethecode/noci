@@ -1,0 +1,19 @@
+{
+  "name": "police-officer",
+  "category": "people",
+  "description": "A police officer wears a peaked cap with a shield insignia.",
+  "tags": ["police", "officer", "service"],
+  "directional": false,
+  "useCase": "Identify police officers or a police assistance point.",
+  "misuse": "Use a label to identify the specific public service.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The rounded peaked cap, full shield insignia, visor and uniform collar identify the officer."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The rounded peaked cap, full shield insignia, visor and uniform collar identify the officer."
+    }
+  }
+}
