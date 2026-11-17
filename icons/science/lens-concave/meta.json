@@ -1,0 +1,19 @@
+{
+  "name": "lens-concave",
+  "category": "science",
+  "description": "A lens cross-section with two inward-curving surfaces.",
+  "tags": ["lens", "concave", "optics"],
+  "directional": false,
+  "useCase": "Identify a diverging lens in a lens selector or a labelled optical diagram.",
+  "misuse": "Use a label to name the component; this symbol is not a scaled optical drawing.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The two surfaces form a single closed contour, with enough inner space to distinguish flat and curved faces."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The curved surface and clear interior stay balanced against the flat or opposing curved face within the square drawing frame."
+    }
+  }
+}
