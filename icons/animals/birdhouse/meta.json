@@ -1,0 +1,19 @@
+{
+  "name": "birdhouse",
+  "category": "animals",
+  "description": "A nesting box with a pitched roof, round entrance and short perch.",
+  "tags": ["bird", "nesting", "shelter"],
+  "directional": false,
+  "useCase": "Bird nesting boxes, backyard bird care or outdoor bird shelters.",
+  "misuse": "Use bird for the animal itself.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A solid round entrance and full perch stay clear inside the nesting box."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete perch and entrance stay clear of the box walls."
+    }
+  }
+}
