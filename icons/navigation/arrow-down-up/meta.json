@@ -1,0 +1,19 @@
+{
+  "name": "arrow-down-up",
+  "category": "navigation",
+  "description": "A downward arrow on the left and an upward arrow on the right.",
+  "tags": ["arrows", "swap", "flow"],
+  "directional": false,
+  "useCase": "Indicate two opposing flows or swap their order.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two full arrows have separate shafts and complete heads inside the shared square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Two full arrows retain generous separation and matching head proportions."
+    }
+  }
+}
