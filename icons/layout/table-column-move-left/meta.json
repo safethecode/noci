@@ -1,0 +1,19 @@
+{
+  "name": "table-column-move-left",
+  "category": "layout",
+  "description": "A table column beside a left-pointing arrow.",
+  "tags": ["table", "column", "left"],
+  "directional": false,
+  "useCase": "Move a selected table column to the left.",
+  "misuse": "Give the control an accessible name that specifies the table action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The selected area or complete arrow stays clear against the cell guides, within the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The cell structure and complete action mark retain clear separation and matched margins around the square drawing frame."
+    }
+  }
+}
