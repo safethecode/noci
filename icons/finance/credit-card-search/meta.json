@@ -1,0 +1,19 @@
+{
+  "name": "credit-card-search",
+  "category": "finance",
+  "description": "A complete payment card and stripe beside a complete magnifying glass.",
+  "tags": ["payment", "search", "card"],
+  "directional": false,
+  "useCase": "Find a stored payment card.",
+  "misuse": "Use accompanying text for the payment status and next step.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full card keeps its proportions and complete stripe; a separate upper-right status marker balances the combined square silhouette."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full card, stripe and complete status marker retain the same proportions and generous clear gaps."
+    }
+  }
+}
