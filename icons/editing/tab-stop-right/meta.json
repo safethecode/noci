@@ -1,0 +1,19 @@
+{
+  "name": "tab-stop-right",
+  "category": "editing",
+  "description": "A right tab marker below a horizontal document ruler.",
+  "tags": ["tab", "ruler", "text"],
+  "directional": false,
+  "useCase": "Set a tab stop that aligns following text to its right edge.",
+  "misuse": "Use paragraph alignment controls when the entire paragraph should align to an edge.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A full right tab marker stays separate from four attached ruler ticks."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger right tab marker leaves wider clear space below the ruler."
+    }
+  }
+}
