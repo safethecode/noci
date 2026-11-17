@@ -27,8 +27,12 @@ Align path move points and straight strokes to a quarter-unit grid at 16px and a
 half or quarter coordinates; forcing every centerline to an integer makes it blurrier.
 Curve controls and endpoints may use other coordinates. Keep a horizontal or vertical stroke's constant axis on the grid even when it follows a curve. Pixel alignment is subordinate to recognizability.
 Use round caps and joins, restrained rounded corners, no gradients, shadows or baked
-colors. Prefer one clear silhouette and no more than six simple primitives. Dots may
-be filled circles. All paint follows `currentColor`.
+colors. Prefer one clear silhouette and no more than six simple primitives. Keep the
+main silhouette outlined. Dots and small, simple marks such as playback triangles may
+be solid when an outline would close the interior at 16px. A solid mark uses a circle
+or one explicitly closed path, `fill="currentColor"` and `stroke="none"`. It follows
+the same spacing and optical review rules as an outlined mark. All paint follows
+`currentColor`.
 
 ## Center and weight
 
