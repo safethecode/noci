@@ -1,0 +1,19 @@
+{
+  "name": "underwear",
+  "category": "clothing",
+  "description": "A pair of briefs has a broad waistband and curved leg openings.",
+  "tags": ["underwear", "briefs", "clothing"],
+  "directional": false,
+  "useCase": "Identify briefs or underwear.",
+  "misuse": "Use shorts for garments with separate short legs.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full waistband and curved leg openings preserve the broad brief shape."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full waistband and curved leg openings preserve the broad brief shape."
+    }
+  }
+}
