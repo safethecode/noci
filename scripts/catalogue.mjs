@@ -42,7 +42,7 @@ export const categories = [
   'games',
 ];
 const permitted = {
-  path: ['d'],
+  path: ['d', 'fill', 'stroke'],
   circle: ['cx', 'cy', 'r', 'fill', 'stroke'],
   rect: ['x', 'y', 'width', 'height', 'rx', 'ry'],
   line: ['x1', 'y1', 'x2', 'y2'],
@@ -116,7 +116,7 @@ export function parseMaster(svg, size) {
       if (key === 'fill') {
         assert(value === 'currentColor', 'Only currentColor fill is permitted.');
       } else if (key === 'stroke') {
-        assert(value === 'none', 'Only filled dots can suppress the stroke.');
+        assert(value === 'none', 'Filled marks must suppress the stroke.');
       } else if (key === 'd') {
         assert(
           /^[MmLlHhVvCcSsQqTtAaZz\d\s.,+-]+$/.test(value) && /^[Mm]/.test(value),
@@ -135,7 +135,17 @@ export function parseMaster(svg, size) {
       assert(typeof attrs.d === 'string', 'Path needs d.');
       const path = svgpath(attrs.d);
       assert(!path.err, `Invalid path: ${path.err}`);
-      path.abs().iterate((segment, _index, x, y) => {
+      path.abs();
+      if (attrs.fill || attrs.stroke) {
+        const commands = path.segments.map((segment) => segment[0]);
+        assert(
+          commands.filter((command) => command === 'M').length === 1 &&
+            commands.filter((command) => command === 'Z').length === 1 &&
+            commands.at(-1) === 'Z',
+          'A solid mark must be one explicitly closed path.',
+        );
+      }
+      path.iterate((segment, _index, x, y) => {
         assert(segment.slice(1).every(Number.isFinite), 'Path coordinates must be finite.');
         if (['M', 'L', 'H', 'V'].includes(segment[0])) {
           assert(segment.slice(1).every(onGrid), gridMessage);
@@ -189,8 +199,10 @@ export function parseMaster(svg, size) {
     }
     if (attrs.fill || attrs.stroke) {
       assert(
-        tag === 'circle' && attrs.fill === 'currentColor' && attrs.stroke === 'none',
-        'Only dots use fill.',
+        (tag === 'circle' || tag === 'path') &&
+          attrs.fill === 'currentColor' &&
+          attrs.stroke === 'none',
+        'Solid marks need currentColor fill and no stroke.',
       );
     }
     nodes.push([tag, attrs]);

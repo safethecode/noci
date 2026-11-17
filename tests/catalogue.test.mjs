@@ -155,3 +155,53 @@ test('SVG source parser rejects unsafe markup and invalid geometry', () => {
     parseMaster(base.replace('BODY', '<path d="M3 3C3.12 4.67 7.31 8.41 10.17 11.19"/>'), 16),
   );
 });
+
+test('solid path marks inherit color and retain a transparent exterior at every export size', () => {
+  const source = (size, body) =>
+    `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" fill="none" stroke="currentColor" stroke-width="${size === 16 ? 1.5 : 1.75}" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${body}</svg>`;
+  const path = 'M5.5 4.5L11 7.5Q11.5 8 11 8.5L5.5 11.5Q5 12 5 11V5Q5 4 5.5 4.5Z';
+  const mark = `<path d="${path}" fill="currentColor" stroke="none"/>`;
+  const icon = {
+    name: 'solid-mark-fixture',
+    directional: false,
+    sizes: {
+      16: parseMaster(source(16, mark), 16),
+      24: parseMaster(
+        source(
+          24,
+          '<path d="M8.25 6.75L16.5 11.25Q17.25 12 16.5 12.75L8.25 17.25Q7.5 18 7.5 16.5V7.5Q7.5 6 8.25 6.75Z" fill="currentColor" stroke="none"/>',
+        ),
+        24,
+      ),
+    },
+  };
+  for (const size of [16, 24, 48]) {
+    for (const color of ['#2563eb', '#f0f6fc']) {
+      const rendered = esm.renderIcon(icon, { size }).replace('<svg ', `<svg color="${color}" `);
+      const result = new Resvg(rendered, { font: { loadSystemFonts: false } }).render();
+      const pixel = (x, y) =>
+        Array.from(result.pixels.subarray((y * size + x) * 4, (y * size + x) * 4 + 4));
+      const rgb = color
+        .slice(1)
+        .match(/../g)
+        .map((value) => Number.parseInt(value, 16));
+      assert.deepEqual(pixel(Math.floor(size / 2), Math.floor(size / 2)), [...rgb, 255]);
+      assert.equal(pixel(0, 0)[3], 0);
+      assert.equal(pixel(size - 1, size - 1)[3], 0);
+    }
+  }
+  for (const body of [
+    mark.replace('Z"', '"'),
+    mark.replace(' fill="currentColor"', ''),
+    mark.replace(' stroke="none"', ''),
+    mark.replace('currentColor', 'red'),
+    mark.replace('currentColor', 'url(#paint)'),
+    mark.replace('stroke="none"', 'stroke="currentColor"'),
+    mark.replace('Z"', 'ZM6 6L8 6L7 8Z"'),
+    mark.replace('Z"', 'ZM6 6"'),
+    mark.replace('/>', ' fill-rule="evenodd"/>'),
+    mark.replace('/>', ' onclick="run()"/>'),
+  ]) {
+    assert.throws(() => parseMaster(source(16, body), 16));
+  }
+});
