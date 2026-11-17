@@ -1,0 +1,19 @@
+{
+  "name": "camera-lens",
+  "category": "media",
+  "description": "A detachable camera lens with a barrel, focus ring and front glass.",
+  "tags": ["lens", "camera", "optics"],
+  "directional": false,
+  "useCase": "Identify interchangeable camera lenses or lens equipment.",
+  "misuse": "Use lens for a convex optical element or aperture for the exposure control.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete barrel and focusing ring remain clear beside the full front glass."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger barrel keeps its focus ring, full front rim and glass center distinct."
+    }
+  }
+}
