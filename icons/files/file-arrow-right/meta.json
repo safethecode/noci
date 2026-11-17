@@ -1,0 +1,19 @@
+{
+  "name": "file-arrow-right",
+  "category": "files",
+  "description": "A complete folded document with an arrow pointing right.",
+  "tags": ["document", "right", "transfer"],
+  "directional": false,
+  "useCase": "Indicate a file transfer or movement in the shown direction.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The arrow sits farther left to leave space beside the fold."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A slight inset keeps the complete arrow clear of the fold."
+    }
+  }
+}
