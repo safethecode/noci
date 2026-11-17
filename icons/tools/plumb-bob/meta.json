@@ -1,0 +1,19 @@
+{
+  "name": "plumb-bob",
+  "category": "tools",
+  "description": "A plumb bob with a full cord, narrow neck and pointed weight.",
+  "tags": ["plumb", "vertical", "alignment"],
+  "directional": false,
+  "useCase": "Identify a plumb bob for checking vertical alignment.",
+  "misuse": "Use level for checking a horizontal surface with a spirit level.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full cord meets a complete neck above the broad pointed weight."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The centered cord and full pointed body keep the plumb tool narrow and balanced."
+    }
+  }
+}
