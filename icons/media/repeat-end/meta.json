@@ -1,0 +1,19 @@
+{
+  "name": "repeat-end",
+  "category": "media",
+  "description": "An end-repeat barline with two dots followed by thin and thick bars.",
+  "tags": ["repeat", "barline", "notation"],
+  "directional": false,
+  "useCase": "Mark the end of a passage to repeat in a musical score.",
+  "misuse": "Use repeat for looping media playback.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two full dots precede the complete thin bar and a solid heavy bar with no cramped interior."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The conventional dot pair and thin-heavy bar order stay separate at interface size."
+    }
+  }
+}
