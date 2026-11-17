@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A shorter lock body leaves its lower corners clear of the shield curve while preserving an open shackle and a visible body opening."
+      "reason": "An open shackle sits above a solid lock case inside the complete shield."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The wider lock retains a larger body opening, with its lower edge lifted clear of the shield curve."
+      "reason": "The solid lock case keeps the open shackle distinct inside the shield."
     }
   }
 }
