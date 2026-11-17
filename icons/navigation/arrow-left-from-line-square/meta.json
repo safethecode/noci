@@ -1,0 +1,19 @@
+{
+  "name": "arrow-left-from-line-square",
+  "category": "navigation",
+  "description": "A complete left arrow pointing away from a separate boundary line inside a square.",
+  "tags": ["origin", "left", "transfer"],
+  "directional": false,
+  "useCase": "Show a left transfer away from its origin in a compact control.",
+  "misuse": "Label the destination or origin; the physical arrow direction stays fixed in every writing direction.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full shaft and both head arms remain clear of the whole boundary line and shared frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete arrow, whole boundary line and shared frame retain the same direction and generous clear gaps."
+    }
+  }
+}
