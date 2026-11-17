@@ -1,0 +1,19 @@
+{
+  "name": "server-search",
+  "category": "devices",
+  "description": "Two horizontal server bays beside a magnifying glass.",
+  "tags": ["server", "host", "search"],
+  "directional": false,
+  "useCase": "Find a server or locate a host in an infrastructure inventory.",
+  "misuse": "Use a label when the control filters a host list or inspects a server.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The broad upper bay keeps its indicator and vent, while the lower rim opens around the complete magnifying glass."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider bays retain their server profile and clear spacing around the complete magnifying glass."
+    }
+  }
+}
