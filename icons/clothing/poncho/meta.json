@@ -1,0 +1,19 @@
+{
+  "name": "poncho",
+  "category": "clothing",
+  "description": "A loose poncho drapes from an open neck to a broad curved hem.",
+  "tags": ["poncho", "outerwear", "clothing"],
+  "directional": false,
+  "useCase": "Identify ponchos or loose outer layers.",
+  "misuse": "Use coat for fitted outerwear with sleeves.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Curved shoulders and a broad draped hem preserve the loose poncho around a clear neck opening."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Curved shoulders and a broad draped hem preserve the loose poncho around a clear neck opening."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "vest",
+  "category": "clothing",
+  "description": "A sleeveless waistcoat has a V neck and a pointed front hem.",
+  "tags": ["vest", "waistcoat", "clothing"],
+  "directional": false,
+  "useCase": "Identify waistcoats or formal sleeveless garments.",
+  "misuse": "Use life-jacket for flotation equipment.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The open arm shapes and pointed hem distinguish this sleeveless waistcoat from a jacket."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The open arm shapes and pointed hem distinguish this sleeveless waistcoat from a jacket."
+    }
+  }
+}

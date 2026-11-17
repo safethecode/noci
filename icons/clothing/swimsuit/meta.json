@@ -1,0 +1,19 @@
+{
+  "name": "swimsuit",
+  "category": "clothing",
+  "description": "A one-piece swimsuit has shoulder straps and shaped leg openings.",
+  "tags": ["swimsuit", "swimming", "clothing"],
+  "directional": false,
+  "useCase": "Identify one-piece swimsuits or swimwear.",
+  "misuse": "Use dress for a garment with a skirt.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Full shoulder straps, a shaped waist and two leg openings retain the one-piece swimsuit silhouette."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Full shoulder straps, a shaped waist and two leg openings retain the one-piece swimsuit silhouette."
+    }
+  }
+}
