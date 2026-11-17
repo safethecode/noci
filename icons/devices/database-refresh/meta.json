@@ -1,0 +1,19 @@
+{
+  "name": "database-refresh",
+  "category": "devices",
+  "description": "A database cylinder with a separate circular arrow.",
+  "tags": ["database", "refresh", "reload"],
+  "directional": false,
+  "useCase": "Reload the contents or connection state of a database.",
+  "misuse": "Label the control with the database operation it performs.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full database body remains separate from the open curved arrow and its complete solid arrowhead."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full database body remains separate from the open curved arrow and its complete solid arrowhead."
+    }
+  }
+}

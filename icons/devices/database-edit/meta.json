@@ -1,0 +1,19 @@
+{
+  "name": "database-edit",
+  "category": "devices",
+  "description": "A database cylinder with a separate pencil.",
+  "tags": ["database", "edit", "records"],
+  "directional": false,
+  "useCase": "Edit records in a database.",
+  "misuse": "Label the control with the database operation it performs.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The database cylinder and separate operation mark occupy a shared square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Open cylinder counters and clear operation marks remain balanced at toolbar sizes."
+    }
+  }
+}
