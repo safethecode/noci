@@ -1,0 +1,19 @@
+{
+  "name": "touch-pinch-out",
+  "category": "editing",
+  "description": "Two raised fingertips beneath two complete outward arrows.",
+  "tags": ["touch", "pinch", "outward"],
+  "directional": false,
+  "useCase": "Move two fingertips apart on the surface.",
+  "misuse": "Use a label to explain what the gesture changes and how it behaves in the application.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two raised fingertips remain separate below two complete outward arrows."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger hand opens the fingertip gap and the space below both outward arrows."
+    }
+  }
+}
