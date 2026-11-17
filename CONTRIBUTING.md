@@ -25,6 +25,8 @@ npm run check
 npm run browsers:install
 npm run test:browser
 npm run qa
+npm run qa:marks
+npm run qa:openings
 npm run qa -- --category navigation
 npm run qa -- --name search --theme dark
 ```

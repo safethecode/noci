@@ -50,11 +50,15 @@ the same spacing and optical review rules as an outlined mark. All paint follows
    and 2. Enlarging an icon cannot establish small-size legibility.
 7. Run `npm run qa:marks` to find faint or empty solid marks. Inspect flagged marks
    in the complete icon and beside text at DPR 1 and 2.
+   A connected stroke may make the full feature clear even when the isolated mark is faint.
+   Check what the mark adds before changing it.
 8. Run `npm run qa:openings` to find cramped enclosed spaces, including wedges
    formed by intersecting strokes. Check open gaps and missing counters visually.
-9. Enlarge connected strokes to inspect their complete painted edges. A segment
-   that joins an outer contour must end within its ink, without a cap protruding
-   beyond the silhouette. Check both ends and return to native size afterward.
+   Check these spaces at native size: a geometric gap can still disappear between pixels.
+9. Enlarge connected strokes to inspect both painted edges. A segment that joins
+   a contour must meet its ink without a cap extending beyond the silhouette or
+   into an intended white opening. Check the full cap at both ends and confirm
+   the connection at native size.
 
 Use repeatable keylines,
 consistent weight and visual inspection.
