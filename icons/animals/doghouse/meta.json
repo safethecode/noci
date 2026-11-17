@@ -1,0 +1,19 @@
+{
+  "name": "doghouse",
+  "category": "animals",
+  "description": "A broad dog shelter with a gable roof and an arched entrance.",
+  "tags": ["dog", "kennel", "shelter"],
+  "directional": false,
+  "useCase": "Dog kennels, pet housing or outdoor shelters for dogs.",
+  "misuse": "Use house for a residential building.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad front and open arched entrance distinguish the kennel from a house."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full arched entrance stays open between two complete side walls."
+    }
+  }
+}
