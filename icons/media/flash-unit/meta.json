@@ -1,0 +1,19 @@
+{
+  "name": "flash-unit",
+  "category": "media",
+  "description": "A camera flash with a broad Fresnel head, upright body and hot-shoe foot.",
+  "tags": ["flash", "camera", "lighting"],
+  "directional": false,
+  "useCase": "Identify detachable camera flashes in photography equipment.",
+  "misuse": "Use lightning for an electricity or weather symbol.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full Fresnel head sits above an open battery body and a narrow solid mounting foot."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Three open head sections sit above the full battery body and a narrow solid hot-shoe foot."
+    }
+  }
+}
