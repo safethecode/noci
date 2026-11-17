@@ -1,0 +1,19 @@
+{
+  "name": "search-check",
+  "category": "navigation",
+  "description": "A complete magnifying glass beside a complete check mark.",
+  "tags": ["search", "check", "results"],
+  "directional": false,
+  "useCase": "Confirm a search selection or show a confirmed match.",
+  "misuse": "Label the search action or result state in context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full lens and whole handle sit lower-left of the separate marker, keeping both meanings clear within the square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full magnifying glass and complete marker retain the same proportions and generous clear gaps."
+    }
+  }
+}

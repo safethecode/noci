@@ -1,0 +1,19 @@
+{
+  "name": "search-code",
+  "category": "navigation",
+  "description": "A complete magnifying glass beside two complete code chevrons.",
+  "tags": ["search", "code", "results"],
+  "directional": false,
+  "useCase": "Search source code or limit a search to code.",
+  "misuse": "Label the search action or result state in context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full lens and whole handle sit lower-left of the separate marker, keeping both meanings clear within the square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full magnifying glass and complete marker retain the same proportions and generous clear gaps."
+    }
+  }
+}
