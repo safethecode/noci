@@ -1,0 +1,19 @@
+{
+  "name": "dial-indicator",
+  "category": "tools",
+  "description": "A dial indicator with a circular face, needle, collar and contact spindle.",
+  "tags": ["indicator", "precision", "measurement"],
+  "directional": false,
+  "useCase": "Identify a dial indicator for checking small displacement or runout.",
+  "misuse": "Use gauge for a general measurement display.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full dial stays open above a broad solid collar and complete contact spindle."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger face, full collar and extended contact spindle identify the physical indicator."
+    }
+  }
+}
