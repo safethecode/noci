@@ -1,0 +1,19 @@
+{
+  "name": "television",
+  "category": "devices",
+  "description": "A television screen with an antenna and two short legs.",
+  "tags": ["television", "tv", "broadcast"],
+  "directional": false,
+  "useCase": "Identify a television or a television viewing option.",
+  "misuse": "Use a label when the hardware type or action is unclear from context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The outline retains the parts that identify the hardware, with clear spaces around its controls and joints inside the square safe frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete controls and functional parts remain balanced within the shared square frame."
+    }
+  }
+}
