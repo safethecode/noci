@@ -1,0 +1,19 @@
+{
+  "name": "zodiac-gemini",
+  "category": "foundation",
+  "description": "The Gemini zodiac sign.",
+  "tags": ["gemini", "zodiac", "astrology"],
+  "directional": false,
+  "useCase": "Identify Gemini in a zodiac sign selector or astrology calendar.",
+  "misuse": "Pair the symbol with a visible sign name.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two uprights meet the flat portions of the curved bars at complete junctions."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider optical frame keeps the full sign and its internal spaces clear beside larger text."
+    }
+  }
+}
