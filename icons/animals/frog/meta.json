@@ -1,0 +1,19 @@
+{
+  "name": "frog",
+  "category": "animals",
+  "description": "A frog head with two raised eyes and a curved smile.",
+  "tags": ["frog", "face", "nature"],
+  "directional": false,
+  "useCase": "Choose a frog in an animal selector or nature guide.",
+  "misuse": "Pair the stylized head with its name when identifying an animal.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both raised eyes remain clear; the complete smile is slightly narrower to keep its ends away from the cheeks."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The independently drawn interface master preserves the defining facial parts with larger clear space."
+    }
+  }
+}
