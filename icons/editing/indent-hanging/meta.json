@@ -1,0 +1,19 @@
+{
+  "name": "indent-hanging",
+  "category": "editing",
+  "description": "A document ruler above a paragraph with inset lines after the first line.",
+  "tags": ["indent", "paragraph", "ruler"],
+  "directional": false,
+  "useCase": "Set the indentation of all paragraph lines after the first line.",
+  "misuse": "Pair this control with a label and a numeric indentation value.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A separate solid pointer identifies the inset lines after the first line."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger paragraph leaves more clear space around its hanging-indent pointer."
+    }
+  }
+}
