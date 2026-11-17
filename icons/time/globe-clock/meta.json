@@ -1,0 +1,19 @@
+{
+  "name": "globe-clock",
+  "category": "time",
+  "description": "A gridded globe beside a complete clock.",
+  "tags": ["globe", "clock", "timezone"],
+  "directional": false,
+  "useCase": "Compare local times in named places or open a world clock.",
+  "misuse": "Use a label to state the specific communication or time-related action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete meridian has wider open windows beside the full clock; shared rim joins are deliberate."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The globe grid and full clock retain distinct open interiors within the common square frame."
+    }
+  }
+}
