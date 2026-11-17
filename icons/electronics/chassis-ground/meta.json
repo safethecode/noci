@@ -1,0 +1,19 @@
+{
+  "name": "chassis-ground",
+  "category": "electronics",
+  "description": "A chassis terminal joined to three complete diagonal ground strokes.",
+  "tags": ["chassis", "ground", "circuit"],
+  "directional": false,
+  "useCase": "Identify a chassis ground symbol in a circuit editor.",
+  "misuse": "Use accompanying text for the component value and circuit connection.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "All terminals and functional marks remain complete; the simple geometry keeps open gaps inside the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full electrical symbol retains its topology and larger clear gaps at interface size."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "potentiometer",
+  "category": "electronics",
+  "description": "A resistive element with two end terminals and a complete adjustable wiper.",
+  "tags": ["resistance", "wiper", "circuit"],
+  "directional": false,
+  "useCase": "Show an adjustable voltage divider in a circuit editor.",
+  "misuse": "Use accompanying text for the component value and circuit connection.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete wiper uses a small rounded solid head so it remains clear beside the full resistive element and both end terminals."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full three-terminal topology and solid wiper head retain generous clear space at interface size."
+    }
+  }
+}
