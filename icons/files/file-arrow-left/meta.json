@@ -1,0 +1,19 @@
+{
+  "name": "file-arrow-left",
+  "category": "files",
+  "description": "A complete folded document with an arrow pointing left.",
+  "tags": ["document", "left", "transfer"],
+  "directional": false,
+  "useCase": "Indicate a file transfer or movement in the shown direction.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete arrow, both full head arms and the whole page fold retain clear spaces."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete transfer arrow stays distinct from every page edge and the full fold."
+    }
+  }
+}
