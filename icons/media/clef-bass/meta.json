@@ -1,0 +1,19 @@
+{
+  "name": "clef-bass",
+  "category": "media",
+  "description": "A bass clef with a curved F mark and two pitch-position dots.",
+  "tags": ["clef", "bass", "notation"],
+  "directional": false,
+  "useCase": "Select the bass clef in a musical score editor.",
+  "misuse": "Use music for a general music track or library.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete curved clef stays clear of both full pitch-position dots."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger clef retains its full curve and two separate pitch-position dots."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "accidental-flat",
+  "category": "media",
+  "description": "A musical flat with a long stem and open lower bowl.",
+  "tags": ["flat", "pitch", "notation"],
+  "directional": false,
+  "useCase": "Apply a flat accidental to lower a written pitch by one semitone.",
+  "misuse": "Use the flat sign only for musical pitch, with a readable label when needed.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The long stem and broad lower bowl retain a clear opening at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete stem and curved bowl keep the flat sign narrow and open."
+    }
+  }
+}

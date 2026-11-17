@@ -1,0 +1,19 @@
+{
+  "name": "accidental-natural",
+  "category": "media",
+  "description": "A musical natural with offset stems and two rising crossbars.",
+  "tags": ["natural", "pitch", "notation"],
+  "directional": false,
+  "useCase": "Cancel a sharp or flat accidental on a selected note.",
+  "misuse": "Use this sign for musical pitch rather than a general reset action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both full stems frame an open center between the two rising crossbars."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The offset stems and complete crossbars leave a broad open center."
+    }
+  }
+}

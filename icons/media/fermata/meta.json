@@ -1,0 +1,19 @@
+{
+  "name": "fermata",
+  "category": "media",
+  "description": "A musical fermata with a full arch and separate central dot.",
+  "tags": ["fermata", "hold", "notation"],
+  "directional": false,
+  "useCase": "Add a fermata to hold a note, chord or rest longer than its written duration.",
+  "misuse": "Use pause for pausing media playback.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full arch remains clear above a solid central dot."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The centered arch and full dot retain broad space between their painted edges."
+    }
+  }
+}

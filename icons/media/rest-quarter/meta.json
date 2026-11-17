@@ -1,0 +1,19 @@
+{
+  "name": "rest-quarter",
+  "category": "media",
+  "description": "A quarter-note rest with a complete zigzag and curved lower tail.",
+  "tags": ["rest", "quarter", "notation"],
+  "directional": false,
+  "useCase": "Insert a quarter-note rest in a musical score editor.",
+  "misuse": "Use pause for pausing media playback.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full zigzag ends in a curved tail, keeping the rest distinct from a lightning mark."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger rest retains its complete zigzag and open curved tail."
+    }
+  }
+}
