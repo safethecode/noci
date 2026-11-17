@@ -1,0 +1,19 @@
+{
+  "name": "citrus-press",
+  "category": "food",
+  "description": "A hinged citrus squeezer with two long handles and pressing cups.",
+  "tags": ["citrus", "squeezing", "utensil"],
+  "directional": false,
+  "useCase": "Squeeze citrus fruit with a handheld press.",
+  "misuse": "Use a label when this object identifies a product or a preparation method.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full open pressing cups and both long handles distinguish the manual squeezer."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete hinged head and two open handles remain separate from the electric juicer silhouette."
+    }
+  }
+}
