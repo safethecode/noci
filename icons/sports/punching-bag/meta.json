@@ -1,0 +1,19 @@
+{
+  "name": "punching-bag",
+  "category": "sports",
+  "description": "A hanging punching bag with two suspension straps and a lower seam.",
+  "tags": ["boxing", "training", "equipment"],
+  "directional": false,
+  "useCase": "Choose hanging punching bags or boxing training equipment.",
+  "misuse": "Use a visible label when this equipment identifies a product, sport or activity.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two separated straps attach to the full bag above an open lower seam."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The longer straps and wider bag keep the suspension and lower band distinct."
+    }
+  }
+}
