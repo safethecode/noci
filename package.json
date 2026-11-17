@@ -85,6 +85,7 @@
     "size": "node scripts/size.mjs",
     "qa": "node scripts/visual-qa.mjs",
     "qa:marks": "node scripts/solid-mark-qa.mjs",
+    "qa:openings": "node scripts/opening-qa.mjs",
     "prepack": "npm run build",
     "lint": "biome check . --error-on-warnings",
     "format": "biome format --write .",
