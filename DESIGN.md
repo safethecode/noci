@@ -34,6 +34,11 @@ or one explicitly closed path, `fill="currentColor"` and `stroke="none"`. It fol
 the same spacing and optical review rules as an outlined mark. All paint follows
 `currentColor`.
 
+A solid region may carry the symbol's meaning, such as the dark half of a contrast
+control. Keep its outer silhouette outlined and geometrically centered. The solid
+region follows that silhouette; do not shift the icon toward its ink centroid.
+Use one simple closed path per region and review its weight beside outlined icons.
+
 ## Center and weight
 
 1. Start from the center of the artboard, not the center of the SVG bounding box.
