@@ -1,0 +1,19 @@
+{
+  "name": "zodiac-leo",
+  "category": "foundation",
+  "description": "The Leo zodiac sign.",
+  "tags": ["leo", "zodiac", "astrology"],
+  "directional": false,
+  "useCase": "Identify Leo in a zodiac sign selector or astrology calendar.",
+  "misuse": "Pair the symbol with a visible sign name.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A rising curl meets a complete round loop and returns into an open tail."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider optical frame keeps the full sign and its internal spaces clear beside larger text."
+    }
+  }
+}

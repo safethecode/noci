@@ -1,0 +1,19 @@
+{
+  "name": "zodiac-taurus",
+  "category": "foundation",
+  "description": "The Taurus zodiac sign.",
+  "tags": ["taurus", "zodiac", "astrology"],
+  "directional": false,
+  "useCase": "Identify Taurus in a zodiac sign selector or astrology calendar.",
+  "misuse": "Pair the symbol with a visible sign name.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete horns and ring share a smooth central tangent without a break."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider optical frame keeps the full sign and its internal spaces clear beside larger text."
+    }
+  }
+}

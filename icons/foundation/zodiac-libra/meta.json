@@ -1,0 +1,19 @@
+{
+  "name": "zodiac-libra",
+  "category": "foundation",
+  "description": "The Libra zodiac sign.",
+  "tags": ["libra", "zodiac", "astrology"],
+  "directional": false,
+  "useCase": "Identify Libra in a zodiac sign selector or astrology calendar.",
+  "misuse": "Pair the symbol with a visible sign name.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "An open arch rests above a separate horizontal base with clear air between them."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider optical frame keeps the full sign and its internal spaces clear beside larger text."
+    }
+  }
+}

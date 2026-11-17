@@ -1,0 +1,19 @@
+{
+  "name": "zodiac-aquarius",
+  "category": "foundation",
+  "description": "The Aquarius zodiac sign.",
+  "tags": ["aquarius", "zodiac", "astrology"],
+  "directional": false,
+  "useCase": "Identify Aquarius in a zodiac sign selector or astrology calendar.",
+  "misuse": "Pair the symbol with a visible sign name.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two complete zigzag waves have matching spans and evenly spaced peaks."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider optical frame keeps the full sign and its internal spaces clear beside larger text."
+    }
+  }
+}

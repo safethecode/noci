@@ -1,0 +1,19 @@
+{
+  "name": "zodiac-scorpio",
+  "category": "foundation",
+  "description": "The Scorpio zodiac sign.",
+  "tags": ["scorpio", "zodiac", "astrology"],
+  "directional": false,
+  "useCase": "Identify Scorpio in a zodiac sign selector or astrology calendar.",
+  "misuse": "Pair the symbol with a visible sign name.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three stems lead into a complete outward arrow with open space around its head."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider optical frame keeps the full sign and its internal spaces clear beside larger text."
+    }
+  }
+}
