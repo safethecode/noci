@@ -1,0 +1,19 @@
+{
+  "name": "mail-code",
+  "category": "communication",
+  "description": "An open envelope with two code chevrons.",
+  "tags": ["mail", "code", "envelope"],
+  "directional": false,
+  "useCase": "An open envelope with two code chevrons.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The compact envelope leaves a full pixel below the fold and preserves the complete code chevrons."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The shared envelope leaves 1.5 pixels below the fold and preserves the complete code chevrons."
+    }
+  }
+}
