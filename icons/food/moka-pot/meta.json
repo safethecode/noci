@@ -1,0 +1,19 @@
+{
+  "name": "moka-pot",
+  "category": "food",
+  "description": "A faceted stovetop coffee pot with a side handle.",
+  "tags": ["coffee", "stovetop", "moka"],
+  "directional": false,
+  "useCase": "Prepare stovetop coffee with a moka pot.",
+  "misuse": "Use a label when this object identifies a product or a preparation method.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete two-chamber body, lid knob, pouring spout and side handle identify the brewer."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A broad chamber seam and lower facet keep the full stovetop brewer legible."
+    }
+  }
+}
