@@ -1,0 +1,19 @@
+{
+  "name": "hair-tie",
+  "category": "personal-care",
+  "description": "A ruffled hair tie with a clear central opening.",
+  "tags": ["hair", "elastic", "care"],
+  "directional": false,
+  "useCase": "A ruffled hair tie with a clear central opening.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete physical parts retain their proportions inside the square drawing frame; small details are kept separate."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete silhouette and functional parts retain larger clear gaps within the shared square frame."
+    }
+  }
+}
