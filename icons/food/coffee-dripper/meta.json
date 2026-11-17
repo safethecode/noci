@@ -1,0 +1,19 @@
+{
+  "name": "coffee-dripper",
+  "category": "food",
+  "description": "A conical coffee dripper with a side handle and support flange.",
+  "tags": ["coffee", "filter", "pour-over"],
+  "directional": false,
+  "useCase": "Brew pour-over coffee through a dripper and paper filter.",
+  "misuse": "Use a label when this object identifies a product or a preparation method.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full tapered filter body, side handle and support flange stay open and connected."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The broad cone, full side handle and supporting flange distinguish the manual coffee filter."
+    }
+  }
+}

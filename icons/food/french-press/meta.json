@@ -1,0 +1,19 @@
+{
+  "name": "french-press",
+  "category": "food",
+  "description": "A handled coffee press with a full plunger and filter plate.",
+  "tags": ["coffee", "plunger", "brewing"],
+  "directional": false,
+  "useCase": "Brew coffee with a French press.",
+  "misuse": "Use a label when this object identifies a product or a preparation method.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full plunger runs through the lid to a filter plate above the open glass base."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete beaker, side handle, plunger and filter plate retain separate clear counters."
+    }
+  }
+}

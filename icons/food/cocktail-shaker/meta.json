@@ -1,0 +1,19 @@
+{
+  "name": "cocktail-shaker",
+  "category": "food",
+  "description": "Two nested tins form a Boston cocktail shaker.",
+  "tags": ["cocktail", "mixing", "bar"],
+  "directional": false,
+  "useCase": "Mix drinks with a cocktail shaker.",
+  "misuse": "Use a label when this object identifies a product or a preparation method.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A complete tilted tin joins a broad tapered mixing tin at the visible seam."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The two complete nested tins keep broad open interiors around the common seam."
+    }
+  }
+}
