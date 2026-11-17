@@ -1,0 +1,19 @@
+{
+  "name": "invitation",
+  "category": "communication",
+  "description": "An event calendar card emerging from an open envelope.",
+  "tags": ["invitation", "event", "rsvp"],
+  "directional": false,
+  "useCase": "Send or open an invitation to a named event and its RSVP details.",
+  "misuse": "Use a label to state the specific communication, account or event action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A bound event card rises through the envelope, preserving both calendar posts and the complete fold."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The event card and envelope retain broad open chambers for an event invitation and RSVP action."
+    }
+  }
+}
