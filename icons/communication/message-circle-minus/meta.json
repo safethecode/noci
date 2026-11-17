@@ -1,0 +1,19 @@
+{
+  "name": "message-circle-minus",
+  "category": "communication",
+  "description": "A round speech bubble containing a minus sign.",
+  "tags": ["message", "remove", "chat"],
+  "directional": false,
+  "useCase": "Remove a conversation or reduce a message selection.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete round speech bubble and tail remain unchanged; the content sits within its open interior."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full speech bubble, tail and content retain clear separation at interface size."
+    }
+  }
+}
