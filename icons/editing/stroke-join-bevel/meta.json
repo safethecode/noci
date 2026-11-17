@@ -1,0 +1,19 @@
+{
+  "name": "stroke-join-bevel",
+  "category": "editing",
+  "description": "A bevel corner between two thick stroke segments.",
+  "tags": ["stroke", "join", "bevel"],
+  "directional": false,
+  "useCase": "Choose a bevel join for a vector path corner.",
+  "misuse": "Label the control when the editing context is unclear.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The open corner sample keeps the inner elbow and the outer corner distinct within the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider inner elbow preserves the visible difference between the square, curved and clipped outer corners."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "stroke-cap-round",
+  "category": "editing",
+  "description": "A round stroke end between two endpoint guides.",
+  "tags": ["stroke", "cap", "round"],
+  "directional": false,
+  "useCase": "Choose a round cap for an open vector stroke.",
+  "misuse": "Label the control when the editing context is unclear.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two endpoint guides distinguish where the stroke stops or extends; the outlined sample leaves a clear inner gap."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Wider spacing separates both guide pairs from the cap sample, with matched margins around the full control."
+    }
+  }
+}
