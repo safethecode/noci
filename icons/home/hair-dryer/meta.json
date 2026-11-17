@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The tapered nozzle and broad handle carry the small appliance silhouette."
+      "reason": "The handle meets the lower housing outline without entering its white opening, retaining the complete housing and grip."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger handle remains open beneath the tapered dryer body."
+      "reason": "The handle meets the lower housing outline without entering its white opening, retaining the complete housing and grip."
     }
   }
 }
