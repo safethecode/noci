@@ -1,0 +1,19 @@
+{
+  "name": "demultiplexer",
+  "category": "electronics",
+  "description": "A one-input selector with two outputs and a separate control input.",
+  "tags": ["demultiplexer", "route", "circuit"],
+  "directional": false,
+  "useCase": "Represent a one-to-two data router in an electronics interface.",
+  "misuse": "Use a label for the circuit function; this interface symbol does not replace a complete circuit schematic.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Full signal and control connections remain visible within the shared square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Open component outlines and separated pins preserve the circuit function at toolbar sizes."
+    }
+  }
+}
