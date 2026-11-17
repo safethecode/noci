@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Round bullets and shorter row strokes keep each entry separate from its neighbors and the frame."
+      "reason": "Three equal bullets remain clear beside the complete text strokes."
     },
     "24": {
       "offset": [0, 0],
