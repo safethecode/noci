@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Three 1.5px dots remain clear inside the bubble at text size."
+      "reason": "Three equal dots share a vertical pixel hint, retaining their spacing and a clear complete row."
     },
     "24": {
       "offset": [0, 0],

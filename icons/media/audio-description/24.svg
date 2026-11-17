@@ -1,4 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
   <rect x="3.875" y="3.875" width="16.25" height="16.25" rx="1.5"/>
-  <path d="M6.5 15.5L8.75 8.5 11 15.5M7.25 13H10.25M14 8.5V15.5H14.75A3.5 3.5 0 0 0 14.75 8.5H14Z"/>
+  <path d="M6.75 15.75L9 8.25H9.375V10.5L7.875 15.75Z" fill="currentColor" stroke="none"/>
+  <path d="M12 15.75L9.75 8.25H9.375V10.5L10.875 15.75Z" fill="currentColor" stroke="none"/>
+  <path d="M7.875 12.75H10.875V13.875H7.875Z" fill="currentColor" stroke="none"/>
+  <path d="M13.5 8.25H14.625V15.75H13.5Z" fill="currentColor" stroke="none"/>
+  <path d="M14.25 8.25C18.249 8.25 18.249 15.75 14.25 15.75V14.625C16.7505 14.625 16.7505 9.375 14.25 9.375Z" fill="currentColor" stroke="none"/>
 </svg>

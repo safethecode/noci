@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Complete smaller numerals align with both rows and stay clear of the list strokes."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The larger numerals keep clear curves and baselines while remaining centered beside the two list rows."
     }
   }
 }
