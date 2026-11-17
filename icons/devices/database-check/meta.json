@@ -1,0 +1,19 @@
+{
+  "name": "database-check",
+  "category": "devices",
+  "description": "A database cylinder with a check mark.",
+  "tags": ["database", "success", "check"],
+  "directional": false,
+  "useCase": "Indicate a successful database connection or validation.",
+  "misuse": "Name the action or status in the surrounding text or the control label.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The open lower-right rim leaves clear space for the complete action mark, while the upper ellipse and two lower layers identify the database."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete action mark remains separate from the database layers, with shared margins around the full square drawing frame."
+    }
+  }
+}
