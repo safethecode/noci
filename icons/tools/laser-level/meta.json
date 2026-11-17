@@ -1,0 +1,19 @@
+{
+  "name": "laser-level",
+  "category": "tools",
+  "description": "A rotary laser level with two level rays and a complete three-leg stand.",
+  "tags": ["laser", "level", "alignment"],
+  "directional": false,
+  "useCase": "Identify a rotary laser level for setting a horizontal reference plane.",
+  "misuse": "Use level for a spirit level or laser for an optical emitter.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two full level rays leave the projector head above a complete three-leg stand."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger projector and full opposing rays remain clear above all three stand legs."
+    }
+  }
+}
