@@ -1,0 +1,19 @@
+{
+  "name": "help-square-dashed",
+  "category": "status",
+  "description": "A dashed square containing a question mark.",
+  "tags": ["help", "dashed", "status"],
+  "directional": false,
+  "useCase": "Show an unresolved question or a status needing clarification.",
+  "misuse": "Describe the actual status in text; a dashed border alone does not define it.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete question hook is widened to keep its open mouth clear; the dot and full dashed frame retain their gaps."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The widened full hook, separate dot and full dashed frame retain open gaps at interface size."
+    }
+  }
+}

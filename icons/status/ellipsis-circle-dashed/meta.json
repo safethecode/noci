@@ -1,0 +1,19 @@
+{
+  "name": "ellipsis-circle-dashed",
+  "category": "status",
+  "description": "A dashed circle containing three dots.",
+  "tags": ["ellipsis", "dashed", "status"],
+  "directional": false,
+  "useCase": "Open more actions for a draft item or show an unspecified pending status.",
+  "misuse": "Describe the actual status in text; a dashed border alone does not define it.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The row shifts slightly down and right so all three equal dots remain clear at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full frame and complete status marks retain the same centered layout with larger clear gaps."
+    }
+  }
+}
