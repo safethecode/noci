@@ -1,0 +1,19 @@
+{
+  "name": "bacon",
+  "category": "food",
+  "description": "A complete wavy bacon strip with a continuous marbling line.",
+  "tags": ["bacon", "pork", "breakfast"],
+  "directional": false,
+  "useCase": "Bacon ingredients, breakfast foods or cooked pork selections.",
+  "misuse": "Use a visible label when distinguishing bacon from other meat.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "One complete marbling line stays clear between the full wavy edges."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Three gentle waves leave broad channels around the full marbling line."
+    }
+  }
+}
