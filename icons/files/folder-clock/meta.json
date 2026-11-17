@@ -1,7 +1,7 @@
 {
   "name": "folder-clock",
   "category": "files",
-  "description": "A recent folder.",
+  "description": "A folder with a complete clock badge.",
   "tags": ["folder", "recent", "time"],
   "directional": false,
   "useCase": "A recent folder.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A larger separate clock badge leaves air around both complete hands while the full folder tab remains visible."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A larger separate clock badge leaves air around both complete hands while the full folder tab remains visible."
     }
   }
 }
