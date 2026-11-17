@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Two wide cells omit the horizontal divider to preserve 1.25px openings and a 1px gap to the page border."
+      "reason": "A curved outer edge leaves a clear opening inside the complete page fold at text size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Two larger cells keep their openings clear with a separately spaced divider and at least 1.5px between the table and page borders."
+      "reason": "The wider curved fold leaves a clear opening while keeping the complete page outline."
     }
   }
 }
