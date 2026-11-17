@@ -1,0 +1,19 @@
+{
+  "name": "terrain-flatten",
+  "category": "editing",
+  "description": "A downward arrow above a level surface.",
+  "tags": ["terrain", "flatten", "surface"],
+  "directional": false,
+  "useCase": "Flatten the selected area of a terrain surface.",
+  "misuse": "Pair this control with a clear label in a terrain or 3D editor.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full level plane remains open below a complete downward arrow within the square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full level plane remains open below a complete downward arrow within the square frame."
+    }
+  }
+}
