@@ -1,0 +1,19 @@
+{
+  "name": "workflow-merge",
+  "category": "development",
+  "description": "Two input steps joining at a merge diamond.",
+  "tags": ["workflow", "merge", "diagram"],
+  "directional": false,
+  "useCase": "Two input steps joining at a merge diamond.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two complete diagonal branches leave clear space around the full decision and process steps."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full decision and process steps share complete diagonal connections without narrow gaps beside the node edges."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "workflow-cycle",
+  "category": "development",
+  "description": "Four complete process steps connected in a loop.",
+  "tags": ["workflow", "cycle", "diagram"],
+  "directional": false,
+  "useCase": "Four complete process steps connected in a loop.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Larger corner steps keep every white opening clear while four complete connectors close the loop."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Complete nodes and full connectors retain clear spaces inside the shared square frame."
+    }
+  }
+}

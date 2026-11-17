@@ -1,0 +1,19 @@
+{
+  "name": "workflow-branch",
+  "category": "development",
+  "description": "A decision diamond branching into two process steps.",
+  "tags": ["workflow", "branch", "diagram"],
+  "directional": false,
+  "useCase": "A decision diamond branching into two process steps.",
+  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two complete diagonal branches leave clear space around the full decision and process steps."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full decision and process steps share complete diagonal connections without narrow gaps beside the node edges."
+    }
+  }
+}
