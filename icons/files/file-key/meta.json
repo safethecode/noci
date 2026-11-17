@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The key sits above the page bottom with its bow inset from the left edge, leaving 1px between the painted mark and both borders."
+      "reason": "A curved outer edge leaves a clear opening inside the complete page fold at text size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The wider bow and longer shaft retain at least 1.5px of painted clearance from the page border; the tooth remains distinct."
+      "reason": "The wider curved fold leaves a clear opening while keeping the complete page outline."
     }
   }
 }
