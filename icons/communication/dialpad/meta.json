@@ -1,0 +1,19 @@
+{
+  "name": "dialpad",
+  "category": "communication",
+  "description": "Ten keys in the layout of a telephone keypad.",
+  "tags": ["dialpad", "telephone", "keypad"],
+  "directional": false,
+  "useCase": "Open a keypad to enter a telephone number.",
+  "misuse": "Use a clear accessible name for the control, such as Open dialpad.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Evenly spaced keys keep the familiar telephone layout inside the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Centered columns and a separate bottom key preserve the telephone keypad layout at toolbar sizes."
+    }
+  }
+}
