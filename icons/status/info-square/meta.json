@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A slightly lower stem leaves more than 1px before the original dot while keeping the information mark centered in its frame."
+      "reason": "The dot matches the circle variant and stays distinct above the full information stem."
     },
     "24": {
       "offset": [0, 0],
