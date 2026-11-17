@@ -1,0 +1,19 @@
+{
+  "name": "sextant",
+  "category": "tools",
+  "description": "A sextant with a graduated sector, angled index arm and short telescope.",
+  "tags": ["sextant", "navigation", "angle"],
+  "directional": false,
+  "useCase": "Identify a sextant for measuring angles in celestial navigation.",
+  "misuse": "Use protractor for a semicircular drawing or angle tool.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A broad curved sector and two scale ticks stay clear beside the full angled index arm."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The larger sector keeps its complete graduations and angled arm beside the telescope tube."
+    }
+  }
+}
