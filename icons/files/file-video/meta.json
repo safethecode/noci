@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A curved outer edge leaves a clear opening inside the complete page fold at text size."
+      "reason": "A wider complete play triangle keeps its white opening clear inside the small page."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The wider curved fold leaves a clear opening while keeping the complete page outline."
+      "reason": "The complete play triangle moves slightly upward while retaining its open interior and proportions."
     }
   }
 }
