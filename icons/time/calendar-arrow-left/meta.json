@@ -1,0 +1,19 @@
+{
+  "name": "calendar-arrow-left",
+  "category": "time",
+  "description": "A calendar with a left-pointing arrow.",
+  "tags": ["calendar", "previous", "date"],
+  "directional": false,
+  "useCase": "Move to an earlier date or calendar period.",
+  "misuse": "Label the control with the specific calendar action, date or period it changes.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete bindings and action marks remain separated inside the shared square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The calendar outline and full action marks retain clear spaces at toolbar sizes."
+    }
+  }
+}
