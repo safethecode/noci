@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A narrow tube and two attached keys make the flute readable at text size."
+      "reason": "A wider open tube carries two round keys with complete mounted stems."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Three keys sit on short stems outside the narrow flute tube."
+      "reason": "Three round keys sit on the wider tube without filling its bore."
     }
   }
 }
