@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A curved outer edge leaves a clear opening inside the complete page fold at text size."
+      "reason": "Both complete code chevrons sit higher to leave clear space above the page bottom."
     },
     "24": {
       "offset": [0, 0],
