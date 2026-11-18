@@ -1,0 +1,19 @@
+{
+  "name": "mail-resend",
+  "category": "communication",
+  "description": "An envelope beneath a complete curved forward arrow.",
+  "tags": ["mail", "resend", "retry"],
+  "directional": false,
+  "useCase": "Send the named email again after a delivery failure or requested retry.",
+  "misuse": "Use a label to state the specific communication or time-related action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full curved arrow stays above the open envelope, with complete wings and a clear fold."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "A complete resend arrow sits above the shared envelope with comfortable separation."
+    }
+  }
+}

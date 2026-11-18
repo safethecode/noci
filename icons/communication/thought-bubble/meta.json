@@ -1,0 +1,19 @@
+{
+  "name": "thought-bubble",
+  "category": "communication",
+  "description": "A soft thought cloud with two separate trailing bubbles.",
+  "tags": ["thought", "idea", "brainstorm"],
+  "directional": false,
+  "useCase": "Represent an unspoken thought or open brainstorming notes.",
+  "misuse": "Use a label to state the specific communication or time-related action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A full thought cloud and two detached circles form a clear diminishing thought trail."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The broad cloud and two separate trailing bubbles keep the thought symbol readable beside text."
+    }
+  }
+}

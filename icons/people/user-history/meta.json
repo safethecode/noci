@@ -1,0 +1,19 @@
+{
+  "name": "user-history",
+  "category": "people",
+  "description": "A user profile beside a clock with a complete return arrow.",
+  "tags": ["user", "history", "activity"],
+  "directional": false,
+  "useCase": "Open the past activity or change history for a named account.",
+  "misuse": "Use a label to state the specific communication, account or event action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete head and visible shoulder share the user-clock layout; the open return arrow identifies past activity."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full profile, return arrow and two hands remain visible without compressing the account symbol."
+    }
+  }
+}
