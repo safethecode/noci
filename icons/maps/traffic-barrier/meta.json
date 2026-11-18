@@ -1,0 +1,19 @@
+{
+  "name": "traffic-barrier",
+  "category": "maps",
+  "description": "A raised vehicle barrier boom on an outlined support post.",
+  "tags": ["barrier", "parking", "vehicle"],
+  "directional": false,
+  "useCase": "Locate a vehicle boom barrier at a parking or site entrance.",
+  "misuse": "Use ticket-gate for a pedestrian gate with fare readers.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full support counter stays open, and the raised boom starts inside the top stroke without entering the white post opening."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete raised boom and outlined support stay balanced; the connected cap remains contained in the post top."
+    }
+  }
+}
