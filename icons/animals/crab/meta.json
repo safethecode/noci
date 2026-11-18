@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Centered eyes leave equal gaps to the upper and lower shell edges."
+      "reason": "The lower legs meet the straight sides at the rounded body’s tangent points, keeping the inner opening clear."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Larger claws and shell retain clear spaces around the eyes."
+      "reason": "The lower legs meet the straight sides at the rounded body’s tangent points, keeping the inner opening clear."
     }
   }
 }
