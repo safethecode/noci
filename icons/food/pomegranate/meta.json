@@ -1,0 +1,19 @@
+{
+  "name": "pomegranate",
+  "category": "food",
+  "description": "A cut pomegranate with an open three-point calyx and four visible seeds.",
+  "tags": ["pomegranate", "fruit", "produce"],
+  "directional": false,
+  "useCase": "Label this ingredient in recipes, grocery lists and food catalogues.",
+  "misuse": "Do not use this icon alone to communicate allergy or dietary safety.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The crown remains connected to the round fruit while the seeds stay separate."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The crown remains connected to the round fruit while the seeds stay separate."
+    }
+  }
+}
