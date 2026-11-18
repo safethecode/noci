@@ -1,0 +1,19 @@
+{
+  "name": "clipboard-search",
+  "category": "files",
+  "description": "A clipboard containing a circular search lens and short handle.",
+  "tags": ["clipboard", "search", "checklist"],
+  "directional": false,
+  "useCase": "Search saved clipboard entries or a clipboard checklist.",
+  "misuse": "Use search for a general search action without clipboard context.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The lens sits within the writing area with a clear white counter and a short connected handle; the original clip and frame stay unchanged."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete lens and handle stay clear of the full original clip and frame."
+    }
+  }
+}

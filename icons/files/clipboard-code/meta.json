@@ -1,0 +1,19 @@
+{
+  "name": "clipboard-code",
+  "category": "files",
+  "description": "A clipboard containing two code chevrons.",
+  "tags": ["clipboard", "code", "checklist"],
+  "directional": false,
+  "useCase": "Copy or review a code snippet stored on the clipboard.",
+  "misuse": "Use clipboard-text for ordinary text and code for a standalone code view.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The unchanged clip and frame surround two complete code chevrons with open centers."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The unchanged clip and frame surround two complete code chevrons with open centers."
+    }
+  }
+}

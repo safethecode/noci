@@ -1,0 +1,19 @@
+{
+  "name": "clipboard-warning",
+  "category": "files",
+  "description": "A clipboard with an exclamation mark.",
+  "tags": ["clipboard", "warning", "checklist"],
+  "directional": false,
+  "useCase": "Flag a clipboard entry or checklist that needs attention.",
+  "misuse": "State the specific warning in text; this mark does not explain its cause.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The short stem and solid dot stay separate within the unchanged clip and frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete stem and solid dot stay separate within the unchanged clip and frame."
+    }
+  }
+}
