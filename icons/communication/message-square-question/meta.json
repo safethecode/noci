@@ -1,0 +1,19 @@
+{
+  "name": "message-square-question",
+  "category": "communication",
+  "description": "A square chat bubble containing a question mark.",
+  "tags": ["message", "question", "help"],
+  "directional": false,
+  "useCase": "Ask a question or open conversation help.",
+  "misuse": "Use a clear accessible label for the specific question or help action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full square bubble and tail surround a complete question stroke and separate dot."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full square bubble and tail surround a complete question stroke and separate dot."
+    }
+  }
+}
