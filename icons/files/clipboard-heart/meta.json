@@ -1,0 +1,19 @@
+{
+  "name": "clipboard-heart",
+  "category": "files",
+  "description": "A clipboard with a small solid heart.",
+  "tags": ["clipboard", "heart", "checklist"],
+  "directional": false,
+  "useCase": "Identify a saved clipboard checklist or care plan.",
+  "misuse": "Use clipboard-check for a completed checklist.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A simple solid heart preserves both lobes, the notch and lower point without a collapsed outline counter; the original clip and frame stay unchanged."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The independently drawn solid heart matches the small master while keeping clear air around the full original clip and frame."
+    }
+  }
+}
