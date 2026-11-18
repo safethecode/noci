@@ -1,0 +1,19 @@
+{
+  "name": "turnstile",
+  "category": "maps",
+  "description": "A tripod turnstile with a full support cabinet, upper housing and three free rotor arms.",
+  "tags": ["turnstile", "entry", "access"],
+  "directional": false,
+  "useCase": "Locate a tripod turnstile at a controlled pedestrian entrance.",
+  "misuse": "Use ticket-gate for paired fare-gate housings with barrier flaps.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete cabinet anchors the housing and spindle; all three rotor arms remain free and separated from the support."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider cabinet counter and independently spaced tripod arms keep the mechanism clear beside the complete upper housing."
+    }
+  }
+}
