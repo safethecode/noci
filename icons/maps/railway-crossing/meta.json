@@ -1,0 +1,19 @@
+{
+  "name": "railway-crossing",
+  "category": "maps",
+  "description": "A railway crossbuck on a complete support post.",
+  "tags": ["railway", "crossing", "transport"],
+  "directional": false,
+  "useCase": "Locate a railway crossing on a route or street map.",
+  "misuse": "Use crossroad for an ordinary road intersection.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete crossbuck is centered on its post, with the post cap contained in the crossing strokes."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete crossbuck and post retain natural proportions and an open silhouette inside the common frame."
+    }
+  }
+}
