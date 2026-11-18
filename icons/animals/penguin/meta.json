@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A small beak, flippers and two outward feet keep the front-facing penguin distinct."
+      "reason": "Both feet meet the lower body edge without crowding the beak or flippers."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger face adds two eyes while retaining the beak, flippers and outward feet."
+      "reason": "The face stays clear, with both foot roots outside the rounded body opening."
     }
   }
 }

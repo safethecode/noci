@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Two broad outer leaves meet below one open inner fold."
+      "reason": "A shorter inner fold stays open above the two broad outer leaves."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger leaf folds remain distinct inside the round head."
+      "reason": "The inner fold stays separate from the head and the two lower leaf contours."
     }
   }
 }
