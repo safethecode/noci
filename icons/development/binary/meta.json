@@ -2,17 +2,27 @@
   "name": "binary",
   "category": "development",
   "description": "Binary data or a binary representation.",
-  "tags": ["binary", "data", "code"],
+  "tags": [
+    "binary",
+    "data",
+    "code"
+  ],
   "directional": false,
   "useCase": "Binary data or a binary representation.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
-      "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "offset": [
+        0,
+        0
+      ],
+      "reason": "Shorter complete zeroes and matched one stems leave one pixel of clear space between the two binary rows."
     },
     "24": {
-      "offset": [0, 0],
+      "offset": [
+        0,
+        0
+      ],
       "reason": "Expanded clearances inside the 18 × 18 drawing frame."
     }
   }
