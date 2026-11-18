@@ -1,0 +1,19 @@
+{
+  "name": "needle-threader",
+  "category": "craft",
+  "description": "A wire needle threader with a broad grip.",
+  "tags": ["threader", "needle", "sewing"],
+  "directional": false,
+  "useCase": "Identify a needle threader in sewing tools or threading instructions.",
+  "misuse": "Use a visible label when the specific equipment matters.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete wire loop meets the full grip at two separate contacts, keeping both openings clear."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete wire loop meets the full grip at two separate contacts, keeping both openings clear."
+    }
+  }
+}

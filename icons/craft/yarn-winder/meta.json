@@ -1,0 +1,19 @@
+{
+  "name": "yarn-winder",
+  "category": "craft",
+  "description": "A tabletop yarn winder with a guide eye and crank.",
+  "tags": ["winder", "yarn", "craft"],
+  "directional": false,
+  "useCase": "Identify equipment for winding yarn into a ball.",
+  "misuse": "Use a visible label when the specific equipment matters.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full guide eye sits clearly beside the tilted cone, with the complete crank and table clamp retained."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete cone, guide eye, support, crank and table clamp retain clear spaces inside the square frame."
+    }
+  }
+}
