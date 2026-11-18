@@ -1,0 +1,19 @@
+{
+  "name": "picnic-table",
+  "category": "home",
+  "description": "An A-frame picnic table with two attached bench seats.",
+  "tags": ["picnic", "table", "camping"],
+  "directional": false,
+  "useCase": "Identify picnic tables or outdoor dining areas.",
+  "misuse": "Use folding-table for a folding table without attached seats.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both complete bench seats remain separate while attached to the full A-frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Both complete bench seats remain separate while attached to the full A-frame."
+    }
+  }
+}
