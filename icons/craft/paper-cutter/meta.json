@@ -1,0 +1,19 @@
+{
+  "name": "paper-cutter",
+  "category": "craft",
+  "description": "A tabletop paper cutter with a raised blade arm.",
+  "tags": ["paper", "cutter", "craft"],
+  "directional": false,
+  "useCase": "Identify paper cutting equipment in a workshop or classroom.",
+  "misuse": "Use a visible label when the specific equipment matters.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full narrow cutting bed leaves clear space beside the complete raised blade, bent grip and both alignment-guide arms."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full cutting bed and paper guide stay clear of the complete raised blade and bent grip."
+    }
+  }
+}
