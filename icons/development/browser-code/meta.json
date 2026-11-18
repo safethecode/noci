@@ -1,0 +1,19 @@
+{
+  "name": "browser-code",
+  "category": "development",
+  "description": "A browser window beside two complete code chevrons.",
+  "tags": ["browser", "code", "source"],
+  "directional": false,
+  "useCase": "Open the current page source or browser developer tools.",
+  "misuse": "Use a visible label to identify the specific browser action or page state.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete address header and lower-left frame remain clear beside the full functional mark."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Wider clearances retain the full address header, lower-left frame and functional mark."
+    }
+  }
+}

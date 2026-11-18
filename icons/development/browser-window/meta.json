@@ -1,0 +1,19 @@
+{
+  "name": "browser-window",
+  "category": "development",
+  "description": "A browser window with a navigation dot and address strip.",
+  "tags": ["browser", "window", "web"],
+  "directional": false,
+  "useCase": "Open a web page or identify a browser window.",
+  "misuse": "Use a visible label to identify the specific browser action or page state.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The browser chrome stays complete and separate from the content or status mark."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Wider clearances preserve the complete browser chrome and functional mark."
+    }
+  }
+}
