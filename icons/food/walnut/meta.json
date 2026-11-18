@@ -1,0 +1,19 @@
+{
+  "name": "walnut",
+  "category": "food",
+  "description": "A walnut shell with a rippled edge and a curved seam.",
+  "tags": ["walnut", "nut", "produce"],
+  "directional": false,
+  "useCase": "Label this ingredient in recipes, grocery lists and food catalogues.",
+  "misuse": "Do not use this icon alone to communicate allergy or dietary safety.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full outer shell and a single wavy seam remain clear at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full outer shell and a single wavy seam remain clear at text size."
+    }
+  }
+}
