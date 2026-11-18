@@ -1,0 +1,19 @@
+{
+  "name": "pocket-knife",
+  "category": "tools",
+  "description": "A folding pocket knife with an open blade and rounded handle.",
+  "tags": ["knife", "folding", "camping"],
+  "directional": false,
+  "useCase": "Identify a folding knife in camping or tool equipment.",
+  "misuse": "Use utility-knife for a retractable trimming blade.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The open blade and rounded handle stay distinct at the hinge."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The open blade and rounded handle stay distinct at the hinge."
+    }
+  }
+}

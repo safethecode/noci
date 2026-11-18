@@ -1,0 +1,19 @@
+{
+  "name": "matchstick",
+  "category": "tools",
+  "description": "A wooden match with a separate coated head.",
+  "tags": ["match", "fire", "camping"],
+  "directional": false,
+  "useCase": "Identify individual matches or ignition supplies.",
+  "misuse": "Use matchbox for a box of matches.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The coated head stays visibly wider than the complete wooden stick."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The coated head stays visibly wider than the complete wooden stick."
+    }
+  }
+}

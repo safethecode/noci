@@ -1,0 +1,19 @@
+{
+  "name": "tent-peg",
+  "category": "tools",
+  "description": "A metal tent peg with an open hook and a long shaft.",
+  "tags": ["tent", "peg", "camping"],
+  "directional": false,
+  "useCase": "Identify tent pegs or ground anchors in camping equipment.",
+  "misuse": "Use trekking-pole for a walking support.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The open hook and full metal shaft share the standard stroke width."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The open hook and full metal shaft share the standard stroke width."
+    }
+  }
+}

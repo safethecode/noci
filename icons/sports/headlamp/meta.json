@@ -1,0 +1,19 @@
+{
+  "name": "headlamp",
+  "category": "sports",
+  "description": "A headlamp with a band and central lamp lens.",
+  "tags": ["headlamp", "camping", "light"],
+  "directional": false,
+  "useCase": "Identify hands-free lighting or camping equipment.",
+  "misuse": "Use lantern for a light with a carrying handle.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The complete band, lamp housing and lens remain distinct at small sizes."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The complete band, lamp housing and lens remain distinct at small sizes."
+    }
+  }
+}
