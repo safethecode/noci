@@ -1,0 +1,19 @@
+{
+  "name": "clipboard-minus",
+  "category": "files",
+  "description": "A clipboard with a minus sign.",
+  "tags": ["clipboard", "minus", "checklist"],
+  "directional": false,
+  "useCase": "Remove one item from a clipboard checklist.",
+  "misuse": "Use clipboard-x to clear the clipboard.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The full original clip and frame surround a centered minus sign with clear space above and below."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The full original clip and frame surround a centered minus sign with clear space above and below."
+    }
+  }
+}
