@@ -1,0 +1,19 @@
+{
+  "name": "ticket-minus",
+  "category": "commerce",
+  "description": "A ticket with a minus sign.",
+  "tags": ["ticket", "minus", "booking"],
+  "directional": false,
+  "useCase": "Remove a ticket.",
+  "misuse": "Use a visible label to explain whether the action affects an item or the entire selection.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both waist notches stay complete while the large foreground mark hides the middle of the bottom edge."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Both waist notches stay complete while the large foreground mark hides the middle of the bottom edge."
+    }
+  }
+}

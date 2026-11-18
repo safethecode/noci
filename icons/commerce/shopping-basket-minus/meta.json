@@ -1,0 +1,19 @@
+{
+  "name": "shopping-basket-minus",
+  "category": "commerce",
+  "description": "A shopping basket with a minus sign.",
+  "tags": ["shopping-basket", "minus", "checkout"],
+  "directional": false,
+  "useCase": "Remove items from a shopping basket.",
+  "misuse": "Use a visible label to explain whether the action affects an item or the entire selection.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Both handles and the full rim stay complete while the large foreground mark hides the lower right edge."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Both handles and the full rim stay complete while the large foreground mark hides the lower right edge."
+    }
+  }
+}
