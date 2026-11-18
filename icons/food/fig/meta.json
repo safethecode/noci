@@ -1,0 +1,19 @@
+{
+  "name": "fig",
+  "category": "food",
+  "description": "A cut fig with a narrow neck and visible seeds.",
+  "tags": ["fig", "fruit", "produce"],
+  "directional": false,
+  "useCase": "Label this ingredient in recipes, grocery lists and food catalogues.",
+  "misuse": "Do not use this icon alone to communicate allergy or dietary safety.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The tapered neck and open seed marks distinguish the cut fruit from a pear."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The tapered neck and open seed marks distinguish the cut fruit from a pear."
+    }
+  }
+}

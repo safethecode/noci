@@ -1,0 +1,19 @@
+{
+  "name": "chestnut",
+  "category": "food",
+  "description": "A chestnut with a pointed top and a broad curved base.",
+  "tags": ["chestnut", "nut", "produce"],
+  "directional": false,
+  "useCase": "Label this ingredient in recipes, grocery lists and food catalogues.",
+  "misuse": "Do not use this icon alone to communicate allergy or dietary safety.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The rounded triangular shell keeps the broad base patch open."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The rounded triangular shell keeps the broad base patch open."
+    }
+  }
+}

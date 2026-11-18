@@ -1,0 +1,19 @@
+{
+  "name": "leek",
+  "category": "food",
+  "description": "A leek with a long stalk and a fan of broad flat leaves.",
+  "tags": ["leek", "vegetable", "produce"],
+  "directional": false,
+  "useCase": "Label this ingredient in recipes, grocery lists and food catalogues.",
+  "misuse": "Do not use this icon alone to communicate allergy or dietary safety.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The centered stalk supports a wide leaf fan inside the square frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The centered stalk supports a wide leaf fan inside the square frame."
+    }
+  }
+}
