@@ -1,0 +1,19 @@
+{
+  "name": "digital-scale",
+  "category": "food",
+  "description": "A digital weighing scale with a broad platform and display.",
+  "tags": ["scale", "weight", "measure"],
+  "directional": false,
+  "useCase": "Weigh ingredients, portions or a small parcel.",
+  "misuse": "Pair this symbol with a clear equipment or cooking-action label.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Complete equipment shapes and simple working details fit the shared square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Open equipment contours and separated details remain clear at text and toolbar sizes."
+    }
+  }
+}
