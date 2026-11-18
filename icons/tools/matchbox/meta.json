@@ -1,0 +1,19 @@
+{
+  "name": "matchbox",
+  "category": "tools",
+  "description": "An open matchbox with a striker strip and a whole match in the drawer.",
+  "tags": ["matches", "box", "fire"],
+  "directional": false,
+  "useCase": "Identify matches or ignition supplies in an equipment list.",
+  "misuse": "Use matchstick for an individual match.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "The sleeve, friction strip and complete match retain clear space inside the open drawer."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The sleeve, friction strip and complete match retain clear space inside the open drawer."
+    }
+  }
+}
