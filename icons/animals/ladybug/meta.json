@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A wider, shorter wing case leaves a full head opening and clear spots on both sides of the seam."
+      "reason": "Lower legs meet the outer wing case edge, keeping the spots and head clear."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "A larger head opening stays clear above the rounded, spotted wing case."
+      "reason": "Diagonal legs meet the outer wing case, keeping its inner openings smooth."
     }
   }
 }
