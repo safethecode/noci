@@ -1,0 +1,19 @@
+{
+  "name": "playlist-stop",
+  "category": "media",
+  "description": "A playlist with a solid stop square.",
+  "tags": ["playlist", "stop", "queue"],
+  "directional": false,
+  "useCase": "Stop playback of a queue.",
+  "misuse": "Give the control an accessible name that identifies the playback action.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Three complete playlist lines sit beside a separate full playback control inside the square drawing frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Shared playlist geometry and separated control marks keep queue actions clear at toolbar sizes."
+    }
+  }
+}
