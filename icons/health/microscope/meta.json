@@ -13,7 +13,7 @@
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The stage sits lower to stay separate from the tube and base."
+      "reason": "The curved support ends tangentially on the flat base without extending below it."
     }
   }
 }

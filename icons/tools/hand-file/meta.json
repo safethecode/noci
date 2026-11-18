@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A diagonal construction balances the complete grip and working end inside the square frame."
+      "reason": "The short blade divider ends on the outline without creating bumps along either outer edge."
     },
     "24": {
       "offset": [0, 0],
