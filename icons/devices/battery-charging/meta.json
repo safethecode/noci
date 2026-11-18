@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A compact solid lightning bolt keeps the charging mark clear of the battery housing at 16px."
     },
     "24": {
       "offset": [0, 0],
