@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The full shaft and both head arms remain clear of the whole boundary line and shared frame."
+      "reason": "A rounded solid arrow keeps a visible shaft and pointed head clear of the boundary line inside the square."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The complete arrow, whole boundary line and shared frame retain the same direction and generous clear gaps."
+      "reason": "A longer shaft and wider head keep the arrow readable inside the square, with clear space around the boundary line."
     }
   }
 }
