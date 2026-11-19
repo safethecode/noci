@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The full shaft and both head arms remain clear of the whole boundary line and shared frame."
+      "reason": "A compact solid arrow preserves a visible shaft and pointed head, with space between the boundary line and the circle."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The complete arrow, whole boundary line and shared frame retain the same direction and generous clear gaps."
+      "reason": "A longer shaft and wider head keep the arrow readable inside the circle, with clear space around the boundary line."
     }
   }
 }
