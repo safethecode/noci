@@ -65,6 +65,9 @@ Use one simple closed path per region and review its weight beside outlined icon
    into an intended white opening. Check the full cap at both ends and confirm
    the connection at native size.
 
+Inspect the proportions of small symbols as well as their spacing. An arrow needs
+a visible straight shaft behind its head at native size.
+
 Use repeatable keylines,
 consistent weight and visual inspection.
 Review each icon before merging it.
