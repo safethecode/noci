@@ -82,8 +82,10 @@ export async function createPreviewServer() {
         body = await readFile(new URL(asset[0], previewDirectory));
         contentType = asset[1];
         if (pathname === '/') {
-          const origin = new URL(`http://${request.headers.host}`).origin.replaceAll('&', '&amp;');
-          body = Buffer.from(body.toString().replaceAll('{{preview-origin}}', origin));
+          const siteURL = `${new URL(`http://${request.headers.host}`).origin}/`;
+          body = Buffer.from(
+            body.toString().replaceAll('{{preview-url}}', siteURL.replaceAll('&', '&amp;')),
+          );
         }
       } else if (pathname === '/metadata.json') {
         body = current.files[0];
