@@ -15,14 +15,18 @@ test('the preview serves its source and one consistent icon build', async (t) =>
     ['/', 'index.html', 'text/html'],
     ['/styles.css', 'styles.css', 'text/css'],
     ['/app.mjs', 'app.mjs', 'text/javascript'],
+    ['/og.png', 'og.png', 'image/png'],
+    ['/og.svg', 'og.svg', 'image/svg+xml'],
   ]) {
     const response = await fetch(`${origin}${path}`);
     assert.equal(response.status, 200);
     assert.ok(response.headers.get('content-type').startsWith(type));
-    assert.equal(
-      await response.text(),
-      await readFile(new URL(`../preview/${file}`, import.meta.url), 'utf8'),
-    );
+    const source = await readFile(new URL(`../preview/${file}`, import.meta.url));
+    const expected =
+      file === 'index.html'
+        ? Buffer.from(source.toString().replaceAll('{{preview-origin}}', origin))
+        : source;
+    assert.deepEqual(Buffer.from(await response.arrayBuffer()), expected);
   }
 
   const metadataResponse = await fetch(`${origin}/metadata.json`);

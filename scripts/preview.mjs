@@ -10,6 +10,8 @@ const assets = new Map([
   ['/', ['index.html', 'text/html; charset=utf-8']],
   ['/styles.css', ['styles.css', 'text/css; charset=utf-8']],
   ['/app.mjs', ['app.mjs', 'text/javascript; charset=utf-8']],
+  ['/og.png', ['og.png', 'image/png']],
+  ['/og.svg', ['og.svg', 'image/svg+xml']],
 ]);
 const sizes = [16, 24, 48];
 
@@ -79,6 +81,10 @@ export async function createPreviewServer() {
       if (asset) {
         body = await readFile(new URL(asset[0], previewDirectory));
         contentType = asset[1];
+        if (pathname === '/') {
+          const origin = new URL(`http://${request.headers.host}`).origin.replaceAll('&', '&amp;');
+          body = Buffer.from(body.toString().replaceAll('{{preview-origin}}', origin));
+        }
       } else if (pathname === '/metadata.json') {
         body = current.files[0];
         contentType = 'application/json; charset=utf-8';
