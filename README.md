@@ -47,6 +47,10 @@ npm run qa
 
 `npm pack` creates a package for local installation. Generated files and test output are excluded from Git.
 
+Run `npm run preview` to browse the collection at <http://127.0.0.1:4173>. Compare
+icons at 16, 24, 32 and 48px, try your own text, and copy or download individual SVGs.
+Set `NOCI_PREVIEW_PORT` to use another port.
+
 ## License
 
 [MIT](LICENSE)
