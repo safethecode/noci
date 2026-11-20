@@ -103,6 +103,7 @@ const state = {
   size: 24,
   page: 1,
   version: '',
+  etag: '',
   selected: null,
   loading: false,
 };
@@ -458,9 +459,9 @@ async function refresh() {
   }
   state.loading = true;
   try {
-    const response = await fetch('/metadata.json', {
+    const response = await fetch('./metadata.json', {
       cache: 'no-store',
-      headers: state.version ? { 'If-None-Match': `"${state.version}"` } : {},
+      headers: state.etag ? { 'If-None-Match': state.etag } : {},
     });
     if (response.status === 304) {
       return;
@@ -468,20 +469,22 @@ async function refresh() {
     if (!response.ok) {
       throw new Error('Could not load the collection.');
     }
-    const version = response.headers.get('x-noci-version') ?? 'initial';
-    if (version === state.version) {
+    const liveVersion = response.headers.get('x-noci-version');
+    if (liveVersion && liveVersion === state.version) {
       return;
     }
     const metadata = await response.json();
     if (!Array.isArray(metadata.icons) || !metadata.icons.length) {
       throw new Error('The collection is empty.');
     }
+    const version =
+      liveVersion ?? metadata.buildVersion ?? response.headers.get('etag') ?? 'static';
     const sprites = await Promise.all(
       [16, 24, 48].map(async (size) => {
-        const asset = await fetch(`/sprite/${size}.svg?v=${encodeURIComponent(version)}`, {
+        const asset = await fetch(`./sprite/${size}.svg?v=${encodeURIComponent(version)}`, {
           cache: 'no-store',
         });
-        if (!asset.ok || asset.headers.get('x-noci-version') !== version) {
+        if (!asset.ok || (liveVersion && asset.headers.get('x-noci-version') !== liveVersion)) {
           throw new Error('The icon collection is updating.');
         }
         const doc = new DOMParser().parseFromString(await asset.text(), 'image/svg+xml');
@@ -514,6 +517,10 @@ async function refresh() {
         .toLocaleLowerCase(),
     }));
     state.version = version;
+    state.etag = response.headers.get('etag') ?? '';
+    if (!liveVersion) {
+      clearInterval(refreshTimer);
+    }
     const count = state.icons.length.toLocaleString('en-US');
     $('intro-count').textContent = count;
     $('total-count').textContent = count;
@@ -533,7 +540,7 @@ async function refresh() {
       $('summary').textContent = 'Icons could not be loaded.';
       $('empty').hidden = false;
       $('empty-title').textContent = 'Could not load the icons';
-      $('empty-description').textContent = 'Check the local server and try again.';
+      $('empty-description').textContent = 'Check your connection and try again.';
       $('empty-reset').textContent = 'Try again';
     }
   } finally {
@@ -717,5 +724,5 @@ new ResizeObserver(([entry]) => {
     `${entry.target.getBoundingClientRect().height}px`,
   );
 }).observe(document.querySelector('.toolbelt'));
+const refreshTimer = setInterval(refresh, 10000);
 refresh();
-setInterval(refresh, 10000);

@@ -2,6 +2,8 @@
 
 웹 인터페이스에 사용하는 SVG 아이콘입니다. 각 아이콘은 16px·24px 원본과 48px 출력물을 제공합니다.
 
+[아이콘 둘러보기](https://safethecode.github.io/noci/)
+
 - [디자인 가이드](DESIGN.md): 선 굵기, 여백, 중심, 글자 정렬
 - [접근성 가이드](docs/accessibility.md): 장식용 아이콘, 이름, 대비, 버튼 사용법
 - [사용 예시](docs/integration.md): HTML, React, Vue, Svelte
@@ -37,5 +39,9 @@ npm run qa
 `npm run preview`를 실행하면 <http://127.0.0.1:4173>에서 아이콘 목록을 볼 수 있습니다.
 16·24·32·48px 크기와 직접 입력한 글자를 비교하고 SVG를 복사하거나 내려받을 수 있습니다.
 다른 포트는 `NOCI_PREVIEW_PORT`로 지정합니다.
+
+`npm run build:preview`로 `artifacts/preview`에 정적 사이트를 만듭니다.
+`NOCI_PREVIEW_URL`에는 프로젝트 경로를 포함한 공개 주소를 지정합니다.
+`main`이 바뀌면 GitHub Actions가 GitHub Pages에 자동으로 배포합니다.
 
 [MIT 라이선스](LICENSE)

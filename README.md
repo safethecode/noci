@@ -4,6 +4,8 @@ SVG icons for web interfaces. Each icon includes 16px and 24px designs, with a 4
 
 [한국어](README.ko.md) · [Design guidelines](DESIGN.md) · [Accessibility](docs/accessibility.md) · [Contributing](CONTRIBUTING.md)
 
+[Browse icons](https://safethecode.github.io/noci/)
+
 ## Use an icon
 
 ```js
@@ -50,6 +52,10 @@ npm run qa
 Run `npm run preview` to browse the collection at <http://127.0.0.1:4173>. Compare
 icons at 16, 24, 32 and 48px, try your own text, and copy or download individual SVGs.
 Set `NOCI_PREVIEW_PORT` to use another port.
+
+`npm run build:preview` creates the static site in `artifacts/preview`. Set
+`NOCI_PREVIEW_URL` to its full public URL, including any project path. GitHub Actions
+publishes the site to GitHub Pages when `main` changes.
 
 ## License
 

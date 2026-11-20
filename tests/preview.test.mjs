@@ -24,7 +24,7 @@ test('the preview serves its source and one consistent icon build', async (t) =>
     const source = await readFile(new URL(`../preview/${file}`, import.meta.url));
     const expected =
       file === 'index.html'
-        ? Buffer.from(source.toString().replaceAll('{{preview-origin}}', origin))
+        ? Buffer.from(source.toString().replaceAll('{{preview-url}}', `${origin}/`))
         : source;
     assert.deepEqual(Buffer.from(await response.arrayBuffer()), expected);
   }
