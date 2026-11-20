@@ -81,6 +81,15 @@
   },
   "overrides": [
     {
+      "includes": ["preview/index.html"],
+      "html": {
+        "experimentalFullSupportEnabled": true,
+        "formatter": {
+          "enabled": true
+        }
+      }
+    },
+    {
       "includes": ["scripts/**"],
       "linter": {
         "rules": {
