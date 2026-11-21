@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame. The outline closes at its start without a short connecting stroke."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Expanded clearances inside the 18 × 18 drawing frame. The outline closes at its start without a short connecting stroke."
     }
   }
 }
