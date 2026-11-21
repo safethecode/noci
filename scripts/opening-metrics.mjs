@@ -39,6 +39,61 @@ function squaredDistances(values) {
   return result;
 }
 
+/** Painted edge-to-edge clearance between selected nodes, sampled at 32 points per unit. */
+export function markClearance(definition, opticalSize, boundaryNodes, markNodes) {
+  const master = definition.sizes[opticalSize];
+  const selections = [boundaryNodes, markNodes].map((indices) => {
+    if (
+      !Array.isArray(indices) ||
+      indices.length === 0 ||
+      !Array.from(indices).every(
+        (index) => Number.isInteger(index) && index >= 0 && index < master.nodes.length,
+      )
+    ) {
+      throw new Error('Clearance measurements require valid, nonempty node selections.');
+    }
+    const isolated = {
+      ...definition,
+      sizes: {
+        [opticalSize]: { ...master, nodes: indices.map((index) => master.nodes[index]) },
+      },
+    };
+    const svg = renderIcon(isolated, { size: opticalSize, opticalSize });
+    const { pixels, width, height } = new Resvg(svg, {
+      fitTo: { mode: 'zoom', value: zoom },
+      font: { loadSystemFonts: false },
+    }).render();
+    const mask = new Uint8Array(width * height);
+    for (let index = 0; index < mask.length; index++) {
+      mask[index] = pixels[index * 4 + 3] >= 128 ? 1 : 0;
+    }
+    if (!mask.some(Boolean)) {
+      throw new Error('Clearance measurements require painted artwork in both selections.');
+    }
+    return { mask, width, height };
+  });
+  const [{ mask: boundary, width, height }, { mask: marks }] = selections;
+  const horizontal = new Float64Array(width * height);
+  for (let y = 0; y < height; y++) {
+    const row = Float64Array.from({ length: width }, (_, x) =>
+      boundary[y * width + x] ? 0 : 1e12,
+    );
+    horizontal.set(squaredDistances(row), y * width);
+  }
+  let nearest = Number.POSITIVE_INFINITY;
+  for (let x = 0; x < width; x++) {
+    const column = Float64Array.from({ length: height }, (_, y) => horizontal[y * width + x]);
+    const distances = squaredDistances(column);
+    for (let y = 0; y < height; y++) {
+      if (marks[y * width + x]) {
+        nearest = Math.min(nearest, distances[y]);
+      }
+    }
+  }
+  // Distances are between sample centers; subtract one sample for the two painted edges.
+  return Math.max(0, (Math.sqrt(nearest) - 1) / zoom);
+}
+
 /** Approximate enclosed white openings in the complete painted icon at 32 samples per unit. */
 export function openingMetrics(definition, opticalSize) {
   const svg = renderIcon(definition, { size: opticalSize, opticalSize });
