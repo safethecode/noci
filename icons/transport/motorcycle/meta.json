@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The engine block is omitted so the frame and wheels remain distinct."
+      "reason": "The frame meets the tops of two separated wheels, leaving their interiors open beside the seat and steering stem."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "An open frame separates the seat, steering stem and two wheels."
+      "reason": "The seat, steering stem and frame join two separated wheel rims without splitting their round openings."
     }
   }
 }
