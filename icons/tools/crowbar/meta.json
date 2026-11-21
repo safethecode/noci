@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Two short bends remain visible at opposite ends of the long shaft."
+      "reason": "The hooked end turns continuously from the diagonal shaft through its rounded return."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger shaft keeps both prying ends within the common square frame."
+      "reason": "The hooked end turns continuously from the diagonal shaft through its rounded return."
     }
   }
 }
