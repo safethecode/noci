@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Two clear drain marks sit inside a broad bowl below the side handles."
+      "reason": "Two clear drain marks sit inside a broad bowl below the side handles. The outline closes at its start without a short connecting stroke."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger bowl keeps the drain marks clear of the rim and sides."
+      "reason": "The larger bowl keeps the drain marks clear of the rim and sides. The outline closes at its start without a short connecting stroke."
     }
   }
 }
