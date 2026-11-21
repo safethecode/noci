@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Two compact solid return arrows keep a clear central lane and outer margins without trapping a narrow counter."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Two compact solid return arrows keep a clear central lane and outer margins without trapping a narrow counter."
     }
   }
 }
