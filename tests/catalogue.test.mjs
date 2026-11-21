@@ -101,6 +101,35 @@ test('circular status families retain the foundation keyline', () => {
   }
 });
 
+test('the calendar heart is centered within its frame at both optical sizes', () => {
+  const { definition } = catalogue.find((icon) => icon.meta.name === 'calendar-heart');
+  const heart = {
+    ...definition,
+    sizes: Object.fromEntries(
+      Object.entries(definition.sizes).map(([size, master]) => [
+        size,
+        { ...master, nodes: master.nodes.slice(2) },
+      ]),
+    ),
+  };
+  for (const size of [16, 24]) {
+    const [tag, frame] = definition.sizes[size].nodes[0];
+    assert.equal(tag, 'rect');
+    const { bounds } = rasterMetrics(esm.renderIcon(heart, { size }), size, 64);
+    const expected = [
+      Number(frame.x) + Number(frame.width) / 2,
+      Number(frame.y) + Number(frame.height) / 2,
+    ];
+    for (const axis of [0, 1]) {
+      const center = (bounds[axis] + bounds[axis + 2]) / 2;
+      assert.ok(
+        Math.abs(center - expected[axis]) <= 0.0625,
+        `calendar-heart/${size}: heart center is displaced on axis ${axis}.`,
+      );
+    }
+  }
+});
+
 test('script variants retain the same letter baseline in toolbars', () => {
   const sub = catalogue.find((x) => x.meta.name === 'subscript'),
     sup = catalogue.find((x) => x.meta.name === 'superscript');
