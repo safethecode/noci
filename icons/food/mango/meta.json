@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "One inner curve follows the broad tapered body without a narrow closed compartment."
+      "reason": "One inner curve follows the broad tapered body without a narrow closed compartment. The outline closes at its start without a short connecting stroke."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger inner contour stays clear of the skin around both ends."
+      "reason": "The larger inner contour stays clear of the skin around both ends. The outline closes at its start without a short connecting stroke."
     }
   }
 }
