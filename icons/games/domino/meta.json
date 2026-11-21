@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The rounded tile closes directly into its straight edge while preserving the diagonal divider and both pips."
+      "reason": "A smoothly joined left corner keeps the tile inside the small drawing frame with a complete divider and two clear pips."
     },
     "24": {
       "offset": [0, 0],
