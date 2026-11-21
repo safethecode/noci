@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The circular wheel fits inside the drawing frame, with clear separation from the seated figure."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The circular wheel fits inside the drawing frame, with clear separation from the seated figure."
     }
   }
 }
