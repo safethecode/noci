@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The lower body arc meets the vertical side smoothly and stays within the 2px inset."
     },
     "24": {
       "offset": [0, 0],
