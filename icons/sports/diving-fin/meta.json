@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A short open foot pocket joins the broad blade above its central reinforcing rib."
+      "reason": "The full foot opening closes at its starting point without a short extra edge, preserving the complete outline."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The full foot pocket and long blade retain clear openings on either side of the central rib."
+      "reason": "The full foot opening closes at its starting point without a short extra edge, preserving the complete outline."
     }
   }
 }
