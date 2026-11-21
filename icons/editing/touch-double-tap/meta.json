@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The full pointing hand stays separate from the contact ray and count of two."
+      "reason": "The thumb and palm curves meet tangentially, while the finger recesses remain distinct beneath the gesture marks."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger hand, ray and numeral retain clear spacing at the fingertip."
+      "reason": "The thumb and palm curves meet tangentially, while the finger recesses remain distinct beneath the gesture marks."
     }
   }
 }
