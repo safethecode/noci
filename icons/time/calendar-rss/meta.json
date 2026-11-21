@@ -13,7 +13,7 @@
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The calendar outline and full action marks retain clear spaces at toolbar sizes."
+      "reason": "Quarter-ellipse top corners meet the uprights and top edge smoothly, while the bindings and complete RSS marks retain clear space."
     }
   }
 }
