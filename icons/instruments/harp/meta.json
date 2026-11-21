@@ -1,7 +1,7 @@
 {
   "name": "harp",
   "category": "instruments",
-  "description": "A harp or a plucked orchestral-string part.",
+  "description": "A triangular harp with a curved neck, sloping soundboard and upright strings.",
   "tags": ["harp", "strings", "orchestra"],
   "directional": false,
   "useCase": "A harp or a plucked orchestral-string part.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The sloping soundboard closes a triangular frame with a curved neck; two upright strings join it without stray caps."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The sloping soundboard closes a triangular frame with a curved neck; two upright strings join it without stray caps."
     }
   }
 }
