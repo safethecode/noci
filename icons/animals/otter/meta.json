@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A round head, floating body and long curled tail define the otter without crowded paw details."
+      "reason": "The neck closes at its starting point without a short extra edge, preserving the complete outline."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The expanded head and floating body preserve the long tail and leave room around the eye."
+      "reason": "The neck closes at its starting point without a short extra edge, preserving the complete outline."
     }
   }
 }
