@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Two compact kernels sit inside the complete peanut shell with clear space around both lobes."
+      "reason": "Two compact kernels sit inside the complete peanut shell with clear space around both lobes. The outline closes at its start without a short connecting stroke."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger peanut keeps its full two-lobed pod, narrow waist and two visible kernels."
+      "reason": "The larger peanut keeps its full two-lobed pod, narrow waist and two visible kernels. The outline closes at its start without a short connecting stroke."
     }
   }
 }
