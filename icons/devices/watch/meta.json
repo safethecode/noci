@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The diagonal case keeps the clock hands distinct and leaves clear openings in both complete strap ends."
+      "reason": "The diagonal watch straps turn through smooth circular ends without angular joins at their straight sides."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger diagonal case leaves more room around the full clock hands and retains both closed strap loops."
+      "reason": "The diagonal watch straps turn through smooth circular ends without angular joins at their straight sides."
     }
   }
 }
