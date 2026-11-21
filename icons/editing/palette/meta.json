@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Three clear paint spots sit farther inside the palette, with open space around each one."
+      "reason": "The palette outline closes smoothly and carries a continuous thumb recess, with three separate paint marks."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The palette outline closes smoothly and carries a continuous thumb recess, with three separate paint marks."
     }
   }
 }
