@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The compact envelope leaves a full pixel below the fold and preserves the complete heart."
+      "reason": "The heart has symmetric, continuous curves with clear space above the envelope."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The shared envelope leaves 1.5 pixels below the fold and preserves the complete heart."
+      "reason": "The heart has symmetric, continuous curves with clear space above the envelope."
     }
   }
 }
