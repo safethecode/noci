@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The larger dot and aligned warning column remain clear beside text."
+      "reason": "The larger dot and aligned warning column remain clear beside text. The bubble closes with a continuous vertical tangent."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The full speech bubble, tail and content retain clear separation at interface size."
+      "reason": "The bubble has a continuous side tangent and clear interior spacing inside the square drawing frame."
     }
   }
 }
