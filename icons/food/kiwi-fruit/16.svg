@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
   <circle cx="8" cy="8" r="5.25"/>
-  <circle cx="8" cy="8" r="1" fill="currentColor" stroke="none"/>
-  <circle cx="5.25" cy="8" r="0.75" fill="currentColor" stroke="none"/>
-  <circle cx="10.75" cy="8" r="0.75" fill="currentColor" stroke="none"/>
-  <circle cx="8" cy="5.25" r="0.75" fill="currentColor" stroke="none"/>
-  <circle cx="8" cy="10.75" r="0.75" fill="currentColor" stroke="none"/>
+  <path d="M8.0000 4.5000C8.4142 4.5000 8.7500 4.9477 8.7500 5.5000C8.7500 6.0523 8.4142 6.5000 8.0000 6.5000C7.5858 6.5000 7.2500 6.0523 7.2500 5.5000C7.2500 4.9477 7.5858 4.5000 8.0000 4.5000Z" fill="currentColor" stroke="none"/>
+  <path d="M11.5000 8.0000C11.5000 8.4142 11.0523 8.7500 10.5000 8.7500C9.9477 8.7500 9.5000 8.4142 9.5000 8.0000C9.5000 7.5858 9.9477 7.2500 10.5000 7.2500C11.0523 7.2500 11.5000 7.5858 11.5000 8.0000Z" fill="currentColor" stroke="none"/>
+  <path d="M8.0000 11.5000C7.5858 11.5000 7.2500 11.0523 7.2500 10.5000C7.2500 9.9477 7.5858 9.5000 8.0000 9.5000C8.4142 9.5000 8.7500 9.9477 8.7500 10.5000C8.7500 11.0523 8.4142 11.5000 8.0000 11.5000Z" fill="currentColor" stroke="none"/>
+  <path d="M4.5000 8.0000C4.5000 7.5858 4.9477 7.2500 5.5000 7.2500C6.0523 7.2500 6.5000 7.5858 6.5000 8.0000C6.5000 8.4142 6.0523 8.7500 5.5000 8.7500C4.9477 8.7500 4.5000 8.4142 4.5000 8.0000Z" fill="currentColor" stroke="none"/>
 </svg>
