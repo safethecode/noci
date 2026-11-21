@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Two raised fingertips remain separate below two complete outward arrows."
+      "reason": "The two fingers share a smooth web; the thumb and palm curves meet tangentially below the gesture arrows."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger hand opens the fingertip gap and the space below both outward arrows."
+      "reason": "The two fingers share a smooth web; the thumb and palm curves meet tangentially below the gesture arrows."
     }
   }
 }
