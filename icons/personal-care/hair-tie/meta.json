@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Complete physical parts retain their proportions inside the square drawing frame; small details are kept separate."
+      "reason": "The ruffled outline closes at its starting point without an extra seam, retaining its full central opening."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The complete silhouette and functional parts retain larger clear gaps within the shared square frame."
+      "reason": "The ruffled outline closes at its starting point without an extra seam, retaining its full central opening."
     }
   }
 }

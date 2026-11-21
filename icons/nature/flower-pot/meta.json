@@ -13,7 +13,7 @@
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Longer leaves and stem keep the pot and plant distinct."
+      "reason": "The leaf at the stem closes at its starting point without a short extra edge, preserving the complete outline."
     }
   }
 }

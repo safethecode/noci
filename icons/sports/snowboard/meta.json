@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Two offset binding loops stay open on opposite sides of the narrow board."
+      "reason": "The board around both bindings closes at its starting point without a short extra edge, preserving the complete outline."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The longer board keeps its two open bindings separate between the rounded ends."
+      "reason": "The board around both bindings closes at its starting point without a short extra edge, preserving the complete outline."
     }
   }
 }

@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Rounded ear lobes and a broad nose give the face a calm, open center."
+      "reason": "The head closes at its starting point without a short extra edge, preserving the complete outline."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The broad head leaves wider gaps around the eyes and larger nose."
+      "reason": "The head closes at its starting point without a short extra edge, preserving the complete outline."
     }
   }
 }

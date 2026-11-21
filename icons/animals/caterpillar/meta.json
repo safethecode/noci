@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A scalloped body, raised head and short legs distinguish the larva from a worm."
+      "reason": "The body closes at its starting point without a short extra edge, preserving the complete outline."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger scalloped back retains clear body segments and a raised head."
+      "reason": "The body closes at its starting point without a short extra edge, preserving the complete outline."
     }
   }
 }

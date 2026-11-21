@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The full wavy arm stays clear of the straight arm around the rounded join."
+      "reason": "The crimped arm enters a smooth rounded return bend that continues tangentially into the complete straight arm."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger pin keeps its complete wavy and straight arms separate."
+      "reason": "The crimped arm enters a smooth rounded return bend that continues tangentially into the complete straight arm."
     }
   }
 }

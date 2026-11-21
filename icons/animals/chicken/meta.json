@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A rounded body, small head and two short legs make a compact hen silhouette."
+      "reason": "The full bird outline closes at its starting point without a short extra edge, preserving the tail and body."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The wider body leaves clear space between the two legs."
+      "reason": "The full bird outline closes at its starting point without a short extra edge, preserving the tail and body."
     }
   }
 }

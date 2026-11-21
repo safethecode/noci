@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A long tapered barrel joins a single handle stroke, with a separate knob at its end."
+      "reason": "The rounded barrel flows tangentially into the complete tapered edge and handle, with the knob retained."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "A long tapered barrel joins a single handle stroke, with a separate knob at its end."
+      "reason": "The rounded barrel flows tangentially into the complete tapered edge and handle, with the knob retained."
     }
   }
 }

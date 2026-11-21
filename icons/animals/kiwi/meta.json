@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A rounded body, long bill and two short legs define the small flightless bird."
+      "reason": "The rounded body closes at its starting point without a short extra edge, preserving the complete outline."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "An inset eye stays clear of the rounded head above the long bill."
+      "reason": "The rounded body closes at its starting point without a short extra edge, preserving the complete outline."
     }
   }
 }

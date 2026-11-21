@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The complete head and two bristle rows move slightly outward; the longer neck keeps a clear gap from the full handle."
+      "reason": "The complete head and handle close through tangent rounded corners, leaving no small extra closing edges beside the neck."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The complete silhouette and functional parts retain larger clear gaps within the shared square frame."
+      "reason": "The complete head and handle close through tangent rounded corners, leaving no small extra closing edges beside the neck."
     }
   }
 }

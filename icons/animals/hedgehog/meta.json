@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A short pointed muzzle and a few broad spines leave room around one eye."
+      "reason": "The body beneath the spines closes at its starting point without a short extra edge, preserving the complete outline."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The stepped spines, pointed muzzle and small feet keep the profile distinct."
+      "reason": "The body beneath the spines closes at its starting point without a short extra edge, preserving the complete outline."
     }
   }
 }

@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The complete currency mark keeps its distinguishing strokes and open interior spaces at text size."
+      "reason": "The full arch meets both slanted uprights tangentially, keeping its center stroke and open interior."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The full currency mark retains its distinguishing strokes inside the shared drawing frame."
+      "reason": "The full arch meets both slanted uprights tangentially, keeping its center stroke and open interior."
     }
   }
 }
