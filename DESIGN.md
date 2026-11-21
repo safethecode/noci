@@ -39,6 +39,11 @@ control. Keep its outer silhouette outlined and geometrically centered. The soli
 region follows that silhouette; do not shift the icon toward its ink centroid.
 Use one simple closed path per region and review its weight beside outlined icons.
 
+Typographic service marks keep their recognizable letters and distinguishing marks
+together. Use closed filled outlines rather than a font dependency. An enclosing
+frame may be omitted when it would crowd these details at the smaller optical size;
+keep the complete mark centered in the same square drawing frame.
+
 ## Center and weight
 
 1. Start from the center of the artboard, not the center of the SVG bounding box.
