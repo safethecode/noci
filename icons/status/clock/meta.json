@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The silhouette is independently placed around the artboard center with matched extents on its symmetry axes; compare at native size beside the foundation shapes. Text master: 1.5px construction. The complete silhouette is centered within the shared 12 × 12 drawing area."
+      "reason": "The longer hand stops one painted pixel before the ring while preserving the same time in both sizes."
     },
     "24": {
       "offset": [0, 0],
