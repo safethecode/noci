@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The main outline retains the parts that identify the item, with clear inner space and a square safe frame."
+      "reason": "The deeper bassinet and lower wheels keep the body opening and wheel clearances distinct."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The main outline and small functional parts remain separate and balanced inside the square drawing frame."
+      "reason": "The bassinet is slightly deeper so its interior stays open between the rim and bottom."
     }
   }
 }
