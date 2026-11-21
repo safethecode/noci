@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A larger open head stays clear above four complete wings and the long abdomen."
+      "reason": "Four narrow wing silhouettes leave the long abdomen exposed; a broad head keeps the insect recognizable at text size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Deeper lower wings give all four wing outlines a clear opening while retaining the long abdomen."
+      "reason": "The two narrow wing pairs remain separate above the long abdomen, with a broad head above the wing roots."
     }
   }
 }
