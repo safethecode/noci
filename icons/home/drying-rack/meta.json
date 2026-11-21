@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The hanging fabric stays separate from two floor supports."
+      "reason": "The rail supports the fabric at its top fold above the two floor supports."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger rack keeps the rail behind the fabric and its supports outside it."
+      "reason": "The full rail meets the top fold of the hanging fabric while the two floor supports remain clear."
     }
   }
 }
