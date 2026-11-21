@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The browser chrome stays complete and separate from the content or status mark."
+      "reason": "The content dot stays visible at text size while remaining separate from the nearby text hint."
     },
     "24": {
       "offset": [0, 0],
