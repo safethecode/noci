@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A compact full handle and longer shaft leave clear space beside the three curved tines."
+      "reason": "The bowed rake head has one continuous tangent through its central shaft connection."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The complete D-handle sits clear of the curved tines, with a visible connecting shaft."
+      "reason": "The bowed rake head has one continuous tangent through its central shaft connection."
     }
   }
 }
