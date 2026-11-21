@@ -1,6 +1,7 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { Resvg } from '@resvg/resvg-js';
 import svgpath from 'svgpath';
+import { paintedBounds } from './geometry.mjs';
 
 export const categories = [
   'foundation',
@@ -319,16 +320,19 @@ export async function readCatalogue(root = new URL('../icons/', import.meta.url)
         const svg = await readFile(new URL(`${size}.svg`, iconDir), 'utf8');
         try {
           sizes[size] = parseMaster(svg, size);
-          metrics[size] = rasterMetrics(svg, size);
+          const bounds = paintedBounds(sizes[size]);
+          assert(bounds?.every(Number.isFinite), 'Artwork has no finite painted bounds.');
           const inset = size === 16 ? 2 : 3,
-            [left, top, right, bottom] = metrics[size].bounds;
+            tolerance = 1e-6,
+            [left, top, right, bottom] = bounds;
           assert(
-            left >= inset - 0.125 &&
-              top >= inset - 0.125 &&
-              right <= size - inset + 0.125 &&
-              bottom <= size - inset + 0.125,
-            'Painted artwork violates the safe inset.',
+            left >= inset - tolerance &&
+              top >= inset - tolerance &&
+              right <= size - inset + tolerance &&
+              bottom <= size - inset + tolerance,
+            `Painted artwork violates the ${inset}px safe inset: [${bounds.join(', ')}].`,
           );
+          metrics[size] = rasterMetrics(svg, size);
         } catch (error) {
           throw new Error(`${meta.name}/${size}: ${error.message}`, { cause: error });
         }
