@@ -1,7 +1,7 @@
 {
   "name": "hand-plane",
   "category": "tools",
-  "description": "A hand plane with a flat sole, a front knob and a tall rear handle.",
+  "description": "A hand plane with a cutting iron, front knob and rear handle above its sole.",
   "tags": ["plane", "woodwork", "tool"],
   "directional": false,
   "useCase": "Identify planing or smoothing a wooden surface.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The complete working silhouette and supports retain clear open spaces at text size."
+      "reason": "A sloped cutting iron stands between the front knob and open rear handle; the wide sole stays level."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The full working silhouette and supports stay centered inside the shared drawing frame."
+      "reason": "A sloped cutting iron stands between the front knob and open rear handle; the wide sole stays level."
     }
   }
 }
