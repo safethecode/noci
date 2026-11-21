@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Solid wheels leave clear space around the mast, while a complete chassis and open cab retain the vehicle shape."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Wider wheel and mast spacing separates the outlined wheels while preserving the cab, chassis and lifting fork."
     }
   }
 }

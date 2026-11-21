@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Matched solid dots sit farther from the ticket notches and diagonal stroke while preserving a centered percent sign."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Solid dots replace narrow circular holes and leave clear space from the ticket outline and diagonal stroke."
     }
   }
 }

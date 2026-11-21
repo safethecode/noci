@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Solid pans replace tiny enclosed triangles while keeping the beam, upright and balanced pair intact."
     },
     "24": {
       "offset": [0, 0],
