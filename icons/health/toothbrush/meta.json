@@ -1,19 +1,19 @@
 {
   "name": "toothbrush",
   "category": "health",
-  "description": "A toothbrush or oral hygiene.",
+  "description": "An angled toothbrush with three bristle tufts along one side of its head.",
   "tags": ["toothbrush", "dental", "hygiene"],
   "directional": false,
-  "useCase": "A toothbrush or oral hygiene.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify toothbrushing or oral care.",
+  "misuse": "Use brush for painting or general cleaning tools.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Three separated bristle tufts follow the side of the head. The angled handle stays clear of the bristles and centers the complete silhouette in the square frame."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Three separated bristle tufts follow the side of the head. The angled handle stays clear of the bristles and centers the complete silhouette in the square frame."
     }
   }
 }
