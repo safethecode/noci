@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Raised horns, broad cheeks and a short muzzle mark preserve an open face."
+      "reason": "The eyes share a half-pixel row so both dots remain visible without changing the face."
     },
     "24": {
       "offset": [0, 0],
