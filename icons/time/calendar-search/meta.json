@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The lens and full diagonal handle are centered below the bindings and remain clear of the calendar floor."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The lens and full diagonal handle are centered below the bindings and remain clear of the calendar floor."
     }
   }
 }
