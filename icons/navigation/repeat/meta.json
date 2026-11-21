@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The complete symbol is centered inside the 12 × 12 drawing frame."
+      "reason": "Both return corners meet their straight shafts tangentially, with matching radii."
     },
     "24": {
       "offset": [0, 0],
