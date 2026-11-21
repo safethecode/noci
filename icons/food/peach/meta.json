@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "One open crease gives the peach its split shape without a small inner loop."
+      "reason": "One open crease gives the peach its split shape without a small inner loop. The outline closes at its start without a short connecting stroke."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The longer crease stops above the base and remains clear of both sides."
+      "reason": "The longer crease stops above the base and remains clear of both sides. The outline closes at its start without a short connecting stroke."
     }
   }
 }
