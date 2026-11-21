@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Three separated eyes sit inside a broad irregular outline."
+      "reason": "Three separated eyes sit inside a broad irregular outline that closes without a short stroke and stays inside the square drawing frame."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger potato keeps each eye clear of the gently uneven skin."
+      "reason": "The larger potato keeps each eye clear of the gently uneven skin. The outline closes at its start without a short connecting stroke."
     }
   }
 }
