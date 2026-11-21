@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A broad tray and low footrest sit below the small backrest."
+      "reason": "The high tray and compact back leave long legs and a clear footrest."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger tray and footrest stay separate between the tall splayed legs."
+      "reason": "The high tray leaves long legs below a compact back, with a full footrest between the legs."
     }
   }
 }
