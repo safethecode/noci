@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A solid center mark leaves a clear ring inside the front coin without a tiny enclosed hole."
     },
     "24": {
       "offset": [0, 0],
