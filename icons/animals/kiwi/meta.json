@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The rounded body closes at its starting point without a short extra edge, preserving the complete outline."
+      "reason": "The long tapered bill distinguishes the kiwi from other small birds; the rounded body and two legs remain clear."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The rounded body closes at its starting point without a short extra edge, preserving the complete outline."
+      "reason": "The long tapered bill, small eye and rounded body retain the kiwi profile without crowding the face."
     }
   }
 }

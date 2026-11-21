@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A deeper muzzle leaves a full gap around the eye while the neck retains its profile."
+      "reason": "The pointed ear, long muzzle and curved neck keep the horse profile clear around the eye."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The deeper muzzle and open neck leave clear space around the eye."
+      "reason": "The pointed ear and long muzzle distinguish the horse profile while the curved neck leaves room around the eye."
     }
   }
 }
