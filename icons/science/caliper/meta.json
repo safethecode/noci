@@ -1,7 +1,7 @@
 {
   "name": "caliper",
   "category": "science",
-  "description": "A caliper or precise dimensional measurement.",
+  "description": "A measuring caliper with fixed and sliding jaws on a long beam.",
   "tags": ["caliper", "measurement", "science"],
   "directional": false,
   "useCase": "A caliper or precise dimensional measurement.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Opposed jaw faces share a baseline below the rail, with clear measuring space and open jaw interiors."
+      "reason": "Opposed jaws and a solid sliding cursor leave the graduated beam exposed to the right."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Longer opposed jaw faces retain a clear measuring gap below the rail and slider."
+      "reason": "Opposed jaws and a solid sliding cursor leave the graduated beam exposed to the right."
     }
   }
 }
