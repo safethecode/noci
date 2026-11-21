@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Complete fingers, thumb and palm fit the shared square drawing frame."
+      "reason": "The rounded thumb base stays inside the drawing frame and meets the palm tangentially."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Open finger separations and clear palm contours keep the full hand readable at toolbar sizes."
+      "reason": "The rounded thumb base stays inside the drawing frame and meets the palm tangentially."
     }
   }
 }
