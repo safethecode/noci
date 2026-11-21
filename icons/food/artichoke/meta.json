@@ -1,7 +1,7 @@
 {
   "name": "artichoke",
   "category": "food",
-  "description": "An artichoke with overlapping pointed leaves and a short stem.",
+  "description": "An artichoke bud with overlapping pointed bracts and a short stem.",
   "tags": ["artichoke", "vegetable", "ingredient"],
   "directional": false,
   "useCase": "Identify artichokes in produce lists, recipes or groceries.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Three broad leaf regions stay open above the short stem."
+      "reason": "Stacked bracts form three open leaf regions above the short stalk. The rounded lower bud and pointed upper leaves remain distinct at text size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger artichoke keeps the pointed upper leaves clear of the lower band."
+      "reason": "Stacked bracts form three open leaf regions above the short stalk. The rounded lower bud and pointed upper leaves remain distinct at text size."
     }
   }
 }

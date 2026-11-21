@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
   <circle cx="12" cy="12" r="8.125"/>
-  <circle cx="12" cy="12" r="1.25" fill="currentColor" stroke="none"/>
-  <circle cx="7.75" cy="12" r="0.75" fill="currentColor" stroke="none"/>
-  <circle cx="16.25" cy="12" r="0.75" fill="currentColor" stroke="none"/>
-  <circle cx="12" cy="7.75" r="0.75" fill="currentColor" stroke="none"/>
-  <circle cx="12" cy="16.25" r="0.75" fill="currentColor" stroke="none"/>
+  <path d="M12.0000 6.3750C12.4142 6.3750 12.7500 7.0466 12.7500 7.8750C12.7500 8.7034 12.4142 9.3750 12.0000 9.3750C11.5858 9.3750 11.2500 8.7034 11.2500 7.8750C11.2500 7.0466 11.5858 6.3750 12.0000 6.3750Z" fill="currentColor" stroke="none"/>
+  <path d="M17.6250 12.0000C17.6250 12.4142 16.9534 12.7500 16.1250 12.7500C15.2966 12.7500 14.6250 12.4142 14.6250 12.0000C14.6250 11.5858 15.2966 11.2500 16.1250 11.2500C16.9534 11.2500 17.6250 11.5858 17.6250 12.0000Z" fill="currentColor" stroke="none"/>
+  <path d="M12.0000 17.6250C11.5858 17.6250 11.2500 16.9534 11.2500 16.1250C11.2500 15.2966 11.5858 14.6250 12.0000 14.6250C12.4142 14.6250 12.7500 15.2966 12.7500 16.1250C12.7500 16.9534 12.4142 17.6250 12.0000 17.6250Z" fill="currentColor" stroke="none"/>
+  <path d="M6.3750 12.0000C6.3750 11.5858 7.0466 11.2500 7.8750 11.2500C8.7034 11.2500 9.3750 11.5858 9.3750 12.0000C9.3750 12.4142 8.7034 12.7500 7.8750 12.7500C7.0466 12.7500 6.3750 12.4142 6.3750 12.0000Z" fill="currentColor" stroke="none"/>
 </svg>
