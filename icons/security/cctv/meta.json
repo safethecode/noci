@@ -1,19 +1,19 @@
 {
   "name": "cctv",
   "category": "security",
-  "description": "A surveillance camera.",
-  "tags": ["camera", "surveillance", "security"],
+  "description": "A surveillance camera with a separate lens face and a wall bracket.",
+  "tags": ["camera", "security", "surveillance"],
   "directional": false,
-  "useCase": "A surveillance camera.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify a surveillance camera or open its live view.",
+  "misuse": "Use camera for taking a photograph.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The rectangular camera housing, solid front glass and supporting bracket remain distinct. Their shared angle keeps the camera separate from a flared loudspeaker."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The rectangular camera housing, solid front glass and supporting bracket remain distinct. Their shared angle keeps the camera separate from a flared loudspeaker."
     }
   }
 }
