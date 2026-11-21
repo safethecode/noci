@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The open links have tangent rounded ends and two separated break marks per opening at the text size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Two break marks sit clear of each open link, preserving smooth ends and balanced spacing."
     }
   }
 }
