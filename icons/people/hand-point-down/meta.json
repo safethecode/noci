@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Complete fingers, thumb and palm fit the shared square drawing frame."
+      "reason": "The thumb and palm curves meet tangentially, with consistent proportions across the four pointing directions."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Open finger separations and clear palm contours keep the full hand readable at toolbar sizes."
+      "reason": "The thumb and palm curves meet tangentially, with consistent proportions across the four pointing directions."
     }
   }
 }
