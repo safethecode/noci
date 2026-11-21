@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A scalloped fan sits behind a rounded body with a small head and two clear legs."
+      "reason": "The body closes at its starting point without a short extra edge, preserving the complete outline."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger side profile keeps the fan, small head and short legs distinct without decorative rays."
+      "reason": "The body closes at its starting point without a short extra edge, preserving the complete outline."
     }
   }
 }
