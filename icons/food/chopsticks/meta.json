@@ -1,19 +1,19 @@
 {
   "name": "chopsticks",
   "category": "food",
-  "description": "Chopsticks or an Asian dining option.",
+  "description": "Two plain chopsticks with separated tips.",
   "tags": ["chopsticks", "utensil", "dining"],
   "directional": false,
-  "useCase": "Chopsticks or an Asian dining option.",
+  "useCase": "Identify chopsticks or dining utensils.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Two uninterrupted shafts preserve the narrow dining utensil silhouette. The space between the sticks stays open from the handles to the tips."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Two uninterrupted shafts preserve the narrow dining utensil silhouette. The space between the sticks stays open from the handles to the tips."
     }
   }
 }
