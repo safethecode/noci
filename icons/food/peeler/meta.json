@@ -1,7 +1,7 @@
 {
   "name": "peeler",
   "category": "food",
-  "description": "A vegetable peeler with a wide blade and open frame.",
+  "description": "A vegetable peeler with a separate cutting blade in an open Y frame.",
   "tags": ["peeler", "vegetable", "utensil"],
   "directional": false,
   "useCase": "Identify vegetable peelers or food preparation tools.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "One wide blade sits above the open frame and handle."
+      "reason": "A separate blade spans the open Y frame. The gap above the blade stays open at text size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger frame retains a broad opening below the blade."
+      "reason": "A separate blade spans the open Y frame. The gap above the blade stays open at text size."
     }
   }
 }
