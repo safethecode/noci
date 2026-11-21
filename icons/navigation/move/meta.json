@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The complete symbol is centered inside the 12 × 12 drawing frame."
+      "reason": "Short arrowheads leave four exposed shafts and clear space between adjacent heads around the centered cross."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The complete symbol is centered inside the 18 × 18 drawing frame."
+      "reason": "The four arrowheads share one size and leave straight shafts around the centered cross."
     }
   }
 }
