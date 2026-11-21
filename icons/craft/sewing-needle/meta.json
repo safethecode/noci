@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A broad open eye joins the full diagonal needle shaft."
+      "reason": "The complete eye closes directly at its starting point without a short diagonal seam beside the shaft."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger needle keeps a complete elongated eye above its full shaft."
+      "reason": "The complete eye closes directly at its starting point without a short diagonal seam beside the shaft."
     }
   }
 }
