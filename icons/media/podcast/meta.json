@@ -13,7 +13,7 @@
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Two independently spaced broadcast arcs surround a smaller head and separate shoulders, with open space around each part."
+      "reason": "The larger head counter and concentric broadcast arcs preserve 1.5px of clear space between separate marks."
     }
   }
 }

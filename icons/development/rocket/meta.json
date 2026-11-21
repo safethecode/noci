@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A slightly fuller body makes room for a larger central window with a clear opening and space around its rim."
+      "reason": "Solid fins keep the small rocket free of narrow white pockets. The outlined hull and porthole stay clear."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The window is moved slightly down the rocket axis to clear the shell while retaining its original size."
+      "reason": "The fins mirror across the flight axis and keep open interiors. The porthole retains a 1.5px counter."
     }
   }
 }

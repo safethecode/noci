@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The upper clapper is slightly taller so all three striped panels remain open at text size."
     },
     "24": {
       "offset": [0, 0],
