@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The complete speech bubble and tail remain unchanged; the full content marker is hinted inward to retain a clear gap at text size."
+      "reason": "The complete speech bubble and tail remain unchanged; the full content marker is hinted inward to retain a clear gap at text size. The bubble closes with a continuous vertical tangent."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The full speech bubble, tail and content retain clear separation at interface size."
+      "reason": "The bubble has a continuous side tangent and clear interior spacing inside the square drawing frame."
     }
   }
 }
