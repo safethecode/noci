@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The zoom mark is centered in the lens, with 1px of open space around it. The lens and handle retain their shared geometry."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The zoom mark is centered in the lens, with 1.5px of open space around it. The lens and handle retain their shared geometry."
     }
   }
 }
