@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The clock hands remain distinct from the circular face and preserve the time reading."
     },
     "24": {
       "offset": [0, 0],
