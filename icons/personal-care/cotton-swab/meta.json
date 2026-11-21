@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Both rounded cotton tips stay open around the complete central stem."
+      "reason": "Both full cotton tips close smoothly at their starting points without small diagonal seams."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger swab retains two full rounded tips and a clear central stem."
+      "reason": "Both full cotton tips close smoothly at their starting points without small diagonal seams."
     }
   }
 }
