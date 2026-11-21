@@ -1,19 +1,19 @@
 {
   "name": "waffle",
   "category": "food",
-  "description": "A butter-topped waffle with six complete open pockets.",
+  "description": "A square waffle with nine open pockets.",
   "tags": ["waffle", "dessert", "breakfast"],
   "directional": false,
-  "useCase": "Choose waffles from a breakfast or dessert menu.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify waffles in a breakfast menu or baking list.",
+  "misuse": "Use grid-three for a grid layout.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Six broad waffle pockets remain open below a complete butter pat."
+      "reason": "A continuous square edge surrounds nine open pockets. Each pocket stays clear at the native size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger waffle keeps all six open pockets and the complete butter pat."
+      "reason": "A continuous square edge surrounds nine open pockets. Each pocket stays clear at the native size."
     }
   }
 }
