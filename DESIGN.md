@@ -98,15 +98,23 @@ Only navigation arrows and chevrons are `directional`. Mirror those in RTL when
 Do not mirror text, clocks, download arrows, checkmarks or familiar object silhouettes.
 Never infer accessibility, disability, identity or trust from a vague symbol alone.
 
-## Acceptance checklist (every icon, both masters)
+## Acceptance criteria (every icon, both masters)
 
-- Meaning is recognizable; adjacent text is included where the metaphor is ambiguous.
-- Insets, size, stroke, currentColor, primitive allowlist and tag cap pass validation.
-- Related icons share their base geometry; separate marks have the specified gaps.
-- No clipping, accidental tangencies, doubled strokes or dense knots at native size.
-- It appears balanced in a centered square and paired with the font matrix.
-- Metadata documents optical decisions, RTL policy, use case and meaning.
-- Decorative and named examples pass automated accessibility checks.
-- Review the rendered icons; automated checks support visual review.
+| Review              | Passing result                                                                                                                                                                                                                                                               |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Drawing frame       | Painted bounds, including curves, round caps and joins, stay inside the 2px / 3px inset. The build calculates curve extrema with a 0.000001px numerical tolerance. The 48px export preserves the doubled geometry and 6px inset.                                             |
+| Symmetry and center | A symmetric shape shares its intended axis with the artboard or its container. A nested mark is centered in the usable body of its frame. Asymmetric shapes are compared beside the circle, square, check and search; their ink centroid alone does not determine placement. |
+| Clear space         | Unrelated painted edges remain at least 1px apart at 16 and 1.5px apart at 24. Intended object junctions remain connected without stray caps, dense knots or trapped white slivers. Enclosed counters stay open at native size.                                              |
+| Essential detail    | The action, direction, count and distinguishing features remain recognizable at 16 and 24, at DPR 1 and 2. An arrow has an exposed straight shaft behind its head. Simplification may remove decoration, but must preserve the meaning.                                      |
+| Related shapes      | Variants share their base dimensions, axes, arrowhead proportions and badge placement at each optical size. A deliberate contour break leaves clear space for its badge. Explain any required shift in the optical note.                                                     |
+| Text and scale      | Inspect 16, 24, 32 and 48px on both themes, centered in a square and beside the Latin/Korean font matrix above. No consumer-specific translation is required.                                                                                                                |
+| Meaning and access  | Both masters depict the same meaning and follow the direction policy. Names, use cases and optical notes match the artwork. Decorative and named examples pass accessibility checks.                                                                                         |
+
+Use measurements to find candidates, then inspect the complete glyph at native size
+and enlarged. A small raster artifact, an intentional junction or an asymmetric
+silhouette is not a reason to alter an icon on its own. Compare repairs with their
+original artwork and with unchanged family members. Have a second reviewer inspect
+the repaired shapes before merging. Keep temporary measurements and review images
+out of the source tree.
 
 See the [accessibility guidelines](docs/accessibility.md) and [contribution guide](CONTRIBUTING.md). Update these guidelines before changing the icon style.

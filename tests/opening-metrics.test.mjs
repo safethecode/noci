@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { openingMetrics } from '../scripts/opening-metrics.mjs';
+import { markClearance, openingMetrics } from '../scripts/opening-metrics.mjs';
 
 const definition = (nodes, strokeWidth = 1.5) => ({
   name: 'opening-metrics-fixture',
@@ -37,4 +37,40 @@ test('opening metrics find a trapped white wedge created by intersecting strokes
   assert.ok(openings.every((opening) => opening.diameter > 0));
   assert.ok(openings.some((opening) => opening.center[1] < 8));
   assert.ok(openings.some((opening) => opening.center[1] > 8));
+});
+
+test('clearance measures painted edges including round caps', () => {
+  const fixture = definition([
+    ['path', { d: 'M3 4H13' }],
+    ['path', { d: 'M3 7H13' }],
+    ['path', { d: 'M3 5H13' }],
+  ]);
+  assert.ok(Math.abs(markClearance(fixture, 16, [0], [1]) - 1.5) <= 0.0625);
+  assert.equal(markClearance(fixture, 16, [0], [2]), 0);
+  const cap = definition([
+    ['path', { d: 'M3 8H6' }],
+    ['path', { d: 'M9 8H13' }],
+  ]);
+  assert.ok(Math.abs(markClearance(cap, 16, [0], [1]) - 1.5) <= 0.0625);
+});
+
+test('clearance measures an enclosed solid mark against its frame', () => {
+  const fixture = definition([
+    ['circle', { cx: '8', cy: '8', r: '5.25' }],
+    ['circle', { cx: '8', cy: '8', r: '2.75', fill: 'currentColor', stroke: 'none' }],
+  ]);
+  assert.ok(Math.abs(markClearance(fixture, 16, [0], [1]) - 1.75) <= 0.0625);
+});
+
+test('empty or invalid clearance selections cannot pass a spacing review', () => {
+  const fixture = definition([
+    ['path', { d: 'M3 4H13' }],
+    ['path', { d: 'M8 8' }],
+  ]);
+  assert.throws(() => markClearance(fixture, 16, [], [0]), /nonempty node selections/);
+  assert.throws(() => markClearance(fixture, 16, [0], [2]), /valid, nonempty/);
+  assert.throws(() => markClearance(fixture, 16, [0], [1]), /painted artwork/);
+  const sparse = [0];
+  sparse.length = 2;
+  assert.throws(() => markClearance(fixture, 16, [0], sparse), /valid, nonempty/);
 });

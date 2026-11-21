@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The complete round speech bubble and tail remain unchanged; the content sits within its open interior. The bubble closes with a continuous vertical tangent."
+      "reason": "The centered minus shares its horizontal stroke with the matching plus variant."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The bubble has a continuous side tangent and clear interior spacing inside the square drawing frame."
+      "reason": "The centered minus shares its horizontal stroke with the matching plus variant."
     }
   }
 }

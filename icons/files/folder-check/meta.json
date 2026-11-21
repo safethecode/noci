@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The inner mark stays clear of the folder outline and remains recognizable at native size."
     },
     "24": {
       "offset": [0, 0],

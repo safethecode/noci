@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The small solid lens and diagonal handle stay centered in the folder body with clear outer margins."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The lens keeps an open counter and the full diagonal handle remains clear of the folder floor."
     }
   }
 }

@@ -1,9 +1,8 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { Resvg } from '@resvg/resvg-js';
-import { renderIcon } from 'noci-icons/core';
 import svgpath from 'svgpath';
 import { readCatalogue } from '../scripts/catalogue.mjs';
+import { markClearance } from '../scripts/opening-metrics.mjs';
 
 const catalogue = await readCatalogue();
 const subtract = (a, b) => [a[0] - b[0], a[1] - b[1]];
@@ -91,50 +90,14 @@ test('rounded avocado and bean outlines have continuous tangents', () => {
 });
 
 test('bubble symbols leave clear space inside their frames', () => {
-  const zoom = 32;
   for (const { meta, definition } of catalogue.filter((icon) =>
-    icon.meta.name.startsWith('message-circle-'),
+    /^message-(circle|square)-/.test(icon.meta.name),
   )) {
     for (const size of [16, 24]) {
-      const boundaries = [false, true].map((feature) => {
-        const isolated = {
-          ...definition,
-          sizes: Object.fromEntries(
-            Object.entries(definition.sizes).map(([masterSize, master]) => [
-              masterSize,
-              { ...master, nodes: feature ? master.nodes.slice(1) : master.nodes.slice(0, 1) },
-            ]),
-          ),
-        };
-        const { pixels, width, height } = new Resvg(renderIcon(isolated, { size }), {
-          fitTo: { mode: 'zoom', value: zoom },
-        }).render();
-        const painted = (x, y) => pixels[(y * width + x) * 4 + 3] >= 128;
-        const boundary = [];
-        for (let y = 1; y < height - 1; y++) {
-          for (let x = 1; x < width - 1; x++) {
-            if (
-              painted(x, y) &&
-              (!painted(x - 1, y) || !painted(x + 1, y) || !painted(x, y - 1) || !painted(x, y + 1))
-            ) {
-              boundary.push([x, y]);
-            }
-          }
-        }
-        assert.ok(boundary.length > 0, `${meta.name}/${size}: empty artwork.`);
-        return boundary;
-      });
-      let squaredGap = Number.POSITIVE_INFINITY;
-      for (const [x, y] of boundaries[0]) {
-        for (const [otherX, otherY] of boundaries[1]) {
-          const dx = x - otherX;
-          const dy = y - otherY;
-          squaredGap = Math.min(squaredGap, dx * dx + dy * dy);
-        }
-      }
-      const gap = (Math.sqrt(squaredGap) - 1) / zoom;
+      const marks = definition.sizes[size].nodes.slice(1).map((_, index) => index + 1);
+      const gap = markClearance(definition, size, [0], marks);
       assert.ok(
-        gap >= (size === 16 ? 1 : 1.5) - 2 / zoom,
+        gap >= (size === 16 ? 1 : 1.5) - 2 / 32,
         `${meta.name}/${size}: the symbol is too close to the frame.`,
       );
     }

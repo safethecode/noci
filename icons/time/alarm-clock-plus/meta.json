@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Both centered cross strokes remain clear of the circular face."
     },
     "24": {
       "offset": [0, 0],

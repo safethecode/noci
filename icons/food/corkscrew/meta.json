@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "An open spiral sits below the broad handle without a central crossing line."
+      "reason": "A single continuous wire joins the handle, coil and tip without a loose upper cap or trapped sliver."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger spiral retains clear space between its turns."
+      "reason": "A single continuous wire joins the handle, coil and tip without a loose upper cap or trapped sliver."
     }
   }
 }
