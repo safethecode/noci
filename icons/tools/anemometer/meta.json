@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Three complete open cups remain distinct around the full central spindle."
+      "reason": "Each wind cup has a continuous curved bowl and meets its supporting arm without a short angular tail."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger open bowls and complete arms retain clear space beside the spindle."
+      "reason": "Each wind cup has a continuous curved bowl and meets its supporting arm without a short angular tail."
     }
   }
 }
