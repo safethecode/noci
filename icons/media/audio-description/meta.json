@@ -1,19 +1,19 @@
 {
   "name": "audio-description",
   "category": "media",
-  "description": "An audio description track is available.",
+  "description": "Audio description is available.",
   "tags": ["description", "accessibility", "audio"],
   "directional": false,
-  "useCase": "An audio description track is available.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Indicate an audio-described track or an audio description setting.",
+  "misuse": "Do not use this mark for ordinary audio playback or subtitles.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The letters keep their shared cap height, baseline and weight. A higher inner apex and lower crossbar give the A a clear 1px counter."
+      "reason": "The sloped A, upright D and three parallel sound waves retain their familiar proportions without a frame crowding the small letters."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The letters keep their shared cap height, baseline and weight. The open A counter measures at least 1.5px."
+      "reason": "The letters and three equal sound waves share their cap height, baseline and weight, with open counters and a centered overall shape."
     }
   }
 }
