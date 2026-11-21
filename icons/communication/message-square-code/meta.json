@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Both code chevrons retain equal diagonal slopes and a clear gap from the square bubble."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The inner symbol retains a clear gap from the square bubble without shortening the tail."
     }
   }
 }
