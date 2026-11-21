@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The curved tube bends share the tangents of their vertical sides, keeping the bell and interior opening clear."
     },
     "24": {
       "offset": [0, 0],
