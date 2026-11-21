@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A solid bow leaves clear space above the ribbon without tiny enclosed loops."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The bow uses matching solid halves with clear space from the card outline and a complete central ribbon."
     }
   }
 }
