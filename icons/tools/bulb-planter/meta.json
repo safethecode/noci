@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The full hand grip joins the open cylinder rim above both complete cutting sides."
+      "reason": "The oval opening returns exactly to its starting point without a closing spur."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger planter keeps the complete grip, open cylinder rim and full tapered cutting body."
+      "reason": "The oval opening returns exactly to its starting point without a closing spur."
     }
   }
 }

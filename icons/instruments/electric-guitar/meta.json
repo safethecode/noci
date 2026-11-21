@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A shorter pickup sits in the wider middle of the solid body with clear space around it."
+      "reason": "The body closes exactly at the neck joint, retaining the intended cutaways without a short seam."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "One compact pickup leaves clear space inside the solid body."
+      "reason": "The body closes exactly at the neck joint, retaining the intended cutaways without a short seam."
     }
   }
 }

@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Each plate has a raised central bell above its broad rim, with a clear gap between the two cymbals."
+      "reason": "Each cymbal bell joins the rim through continuous curves, and both rim tips close at the same height."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Each plate has a raised central bell above its broad rim, with a clear gap between the two cymbals."
+      "reason": "Each cymbal bell joins the rim through continuous curves, and both rim tips close at the same height."
     }
   }
 }

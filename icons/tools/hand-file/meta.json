@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The short blade divider ends on the outline without creating bumps along either outer edge."
+      "reason": "The diagonal grip has tangent rounded corners without a short closing seam."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The complete tool sits diagonally in the shared frame with its grip and working end intact."
+      "reason": "The diagonal grip has tangent rounded corners without a short closing seam."
     }
   }
 }

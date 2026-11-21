@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Three complete arrows have separated tails and open heads around a clear center."
+      "reason": "Each recycling arrow follows a continuous rounded bend between its straight sides."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The three complete arrow paths keep larger spaces between each tail and the following head."
+      "reason": "Each recycling arrow follows a continuous rounded bend between its straight sides."
     }
   }
 }

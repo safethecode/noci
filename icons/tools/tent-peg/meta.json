@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The open hook and full metal shaft share the standard stroke width."
+      "reason": "The two curves of the rounded hook share one tangent while preserving the diagonal shaft."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The open hook and full metal shaft share the standard stroke width."
+      "reason": "The two curves of the rounded hook share one tangent while preserving the diagonal shaft."
     }
   }
 }

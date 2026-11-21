@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A compact solid D-pad keeps all four arms separate from the controller outline at 16px."
+      "reason": "The controller shoulders and grips join the sloping sides with continuous tangents."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The controller shoulders and grips join the sloping sides with continuous tangents."
     }
   }
 }

@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A diagonal construction balances the complete grip and working end inside the square frame."
+      "reason": "The diagonal grip closes exactly and its rounded corners meet the straight sides tangentially."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The complete tool sits diagonally in the shared frame with its grip and working end intact."
+      "reason": "The diagonal grip closes exactly and its rounded corners meet the straight sides tangentially."
     }
   }
 }

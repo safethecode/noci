@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The thicker curved head leaves a clear opening above the full diagonal handle."
+      "reason": "The pick head closes at its pointed end without an extra vertical segment."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger curved head retains an open center and two complete pointed ends."
+      "reason": "The pick head closes at its pointed end without an extra vertical segment."
     }
   }
 }
