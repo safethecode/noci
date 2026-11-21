@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The lower body follows a circular arc inside the small drawing frame, with the timer stem and full cancellation stroke retained."
     },
     "24": {
       "offset": [0, 0],
