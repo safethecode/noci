@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The heart is centered within the calendar body, preserving the shared frame and binding positions."
+      "reason": "Symmetric heart curves meet smoothly at the shoulders and stay centered within the calendar body."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The heart is centered within the calendar body, preserving the shared frame and binding positions."
+      "reason": "Symmetric heart curves meet smoothly at the shoulders and stay centered within the calendar body."
     }
   }
 }

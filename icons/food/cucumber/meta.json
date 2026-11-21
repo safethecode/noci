@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Three separated skin marks follow the diagonal body."
+      "reason": "Three separated skin marks follow the diagonal body. The outline closes at its start without a short connecting stroke."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger body leaves clear space around each of its three skin marks."
+      "reason": "The larger body leaves clear space around each of its three skin marks. The outline closes at its start without a short connecting stroke."
     }
   }
 }

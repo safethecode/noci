@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame. The bubble closes with a continuous vertical tangent."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The bubble has a continuous side tangent and clear interior spacing inside the square drawing frame."
     }
   }
 }

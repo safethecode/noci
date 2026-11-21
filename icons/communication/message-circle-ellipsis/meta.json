@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Three 1.5px dots remain clear inside the bubble at text size."
+      "reason": "Three 1.5px dots have even 1px gaps and leave at least 1px of space inside the bubble. The bubble closes with a continuous vertical tangent."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Three 2px dots use wider gaps inside the larger bubble."
+      "reason": "The bubble has a continuous side tangent and clear interior spacing inside the square drawing frame."
     }
   }
 }

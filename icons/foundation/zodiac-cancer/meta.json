@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The two looped strokes balance around the center with distinct open counters."
+      "reason": "Both looped strokes stay centered inside the drawing frame with complete counters and matched curve weight."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The wider optical frame keeps the full sign and its internal spaces clear beside larger text."
+      "reason": "The paired loop curves stay within the larger drawing frame, retaining their rotational symmetry and open counters."
     }
   }
 }

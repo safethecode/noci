@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Two open curved quote strokes replace tiny closed counters and stay clear of the message outline."
+      "reason": "Two open curved quote strokes replace tiny closed counters and stay clear of the message outline. The bubble closes with a continuous vertical tangent."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Longer open quote strokes preserve the paired quotation shape with generous space inside the message outline."
+      "reason": "The bubble has a continuous side tangent and clear interior spacing inside the square drawing frame."
     }
   }
 }

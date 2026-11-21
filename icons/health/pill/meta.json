@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Two rounded capsule ends join straight sides; the divider crosses the middle instead of forming a prohibition mark."
+      "reason": "Matching circular ends meet the parallel capsule sides tangentially and stay inside the square drawing frame."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Two rounded capsule ends join straight sides; the divider crosses the middle instead of forming a prohibition mark."
+      "reason": "Matching circular ends meet the parallel capsule sides tangentially and stay inside the square drawing frame."
     }
   }
 }

@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The diagonal frozen bar retains its complete rounded stick and one centered groove."
+      "reason": "The rounded top joins the diagonal sides tangentially and closes at its start."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger popsicle keeps its full rounded stick and a clear groove inside the bar."
+      "reason": "The rounded top joins the diagonal sides tangentially and closes at its start."
     }
   }
 }

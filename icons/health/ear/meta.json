@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Wider upper ear and a shorter inner curl keep the canal open at text size."
+      "reason": "The outer curve meets the round earlobe tangentially without a kink."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The rounder top and shorter inner curl keep both ear contours distinct."
+      "reason": "The outer curve meets the round earlobe tangentially without a kink."
     }
   }
 }

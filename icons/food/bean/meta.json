@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "One broad kidney shape stays open around the inward notch."
+      "reason": "The rounded bean outline and inward bend have continuous tangents and close without a seam."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger bean retains a gentle inward curve without a small inner mark."
+      "reason": "The rounded bean outline and inward bend have continuous tangents and close without a seam."
     }
   }
 }

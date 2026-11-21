@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Two short side veins stay clear inside the broad ruffled leaf."
+      "reason": "Two short side veins stay clear inside the broad ruffled leaf. The outline closes at its start without a short connecting stroke."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger leaf retains an open center around its three main veins."
+      "reason": "The larger leaf retains an open center around its three main veins. The outline closes at its start without a short connecting stroke."
     }
   }
 }

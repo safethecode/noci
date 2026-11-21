@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Two short points distinguish the oval fruit without a small inner detail."
+      "reason": "Two short points distinguish the oval fruit without a small inner detail. The outline closes at its start without a short connecting stroke."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger lemon keeps both pointed ends within the shared frame."
+      "reason": "The larger lemon keeps both pointed ends within the shared frame. The outline closes at its start without a short connecting stroke."
     }
   }
 }

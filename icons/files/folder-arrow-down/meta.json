@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The full shared folder and tab stay unchanged; the complete content marker sits in its open body with clear gaps."
+      "reason": "The full shared folder and tab stay unchanged; the complete content marker sits in its open body with clear gaps. The filled arrowhead has tangent rounded corners."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The full shared folder and complete content marker retain their direction and generous separation."
+      "reason": "The full shared folder and complete content marker retain their direction and generous separation. The filled arrowhead has tangent rounded corners."
     }
   }
 }

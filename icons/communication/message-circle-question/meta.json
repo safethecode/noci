@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The wider hook keeps its opening clear, and the shifted dot stays visible beside text."
+      "reason": "The wider hook keeps its opening clear, and the shifted dot stays visible beside text. The bubble closes with a continuous vertical tangent."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The wider hook keeps its open ends separate and retains the complete lower curve."
+      "reason": "The bubble has a continuous side tangent and clear interior spacing inside the square drawing frame."
     }
   }
 }

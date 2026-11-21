@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Two full pad dividers meet the capsule without protruding beyond its outline."
+      "reason": "Semicircular ends meet the parallel diagonal sides tangentially and close without a seam."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "A wider central pad leaves clear space around a visible perforation."
+      "reason": "Semicircular ends meet the parallel diagonal sides tangentially and close without a seam."
     }
   }
 }
