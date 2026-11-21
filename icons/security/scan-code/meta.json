@@ -1,19 +1,19 @@
 {
   "name": "scan-code",
   "category": "security",
-  "description": "A scan area containing two code chevrons.",
-  "tags": ["scan", "code", "capture"],
+  "description": "A scan area containing three QR position markers and a data block.",
+  "tags": ["scan", "qr", "code"],
   "directional": false,
-  "useCase": "A scan area containing two code chevrons.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Scan a QR code with a camera.",
+  "misuse": "Use scan-barcode for a linear barcode or code for programming syntax.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The four complete scanning corners remain clear of the full content marker."
+      "reason": "Three solid position markers retain the QR layout without tiny enclosed counters. The data block and scanning corners stay separate at text size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The four complete scanning corners and full content marker retain generous separation."
+      "reason": "Three square finders retain open counters, while the shorter scanning corners leave room for the complete QR layout and separate data block."
     }
   }
 }

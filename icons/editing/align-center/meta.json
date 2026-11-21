@@ -1,19 +1,19 @@
 {
   "name": "align-center",
   "category": "editing",
-  "description": "A centered square with separated horizontal and vertical axes.",
-  "tags": ["center", "align", "axes"],
+  "description": "Four text lines centered on a shared vertical axis.",
+  "tags": ["center", "align", "text"],
   "directional": false,
-  "useCase": "Center an object on both axes.",
-  "misuse": "Do not confuse this action with text alignment or a fixed grid position.",
+  "useCase": "Align text to the center.",
+  "misuse": "Use align-objects-center to align separate objects.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The square and four guide marks share the exact center, with equal one-pixel painted gaps."
+      "reason": "Alternating long and short text lines share the same center and line positions as the other text alignment controls."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The square and four guide marks share the exact center, with equal 1.5-pixel painted gaps."
+      "reason": "Alternating long and short text lines share the same center and line positions as the other text alignment controls."
     }
   }
 }
