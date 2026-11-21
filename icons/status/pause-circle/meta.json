@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Two equal bars sit symmetrically inside the ring, with visible space around their rounded ends."
     },
     "24": {
       "offset": [0, 0],

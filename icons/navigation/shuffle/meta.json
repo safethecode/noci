@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The complete symbol is centered inside the 12 × 12 drawing frame."
+      "reason": "Both arrowheads follow exposed straight shafts, with a deliberate break where the paths cross."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The complete symbol is centered inside the 18 × 18 drawing frame."
+      "reason": "The curves settle into straight shafts before equal arrowheads, keeping the crossing and arrowhead openings clear."
     }
   }
 }

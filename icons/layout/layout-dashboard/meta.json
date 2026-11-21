@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The short lower-left panel keeps an open counter while the four panels retain different heights and equal gaps."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The short lower-left panel has a clear interior, with the same outer frame and equal panel gaps."
     }
   }
 }

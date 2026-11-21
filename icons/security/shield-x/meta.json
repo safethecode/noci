@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A slightly smaller cross sits a quarter pixel above the artboard center to clear the narrowing shield base."
     },
     "24": {
       "offset": [0, 0],

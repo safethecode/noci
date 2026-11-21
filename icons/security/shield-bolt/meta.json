@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A solid bolt keeps its zigzag distinct without tiny trapped openings inside the shield."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A solid bolt removes narrow white slivers and leaves clear space inside the outlined shield."
     }
   }
 }
