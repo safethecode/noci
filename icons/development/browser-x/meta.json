@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The complete address header and lower-left frame remain clear beside the full functional mark."
+      "reason": "A solid control pill stays visible at text size, with clear gaps to the address hint and window outline."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Wider clearances retain the full address header, lower-left frame and functional mark."
+      "reason": "The circular window control sits on the pixel grid and stays separate from the address hint."
     }
   }
 }
