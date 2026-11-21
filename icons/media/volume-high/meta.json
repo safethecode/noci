@@ -13,7 +13,7 @@
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The compact speaker shares volume-x geometry and retains the family’s cone angles; the two longer waves keep at least 1.5px of space."
+      "reason": "The compact speaker shares volume-x geometry and retains the family’s cone angles; the two longer waves keep at least 1.5px of space. The outer arc stays within the 3px inset."
     }
   }
 }
