@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The full database body remains separate from the open curved arrow and its complete solid arrowhead."
+      "reason": "The circular arrow keeps its open shape and stays within the 2px inset, separate from the database body."
     },
     "24": {
       "offset": [0, 0],

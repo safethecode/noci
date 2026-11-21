@@ -13,7 +13,7 @@
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The side blades mirror each other, and every stroked arc stays within the 3px inset."
     }
   }
 }

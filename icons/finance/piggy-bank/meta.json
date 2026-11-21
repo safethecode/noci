@@ -13,7 +13,7 @@
     },
     "24": {
       "offset": [0, 0],
-      "reason": "A separately positioned eye and longer coin slot retain at least 1.5px of space to the pig outline and each other."
+      "reason": "The circular lower back meets the straight side smoothly inside the drawing frame, while the eye and coin slot retain at least 1.5px of space."
     }
   }
 }

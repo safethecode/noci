@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The controller shoulders and grips join the sloping sides with continuous tangents."
+      "reason": "The controller shoulders, sides and grips join with continuous tangents within the 2px inset."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The controller shoulders and grips join the sloping sides with continuous tangents."
+      "reason": "The controller shoulders, sides and grips join with continuous tangents within the 3px inset."
     }
   }
 }
