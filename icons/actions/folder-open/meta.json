@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The complete front flap leaves clear space below the rear upper edge and beside the rear wall."
+      "reason": "The sloped rear edge joins its rounded top corner smoothly; the front opening stays distinct."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The rounded rear corner stays inside the frame while the full front flap leaves a clear rear opening."
+      "reason": "The sloped rear edge joins its rounded top corner smoothly; the front opening stays distinct."
     }
   }
 }

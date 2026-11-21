@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "One raised fingertip and the full palm remain separate from the contact pulse."
+      "reason": "The thumb and palm curves meet tangentially, while the finger recesses remain distinct beneath the gesture marks."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "A larger hand and pulse leave more clear space around the fingertip."
+      "reason": "The thumb and palm curves meet tangentially, while the finger recesses remain distinct beneath the gesture marks."
     }
   }
 }

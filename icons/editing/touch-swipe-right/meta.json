@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A complete pointing hand stays below a separate rightward movement arrow."
+      "reason": "The thumb and palm curves meet tangentially, while the finger recesses remain distinct beneath the gesture marks."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger hand leaves wider clear space below the rightward arrow."
+      "reason": "The thumb and palm curves meet tangentially, while the finger recesses remain distinct beneath the gesture marks."
     }
   }
 }

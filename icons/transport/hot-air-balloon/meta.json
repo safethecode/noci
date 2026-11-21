@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The basket has an open top to keep its center clear below the balloon."
+      "reason": "The symmetric balloon envelope closes smoothly at its left shoulder and narrows into the basket neck."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The open basket top leaves a clear space beneath the balloon ropes."
+      "reason": "The symmetric balloon envelope closes smoothly at its left shoulder and narrows into the basket neck."
     }
   }
 }

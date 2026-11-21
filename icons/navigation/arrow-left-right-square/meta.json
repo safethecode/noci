@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Wider complete heads and slightly closer arrows keep both directions clear at text size."
+      "reason": "The paired arrows have tangent rounded head corners and matching straight shafts inside the centered frame."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The full paired arrows retain their exact direction and spacing within the shared interface frame."
+      "reason": "The paired arrows have tangent rounded head corners and matching straight shafts inside the centered frame."
     }
   }
 }
