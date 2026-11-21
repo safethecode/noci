@@ -1,6 +1,8 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
+import { Resvg } from '@resvg/resvg-js';
 import svgpath from 'svgpath';
+import { renderIcon } from '../dist/core.js';
 import { readCatalogue } from '../scripts/catalogue.mjs';
 import { paintedBounds } from '../scripts/geometry.mjs';
 import { markClearance, openingMetrics } from '../scripts/opening-metrics.mjs';
@@ -171,5 +173,35 @@ test('the identification portrait stays clear of the card, text and shoulders', 
   for (const size of [16, 24]) {
     assertClear(definition, size, [0], [1]);
     assertClear(definition, size, [1], detailNodes(definition, size, 2));
+  }
+});
+
+test('audio description retains two readable letters and three separate sound waves', () => {
+  const definition = icon('audio-description');
+  for (const size of [16, 24]) {
+    const counters = openingMetrics(definition, size);
+    assert.equal(counters.length, 2, `audio-description/${size}: a letter counter disappeared.`);
+    assert.ok(counters.every(({ diameter }) => diameter >= (size === 16 ? 1 : 1.5) - 2 / 32));
+    for (const dpr of [1, 2]) {
+      const { pixels, width, height } = new Resvg(
+        renderIcon(definition, { size, opticalSize: size }),
+        { fitTo: { mode: 'zoom', value: dpr } },
+      ).render();
+      const centerRow = Math.floor(height / 2);
+      let waves = 0;
+      let wasPainted = false;
+      for (let x = Math.ceil(width * 0.55); x < width; x++) {
+        const isPainted = pixels[(centerRow * width + x) * 4 + 3] >= 128;
+        if (isPainted && !wasPainted) {
+          waves++;
+        }
+        wasPainted = isPainted;
+      }
+      assert.equal(
+        waves,
+        3,
+        `audio-description/${size}@${dpr}: the three sound waves merged or vanished.`,
+      );
+    }
   }
 });
