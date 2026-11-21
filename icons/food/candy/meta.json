@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Both broad wrapper ends stay open beside the full diagonal candy center."
+      "reason": "The diagonal candy body has matching tangents at both ends and an exact closure."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger wrapped sweet keeps its complete oval center and both broad wrapper ends."
+      "reason": "The diagonal candy body has matching tangents at both ends and an exact closure."
     }
   }
 }
