@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Two equal pips sit symmetrically in the two halves, clear of the divider and outer edges."
+      "reason": "The rounded tile closes directly into its straight edge while preserving the diagonal divider and both pips."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger domino keeps both complete halves and their single pips clear."
+      "reason": "The rounded tile closes directly into its straight edge while preserving the diagonal divider and both pips."
     }
   }
 }
