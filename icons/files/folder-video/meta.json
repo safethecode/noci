@@ -9,7 +9,7 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A solid playback mark remains clear inside the small folder instead of closing a narrow outlined counter."
     },
     "24": {
       "offset": [0, 0],
