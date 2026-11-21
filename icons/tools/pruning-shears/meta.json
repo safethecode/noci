@@ -1,7 +1,7 @@
 {
   "name": "pruning-shears",
   "category": "tools",
-  "description": "Curved pruning shears with two complete open hand grips.",
+  "description": "Pruning shears with a curved blade, hooked counterblade and open handles.",
   "tags": ["shears", "gardening", "tool"],
   "directional": false,
   "useCase": "Show pruning shears in a garden tool inventory.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Both full hand grips stay open below the complete curved cutting blades."
+      "reason": "The curved cutting blade faces an open hook, while the pivot separates the two long hand grips."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger pruning shears keep both complete grips and the full curved blade pair."
+      "reason": "The curved cutting blade faces an open hook, while the pivot separates the two long hand grips."
     }
   }
 }
