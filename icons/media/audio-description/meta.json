@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The slanted A has a joined crossbar set lower to keep its counter clear beside the complete D."
+      "reason": "The letters keep their shared cap height, baseline and weight. A higher inner apex and lower crossbar give the A a clear 1px counter."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The complete letters share their cap height, baseline and weight while retaining open counters and clear frame margins."
+      "reason": "The letters keep their shared cap height, baseline and weight. The open A counter measures at least 1.5px."
     }
   }
 }
