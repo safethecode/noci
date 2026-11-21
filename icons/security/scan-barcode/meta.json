@@ -1,19 +1,19 @@
 {
   "name": "scan-barcode",
   "category": "security",
-  "description": "A scan area containing three barcode bars.",
+  "description": "Scan a barcode within a capture area.",
   "tags": ["scan", "barcode", "capture"],
   "directional": false,
-  "useCase": "A scan area containing three barcode bars.",
+  "useCase": "Scan a barcode within a capture area.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The four complete scanning corners remain clear of the full content marker."
+      "reason": "Three solid bars of different widths retain a barcode pattern with one-pixel spaces and clear capture corners."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The four complete scanning corners and full content marker retain generous separation."
+      "reason": "The same narrow, wide and medium bar pattern retains 1.5-pixel spaces and clear capture corners."
     }
   }
 }
