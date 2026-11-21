@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The full folder and tab stay unchanged; the complete dot row moves a quarter unit right and down so all three equal dots remain equally clear at native size."
+      "reason": "Three equal dots share the folder center and retain even spacing and visible contrast at native size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The full shared folder and complete content marker retain their direction and generous separation."
+      "reason": "Three evenly spaced dots share the horizontal and vertical center of the folder body."
     }
   }
 }
