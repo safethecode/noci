@@ -1,0 +1,19 @@
+{
+  "name": "usb-b-port",
+  "category": "devices",
+  "description": "A USB 2.0 Type-B socket with two upper bevels.",
+  "tags": ["usb", "printer", "port"],
+  "directional": false,
+  "useCase": "Identify a USB Type-B connection on a printer, audio device or other equipment.",
+  "misuse": "Pair this icon with a visible label when identifying a connection.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Upper bevels and a near-square mouth distinguish the port. A solid tongue remains clear of the surrounding outline."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The near-square opening keeps both upper bevels visible, with ample room around the central tongue."
+    }
+  }
+}
