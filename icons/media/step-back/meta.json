@@ -1,7 +1,7 @@
 {
   "name": "step-back",
   "category": "media",
-  "description": "Move back by one frame.",
+  "description": "Move one frame backward during playback.",
   "tags": ["frame", "previous", "playback"],
   "directional": false,
   "useCase": "Move back by one frame.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The frame boundary stays behind the left-pointing triangle, distinguishing a frame step from a track jump."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The frame boundary stays behind the left-pointing triangle, distinguishing a frame step from a track jump."
     }
   }
 }
