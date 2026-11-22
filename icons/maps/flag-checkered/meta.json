@@ -1,19 +1,19 @@
 {
   "name": "flag-checkered",
   "category": "maps",
-  "description": "A finish flag or completed course.",
+  "description": "A checkered flag marking a race finish.",
   "tags": ["flag", "finish", "race"],
   "directional": false,
-  "useCase": "A finish flag or completed course.",
+  "useCase": "Mark the end of a race or course.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Five alternating filled cells form a three-by-three pattern without internal grid strokes. Four white cells keep a minimum 1.5px opening at text size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Five alternating filled cells meet the outlined flag without internal grid strokes. Four white cells keep a minimum 2.75px opening."
     }
   }
 }
