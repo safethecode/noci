@@ -1,7 +1,7 @@
 {
   "name": "tambourine",
   "category": "instruments",
-  "description": "A tambourine or a hand-held jingle percussion part.",
+  "description": "A handheld tambourine with three round jingles on its curved frame.",
   "tags": ["tambourine", "percussion", "jingles"],
   "directional": false,
   "useCase": "A tambourine or a hand-held jingle percussion part.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Three solid round jingles attach to the curved rim below a clear top grip, leaving the center open."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "Three solid round jingles attach to the curved rim below a clear top grip, leaving the center open."
     }
   }
 }
