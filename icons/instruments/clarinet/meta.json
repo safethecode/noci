@@ -1,7 +1,7 @@
 {
   "name": "clarinet",
   "category": "instruments",
-  "description": "A clarinet or a single-reed woodwind part.",
+  "description": "A clarinet with a reed mouthpiece, keyed tube and flared bell.",
   "tags": ["clarinet", "reed", "woodwind"],
   "directional": false,
   "useCase": "A clarinet or a single-reed woodwind part.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "An angled reed mouthpiece and a modestly flared bell retain the woodwind silhouette without a bottle-like shoulder."
+      "reason": "The tube and bell share the vertical center; two right-hand keys attach through short levers below a solid reed mouthpiece."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "An angled reed mouthpiece and a modestly flared bell retain the woodwind silhouette without a bottle-like shoulder."
+      "reason": "The tube and bell share the vertical center; two right-hand keys attach through short levers below a solid reed mouthpiece."
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "xylophone",
   "category": "instruments",
-  "description": "A xylophone or a tuned bar percussion part.",
+  "description": "A xylophone with separate graduated tone bars and crossed mallets.",
   "tags": ["xylophone", "percussion", "bars"],
   "directional": false,
   "useCase": "A xylophone or a tuned bar percussion part.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Two broad bar strokes and crossed mallets keep the percussion instrument clear at text size."
+      "reason": "Three independent bars increase in length below the crossing mallets; the mallet ends stay apart above the bars."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Three bars increase in length under crossed mallets, with clear gaps between their faces."
+      "reason": "Three independent bars increase in length below the crossing mallets; the mallet ends stay apart above the bars."
     }
   }
 }

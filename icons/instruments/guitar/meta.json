@@ -1,7 +1,7 @@
 {
   "name": "guitar",
   "category": "instruments",
-  "description": "An acoustic guitar or an acoustic instrument part.",
+  "description": "A guitar with a waisted body, sound hole and exposed neck.",
   "tags": ["guitar", "acoustic", "strings"],
   "directional": false,
   "useCase": "An acoustic guitar or an acoustic instrument part.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A wider lower bout surrounds the complete sound hole; the compact neck keeps the guitar inside the text frame."
+      "reason": "A longer exposed neck and separate headstock rise above the rounded bouts; the sound hole stays clear of the narrower waist."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "A fuller lower bout leaves clear space around the open sound hole; the simple body keeps the acoustic guitar readable."
+      "reason": "The longer neck, rounded bouts and solid sound hole preserve the acoustic guitar silhouette with open space inside the body."
     }
   }
 }

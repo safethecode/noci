@@ -1,7 +1,7 @@
 {
   "name": "violin",
   "category": "instruments",
-  "description": "A violin, bowed strings or a violin lesson.",
+  "description": "A violin with distinct C-bouts and a separate bow.",
   "tags": ["violin", "bow", "strings"],
   "directional": false,
   "useCase": "A violin, bowed strings or a violin lesson.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The bow sits farther from the lower body while retaining its full length."
+      "reason": "The upright neck and narrow C-bout waist keep the bowed-string body recognizable beside a clear, near-vertical bow."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The outward bow and open body keep the bowed instrument clear at native size."
+      "reason": "Small C-bout corners preserve the violin outline; the bow stays separate along its right side."
     }
   }
 }

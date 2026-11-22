@@ -1,7 +1,7 @@
 {
   "name": "recorder",
   "category": "instruments",
-  "description": "A recorder or an introductory woodwind lesson.",
+  "description": "A recorder with a beaked mouthpiece, wind window and tone holes.",
   "tags": ["recorder", "woodwind", "lesson"],
   "directional": false,
   "useCase": "A recorder or an introductory woodwind lesson.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A wider tapered body keeps three full finger holes distinct at native size."
+      "reason": "A distinct window sits below the beak and above two separated tone holes; the lower foot stays flared."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Three evenly spaced holes keep clear space inside the complete tapered body."
+      "reason": "A distinct window sits below the beak and above two separated tone holes; the lower foot stays flared."
     }
   }
 }
