@@ -1,7 +1,7 @@
 {
   "name": "cotton-swab",
   "category": "personal-care",
-  "description": "A cotton swab with two rounded cotton tips joined by a complete thin stem.",
+  "description": "A cotton swab with compact oval tips and a long exposed shaft.",
   "tags": ["swab", "cotton", "grooming"],
   "directional": false,
   "useCase": "Identify cotton swabs or small cosmetic application tools.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Both full cotton tips close smoothly at their starting points without small diagonal seams."
+      "reason": "Compact tips leave a long visible shaft while their small interiors stay open."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Both full cotton tips close smoothly at their starting points without small diagonal seams."
+      "reason": "Symmetric oval tips share the diagonal shaft and leave clear interiors at both ends."
     }
   }
 }
