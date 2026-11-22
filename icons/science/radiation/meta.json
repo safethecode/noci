@@ -1,19 +1,19 @@
 {
   "name": "radiation",
   "category": "science",
-  "description": "A radiation topic or a radiological hazard label.",
+  "description": "A radiation trefoil with three solid fan blades and a separate center disc.",
   "tags": ["radiation", "hazard", "science"],
   "directional": false,
   "useCase": "A radiation topic or a radiological hazard label.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
-      "offset": [0, 0],
-      "reason": "The three complete blades leave clear space around the central dot and keep their white interiors open."
+      "offset": [0, -0.25],
+      "reason": "Three solid fan blades surround a distinct center disc. Two blades face upward and one downward. A small upward adjustment balances the taller lower blade."
     },
     "24": {
-      "offset": [0, 0],
-      "reason": "The side blades mirror each other, and every stroked arc stays within the 3px inset."
+      "offset": [0, -0.375],
+      "reason": "Three solid fan blades surround a distinct center disc. Two blades face upward and one downward. A small upward adjustment balances the taller lower blade."
     }
   }
 }
