@@ -1,7 +1,7 @@
 {
   "name": "asparagus",
   "category": "food",
-  "description": "An asparagus spear with a layered pointed tip and broad stalk.",
+  "description": "Three asparagus shoots with compact pointed buds, long stems and small attached scales.",
   "tags": ["asparagus", "vegetable", "ingredient"],
   "directional": false,
   "useCase": "Identify asparagus in recipes, groceries or produce selections.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "One broad tip fold leaves an open stalk beneath it."
+      "reason": "Compact solid buds leave room for three separated stems and two small attached scales."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger spear keeps its pointed crown and lower stalk open."
+      "reason": "Three stems stay separate below the compact buds, and the small scales remain attached to the plant surface."
     }
   }
 }

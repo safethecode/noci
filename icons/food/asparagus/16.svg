@@ -1,3 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-  <path d="M8 2.75L11.75 6.25 9.5 9.75V13.25H6.5V9.75L4.25 6.25ZM4.25 6.25L8 8 11.75 6.25"/>
+  <path d="M3.75 7C4 8.5 5 11.25 5.25 12.75M8 5V13.25M12.25 6.5C12 8 11 11.25 10.75 13"/>
+  <path d="M3.25 4C2.758 4.65 2.433 5.4 2.733 6 2.867 6.5 2.958 6.75 3 7 3.042 7.25 3.333 7.5 3.833 7.5 4.333 7.5 4.542 7.25 4.5 7 4.458 6.75 4.667 6.5 4.458 6 4.529 5.375 3.958 4.65 3.25 4Z" fill="currentColor" stroke="none"/>
+  <path d="M8 2C7.4 2.65 6.95 3.4 7.15 4 7.2 4.5 7.25 4.75 7.25 5 7.25 5.25 7.5 5.5 8 5.5 8.5 5.5 8.75 5.25 8.75 5 8.75 4.75 9 4.5 8.875 4 9.05 3.375 8.6 2.65 8 2Z" fill="currentColor" stroke="none"/>
+  <path d="M12.75 3.5C12.042 4.15 11.467 4.9 11.567 5.5 11.533 6 11.542 6.25 11.5 6.5 11.458 6.75 11.667 7 12.167 7 12.667 7 12.958 6.75 13 6.5 13.042 6.25 13.333 6 13.292 5.5 13.571 4.875 13.242 4.15 12.75 3.5Z" fill="currentColor" stroke="none"/>
+  <path d="M3.75 10C3.75 9.25 3 8.75 2.75 8.25 3.5 8.625 4.25 9.25 4.5 10Z" fill="currentColor" stroke="none"/>
+  <path d="M8.75 9.75C8.75 9 9.25 8.25 9.5 7.75 8.75 8.125 8 8.75 8 9.75Z" fill="currentColor" stroke="none"/>
 </svg>
