@@ -1,7 +1,7 @@
 {
   "name": "scalpel",
   "category": "health",
-  "description": "A scalpel or surgical instrument.",
+  "description": "A surgical blade with a forward cutting point and a long handle.",
   "tags": ["scalpel", "surgery", "medical"],
   "directional": false,
   "useCase": "A scalpel or surgical instrument.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A solid tapered blade points away from its long handle without a cramped enclosed sliver."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The blade widens at the handle and narrows toward the forward cutting point, with a solid face matching the smaller master."
     }
   }
 }

@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A complete lower support and inset grip keep both frame openings clear."
+      "reason": "An overhanging underarm pad, separate handgrip, converging rails and long lower shaft remain visible in the diagonal silhouette."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Full side rails and a broad lower support preserve two clear openings around the handgrip."
+      "reason": "The rounded underarm pad extends beyond the rails, with a separate handgrip and a long shaft below their tangent curves."
     }
   }
 }
