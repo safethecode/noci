@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The sloped A, upright D and three parallel sound waves retain their familiar proportions without a frame crowding the small letters."
+      "reason": "Upright A and D letterforms have open counters and distinct spacing. Two rounded sound waves increase in height without crowding the larger letters."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The letters and three equal sound waves share their cap height, baseline and weight, with open counters and a centered overall shape."
+      "reason": "The larger letters and two rounded sound waves share a centered composition. Their separate counters and clear audio cue remain legible beside text."
     }
   }
 }
