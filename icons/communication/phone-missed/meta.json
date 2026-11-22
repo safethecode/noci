@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A lower shared receiver keeps its earpieces open and leaves a full gap beneath the complete call arrow."
+      "reason": "A separate X above the shared receiver distinguishes a missed call from an incoming call."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The shared receiver is drawn lower in the frame so a full call arrow remains separate above its curved top."
+      "reason": "The X stays clear of the shared receiver and identifies a call that was not answered."
     }
   }
 }
