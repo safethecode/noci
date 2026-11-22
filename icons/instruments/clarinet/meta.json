@@ -1,19 +1,19 @@
 {
   "name": "clarinet",
   "category": "instruments",
-  "description": "A clarinet with a reed mouthpiece, keyed tube and flared bell.",
+  "description": "A clarinet with a tapered reed mouthpiece, a long keyed tube and a flared bell.",
   "tags": ["clarinet", "reed", "woodwind"],
   "directional": false,
-  "useCase": "A clarinet or a single-reed woodwind part.",
+  "useCase": "Identify a clarinet or a single-reed woodwind part.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
-      "offset": [0, 0],
-      "reason": "The tube and bell share the vertical center; two right-hand keys attach through short levers below a solid reed mouthpiece."
+      "offset": [0.25, 0],
+      "reason": "The long diagonal tube and compact terminal bell keep the clarinet slender. Short key levers join one side of the tube, and a small rightward adjustment centers the silhouette."
     },
     "24": {
-      "offset": [0, 0],
-      "reason": "The tube and bell share the vertical center; two right-hand keys attach through short levers below a solid reed mouthpiece."
+      "offset": [0.25, 0.125],
+      "reason": "The long tube retains its tapered mouthpiece, compact keys and terminal bell. A small rightward and downward adjustment centers the diagonal silhouette."
     }
   }
 }
