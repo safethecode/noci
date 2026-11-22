@@ -1,7 +1,7 @@
 {
   "name": "test-tube",
   "category": "health",
-  "description": "A test tube or laboratory sample.",
+  "description": "A straight test tube with a rounded base and a liquid level.",
   "tags": ["test-tube", "sample", "laboratory"],
   "directional": false,
   "useCase": "A test tube or laboratory sample.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The liquid divider ends on both vessel walls without extending beyond their outer edges."
+      "reason": "Straight parallel walls and a perpendicular rim keep the whole tube on one diagonal axis. The rounded base and horizontal liquid level remain clear."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The liquid divider meets both sloping walls cleanly while preserving the full vessel opening."
+      "reason": "The rim is perpendicular to the straight tube, and the rounded base remains tangent to both walls. A horizontal liquid level leaves two open spaces."
     }
   }
 }
