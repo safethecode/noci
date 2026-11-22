@@ -1,19 +1,19 @@
 {
   "name": "whale",
   "category": "animals",
-  "description": "A whale or a large marine-mammal category.",
+  "description": "A spouting whale with raised tail flukes.",
   "tags": ["whale", "ocean", "mammal"],
   "directional": false,
-  "useCase": "A whale or a large marine-mammal category.",
+  "useCase": "Identify whales or marine mammals.",
   "misuse": "Use a visible label when an animal identifies a category, service or place.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A broad whale head, raised tail and blowhole spout distinguish the mammal from a fish."
+      "reason": "Compact filled flukes preserve both tail lobes while the rounded head, eye and spout remain clear at the small size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "A broad whale head, raised tail and blowhole spout distinguish the mammal from a fish."
+      "reason": "Two raised flukes distinguish the tail while the eye and spout stay clear."
     }
   }
 }
