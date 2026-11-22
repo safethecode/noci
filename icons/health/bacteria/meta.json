@@ -1,7 +1,7 @@
 {
   "name": "bacteria",
   "category": "health",
-  "description": "A bacterium or a microbiology category.",
+  "description": "A rod-shaped bacterium with short surface filaments and a curved flagellum.",
   "tags": ["bacteria", "microbe", "science"],
   "directional": false,
   "useCase": "A bacterium or a microbiology category.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The short outer filaments join the cell contour without intruding into its open interior."
+      "reason": "The long cell body keeps a clear rod silhouette. Sparse surface filaments join its outer wall, while the three interior marks retain at least 1px of space from the outline."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The outer filaments meet the cell contour cleanly; the lower-right root stays fully connected."
+      "reason": "The rounded rod, sparse surface filaments and curved flagellum preserve the features of the smaller master. The interior marks retain more than 1.5px of space from the outline."
     }
   }
 }
