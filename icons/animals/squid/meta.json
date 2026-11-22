@@ -1,19 +1,19 @@
 {
   "name": "squid",
   "category": "animals",
-  "description": "A squid or a finned cephalopod category.",
+  "description": "A squid in side view with a long mantle, rear fins, one visible eye and two longer feeding tentacles.",
   "tags": ["squid", "tentacles", "marine"],
   "directional": false,
-  "useCase": "A squid or a finned cephalopod category.",
+  "useCase": "Identify squid in marine wildlife or educational content.",
   "misuse": "Use a visible label when an animal identifies a category, service or place.",
   "optical": {
     "16": {
-      "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "offset": [0.5, 0],
+      "reason": "One visible eye keeps at least 1px of clear space inside the outlined head. The diagonal silhouette is shifted 0.5px right to balance the flowing arms."
     },
     "24": {
-      "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "offset": [0.75, 0],
+      "reason": "Rear fins remain at the pointed end of the mantle, away from the arms. The eye keeps more than 1.5px of clearance, and a 0.75px rightward shift balances the diagonal silhouette."
     }
   }
 }
