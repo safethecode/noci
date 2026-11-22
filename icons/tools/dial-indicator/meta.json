@@ -1,19 +1,19 @@
 {
   "name": "dial-indicator",
   "category": "tools",
-  "description": "A dial indicator with a circular face, needle, collar and contact spindle.",
+  "description": "A contact dial indicator with a pointer and exposed measuring plunger.",
   "tags": ["indicator", "precision", "measurement"],
   "directional": false,
-  "useCase": "Identify a dial indicator for checking small displacement or runout.",
+  "useCase": "Show a dial indicator for precision displacement measurements.",
   "misuse": "Use gauge for a general measurement display.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The full dial stays open above a broad solid collar and complete contact spindle."
+      "reason": "A compact dial leaves a long contact plunger exposed below its collar; the solid pointer stays clear of the rim."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger face, full collar and extended contact spindle identify the physical indicator."
+      "reason": "The round dial and lower collar frame an exposed measuring plunger; the solid pointer stays clear of the dial rim."
     }
   }
 }

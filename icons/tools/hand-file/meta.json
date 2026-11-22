@@ -1,7 +1,7 @@
 {
   "name": "hand-file",
   "category": "tools",
-  "description": "A rectangular hand file with a marked blade and a rounded grip.",
+  "description": "A hand file with a long abrasive blade and a shorter rounded grip.",
   "tags": ["file", "finishing", "tool"],
   "directional": false,
   "useCase": "Identify a hand file or surface finishing.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The diagonal grip has tangent rounded corners without a short closing seam."
+      "reason": "The narrow blade extends farther than the rounded grip, with a clear ferrule division."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The diagonal grip has tangent rounded corners without a short closing seam."
+      "reason": "Two transverse cut lines distinguish the long file blade from its shorter grip while the enclosed gaps stay open."
     }
   }
 }
