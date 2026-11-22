@@ -1,19 +1,19 @@
 {
   "name": "badminton",
   "category": "sports",
-  "description": "A badminton shuttlecock or badminton activity.",
+  "description": "A badminton shuttlecock with a feather skirt and rounded cork base.",
   "tags": ["badminton", "shuttlecock", "sport"],
   "directional": false,
-  "useCase": "A badminton shuttlecock or badminton activity.",
+  "useCase": "Identify badminton or a shuttlecock.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "Shallow feather tips and two converging dividers keep the skirt distinct from a funnel. The cork base remains round and open."
     },
     "24": {
-      "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "offset": [0, -0.125],
+      "reason": "The feather crown stays shallow above three open skirt panels. A slight upward adjustment centers the rounded cork and skirt in the drawing frame."
     }
   }
 }
