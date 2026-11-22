@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "One full mesh band stays clear inside the flared head above the straight shaft."
+      "reason": "A smaller curved head leaves room for a long shaft and one clear opening."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger mesh head retains two broad open regions above the full shaft."
+      "reason": "The curved scoop narrows to the throat, with one full net strand inside the open head."
     }
   }
 }
