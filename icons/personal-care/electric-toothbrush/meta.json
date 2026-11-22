@@ -1,19 +1,19 @@
 {
   "name": "electric-toothbrush",
   "category": "personal-care",
-  "description": "An electric toothbrush with a complete brush head, neck and handle.",
+  "description": "An electric toothbrush with a small bristled head, thin neck and long rounded motor handle.",
   "tags": ["dental", "brush", "care"],
   "directional": false,
-  "useCase": "An electric toothbrush with a complete brush head, neck and handle.",
-  "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
+  "useCase": "Identify electric toothbrushes or powered dental care tools.",
+  "misuse": "Use a visible label when identifying a particular toothbrush model or mode.",
   "optical": {
     "16": {
-      "offset": [0, 0],
-      "reason": "The complete head and handle close through tangent rounded corners, leaving no small extra closing edges beside the neck."
+      "offset": [0.5, 0],
+      "reason": "The small bristle head and thin neck sit above a longer motor grip; a slight rightward shift balances the full diagonal silhouette."
     },
     "24": {
-      "offset": [0, 0],
-      "reason": "The complete head and handle close through tangent rounded corners, leaving no small extra closing edges beside the neck."
+      "offset": [0.75, 0],
+      "reason": "A narrow bristle head and longer rounded motor grip share a visible neck; a slight rightward shift balances their overall width."
     }
   }
 }
