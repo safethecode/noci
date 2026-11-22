@@ -1,3 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-  <path d="M8 2.75Q6.5 4.125 6 6L2.75 8.5 5.75 8.75V9.5H10.25V8.75L13.25 8.5 10 6Q9.5 4.125 8 2.75ZM6 9.5Q4.5 11.5 5.25 13.25M8 9.5V13.25M10 9.5Q11.5 11.5 10.75 13.25"/>
+  <path d="M12.75 2.75C10.75 3.75 7.646447 4.318019 6.232233 5.732233A2.5 2.5 0 0 0 9.767767 9.267767C11.181981 7.853553 11.75 4.75 12.75 2.75Z"/>
+  <path d="M11.75 3.25Q10.5 2.25 9 2.75 9.5 3.25 9.75 4Z" fill="currentColor" stroke="none"/>
+  <path d="M12.25 3.75Q13.25 5 12.75 6.5 12.25 6 11.5 5.75Z" fill="currentColor" stroke="none"/>
+  <circle cx="8" cy="7.5" r="0.75" fill="currentColor" stroke="none"/>
+  <path d="M5.5 8.25C4.75 7.75 3.75 7 3.25 7.5M5.75 9.5C5 9.5 4 9.5 3.25 10M5.5 8.25C6 8.75 5.75 9.25 5.75 9.5 5.75 10 5.75 10.5 5.75 10.75 5.75 11.75 5 13.25 4.5 13.25M7.25 10C8.75 10.75 9.25 11.75 9.25 13.25"/>
 </svg>
