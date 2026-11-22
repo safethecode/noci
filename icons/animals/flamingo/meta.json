@@ -1,19 +1,19 @@
 {
   "name": "flamingo",
   "category": "animals",
-  "description": "A flamingo or wading birds.",
+  "description": "A flamingo with a curved neck, a bent bill and long wading legs.",
   "tags": ["flamingo", "wader", "bird"],
   "directional": false,
-  "useCase": "A flamingo or wading birds.",
+  "useCase": "Identify a flamingo, wetland wildlife or a wading bird.",
   "misuse": "Use a visible label when a bird identifies a category, service or place.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A bent bill and one folded leg distinguish the small wading bird."
+      "reason": "The raised body leaves a long exposed standing leg and a separate folded leg. A small downward bill and curved neck preserve the flamingo silhouette."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The curved neck stays separate from the folded leg and body."
+      "reason": "The narrow body, curved neck and long legs retain their natural proportions. The folded leg stays separate from the standing leg and the body opening remains clear."
     }
   }
 }
