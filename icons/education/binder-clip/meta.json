@@ -1,7 +1,7 @@
 {
   "name": "binder-clip",
   "category": "education",
-  "description": "A binder clip with a broad tapered spring body and an upright wire handle.",
+  "description": "A binder clip with a tall wire loop above its spring body.",
   "tags": ["clip", "office", "stationery"],
   "directional": false,
   "useCase": "Identify binder clips or removable paper fasteners.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The broad spring body stays open below the complete wire handle."
+      "reason": "A tall open wire handle rises above the broad trapezoidal clip body, keeping both parts distinct."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger clip keeps a clear wire handle opening above its tapered body."
+      "reason": "A tall open wire handle rises above the broad trapezoidal clip body, keeping both parts distinct."
     }
   }
 }

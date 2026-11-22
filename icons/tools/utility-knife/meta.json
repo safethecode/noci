@@ -1,7 +1,7 @@
 {
   "name": "utility-knife",
   "category": "tools",
-  "description": "A utility knife with a diagonal body, flat nose and long grip slot.",
+  "description": "A utility knife with an exposed blade and a separate grip slider.",
   "tags": ["knife", "cutting", "tool"],
   "directional": false,
   "useCase": "Identify utility knives or material cutting tools.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "One long grip slot stays clear inside the diagonal body."
+      "reason": "A clear blade boundary separates the exposed cutting end from the shorter grip slot inside the handle."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger body leaves room around its long grip slot and flat nose."
+      "reason": "A clear blade boundary separates the exposed cutting end from the shorter grip slot inside the handle."
     }
   }
 }

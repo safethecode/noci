@@ -1,7 +1,7 @@
 {
   "name": "dibber",
   "category": "tools",
-  "description": "A pointed planting dibber with a complete T-shaped hand grip.",
+  "description": "A planting dibber with a long tapered spike and a T-shaped grip.",
   "tags": ["dibber", "planting", "tool"],
   "directional": false,
   "useCase": "Choose a planting dibber from a seedling equipment list.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The full T-handle and planting point connect through a visible shaft."
+      "reason": "The long tapered planting spike joins a transverse grip; the open grip stays wide enough to read at text size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "A clear shaft separates the full T-handle from the planting point."
+      "reason": "The long tapered planting spike joins a transverse grip; the open grip stays wide enough to read at text size."
     }
   }
 }
