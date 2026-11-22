@@ -1,19 +1,19 @@
 {
   "name": "octopus",
   "category": "animals",
-  "description": "An octopus or a cephalopod category.",
+  "description": "An octopus with a rounded mantle and curled arms.",
   "tags": ["octopus", "tentacles", "marine"],
   "directional": false,
-  "useCase": "An octopus or a cephalopod category.",
+  "useCase": "Identify octopuses in lists of animals or marine life.",
   "misuse": "Use a visible label when an animal identifies a category, service or place.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The wider head gives both eyes clear space above the curled arms."
+      "reason": "Four visible arms curl at different heights, with the remaining arms hidden behind them."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The front-arm tips leave a full gap, with wider clearances around the eyes."
+      "reason": "The larger mantle leaves clear space around both eyes and the visible curled arms."
     }
   }
 }
