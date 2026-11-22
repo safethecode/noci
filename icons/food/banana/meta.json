@@ -1,19 +1,19 @@
 {
   "name": "banana",
   "category": "food",
-  "description": "A banana or fruit ingredient.",
+  "description": "A whole banana with a plump curved body and a long stem.",
   "tags": ["banana", "fruit", "food"],
   "directional": false,
-  "useCase": "A banana or fruit ingredient.",
+  "useCase": "A banana, fruit ingredient or produce category.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
-      "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame. The outline closes at its start without a short connecting stroke."
+      "offset": [0.25, 0],
+      "reason": "The plump fruit stays open at 16px, with a long narrow stem and a smooth blunt blossom end. A quarter-pixel shift right balances the curved body."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The whole fruit has a long stem and a smooth blunt blossom end. Its curved body remains open without overlapping marks at either end."
     }
   }
 }
