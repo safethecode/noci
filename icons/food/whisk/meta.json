@@ -1,7 +1,7 @@
 {
   "name": "whisk",
   "category": "food",
-  "description": "A balloon whisk with a rounded wire head.",
+  "description": "A balloon whisk with curved wire loops and a straight handle.",
   "tags": ["whisk", "baking", "utensil"],
   "directional": false,
   "useCase": "Identify whisks or mixing tools.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A rounded wire head stays open on both sides of the central wire."
+      "reason": "The broad wire head tapers into its handle, while the curved inner wire leaves two open spaces."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger rounded head retains two broad wire loops above the handle."
+      "reason": "The rounded wire head narrows toward the straight handle, with clear spaces on both sides of the inner wire."
     }
   }
 }
