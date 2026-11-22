@@ -1,0 +1,19 @@
+{
+  "name": "usb-mini-b-port",
+  "category": "devices",
+  "description": "A USB Mini-B socket with stepped side walls.",
+  "tags": ["usb", "mini-b", "port"],
+  "directional": false,
+  "useCase": "Identify a Mini-B connection on a camera, controller or other device.",
+  "misuse": "Pair this icon with a visible label when identifying a connection.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A stepped outline preserves the wide upper mouth and narrow lower walls. A short tongue stays separated from the frame."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The upper mouth and inward shoulders retain the socket proportions while the central tongue keeps clear of the outline."
+    }
+  }
+}

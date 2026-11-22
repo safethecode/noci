@@ -1,0 +1,19 @@
+{
+  "name": "bnc-port",
+  "category": "devices",
+  "description": "A BNC socket with two bayonet studs and a hollow center.",
+  "tags": ["bnc", "coaxial", "port"],
+  "directional": false,
+  "useCase": "Identify a BNC connection on audio, video, test or radio equipment.",
+  "misuse": "Pair this icon with a visible label when identifying a connection.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two connected bayonet studs extend vertically from a circular shell. The central socket keeps a 2px opening."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "Concentric circles retain a hollow socket while opposed studs define the bayonet fitting. More than 2px separates the two rings."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ac-power-inlet",
+  "category": "devices",
+  "description": "A C14 AC power inlet with three blades.",
+  "tags": ["power", "inlet", "port"],
+  "directional": false,
+  "useCase": "Identify the power inlet on a computer, monitor or other device.",
+  "misuse": "Pair this icon with a visible label when identifying a connection.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A wide keyed shroud surrounds three separated blade marks. At least 1px of clear space keeps each blade distinct from the outline."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The upper bevels and three blade marks retain the inlet shape, with more than 1.5px of clearance around the blades."
+    }
+  }
+}

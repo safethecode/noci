@@ -1,0 +1,19 @@
+{
+  "name": "optical-audio-port",
+  "category": "devices",
+  "description": "A square optical audio socket.",
+  "tags": ["audio", "optical", "port"],
+  "directional": false,
+  "useCase": "Identify an optical audio connection on a television, receiver or other device.",
+  "misuse": "Pair this icon with a visible label when identifying a connection.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "Two lower bevels frame a round optical aperture. The center remains open at text size."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The square outline retains both lower bevels and a clear circular aperture."
+    }
+  }
+}

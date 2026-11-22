@@ -1,0 +1,19 @@
+{
+  "name": "mini-displayport",
+  "category": "devices",
+  "description": "A Mini DisplayPort socket with a wide keyed opening.",
+  "tags": ["display", "video", "port"],
+  "directional": false,
+  "useCase": "Identify a Mini DisplayPort connection on a computer or display.",
+  "misuse": "Pair this icon with a visible label when identifying a connection.",
+  "optical": {
+    "16": {
+      "offset": [0, 0],
+      "reason": "A wide mouth and two upper bevels remain distinct from the near-square Type-B socket. The central tongue stays separated from the outline."
+    },
+    "24": {
+      "offset": [0, 0],
+      "reason": "The wider keyed outline keeps both upper bevels and clear space around the central tongue."
+    }
+  }
+}
