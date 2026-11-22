@@ -1,19 +1,19 @@
 {
   "name": "motorcycle",
   "category": "transport",
-  "description": "A motorcycle or motorbike route.",
+  "description": "A motorcycle with two wheels and a compact engine.",
   "tags": ["motorcycle", "motorbike", "vehicle"],
   "directional": false,
-  "useCase": "A motorcycle or motorbike route.",
+  "useCase": "Identify motorcycle travel, parking or vehicle options.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The frame meets the tops of two separated wheels, leaving their interiors open beside the seat and steering stem."
+      "reason": "A compact tank and engine join the frame between two open wheel rims. The solid engine stays more than 1px clear of the wheels; the frame meets their tops."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The seat, steering stem and frame join two separated wheel rims without splitting their round openings."
+      "reason": "The rounded tank and solid engine distinguish the motorcycle from a bicycle. The frame joins the wheel rims while more than 1.5px separates the engine from the wheels."
     }
   }
 }

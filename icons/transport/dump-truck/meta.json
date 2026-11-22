@@ -1,7 +1,7 @@
 {
   "name": "dump-truck",
   "category": "transport",
-  "description": "A dump truck with a complete raised tipping bed, cab and two full wheels.",
+  "description": "A dump truck with a raised rear-tipping bed.",
   "tags": ["dump", "truck", "construction"],
   "directional": false,
   "useCase": "Choose a dump truck for construction vehicles or hauling services.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A tilted open bed is separated from the full cab and both wheels."
+      "reason": "The front of the bed rises beside the cab while the rear end stays lower. At least 1px separates the bed from the chassis, cab and rear wheel."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger dump truck keeps its complete tipping bed, cab and both full wheels."
+      "reason": "The raised front end and lower rear end show a rear-tipping bed. More than 1.5px separates the bed from the cab, chassis and wheels."
     }
   }
 }
