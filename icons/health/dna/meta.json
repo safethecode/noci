@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Two separated outer rungs preserve the helix without a protruding crossbar at the central crossing."
+      "reason": "Two opposing backbones make repeated turns around three base-pair rungs, preserving the ladder structure at the smaller size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The helix crossing stays clear while the upper and lower rungs remain complete."
+      "reason": "Repeated opposing backbone turns and three base-pair rungs distinguish the double helix from an hourglass."
     }
   }
 }
