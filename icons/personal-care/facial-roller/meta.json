@@ -1,7 +1,7 @@
 {
   "name": "facial-roller",
   "category": "personal-care",
-  "description": "A double-ended facial roller with a broad upper roller and smaller lower roller.",
+  "description": "A facial roller with a rounded cylinder, two side supports and a long handle.",
   "tags": ["roller", "skincare", "cosmetics"],
   "directional": false,
   "useCase": "Identify facial rollers or handheld skincare massage tools.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Both complete rollers remain open at the ends of the full central handle."
+      "reason": "The rounded cylinder remains open above two curved supports and a longer grip."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger upper roller and smaller lower roller retain clear openings around the complete handle."
+      "reason": "Both supports meet the roller ends and flow into the centered handle, keeping the roller separate from the grip."
     }
   }
 }
