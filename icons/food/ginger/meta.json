@@ -1,19 +1,19 @@
 {
   "name": "ginger",
   "category": "food",
-  "description": "A ginger root with uneven rounded branches.",
-  "tags": ["ginger", "root", "ingredient"],
+  "description": "A knobby ginger root with an elongated body and uneven side branches.",
+  "tags": ["ginger", "root", "spice"],
   "directional": false,
   "useCase": "Identify ginger in recipes, groceries or drinks.",
   "misuse": "Use a visible label when a fruit or vegetable identifies an ingredient, product or dietary choice.",
   "optical": {
     "16": {
-      "offset": [0, 0],
-      "reason": "Uneven rounded branches give the root a natural silhouette within the square."
+      "offset": [0.5, -0.125],
+      "reason": "A diagonal body and two unequal swollen knobs preserve the root shape. One shallow joint line replaces tiny skin detail."
     },
     "24": {
-      "offset": [0, 0],
-      "reason": "The larger root keeps a broad base beneath its shorter side branches."
+      "offset": [0.75, 0],
+      "reason": "The long root and staggered side knobs remain distinct. A shallow transverse joint line stays open without forming a tiny closed cap."
     }
   }
 }
