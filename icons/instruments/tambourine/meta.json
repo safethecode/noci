@@ -1,19 +1,19 @@
 {
   "name": "tambourine",
   "category": "instruments",
-  "description": "A handheld tambourine with three round jingles on its curved frame.",
+  "description": "A handheld tambourine with a padded side grip and two visible pairs of rounded metal jingles.",
   "tags": ["tambourine", "percussion", "jingles"],
   "directional": false,
-  "useCase": "A tambourine or a hand-held jingle percussion part.",
+  "useCase": "Identify a tambourine in music or percussion content.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
-      "offset": [0, 0],
-      "reason": "Three solid round jingles attach to the curved rim below a clear top grip, leaving the center open."
+      "offset": [-0.25, 0],
+      "reason": "The slim padded grip leaves the frame open. Two visible jingle pairs use rounded discs, with a small leftward adjustment to balance their weight."
     },
     "24": {
-      "offset": [0, 0],
-      "reason": "Three solid round jingles attach to the curved rim below a clear top grip, leaving the center open."
+      "offset": [-0.5, 0],
+      "reason": "The padded grip and two rounded jingle pairs keep the same shape at both sizes. A small leftward adjustment balances the exposed discs."
     }
   }
 }
