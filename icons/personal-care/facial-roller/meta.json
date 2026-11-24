@@ -1,19 +1,19 @@
 {
   "name": "facial-roller",
   "category": "personal-care",
-  "description": "A facial roller with a rounded cylinder, two side supports and a long handle.",
+  "description": "A facial roller with a cylindrical head and a long rounded handle.",
   "tags": ["roller", "skincare", "cosmetics"],
   "directional": false,
-  "useCase": "Identify facial rollers or handheld skincare massage tools.",
+  "useCase": "Identify facial rollers or skin care tools.",
   "misuse": "Use a visible label when a tool identifies a product or a specific grooming task.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The rounded cylinder remains open above two curved supports and a longer grip."
+      "reason": "A narrower roller head and longer grip preserve the upright tool shape without closing either opening."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Both supports meet the roller ends and flow into the centered handle, keeping the roller separate from the grip."
+      "reason": "The long rounded grip sits below the roller and its supporting arms, with both interior spaces kept open."
     }
   }
 }
