@@ -1,19 +1,19 @@
 {
   "name": "mosquito",
   "category": "animals",
-  "description": "A mosquito in side profile, with a long mouthpart and a raised wing.",
+  "description": "A mosquito in side view with a long proboscis, raised wing, and slender abdomen.",
   "tags": ["mosquito", "pest", "insect"],
   "directional": false,
-  "useCase": "Identify mosquitoes or mosquito control.",
+  "useCase": "Identify mosquitoes or mosquito control content.",
   "misuse": "Use a visible label when this animal identifies a category, service or place.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The feeler stays ahead of the wing and the three visible legs end separately below the body."
+      "reason": "A small head and thorax separate the forward proboscis, raised wing, slender abdomen, and three visible legs."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "A forward feeler avoids the wing crossing, while a lower rear foot separates from the abdomen tip."
+      "reason": "The smooth raised wing remains open above the slender abdomen and three visible legs."
     }
   }
 }
