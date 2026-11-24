@@ -1,19 +1,19 @@
 {
   "name": "bongos",
   "category": "instruments",
-  "description": "Two complete tapered bongo drums joined by a short bridge.",
+  "description": "Two joined bongo drums with broad heads and different shell sizes.",
   "tags": ["bongos", "drums", "percussion"],
   "directional": false,
-  "useCase": "Choose bongos in an instrument library, lesson or music product list.",
+  "useCase": "Identify bongos in music or percussion content.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Each drum keeps its full open head and tapered body beside the connecting bridge."
+      "reason": "The two heads share a level, while the wider right shell makes the different drum sizes visible. Short bodies keep the proportions compact."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger pair keeps two complete heads, tapered bodies and a short bridge."
+      "reason": "Two complete heads and broad tapered shells remain clear around a short connecting bracket."
     }
   }
 }
