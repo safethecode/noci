@@ -1,6 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-  <path d="M2.75 4.5H13.25V6.5Q13.25 11.625 8 11.625 2.75 11.625 2.75 6.5Z"/>
-  <circle cx="3.75" cy="8.5" r="1.25" fill="currentColor" stroke="none"/>
-  <circle cx="8" cy="11.625" r="1.25" fill="currentColor" stroke="none"/>
-  <circle cx="12.25" cy="8.5" r="1.25" fill="currentColor" stroke="none"/>
+  <path d="M3.25 5.5v5c1.5 1.75 3.25 2.75 5 2.75 3 0 4.75-2.5 4.75-5.25 0-2.75-1.75-5.25-4.75-5.25-1.75 0-3.5 1-5 2.75z"/>
+  <path d="M3.25 5.5c1.75 0 1.75 5 0 5z" fill="currentColor" stroke="none"/>
+  <path d="M11 2.75c0.124-0.166 0.673 0.036 1.225 0.45 0.552 0.414 0.899 0.884 0.775 1.05-0.124 0.166-0.673-0.036-1.225-0.45-0.552-0.414-0.899-0.884-0.775-1.05z" fill="currentColor" stroke="none"/>
+  <path d="M8.75 5.5c0.124-0.166 0.673 0.036 1.225 0.45 0.552 0.414 0.899 0.884 0.775 1.05-0.124 0.166-0.673-0.036-1.225-0.45-0.552-0.414-0.899-0.884-0.775-1.05z" fill="currentColor" stroke="none"/>
+  <path d="M11 13.25c0.124 0.166 0.673-0.036 1.225-0.45 0.552-0.414 0.899-0.884 0.775-1.05-0.124-0.166-0.673 0.036-1.225 0.45-0.552 0.414-0.899 0.884-0.775 1.05z" fill="currentColor" stroke="none"/>
+  <path d="M8.75 10.5c0.124 0.166 0.673-0.036 1.225-0.45 0.552-0.414 0.899-0.884 0.775-1.05-0.124-0.166-0.673 0.036-1.225 0.45-0.552 0.414-0.899 0.884-0.775 1.05z" fill="currentColor" stroke="none"/>
 </svg>
