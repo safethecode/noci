@@ -9,6 +9,14 @@
 - [사용 예시](docs/integration.md): HTML, React, Vue, Svelte
 - [기여 방법](CONTRIBUTING.md): 파일 구조, 검사, 커밋, PR
 
+## 설치
+
+```sh
+npm install noci-icons@alpha
+```
+
+## 사용
+
 ```js
 import check from 'noci-icons/icons/check';
 import { renderIcon } from 'noci-icons/core';
@@ -23,7 +31,7 @@ renderIcon(check, { size: 24, label: '저장 완료' });
 
 ## 개발
 
-Node.js 22 이상이 필요합니다. 아직 npm에 게시하지 않았습니다.
+Node.js 22 이상이 필요합니다.
 
 ```sh
 npm ci

@@ -6,6 +6,12 @@ SVG icons for web interfaces. Each icon includes 16px and 24px designs, with a 4
 
 [Browse icons](https://safethecode.github.io/noci/)
 
+## Install
+
+```sh
+npm install noci-icons@alpha
+```
+
 ## Use an icon
 
 ```js
@@ -36,7 +42,7 @@ Inline SVG inherits `currentColor`. External images need an appropriate `alt` at
 
 ## Development
 
-Requires Node.js 22 or later. The package is not yet published to npm.
+Requires Node.js 22 or later.
 
 ```sh
 npm ci
