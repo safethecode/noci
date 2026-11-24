@@ -1,7 +1,7 @@
 {
   "name": "raspberry",
   "category": "food",
-  "description": "A raspberry with a tapered scalloped body, three berry rows and two leaves.",
+  "description": "A compact raspberry made of staggered rounded drupelets.",
   "tags": ["raspberry", "fruit", "ingredient"],
   "directional": false,
   "useCase": "Identify raspberries in groceries, recipes or fruit choices.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Three shallow berry rows stay open within the tapered scalloped outline."
+      "reason": "A narrow lower tip and staggered oval cells retain the compact berry shape."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger berry keeps broad openings between its three curved rows."
+      "reason": "Small joins connect the staggered cells while preserving seven clear openings."
     }
   }
 }
