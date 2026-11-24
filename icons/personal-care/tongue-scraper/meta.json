@@ -1,19 +1,19 @@
 {
   "name": "tongue-scraper",
   "category": "personal-care",
-  "description": "A curved tongue scraper with two full handles.",
+  "description": "A U-shaped tongue scraper with two splayed grips.",
   "tags": ["dental", "scraper", "care"],
   "directional": false,
-  "useCase": "A curved tongue scraper with two full handles.",
+  "useCase": "Identify tongue scrapers or oral hygiene tools.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Complete physical parts retain their proportions inside the square drawing frame; small details are kept separate."
+      "reason": "The narrow curved band opens toward two thicker handles, with smooth joins and a centered upper arch."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The complete silhouette and functional parts retain larger clear gaps within the shared square frame."
+      "reason": "Two outward-spreading handles keep the U-shaped band open and centered."
     }
   }
 }
