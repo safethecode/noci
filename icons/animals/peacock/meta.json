@@ -1,19 +1,19 @@
 {
   "name": "peacock",
   "category": "animals",
-  "description": "A peacock with its tail displayed.",
-  "tags": ["peacock", "fan", "bird"],
+  "description": "A peacock with a broad display tail and an upright neck.",
+  "tags": ["peacock", "bird", "display"],
   "directional": false,
-  "useCase": "A peacock with its tail displayed.",
+  "useCase": "A peacock with its display tail spread behind the body.",
   "misuse": "Use a visible label when a bird identifies a category, service or place.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "A scalloped fan surrounds a clear bird profile with a small beak and crown."
+      "reason": "A broad tail sits behind a rounded torso and upright neck. Two compact feather marks retain clear gaps in the small master."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "A scalloped fan surrounds a clear bird profile with a small beak and crown."
+      "reason": "The wide display tail, complete torso and curved neck remain distinct. Compact feather marks keep clear space around the foreground bird."
     }
   }
 }
