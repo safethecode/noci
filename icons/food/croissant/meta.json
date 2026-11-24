@@ -1,19 +1,19 @@
 {
   "name": "croissant",
   "category": "food",
-  "description": "A croissant or pastry.",
+  "description": "A curved croissant with a puffed body and rounded tips.",
   "tags": ["croissant", "pastry", "bakery"],
   "directional": false,
-  "useCase": "A croissant or pastry.",
+  "useCase": "Identify a croissant in bakery or breakfast content.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
-      "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "offset": [-0.25, 0],
+      "reason": "A slight angle and soft shoulders retain the curved pastry shape. Two curved folds stay open between the body and short tips."
     },
     "24": {
-      "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "offset": [-0.375, 0],
+      "reason": "The puffed crescent, short rounded tips and curved folds stay distinct. The angled pastry is centered in the drawing frame."
     }
   }
 }
