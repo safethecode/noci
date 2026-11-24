@@ -1,19 +1,19 @@
 {
   "name": "stretcher",
   "category": "health",
-  "description": "A wheeled stretcher or patient transport.",
+  "description": "A wheeled patient stretcher with a long deck, raised backrest, and crossed supports.",
   "tags": ["stretcher", "patient", "transport"],
   "directional": false,
-  "useCase": "A wheeled stretcher or patient transport.",
+  "useCase": "Identify patient stretchers or medical transport.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Full crossed supports meet two solid wheels below the complete balanced platform."
+      "reason": "The long patient deck sits above a low crossed frame, with small wheels kept distinct from their caster stems."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Separated crossed supports keep open space above two complete solid wheels."
+      "reason": "Small casters keep the long patient deck dominant and the crossed lift frame open."
     }
   }
 }
