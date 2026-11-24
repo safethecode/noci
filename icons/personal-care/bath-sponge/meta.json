@@ -1,19 +1,19 @@
 {
   "name": "bath-sponge",
   "category": "personal-care",
-  "description": "A porous bath sponge with a complete hanging loop.",
+  "description": "A porous bath sponge with a hanging loop and irregular pores.",
   "tags": ["bath", "sponge", "care"],
   "directional": false,
-  "useCase": "A porous bath sponge with a complete hanging loop.",
+  "useCase": "Identify bath sponges or bathing supplies.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The complete hanging loop is enlarged and aligned to keep its opening clear at native size; three equal pores retain clear gaps."
+      "reason": "Four uneven pores avoid a face-like arrangement while keeping clear gaps from the sponge edge and each other."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The full hanging loop and three separate pores retain generous clear space within the sponge silhouette."
+      "reason": "The hanging loop and four separate pores remain clear within the rounded sponge."
     }
   }
 }

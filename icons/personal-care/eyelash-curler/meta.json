@@ -1,19 +1,19 @@
 {
   "name": "eyelash-curler",
   "category": "personal-care",
-  "description": "An eyelash curler with a complete curved jaw frame and two open loop handles.",
+  "description": "An eyelash curler with a curved jaw, crossed shanks, and oval finger loops.",
   "tags": ["curler", "lashes", "cosmetics"],
   "directional": false,
   "useCase": "Identify eyelash curlers or eye makeup preparation tools.",
   "misuse": "Use a visible label when a tool identifies a product or a specific grooming task.",
   "optical": {
     "16": {
-      "offset": [0, 0],
-      "reason": "The complete curved frame joins the lower jaw above two open loop handles."
+      "offset": [0, -0.25],
+      "reason": "A small upward shift balances the curved jaw above the long crossed shanks and open oval grips."
     },
     "24": {
-      "offset": [0, 0],
-      "reason": "The larger curler keeps the full curved jaw frame and both complete loop handles open."
+      "offset": [0, -0.375],
+      "reason": "The curved jaw and elongated grips retain four open spaces, with a small upward shift to balance the handles."
     }
   }
 }
