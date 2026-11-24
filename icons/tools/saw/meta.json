@@ -1,19 +1,19 @@
 {
   "name": "saw",
   "category": "tools",
-  "description": "A hand saw or cut wood.",
+  "description": "A hand saw with a broad toothed blade and an open grip.",
   "tags": ["saw", "cutting", "tool"],
   "directional": false,
-  "useCase": "A hand saw or cut wood.",
+  "useCase": "Identify hand saws, woodworking tools, or cutting tasks.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "A broad tapered blade keeps three teeth and two clear openings at text size."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "The blade and grip stay distinct, with an open interior and three visible teeth."
     }
   }
 }
