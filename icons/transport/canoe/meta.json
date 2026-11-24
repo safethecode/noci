@@ -1,19 +1,19 @@
 {
   "name": "canoe",
   "category": "transport",
-  "description": "A canoe or paddling activity.",
+  "description": "An open canoe seen from above, with two crossbars and a single-bladed paddle.",
   "tags": ["canoe", "paddle", "boat"],
   "directional": false,
-  "useCase": "A canoe or paddling activity.",
+  "useCase": "Identify canoes or paddling activities.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The narrow open hull keeps three clear interior spaces, with a separate single-bladed paddle beside it."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The hull has a level rim and a symmetric curved underside, with no short vertical closing seam."
+      "reason": "The pointed hull and two crossbars preserve the open canoe shape beside the long paddle."
     }
   }
 }
