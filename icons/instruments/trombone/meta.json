@@ -1,19 +1,19 @@
 {
   "name": "trombone",
   "category": "instruments",
-  "description": "A trombone or a sliding brass instrument part.",
+  "description": "A trombone with a flared bell and a long parallel return slide.",
   "tags": ["trombone", "brass", "slide"],
   "directional": false,
-  "useCase": "A trombone or a sliding brass instrument part.",
+  "useCase": "Identify a trombone in music or brass instrument content.",
   "misuse": "Pair this symbol with a clear label when its meaning depends on context.",
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "Simplified detail and balanced spacing inside the 12 × 12 drawing frame."
+      "reason": "The diagonal profile gives the parallel return slide more room. The flared bell, rear bend and short slide brace remain distinct."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "Expanded clearances inside the 18 × 18 drawing frame."
+      "reason": "A complete flared rim and a long return slide preserve two clear openings. The compact rear bend keeps the instrument balanced inside the frame."
     }
   }
 }
