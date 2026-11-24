@@ -1,7 +1,7 @@
 {
   "name": "oil-pump",
   "category": "buildings",
-  "description": "A complete oil pumpjack with a curved head, walking beam, support frame and counterweight.",
+  "description": "An oil pumpjack with a curved horsehead, walking beam and a connected crank drive.",
   "tags": ["oil", "pump", "industry"],
   "directional": false,
   "useCase": "Identify an oil pumpjack in an industrial facility or energy infrastructure map.",
@@ -9,11 +9,11 @@
   "optical": {
     "16": {
       "offset": [0, 0],
-      "reason": "The full curved head, beam, support frame, front rod and counterweight remain distinct."
+      "reason": "The rear drive connects the walking beam to a crank on the base. The front rod starts at the head's outer edge."
     },
     "24": {
       "offset": [0, 0],
-      "reason": "The larger pumpjack keeps its full head, beam, support frame, front rod and counterweight."
+      "reason": "The connected crank drive stays clear of the support frame, and the front rod meets the curved head without protruding into it."
     }
   }
 }
